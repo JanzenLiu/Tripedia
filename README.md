@@ -1,5 +1,5 @@
 ###Tripedia###
-//project description goes here
+//project description goes here  
 This is a travel activity planning and sharing platform developed as a CSCI 3100 project.
 
 ##Prerequisites##
@@ -11,7 +11,7 @@ This is a travel activity planning and sharing platform developed as a CSCI 3100
 #MongoDB#
 
 ##Installing##
-//to be completed
+//to be completed  
 
 ##Test##
 
@@ -20,11 +20,11 @@ This is a travel activity planning and sharing platform developed as a CSCI 3100
 ##Versioning##
 
 ##Authors##
-GENG Yun Fan
-LIU Cheng Tsung
-LIU Zhuo Fei
-SHEN Fang Lve
-Zhang Si Bin
+GENG Yun Fan  
+LIU Cheng Tsung  
+LIU Zhuo Fei  
+SHEN Fang Lve  
+Zhang Si Bin  
 
 ##License##
 
