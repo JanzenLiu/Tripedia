@@ -1,4 +1,4 @@
-<h1>Tripedia</h1>
+###Tripedia###
 //project description goes here
 This is a travel activity planning and sharing platform developed as a CSCI 3100 project.
 
