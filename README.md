@@ -1,14 +1,14 @@
-#####Tripedia#####
+#Tripedia#
 //project description goes here  
 This is a travel activity planning and sharing platform developed as a CSCI 3100 project.
 
 ##Prerequisites##
-#Vue.js#
-#Node.js#
-	//express
-	//mongodb
-	//mongoose
-#MongoDB#
+###Vue.js###
+###Node.js###
+	//express  
+	//mongodb  
+	//mongoose  
+###MongoDB###
 
 ##Installing##
 //to be completed  
