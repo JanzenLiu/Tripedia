@@ -2,13 +2,14 @@ var mongoose = require('mongoose');
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
 
-var store = new MongoStore({
-	uri: 'mongodb://localhost:27017:/connect-mongo-test',
-	collection: 'test005'
-})
+/////////////////////// To store session locally ////////////////////
+// var store = new MongoStore({
+// 	uri: 'mongodb://localhost:27017:/connect-mongo-test',
+// 	collection: 'test005'
+// })
 
 //////////////////////////// NativeConnection ///////////////////////
-// mongoose.connect('localhost','tests', function(err){
+// mongoose.connect('mongodb://test', function(err){
 // 	if(err)
 // 		console.log(err);
 // 	// else
@@ -22,9 +23,9 @@ db.on('error', function(err){
 	console.log(err)
 });
 
-// db.once('open', function(){
-// 	console.log(db); 
-// })
+db.once('open', function(){
+	console.log(db); 
+})
 
 // ==================================================================
 var testSchema = mongoose.Schema({name : String});
