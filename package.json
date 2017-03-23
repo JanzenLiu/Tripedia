@@ -4,7 +4,7 @@
   "description": "Server for Tripedia: a travel activity planning and sharing platform",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./bin/www", //to start the applicatoin with nodemon, to be validated
+    "start": "nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +16,9 @@
   "homepage": "https://bitbucket.org/shuaideyipi/tripedia#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
+    "connect": "^3.6.0",
     "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.3.2",
     "cookie-parser": "^1.4.3",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
