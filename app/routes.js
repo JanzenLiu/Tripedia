@@ -1,20 +1,39 @@
-// //import modules
-// var express = require('express');
-// var path = require('path');
+module.exports = function(app, passport){
 
-// //create objects
-// var router = express.Router();
+	// ==================================
+	// HOMEPAGE =========================
+	// ==================================
+	app.get('/', function(req, res){
+		res.render('index.ejs'); //pathname correctly set?
+	});
 
-// //delivering views
-// //res.sendFile()
-// //path.join() for generating file path
-// //__dirname for the directory name
+	// ==================================
+	// LOGIN ============================
+	// ==================================
+	// show the login form
+	app.get('/login', function (req, res){
+		res.render('login.ejs', {message: req.flash('loginMessage')});
+	});
 
-// //routing
-// //route for homepage
-// //router.get(path, handler) for GET request
+	// process the login form
+	app.post('/login', passport.authenticate('local-login',{
+		successRedirect : '/profile', // redirect to the secure profile section
+		failureRedirect : '/login', // redirect back to the login page if there is an error
+		failureFlash : true
+	}));
 
-// //router.post(path, handler) for POST request
+	// ==================================
+	// SIGNUP ===========================
+	// ==================================
+	// show the signup form
+	app.get('/signup', function(req, res){
+		res.render('signup.ejs', {message : req.flash('signupMessage')});
+	});
 
-// //module export
-// module.exports = router;
+	// process the signup form
+	app.post('/signup', passport.authenticate('local-signup',{
+		successRedirect : '/profile', // redirect to the secure profile section
+		failureRedirect : '/signup', // redirect back to the signp page if there is an error
+		failureFlash : true
+	}));
+}

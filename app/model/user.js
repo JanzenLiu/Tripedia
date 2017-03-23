@@ -19,11 +19,18 @@ var userSchema = mongoose.Schema({
 
 // methods =======================
 // generating a hash
-userSchema.methods.generateHash; // use bcrypt.hashSync()?
+userSchema.methods.generateHash = function(password){
+	return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+};
 
-// check if the password is valid
-userSchema.methods.validatePassword; // use bcrypt.compareSync()? use this.local.password to get the stored password?
+// check the validation of the password
+userSchema.methods.validatePassword = function(password){
+	return bcrypt.compareSync(password, this.local.password;
+};
 
-// update the user_
+// update/modify user info
+userSchema.methods.modifyInfo = function(info){
+	// modify each field of the document
+};
 
 module.exports = mongoose.model('User', userSchema);
