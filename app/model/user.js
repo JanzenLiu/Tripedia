@@ -6,13 +6,16 @@ var userSchema = mongoose.Schema({
 	username			: String,
 	password			: String,
 	name				: String,
-	gender				: String, // "M" for male, "F" for female...
+	gender				: String, // "M" for male, "F" for female... Add verification
 	following_counts	: Integer,
 	follower_counts		: Integer,
 	travel_note_counts	: Integer,
 
 	// travel notes collection: add more fields for conveniece?
-	travel_notes_id		:[Schema.Types.ObjectId]; // type declaration correct?
+	travel_notes_id		:[{
+		nid 	: Schema.Types.ObjectId, // type declaration correct?
+		title 	: String
+	}]; 
 
 	// to be supplement
 	// email
