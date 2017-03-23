@@ -24,3 +24,11 @@ query.exec(function (err, spot){
   if (err) return handleError(err);
   console.log('%s %s', city.name, city.brief)
 });
+
+//store in table
+var city_id;
+var city_brief;
+var city_location;
+
+//store function
+var new_city=new City({})

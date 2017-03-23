@@ -51,7 +51,7 @@ query.exec(function (err, spot)){
 });
 
 //store in table
-var spot_id; 
+var spot_id;
 var spot_type;
 var spot_intro;
 var spot_phone;
