@@ -1,12 +1,15 @@
-var mangoose=require('mongoose');
-mongoose.connect('mongodb://localhost/myappdatabase');
-var Schema=mongoose.Schema;
-var citySchema=new Schema({
-  name: String,
-  id: Number,
-  location: Array,
-  brief: Array
+var mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost/myappdatabase');
+
+// var Schema=mongoose.Schema;
+// var citySchema=new Schema({
+var citySchema = mongoose.Schema({
+  name 				: String,
+  id 				: Integer,
+  attractions_id	: [Schema.Types.ObjectId],
+  brief 			: String
 });
+
 var City = mongoose.model('City', citySchema);
 
 module.exports=City;
@@ -14,7 +17,7 @@ module.exports=City;
 //searching part
 //accurate searching by city name
 var city_name;
-var query=City.findOne('name': city_name);
+var query = City.findOne('name': city_name);
 
 //select the name brief fields
 query.select('name bried');
@@ -32,3 +35,5 @@ var city_location;
 
 //store function
 var new_city=new City({})
+
+module.exports = mongoose.model('City', citySchema);
