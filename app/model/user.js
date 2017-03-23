@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
 
-// schema ========================
+// Schema for User ========================
 var userSchema = mongoose.Schema({
 	username			: String,
 	password			: String,
@@ -15,9 +15,10 @@ var userSchema = mongoose.Schema({
 	travel_notes_id		:[Schema.Types.ObjectId]; // type declaration correct?
 
 	// to be supplement
+	// email
 });
 
-// methods =======================
+// methods ================================
 // generating a hash
 userSchema.methods.generateHash = function(password){
 	return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
