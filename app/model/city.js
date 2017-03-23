@@ -3,17 +3,26 @@ var mongoose = require('mongoose');
 
 // var Schema=mongoose.Schema;
 // var citySchema=new Schema({
+
+// Schema for City ========================
 var citySchema = mongoose.Schema({
   name 				: String,
   id 				: Integer,
-  attractions_id	: [Schema.Types.ObjectId],
+  attractions		: [{
+  	aid: Schema.Types.ObjectId,
+  	name: String
+  }],
   brief 			: String
+
+  ////////////// to be supplement /////////////////
 });
 
 var City = mongoose.model('City', citySchema);
 
-module.exports=City;
+module.exports = City;
 
+
+// methods ================================
 //searching part
 //accurate searching by city name
 var city_name;

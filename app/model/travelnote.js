@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-// Schema for User ========================
+// Schema for TravelNote ========================
 var noteSchema = mongoose.Schema({
 	title 				: String,
 	author				: {
@@ -12,6 +12,7 @@ var noteSchema = mongoose.Schema({
 	created_time		: Timestamp,
 	last_modified_time 	: Timestamp,
 	like_counts			: Integer,
+	// necessary?
 	likes 				: [{
 		uid: ObjectId,
 		name: String,
@@ -25,7 +26,11 @@ var noteSchema = mongoose.Schema({
 		like_counts: Integer
 	}]
 
-	// to be supplement
+	///////////////// to be supplement /////////////////
+	// cities with attractions
+	// labels
 });
+
+// methods ================================
 
 module.exports = mongoose.model('TravelNote', noteSchema);

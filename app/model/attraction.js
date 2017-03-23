@@ -1,24 +1,39 @@
 var mongoose=require('mongoose');
-mongoose.connect('mongodb://localhost/myappdatabase');
+mongoose.connect('mongodb://localhost/myappdatabase'); //to be modify
 var Schema=mongoose.Schema;
-//create a spot table
-var spot=new Schema({
-  name: String,
-  id: Number,//not sure
-  type: String,
-  //picture
-  introduction: String,
-  phone: Number,
-  website: String,
-  position: Array,//longtitude and latitude
-  ticket: String,
-  openTime: String,
-  comments: String
+
+
+// Schema for Attraction ========================
+var spot= new Schema({
+    name: String,
+    //id: Number,
+    type: String, // add enum?
+    //picture
+    introduction: String,
+    phone: String, // add validation?
+    website: String, // add validation?
+    position: {
+        longtitude: Double, // or String, or add validation?
+        langtitude: Double
+    }
+    ticket: String,
+    openTime: String,
+    comments: [{
+        uid: ObjectId,
+        name: String,
+        body: String
+    }]
+
+    /////////////// to be supplement //////////////////
 });
 
 var Spot = mongoose.model('Spot', spot);
 
-module.exports=Spot;
+module.exports = Spot;
+
+
+
+// methods ================================
 //create engity
 //var spotEntity=new Spot({name:'Beijing'});
 
@@ -33,8 +48,8 @@ query.select('name introduction');
 
 //excute the query
 query.exec(function (err, spot) {
-  if (err) return handleError(err);
-  console.log('%s %s.', sopt.name, spot.introduction) // Space Ghost is a talk show host.
+    if (err) return handleError(err);
+    console.log('%s %s.', sopt.name, spot.introduction) // Space Ghost is a talk show host.
 });
 
 //searching by type
@@ -46,8 +61,8 @@ query.select('name introduction');
 
 //execute the query
 query.exec(function (err, spot)){
-  if (err) return handleError(err);
-  console.log('%s %s.'m spot.name, spot.introduction)
+    if (err) return handleError(err);
+    console.log('%s %s.'m spot.name, spot.introduction)
 });
 
 //store in table

@@ -17,7 +17,7 @@ var userSchema = mongoose.Schema({
 		title 	: String
 	}]; 
 
-	// to be supplement
+	//////////////////// to be supplement //////////////////////
 	// email
 });
 
