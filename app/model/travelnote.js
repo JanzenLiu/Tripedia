@@ -8,22 +8,22 @@ var noteSchema = mongoose.Schema({
 		name: String
 	}
 	body				: String,
-	word_counts			: Integer,
+	word_counts			: Number,
 	created_time		: Timestamp,
-	last_modified_time 	: Timestamp,
-	like_counts			: Integer,
+	updated_time 		: Timestamp,
+	like_counts			: Number,
 	// necessary?
 	likes 				: [{
 		uid: ObjectId,
 		name: String,
 	}]
-	comment_counts		: Integer,
+	comment_counts		: Number,
 	comments			: [{
 		uid: ObjectId,
 		name: String
 		message: String,
 		created_time: Timestamp,
-		like_counts: Integer
+		like_counts: Number
 	}]
 
 	///////////////// to be supplement /////////////////

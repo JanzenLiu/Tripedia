@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 // Schema for City ========================
 var citySchema = mongoose.Schema({
   name 				: String,
-  id 				: Integer,
+  id 				: Number,
   attractions		: [{
   	aid: Schema.Types.ObjectId,
   	name: String

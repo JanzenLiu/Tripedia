@@ -7,9 +7,9 @@ var userSchema = mongoose.Schema({
 	password			: String,
 	name				: String,
 	gender				: String, // "M" for male, "F" for female... Add verification
-	following_counts	: Integer,
-	follower_counts		: Integer,
-	travel_note_counts	: Integer,
+	following_counts	: Number,
+	follower_counts		: Number,
+	travel_note_counts	: Number,
 
 	// travel notes collection: add more fields for conveniece?
 	travel_notes_id		:[{
