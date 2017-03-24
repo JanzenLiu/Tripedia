@@ -28,8 +28,6 @@ MongoClient.connect(url, function(err, db){
 				console.log('Insert %d documents into the "message" collection. The documents inserted with "_id" are:', result.result.ok, result.insertedIds);
 		})
 
-		// close the connection
 		db.close();
 	}
 })
-
