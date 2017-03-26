@@ -46,26 +46,27 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/app_test');
 
 var conn = mongoose.connection;
-var colc = conn.collection('message');
+// var colc = conn.collection('message');
 
-var testSchema = new mongoose.Schema({
-	value: Number,
-	msg: String
-});
+// create Schema/Model, insert newly created documents =====================
+// var testSchema = new mongoose.Schema({
+// 	value: Number,
+// 	msg: String
+// });
 
-var Test = mongoose.model('Test', testSchema);
-var t1 = new Test({
-	value: 214234,
-	msg: 'capslock'
-});
-var t2 = new Test({
-	value: 1729,
-	msg: 'optiplex'
-});
+// var Test = mongoose.model('Test', testSchema);
+// var t1 = new Test({
+// 	value: 214234,
+// 	msg: 'capslock'
+// });
+// var t2 = new Test({
+// 	value: 1729,
+// 	msg: 'optiplex'
+// });
 
-colc.insert([t1, t2]);
-t1.save();
-t2.save();
+// colc.insert([t1, t2]);
+// t1.save();
+// t2.save();
 //colc.save(); // unnecessary
 
 // console.log(Test);
@@ -74,9 +75,6 @@ t2.save();
 
 //conn.close();
 
-module.exports = {
-	model: Test,
-	db: conn
-}
-
+module.exports = conn;
+	// model: Test,
 

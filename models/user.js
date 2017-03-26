@@ -15,7 +15,7 @@ var userSchema = mongoose.Schema({
 	travel_notes_id		:[{
 		nid 	: Schema.Types.ObjectId, // type declaration correct?
 		title 	: String
-	}]; 
+	}]
 
 	//////////////////// to be supplement //////////////////////
 	// email
