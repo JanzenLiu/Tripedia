@@ -1,71 +1,67 @@
-module.exports = function(app, passport){
+module.exports = function(app){
 
-	// ==================================
-	// HOMEPAGE =========================
-	// ==================================
+	/*
+	/: Homepage
+	/login: user login
+	/reg: user register
+	/dest: Entry for destinations
+	/city/...: City page
+	/poi/...: Attraction page
+	/note: Entry for travel notes
+	/note/...: Travel note page
+	/user/... : (Other) user page
+	/profile: Personal profile page
+	/post: Post a travel note
+	/logout: user logout
+
+		*/
 	app.get('/', function(req, res){
-		res.render('index.ejs'); //pathname correctly set?
+		res.render('index', {title: 'Homepage'});
 	});
 
-	// ==================================
-	// LOGIN ============================
-	// ==================================
-	// show the login form
-	app.get('/login', function (req, res){
-		res.render('login.ejs', {message: req.flash('loginMessage')});
+	// How to combine login and reg in one single page
+	app.get('/login', function(req, res){
+		res.render('login', {title: 'Login'});
+	});
+	app.post('/login', function(req, res){
+	});
+	app.get('/reg', function(req, res){
+		res.render('reg', {title: 'Register'});
+	});
+	app.post('/reg', function(req, res){
 	});
 
-	// process the login form
-	app.post('/login', passport.authenticate('local-login',{
-		successRedirect : '/profile', // redirect to the secure profile section
-		failureRedirect : '/login', // redirect back to the login page if there is an error
-		failureFlash : true
-	}));
+	app.get('/dest', function(req, res){
+		res.render('dest', {title: 'Destinations'});
+	});
+	// City, Poi ...
 
-	// ==================================
-	// SIGNUP ===========================
-	// ==================================
-	// show the signup form
-	app.get('/signup', function(req, res){
-		res.render('signup.ejs', {message : req.flash('signupMessage')});
+	app.get('/note', function(req, res){
+		res.render('note', {title: 'Travel Notes'});
+	});
+	// Single travel notes...
+	// User
+
+	app.get('/profile', function(req, res){			// add validation
+		res.render('profile', {title: 'Profile'});
 	});
 
-	// process the signup form
-	app.post('/signup', passport.authenticate('local-signup',{
-		successRedirect : '/profile', // redirect to the secure profile section
-		failureRedirect : '/signup', // redirect back to the signp page if there is an error
-		failureFlash : true
-	}));
-
-	// ==================================
-	// PROFILE SECTION ==================
-	// ==================================
-	// show the signup form
-	// protect the profile page from unauthenticated visitors
-	// use a middleware
-	app.get('/profile', isLoggedIn, function(req, res){
-		res.render('profile.ejs',{
-			user: req.user // get the user out of session and pass to template
-		});
+	app.get('/post', function(req, res){
+		res.render('post', {title: 'Post a Travel Note'});
 	});
-
-	// ==================================
-	// LOGOUT ===========================
-	// ==================================
-	// show the signup form
+	app.post('/', function(req, res){
+	});
+	
 	app.get('/logout', function(req, res){
-		req.logout();
-		res.redirect('/');
 	});
+};
 
-	// middleware for check authentication of user
-	function isLoggedIn(req, res, next){
+// var express = require('express');
+// var router = express.Router();
 
-		// if authenticated
-		if(req.isAuthenticated())
-			return next();
+// // Homepage ==============
+// router.get('/',function(req, res){
+// 	res.render('index', {title: 'Express'});
+// });
 
-		// not authenticated
-		res.redirct('/');
-	}
-}
+// module.exports = router;

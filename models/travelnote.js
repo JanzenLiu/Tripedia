@@ -11,6 +11,7 @@ var noteSchema = mongoose.Schema({
 	word_counts			: Number,
 	created_time		: Timestamp,
 	updated_time 		: Timestamp,
+	pv					: Number, // increment by time every one visited
 	like_counts			: Number,
 	// necessary?
 	likes 				: [{
