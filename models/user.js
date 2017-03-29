@@ -6,6 +6,7 @@ var userSchema = mongoose.Schema({
 	username			: String,
 	password			: String,
 	name				: String,
+	email				: String, // add validation
 	gender				: String, // "M" for male, "F" for female... Add verification
 	following_counts	: Number,
 	follower_counts		: Number,

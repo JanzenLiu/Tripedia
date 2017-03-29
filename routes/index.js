@@ -5,11 +5,12 @@ module.exports = function(app){
 	/login: user login
 	/reg: user register
 	/dest: Entry for destinations
-	/city/...: City page
-	/poi/...: Attraction page
+	/city/[cid]: City page
+	/poi/[aid]: Attraction page
 	/note: Entry for travel notes
-	/note/...: Travel note page
-	/user/... : (Other) user page
+	/note/[uid]: User travel notes page
+	/note/[nid]: Single travel note page
+	/user/uid : (Other) user page
 	/profile: Personal profile page
 	/post: Post a travel note
 	/logout: user logout
@@ -35,12 +36,15 @@ module.exports = function(app){
 		res.render('dest', {title: 'Destinations'});
 	});
 	// City, Poi ...
+	app.use('/city', require('./city'));
+	app.use('/poi', require('./poi'));
 
 	app.get('/note', function(req, res){
 		res.render('note', {title: 'Travel Notes'});
 	});
 	// Single travel notes...
 	// User
+	app.use('/user', require('./user'));
 
 	app.get('/profile', function(req, res){			// add validation
 		res.render('profile', {title: 'Profile'});
@@ -54,6 +58,8 @@ module.exports = function(app){
 	
 	app.get('/logout', function(req, res){
 	});
+
+	// 404 Page
 };
 
 // var express = require('express');
