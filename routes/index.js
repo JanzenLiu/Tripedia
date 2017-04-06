@@ -29,10 +29,9 @@ module.exports = function(app){
 		});
 	});
 
-	// How to combine login and signup in one single page
 	app.use('/login', loginRouter);
 	app.use('/signup', signupRouter);
-
+	
 	app.get('/search', function(req, res){
 		
 	})
