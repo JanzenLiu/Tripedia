@@ -3,14 +3,15 @@ module.exports = function(app){
 	/*
 	/: Homepage
 	/login: user login
-	/reg: user register
+	/signup: user Signup
+	/search: search for destination/travel notes...
 	/dest: Entry for destinations
 	/city/[cid]: City page
 	/poi/[aid]: Attraction page
 	/note: Entry for travel notes
-	/note/[uid]: User travel notes page
 	/note/[nid]: Single travel note page
-	/user/uid : (Other) user page
+	/user/[uid] : (Other) user page
+	/user/[uid]/node: User travel note page
 	/profile: Personal profile page
 	/post: Post a travel note
 	/logout: user logout
@@ -20,17 +21,21 @@ module.exports = function(app){
 		res.render('index', {title: 'Homepage'});
 	});
 
-	// How to combine login and reg in one single page
+	// How to combine login and signup in one single page
 	app.get('/login', function(req, res){
 		res.render('login', {title: 'Login'});
 	});
 	app.post('/login', function(req, res){
 	});
-	app.get('/reg', function(req, res){
-		res.render('reg', {title: 'Register'});
+	app.get('/signup', function(req, res){
+		res.render('signup', {title: 'Signup'});
 	});
-	app.post('/reg', function(req, res){
+	app.post('/signup', function(req, res){
 	});
+
+	app.get('/search', function(req, res){
+		
+	})
 
 	app.get('/dest', function(req, res){
 		res.render('dest', {title: 'Destinations'});
@@ -61,13 +66,3 @@ module.exports = function(app){
 
 	// 404 Page
 };
-
-// var express = require('express');
-// var router = express.Router();
-
-// // Homepage ==============
-// router.get('/',function(req, res){
-// 	res.render('index', {title: 'Express'});
-// });
-
-// module.exports = router;

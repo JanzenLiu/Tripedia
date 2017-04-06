@@ -1,6 +1,6 @@
 module.exports = {
 	cookieSecret: 'tripedia',
-	db: 'app_test',	// to be replaced
+	db: 'tripedia',	// to be replaced
 	host: 'localhost',
 	port: 27017
 };

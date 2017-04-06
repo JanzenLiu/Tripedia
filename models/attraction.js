@@ -54,7 +54,7 @@ query.exec(function (err, spot) {
 
 //searching by type
 var spot_type;
-var query=Spot.find('type': type_name);
+var query=Spot.find({'type': type_name});
 
 //select the name intro fields
 query.select('name introduction');
