@@ -1,25 +1,18 @@
-var mongodb = require('mongodb');
+var mongoose = require('mongoose');
 var settings = require('../settings');
 
-var Db =  mongodb.Db,
-	Connection = mongodb.Connection,
-	Server = mongodb.Server;
+var uri = 'mongodb://' + settings.host + ':27017/' + settings.db; // to be determined
 
-module.exports = new Db(settings.db, new Server(settings.host, settings.port), {safe: true}); // safe attribute not found in documentation
-// ================================================
-// ===== using mongoose, export a connection ======
-// ================================================
-// var mongoose = require('mongoose');
-// var settings = require('./settings');
+mongoose.connect(uri);
+var conn = mongoose.connection;
 
-// var uri = 'mongodb://' + settings.host + ':27017/' + settings.db; // to be determined
+module.exports = conn;
 
-// mongoose.connect(uri);
-// var conn = mongoose.connection;
-// console.log('flag');
+// var mongodb = require('mongodb');
+// var settings = require('../settings');
 
-// // create Schema/Model ==============
-// // if necessary?
+// var Db =  mongodb.Db,
+// 	Connection = mongodb.Connection,
+// 	Server = mongodb.Server;
 
-
-// module.exports = conn;
+// module.exports = new Db(settings.db, new Server(settings.host, settings.port), {safe: true}); // safe attribute not found in documentation

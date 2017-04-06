@@ -123,7 +123,7 @@ body{
     position: absolute;
     width: 450px;
     height: 300px;
-    background-image: url("nyc.jpg");
+    background-image: url("../images/homepage/nyc.jpg");
     background-size: cover;
     margin-right: 30px;
     
@@ -158,7 +158,7 @@ body{
     position: absolute;
     width: 320px;
     height: 300px;
-    background-image: url("5th_ave.jpg");
+    background-image: url("../images/homepage/5th_ave.jpg");
     background-size: cover;
     right: 0;
     
@@ -203,7 +203,7 @@ body{
     position: absolute;
     width: 250px;
     height: 250px;
-    background-image: url("osaka_castle.jpg");
+    background-image: url("../images/homepage/osaka_castle.jpg");
     background-size: cover;
     margin-right: 20px;
 }
@@ -237,7 +237,7 @@ body{
     position: absolute;
     width: 250px;
     height: 250px;
-    background-image: url("minami.jpg");
+    background-image: url("../images/homepage/minami.jpg");
     background-size: cover;
     margin-right: 30px;
     left: 280px;
@@ -272,7 +272,7 @@ body{
     position: absolute;
     width: 250px;
     height: 250px;
-    background-image: url("osaka.jpeg");
+    background-image: url("../images/homepage/osaka.jpeg");
     background-size: cover;
     right: 0;
 }

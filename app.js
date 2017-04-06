@@ -10,6 +10,7 @@ var MongoStore = require('connect-mongo')(session);
 // router setup
 var routes = require('./routes/index');
 var settings = require('./settings');
+var Connection = require('./models/db')
 var flash = require('connect-flash');
 
 var app = express();
@@ -40,7 +41,7 @@ app.use(session({
 		autoRemove: 'native'
 	})
 }));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 routes(app);
 

@@ -1,3 +1,5 @@
+var loginRouter = require('./login');
+
 module.exports = function(app){
 
 	/*
@@ -22,11 +24,8 @@ module.exports = function(app){
 	});
 
 	// How to combine login and signup in one single page
-	app.get('/login', function(req, res){
-		res.render('login', {title: 'Login'});
-	});
-	app.post('/login', function(req, res){
-	});
+	app.use('/login', loginRouter)
+
 	app.get('/signup', function(req, res){
 		res.render('signup', {title: 'Signup'});
 	});
