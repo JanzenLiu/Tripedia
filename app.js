@@ -10,7 +10,7 @@ var MongoStore = require('connect-mongo')(session);
 // router setup
 var routes = require('./routes/index');
 var settings = require('./settings');
-var Connection = require('./models/db')
+var Connection = require('./models/db');
 var flash = require('connect-flash');
 
 var app = express();

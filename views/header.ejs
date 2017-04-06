@@ -44,11 +44,15 @@
     <!-- if not login -->
     <!-- Login/Signup/Logout Control -->
     <ul class="nav navbar-nav navbar-right" style="height:70px; font-size:16px">
+    <% if (typeof(user) != 'undefined') { %>
+      <li class="bar_links"><a href="/profile"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+    <% } else { %>
+      // href="/signup?callback=originalUrl
       <li class="bar_links"><a href="/signup"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
       <li class="bar_links"><a href="/login"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+    <% } %>
     </ul>
 
-    <>
   </div>
 </nav>
 
