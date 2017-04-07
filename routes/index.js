@@ -41,13 +41,16 @@ module.exports = function(app){
 	app.use('/login', require('./login'));
 	app.use('/signup', require('./signup'));
 	app.use('/profile', require('./profile'));
-	
-	app.get('/search', function(req, res){
-		
-	})
+
+	app.get('/search', function(req, res){});
 
 	app.get('/dest', function(req, res){
-		res.render('dest', {title: 'Destinations'});
+		res.render('dest', {
+			title: 'Destinations',
+			user: req.session.user,
+			success: req.flash('success').toString(),
+			error: req.flash('error').toString()
+		});
 	});
 	// City, Poi ...
 	app.use('/city', require('./city'));

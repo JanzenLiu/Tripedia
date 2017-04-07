@@ -1,18 +1,5 @@
 <%- include header %>
 
-<script type="text/javascript">
-    $("#header >").addClass("header-place-default").hover(function(e){
-        e.stopPropagation();
-        $(this).removeClass('header-place-default');
-    },function(e){
-        e.stopPropagation();
-        $(this).stop().css({
-            opacity:0.1
-        }).addClass('header-place-default').animate({
-                opacity:1
-            },300).find('.dropdown-group >').hide();
-    });
-</script>
 <div class="container" data-cs-t="目的地首页">
     <div class="place-focus"  data-cs-p="头图">
         <div class="show-banner show-info-notes">
