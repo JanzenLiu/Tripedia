@@ -32,4 +32,15 @@ noteSchema.virtual('nid').get(function(){
 	return this._id.toString();
 })
 
+// return brief of the travel note
+noteSchema.virtual('brief').get(function{
+
+	// to be modified
+	return "This is a brief for the travel note";
+})
+
+noteSchema.statics.findById = function(id, cb){
+	return this.find({_id: mongoose.Types.ObjectId(id)}, cb);
+};
+
 module.exports = mongoose.model('TravelNote', noteSchema);
