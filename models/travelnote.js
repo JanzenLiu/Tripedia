@@ -3,28 +3,19 @@ var mongoose = require('mongoose');
 // Schema for TravelNote ========================
 var noteSchema = mongoose.Schema({
 	title 				: String,
-	author				: {
-		uid: Schema.Types.ObjectId
-		name: String
-	}
-	body				: String,
-	word_counts			: Number,
-	created_time		: Timestamp,
-	updated_time 		: Timestamp,
+	author				: Schema.Types.ObjectId,
+	content				: String,
+	word_count			: Number,
+	create_time			: Timestamp,
+	moddify_time 		: Timestamp,
 	pv					: Number, // increment by time every one visited
-	like_counts			: Number,
-	// necessary?
-	likes 				: [{
-		uid: ObjectId,
-		name: String,
-	}]
-	comment_counts		: Number,
+	like_count			: Number,
+	likes 				: [{uid: ObjectId}],
+	comment_count		: Number,
 	comments			: [{
 		uid: ObjectId,
-		name: String
 		message: String,
-		created_time: Timestamp,
-		like_counts: Number
+		create_time: Timestamp
 	}]
 
 	///////////////// to be supplement /////////////////
