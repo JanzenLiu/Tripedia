@@ -1,0 +1,180 @@
+<%- include header %>
+
+<div class="main" style="position:relative; top:30px; margin-bottom:80px;">
+    <div class="banner">
+    <div class="tags_bar">
+    <div class="center clearfix">
+        <ul class="flt2">
+            <li><a class="tags_link" href="#" title="My travel notes">My travel notes</a></li>
+            <li><a class="tags_link" href="#" title="History">View history</a></li>
+            <li><a class="tags_link" href="#" title="My comments">My comments</a></li>
+            <li><a class="tags_link" href="#" title="My friends">My friends</a></li>
+            <li><a class="tags_link" href="#" title="My Q&A">My Q&amp;A</a></li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+    <script type="text/x-jquery-tmpl" id="_j_hotemddlist"></script>
+    <div class="center clearfix">
+        <div class="side_bar flt1">
+<style>
+.MProfile pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+</style>
+
+<div class="MAvatar">
+    <div class="MAvaImg">
+        <img src="anonymous.png" height="120" width="120" alt="Anonymous"><a href="#" class="MAvaUp"><i class="Mphoto"></i></a>
+    </div>
+    <div class="MAvaName"><%= user.username %>
+        <i class="MGenderMale"></i>
+    </div>   
+    <div class="MAvaInfo clearfix MAvaMyInfo">
+        <span class="MAvaPlace flt1" title="Hong Kong">Live in: Hong Kong</span>        
+        <span class="MAvaSet"><a title="setting" href="#" target="_blank"></a></span>
+    </div>
+    <div id="_j_profilearea" class="MAvaProfile">
+        <a role="button" class="addBtn _j_showintrobox">Edit introduction</a>
+            <div class="MAvaInput hide _j_inputarea">
+                <textarea id="_j_introarea" placeholder="e.g photographer/ diving lover" maxlength="100"></textarea>
+                <a role="button" id="_j_introsaver" class="MAvaBtn" title="save">save</a>
+            </div>
+    </div>
+    <div class="MAvaMore clearfix">
+        <div class="MAvaNums">
+            <strong><a href="#" target="_blank"><%= user.followings_count %></a></strong>
+            <p>My following</p>
+        </div>
+        <div class="MAvaNums">
+            <strong><a href="#" target="_blank"><%= user.followers_count %></a></strong>
+            <p>My follower</p>
+        </div>
+        
+    </div>
+</div>
+                       
+<div class="MUsers">
+    <div class="MUsersTitle">My following</div>
+    <div class="MUsersDetail" id="_j_followcnt">
+        <div class="MUsersAtom">
+            <ul class="clearfix _j_followlist">
+                <li><a href="/u/90102427.html" target="_blank">
+                    <img src="anonymous.png" height="48" width="48" alt="Anonymous2" title="Anonymous2">
+                    </a>
+                    <p><a href="#" target="_blank" title="Anonymous2">Anonymous2</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+           
+<div class="MUsers">
+    <div class="MUsersTitle">Recent visitors</div>
+    <div class="MUsersDetail">
+        <ul class="clearfix">
+            <li>
+                <a href="/u/724649.html" target="_blank"><img src="anonymous.png" height="48" width="48" alt="Anonymous3" title="Anonymous3"></a>
+                <p><a href="#" target="_blank" title="Anonymous3">Anonymous3</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+                        
+        </div>
+        <div class="content flt2">
+            <div class="common_block main_links">
+                <ul class="clearfix">
+                    <li><a href="/note/create_index.php" target="_blank"><i class="write_note"></i><span>Write a note</span></a></li>
+                    <li><a href="/wenda/" target="_blank"><i class="ask_expert"></i><span>Ask expert</span></a></li>
+                    <li><a href="/path/" target="_blank"><i class="add_footprint"></i><span>Add trip plan</span></a></li>
+                    <li class="last"><a href="/together/" target="_blank"><i class="invite_friends"></i><span>Invite friends</span></a></li>
+                </ul>
+            </div>
+            <style>
+            .attention ._j_followed { display:none}
+            ._j_focused ._j_followed { display:inline-block}
+            ._j_focused ._j_follow { display:none}
+            </style>
+        <div class="common_block personal_info" id="_j_taskwrap" style="background:url('bg2.jpg')">
+            <div class="personal_tips">
+                <p style="text-align:center"><strong><%= user.username %></strong>，This is your homepage！</p>
+                <p style="text-align:center">Tripedia helps you plan your trips and share your experience with others.<br> Now start with Tripedia!</p>
+            </div>
+            <div class="personal_list clearfix">
+                <ul>
+                    <li>
+                    <div class="personal_ico"><i class="ico_info"></i></div>
+                    <div class="personal_word">
+                        <p>Add information<br></p>
+                    </div>
+                    <div class="personal_btn">
+                        <a role="button" class="_j_task_profile" title="Add information">Add information</a>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="personal_ico"><i class="ico_stroll"></i></div>
+                        <div class="personal_word">
+                        <p>How others plan their trip?</p>
+                    </div>
+                        <div class="personal_btn">
+                        <a role="button" class="_j_task_focus_talent" title="See others trips">See others trips</a>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="personal_ico"><i class="ico_daka"></i></div>
+                        <div class="personal_word">
+                        <p>I have a great plan!<br>Let me write it down.</p>
+                    </div>
+                        <div class="personal_btn">
+                        <a role="button" class="_j_task_daka" title="Make a plan">Make a plan</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+         
+        <div class="common_block my_notes">
+        <div class="common_title clearfix">
+            <h2>My travel notes</h2>
+        </div>
+        <div class="notes_default_v2">
+            <div class="notes_dcon"></div>
+            <a href="#" title="Write note" class="btn_write"><i></i>Write note</a>
+        </div>
+        </div>
+        
+            <div class="common_block my_notes">
+                <div class="common_title clearfix">
+                    <h2>My anwser</h2>
+                </div>
+                <div class="notes_default ask_default">
+                    <i class="ico_notes"></i>
+                    <div class="notes_default_detail">
+                        <p>Tripedia is a trip sharing platform<br>Help others with your experience</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="common_block my_notes">
+                <div class="common_title clearfix">
+                    <h2>My comments</h2>
+                </div>
+                <div class="notes_default dp_default">
+                    <i class="ico_notes"></i>
+                    <div class="notes_default_detail">
+                        <p>Comments, not only the memory,<br>but also the treasure</p>
+                    </div>
+                </div>
+             </div>
+
+        </div>
+    </div>
+</div>
+
+
+<%- include footer %>

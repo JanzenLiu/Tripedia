@@ -7,6 +7,7 @@ module.exports = function(req, res){
 		password = md5.update(req.body.password).digest('hex');
 
 	// check whether the user has already existed
+
 	User.findOne({username: req.body.name}, function(err, user){
 		if(err){
 			req.flash('error', err);
@@ -24,7 +25,8 @@ module.exports = function(req, res){
 
 		req.session.user = user;
 		req.flash('success', 'Successfully login!');
-		callbackURI = decodeURI(req.body.callback) || '/';
-		res.redirect(callbackURI);
+		res.redirect('/profile');
+		// callbackURI = decodeURI(req.body.callback) || '/';
+		// res.redirect(callbackURI);
 	});
 }

@@ -13,6 +13,7 @@ var userSchema = new mongoose.Schema({
 	travel_note_counts	: Number,
 
 	// travel notes collection: add more fields for conveniece?
+	// add reference info
 	followers  			:[{uid: mongoose.Schema.Types.ObjectId}],
 	followings  		:[{uid: mongoose.Schema.Types.ObjectId}],
 	travel_notes		:[{nid: mongoose.Schema.Types.ObjectId}]

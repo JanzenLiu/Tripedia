@@ -1,6 +1,3 @@
-var loginRouter = require('./login');
-var signupRouter = require('./signup');
-
 module.exports = function(app){
 
 	/*
@@ -21,6 +18,18 @@ module.exports = function(app){
 
 		*/
 	app.get('/', function(req, res){
+
+		// req.session.user = {
+		// 	"__v":0,
+		// 	"username":"liuyide",
+		// 	"password":"25d55ad283aa400af464c76d713c07ad",
+		// 	"email":"liuyide@gmail.com",
+		// 	"_id":"58e64f48f63c722a733c88b9",
+		// 	"followings_count": 0,
+		// 	"followers_count": 0,
+		// 	"travel_notes_id":[]
+		// };
+
 		res.render('index', {
 			title: 'Homepage',
 			user: req.session.user,
@@ -29,8 +38,9 @@ module.exports = function(app){
 		});
 	});
 
-	app.use('/login', loginRouter);
-	app.use('/signup', signupRouter);
+	app.use('/login', require('./login'));
+	app.use('/signup', require('./signup'));
+	app.use('/profile', require('./profile'));
 	
 	app.get('/search', function(req, res){
 		
@@ -48,11 +58,6 @@ module.exports = function(app){
 	});
 	// Single travel notes...
 	// User
-	app.use('/user', require('./user'));
-
-	app.get('/profile', function(req, res){			// add validation
-		res.render('profile', {title: 'Profile'});
-	});
 
 	app.get('/post', function(req, res){
 		res.render('post', {title: 'Post a Travel Note'});
