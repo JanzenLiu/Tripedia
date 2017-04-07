@@ -61,12 +61,6 @@ module.exports = function(app){
 	});
 	// Single travel notes...
 	// User
-
-	app.get('/post', function(req, res){
-		res.render('post', {title: 'Post a Travel Note'});
-	});
-	app.post('/', function(req, res){
-	});
 	
 	app.get('/logout', function(req, res){
 	});

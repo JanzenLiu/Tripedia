@@ -3,8 +3,6 @@ var User = require('../models/user.js');
 
 module.exports = function(req, res){
 
-	console.log("Enter controller");
-
 	var username = req.body.name,
 		password = req.body.password,
 		password_re = req.body['password-repeat'],
@@ -20,7 +18,9 @@ module.exports = function(req, res){
 	var newUser = new User({
 		username: username,
 		password: password,
-		email: email
+		email: email,
+		following_counts: 0,
+		follower_counts: 0
 	});
 	User.findOne({username: newUser.username}, function(err, user){
 		if(err){

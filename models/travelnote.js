@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var Connection = require('./db');
 
 // Schema for TravelNote ========================
 var noteSchema = mongoose.Schema({
@@ -19,13 +20,7 @@ var noteSchema = mongoose.Schema({
 		name: String,
 	}]
 	comment_counts		: Number,
-	comments			: [{
-		uid: ObjectId,
-		name: String
-		message: String,
-		created_time: Timestamp,
-		like_counts: Number
-	}]
+	comments			: [{cid: mongoose.Schema.Types.ObjectId}]
 
 	///////////////// to be supplement /////////////////
 	// cities with attractions
@@ -33,5 +28,8 @@ var noteSchema = mongoose.Schema({
 });
 
 // methods ================================
+noteSchema.virtual('nid').get(function(){
+	return this._id.toString();
+})
 
 module.exports = mongoose.model('TravelNote', noteSchema);

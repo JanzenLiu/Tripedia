@@ -10,4 +10,10 @@ router.get('/', function(req, res){
 	});
 });
 
+router.get('/edit', function(req, res){});
+router.get('/following', function(req, res){});
+router.get('/follower', function(req, res){});
+router.get('/post', function(req, res){});
+router.post('/post', function(req, res){});
+
 module.exports = router;
