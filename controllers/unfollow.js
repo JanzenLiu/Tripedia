@@ -17,7 +17,7 @@ module.exports = function(req, res){
 	}
 
 	uid = req.session.user.uid; // current user
-	followee_id = req.body.uid; // user to follow
+	followee_id = req.body.uid; // user to unfollow
 
 	User.findById(followee_id, function(err, user){
 		if(err){
@@ -34,7 +34,7 @@ module.exports = function(req, res){
 		}
 
 		// check whether one document was modified
-		user.followedBy(uid, function(err){
+		user.unfollowedBy(uid, function(err){
 			if(err){
 				return res.status(500).json({
 					error: 'Server error while updating followee info',
@@ -59,7 +59,7 @@ module.exports = function(req, res){
 		}
 
 		// check whether one document was modified
-		user.follow(uid, function(err){
+		user.unfollow(uid, function(err){
 			if(err){
 				return res.status(500).json({
 					error: 'server error while updating following info',
