@@ -3,10 +3,10 @@ var Connection = require('./db');
 
 // Schema for TravelNote ========================
 var commentSchema = mongoose.Schema({
-	note				: {nid: Schema.Types.ObjectId},
-	author				: {uid: Schema.Types.ObjectId},
+	note				: {nid: mongoose.Schema.Types.ObjectId},
+	author				: {uid: mongoose.Schema.Types.ObjectId},
 	content				: String, // add word limitation?
-	created_time		: Timestamp
+	created_time		: Date
 });
 
 // methods ================================

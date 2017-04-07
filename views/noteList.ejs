@@ -1,0 +1,39 @@
+<%function noteListItem(note) { %>
+	<li>
+		<div>
+			<div>
+				<a href="<%= note.url %>"><img src="<%= note.imageUrl %>"></a>
+			</div>
+			<div>
+				<dl>
+					<dt><%= note.title %></dt>
+					<dd><%= note.brief %></dd>
+				</dl>
+			</div>
+			<div>
+				<span>
+					<!-- add icon? -->
+					<a href="<%= note.cityUrl %>"><%= note.city %></a>
+				</span>
+				<span>
+					<!-- add avator? -->
+					<a href="<%= note.authorUrl %>"><%= note.authorName %></a>
+				</span>
+				<span
+					<em><%= note.likeCounts %></em>
+					<span class="glyphicon glyphicon-heart"></span>
+				</span>
+				<!-- color changable -->
+				<a href="<%= note.url %>">Read</a>
+			</div>
+		</div>
+	</li>
+<% } %>
+
+<% noteList = function(notes){ %>
+	<% if(notes){ %>
+		<ul>
+			<% notes.map(noteListItem) %>
+		</ul>
+	<% } %>
+<% } %>

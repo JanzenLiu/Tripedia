@@ -15,21 +15,9 @@ module.exports = function(app){
 	/profile: Personal profile page
 	/post: Post a travel note
 	/logout: user logout
+	*/
 
-		*/
 	app.get('/', function(req, res){
-
-		// req.session.user = {
-		// 	"__v":0,
-		// 	"username":"liuyide",
-		// 	"password":"25d55ad283aa400af464c76d713c07ad",
-		// 	"email":"liuyide@gmail.com",
-		// 	"_id":"58e64f48f63c722a733c88b9",
-		// 	"followings_count": 0,
-		// 	"followers_count": 0,
-		// 	"travel_notes_id":[]
-		// };
-
 		res.render('index', {
 			title: 'Homepage',
 			user: req.session.user,
@@ -41,8 +29,7 @@ module.exports = function(app){
 	app.use('/login', require('./login'));
 	app.use('/signup', require('./signup'));
 	app.use('/profile', require('./profile'));
-
-	app.get('/search', function(req, res){});
+	app.use('/search', require('./search'));
 
 	app.get('/dest', function(req, res){
 		res.render('dest', {
@@ -52,18 +39,25 @@ module.exports = function(app){
 			error: req.flash('error').toString()
 		});
 	});
-	// City, Poi ...
+
 	app.use('/city', require('./city'));
 	app.use('/poi', require('./poi'));
-
-	app.get('/note', function(req, res){
-		res.render('note', {title: 'Travel Notes'});
-	});
-	// Single travel notes...
-	// User
+	app.use('/note', require('./note'));
+	app.use('/user', require('./user'));
 	
 	app.get('/logout', function(req, res){
 	});
 
 	// 404 Page
+
+	// req.session.user = {
+	// 	"__v":0,
+	// 	"username":"liuyide",
+	// 	"password":"25d55ad283aa400af464c76d713c07ad",
+	// 	"email":"liuyide@gmail.com",
+	// 	"_id":"58e64f48f63c722a733c88b9",
+	// 	"followings_count": 0,
+	// 	"followers_count": 0,
+	// 	"travel_notes_id":[]
+	// };
 };

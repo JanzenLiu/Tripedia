@@ -1,5 +1,6 @@
 var User = require('../models/user');
 var Note = require('../models/travelnote');
+var mongoose = require('mongoose');
 
 module.exports = function(req, res){
 
@@ -13,12 +14,12 @@ module.exports = function(req, res){
 	var authorId = req.session.user.uid,
 		authorName = req.session.user.username, // to be modified
 		title = req.body.title,
-		text = req.body.text,
+		text = req.body.text;
 
 	var newPost = new Note({
 		title: title,
 		author: {
-			uid: authorId,
+			uid: mongoose.Types.ObjectId(authorId),
 			name: authorName
 		},
 		body: text,
@@ -26,8 +27,8 @@ module.exports = function(req, res){
 		// calculate word_counts
 		word_counts: 0,
 
-		created_time: Date.now,
-		updated_time: Date.now,
+		created_time: Date.now(),
+		updated_time: Date.now(),
 		pv: 0,
 		like_counts: 0,
 		comment_counts: 0,
@@ -36,35 +37,35 @@ module.exports = function(req, res){
 	newPost.save(function(err, post){
 		if(err){
 			req.flash('error', err);
-			return res.redirect(req.originUrl);
+			return res.status('500').json({
+				error: err,
+				success : false
+			});
+			// return res.redirect(req.originUrl);
 		}
 
-		User.findById(authorId, function(err, user){
+
+		// to make sure
+		User.update({_id: mongoose.Types.ObjectId(authorId)},{
+			$push: {"travel_notes": post._id},
+			$inc: {travel_note_counts: 1}
+		},function(err, numAffected){
 			if(err){
-				return res.status(500).json({ // to check status code
-					error: 'server error while finding user',
-					success: false
+				return res.status('500').json({
+					error: err,
+					success : false
 				});
 			}
 
-			// to move the validation outside the saving process
-			if(!user){
-				return res.status(500).json({
-					error: 'User not found',
-					success: false
-				});
-			}
-
-			user.update({
-				$push: {"travel_notes": {nid: mongoose.Types.ObjectId(post.nid)}},
-				$inc: {travel_note_counts: 1}
-			}).exec();
-		});
+			// to add something...
+			// to check whether the list for travel notes is updated
+		})
 
 		req.flash('success', 'Successfully Post Travel Note!');
 
 		// where to redirect back?
 		callbackURI = decodeURI(req.body.callback) || '/';
-		res.redirect(callbackURI);
+		// res.redirect(callbackURI);
+		return res.redirect('/');
 	});
 }
