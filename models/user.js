@@ -8,6 +8,7 @@ var userSchema = new mongoose.Schema({
 	name				: String,
 	email				: String, // add validation
 	gender				: String, // "M" for male, "F" for female... Add verification
+	location			: String,
 	following_counts	: Number,
 	follower_counts		: Number,
 	travel_note_counts	: Number,
@@ -34,14 +35,14 @@ userSchema.statics.findById = function(id, cb){
 userSchema.methods.follow = function(id, cb){
 	return this.update({
 		$push: {"followings": {uid: mongoose.Types.ObjectId(id)}},
-		$inc: {following_counts: 1}
+		$inc: {"following_counts": 1}
 	}).exec();
 }
 
 userSchema.methods.followedBy = function(id, cb){
 	return this.update({
 		$push: {"followers": {uid: mongoose.Types.ObjectId(id)}},
-		$inc: {follower_counts: 1}
+		$inc: {"follower_counts": 1}
 	}).exec();
 }
 
@@ -50,7 +51,7 @@ userSchema.methods.unfollow = function(id, cb){
 		// check whether the user with uid: id is followed by the current user
 
 		$pop: {"followings": {uid: mongoose.Types.ObjectId(id)}},
-		$inc: {following_counts: -1}
+		$inc: {"following_counts": -1}
 	}).exec();
 }
 
@@ -59,10 +60,21 @@ userSchema.methods.unfollowedBy = function(id, cb){
 		// check whether the user with uid: id is following the current user
 
 		$pop: {"followers": {uid: mongoose.Types.ObjectId(id)}},
-		$inc: {follower_counts: -1}
+		$inc: {"follower_counts": -1}
 	}).exec();
 }
 
+userSchema.methods.updateInfo = function(info, cb){
+	return this.update({
+		$set: {
+			// validate the parameter object info first...
+
+			"name": info.name,
+			"gender": info.gender,
+			"location": info.location
+		}
+	}).exec();
+}
 // generating a hash
 // userSchema.methods.generateHash = function(password){
 // 	return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
