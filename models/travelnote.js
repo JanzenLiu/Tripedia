@@ -5,7 +5,7 @@ var Connection = require('./db');
 var noteSchema = mongoose.Schema({
 	title 				: String,
 	author				: {
-		uid: Schema.Types.ObjectId
+		uid: Schema.Types.ObjectId,
 		name: String
 	}
 	body				: String,
