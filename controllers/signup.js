@@ -29,16 +29,17 @@ module.exports = function(req, res){
 		}
 		if(user){
 			req.flash('error', 'User already existed!');
-			return res.redirect('/signup');
+			return res.redirect(req.originUrl);
 		}
 		newUser.save(function(err, user){
 			if(err){
 				req.flash('error', err);
-				return res.redirect('/reg');
+				return res.redirect(req.originUrl);
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
-			res.redirect('/');
+			callbackURI = decodeURI(req.body.callback) || '/';
+			res.redirect(callbackURI);
 		});
 	});	
 }

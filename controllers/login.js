@@ -14,16 +14,17 @@ module.exports = function(req, res){
 		}
 		if(!user){
 			req.flash('error', 'User does not exist!');
-			return res.redirect('/login');
+			return res.redirect(req.originUrl);
 		}
 		// check whether the passwords match
 		if(user.password != password){
 			req.flash('error', 'Password invalid!');
-			return res.redirect('/login');
+			return res.redirect(req.originUrl);
 		}
 
 		req.session.user = user;
 		req.flash('success', 'Successfully login!');
-		res.redirect('/'); // redirect to homepage
+		callbackURI = decodeURI(req.body.callback) || '/';
+		res.redirect(callbackURI);
 	});
 }
