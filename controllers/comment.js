@@ -22,6 +22,7 @@ module.exports = function(req, res){
 		created_time: Date.now
 	});
 
+	// to move this part to the travelnote model?
 	newComment.save(function(err, comment){
 		if(err){
 			req.flash('error', err);
