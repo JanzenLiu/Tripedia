@@ -19,8 +19,9 @@ module.exports = function(req, res){
 		username: username,
 		password: password,
 		email: email,
-		following_counts: 0,
-		follower_counts: 0
+		// following_counts: 0,
+		// follower_counts: 0,
+		// travel_note_counts: 0
 	});
 	User.findOne({username: newUser.username}, function(err, user){
 		if(err){

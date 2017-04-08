@@ -11,7 +11,7 @@ module.exports = function(req, res){
 		});
 	}
 
-	var authorId = req.session.user.uid,
+	var authorId = req.session.user._id,
 		authorName = req.session.user.username, // to be modified
 		title = req.body.title,
 		text = req.body.text;

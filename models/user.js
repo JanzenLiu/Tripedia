@@ -7,11 +7,11 @@ var userSchema = new mongoose.Schema({
 	password			: String,
 	name				: String,
 	email				: String, // add validation
-	gender				: String, // "M" for male, "F" for female... Add verification
+	gender				: {type: String, enum: ['male', 'female', 'transgender', 'unknown']}, // "M" for male, "F" for female... Add verification
 	location			: String,
-	following_counts	: Number,
-	follower_counts		: Number,
-	travel_note_counts	: Number,
+	following_counts	: {type: Number, default: 0},
+	follower_counts		: {type: Number, default: 0},
+	travel_note_counts	: {type: Number, default: 0},
 
 	// travel notes collection: add more fields for conveniece?
 	// add reference info
