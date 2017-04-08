@@ -27,13 +27,13 @@
                 </div>
                 <div class="item">
                         <div class="drop">
-                                <span class="hd"><a href="#">Hong Kong<i></i></a></span>
+                                <span class="hd"><a href="#"><%= city.name %><i></i></a></span>
                                 <div class="bd">
                                     <i class="arrow"><b></b></i>
                                     <div class="col">
                                         <ul class="clearfix">
-                                            <li><a href="#" target="_blank">Hong Kong Spots</a></li>
-                                            <li><a href="#" target="_blank">Hong Kong Traveling Notes</a></li>
+                                            <li><a href="#" target="_blank"><%= city.name %> Spots</a></li>
+                                            <li><a href="#" target="_blank"><%= city.name %> Traveling Notes</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -66,13 +66,13 @@
                                 <a class="photo" href="/photo/mdd/10189.html" target="_blank">
                                         <img src="http://a2-q.mafengwo.net/s5/M00/87/12/wKgB3FGMgSCAZo0qAAgGckFTqJA54.jpeg?imageMogr2%2Fthumbnail%2F%211020x540r%2Fgravity%2FCenter%2Fcrop%2F%211020x540%2Fquality%2F100" width="680" height="360">
                                             <div class="text">
-                                                <span>Hong Kong</span>
+                                                <span><%= city.name %></span>
                                             </div>
                                 </a>
                             </div>
                             <div class="m-impress">
                                 <div style=" padding-left: 150px; color: orange;">
-                                    <h3 class="hd">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHong Kong Impression</h3>
+                                    <h3 class="hd">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<%= city.name %> Impression</h3>
                                 </div>
                                 <div class="bd clearfix">
                                     <ul class="tag" style="height: 140px;overflow: hidden; padding-left: 50px; color: grey;">
@@ -89,7 +89,7 @@
                                         <p style="display: none;">
 
                                         </p>
-                                        <span id="mdd_poi_desc">Hong Kong is one of the world's most significant financial centers, with the highest Financial Development Index score and consistently ranks as the world's most competitive and freest economic entity. As the world's 8th largest trading entity, its legal tender, the Hong Kong dollar, is the world's 13th most traded currency. Hong Kong's tertiary sector dominated economy is characterized by simple taxation with a competitive level of corporate tax and supported by its independent judiciary system. However, while Hong Kong has one of the highest per capita incomes in the world, it suffers from severe income inequality.
+                                        <span id="mdd_poi_desc"><%= city.description %>
                                         <br></span>
                                     </div>
                             </div>
@@ -101,7 +101,7 @@
                             <div class="bd">
                                 <%- include poiListInCity %>
 
-                                <% poiListInCity(city.pois) %>
+                                <% poiListInCity(city.attractions) %>
 
                             </div>
                         </div>
@@ -112,10 +112,10 @@
                         padding:0;
                         overflow:hidden;">
                         <li style="float: left;">
-                            <a href="#" class="tabcon">Hong Kong Travel Notes</a>
+                            <a href="#" class="tabcon"><%= city.name %> Travel Notes</a>
                         </li>
                         <li style="float: left;">
-                            <a href="#" class="tabcon">Hong Kong Travel Plan</a>
+                            <a href="#" class="tabcon"><%= city.name %> Travel Plan</a>
                         </li>
                     </ul>
 
