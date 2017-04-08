@@ -4,6 +4,9 @@ var City = require('../models/city');
 var Attraction = require('../models/attraction');
 
 var searchByUser = function(key){};
+var searchByNote = function(key){};
+var searchByCity = function(key){};
+var searchByAttraction = function(key){};
 
 module.exports = function(req, res){
 	var byUser = [],
