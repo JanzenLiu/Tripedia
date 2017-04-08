@@ -11,7 +11,7 @@ module.exports = function(app){
 	/note: Entry for travel notes
 	/note/[nid]: Single travel note page
 	/user/[uid] : (Other) user page
-	/user/[uid]/node: User travel note page
+	/user/[uid]/note: User travel note page
 	/profile: Personal profile page
 	/post: Post a travel note
 	/logout: user logout

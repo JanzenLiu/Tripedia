@@ -1,0 +1,24 @@
+<%function poiListItem(poi) { %>
+	<div class="grid grid-two">
+        <div class="figure">
+        <a href="#" target="_blank" title="<%= poi.name %>">
+            <img src="<%= poi.imageUrl %>" width="485" height="320">
+            <h3 class="title"><%= poi.name %></h3>
+            <div class="mask-container">
+                <div class="mask">
+                    <div class="middle">
+                        <h3><%= poi.brief %></h3>
+                            <p><%= poi.description %></p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        </div>
+    </div>
+<% } %>
+
+<% poiListInCity = function(pois){ %>
+	<% if(pois){ %>
+		<% pois.map(poiListItem) %>
+	<% } %>
+<% } %>
