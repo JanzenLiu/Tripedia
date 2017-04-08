@@ -28,9 +28,15 @@ var noteSchema = mongoose.Schema({
 });
 
 // methods ================================
-noteSchema.virtual('nid').get(function(){
-	return this._id.toString();
-})
+noteSchema.statics.findById = function(id, cb){
+	return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);
+};
+
+noteSchema.statics.findByAuthorName = function(authorName, cb){
+
+	// to be modified after referencing added...
+	return this.find({'author': {$elemNatch: {'name': authorName}}},cb);
+}
 
 // return brief of the travel note
 noteSchema.virtual('brief').get(function(){

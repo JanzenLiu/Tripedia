@@ -6,7 +6,7 @@ router.get('/:username', function(req, res){
 
 	// check whether the user exists
 	User.findByUsername(req.params.username, function(err, user){
-		if(!user){
+		if(err || !user){
 			req.flash('error', 'User not found!');
 			return res.status(500).json({
 				error: 'User not found',
