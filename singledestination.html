@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Destination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://css.mafengwo.net/css/cv/css+base:css+jquery.suggest:css+plugins:css+plugins+jquery.jgrowl:css+other+popup:css+mfw-header.2015^YlVS^1490234841.css" rel="stylesheet" type="text/css"/>
+
+
+<link href="http://css.mafengwo.net/css/cv/css+mdd+place-v2:css+mdd+map-mark.v2^YFM^1489472753.css" rel="stylesheet" type="text/css"/>
+
+<link rel="stylesheet" href="main.css" />
+
+<script language="javascript" src="http://js.mafengwo.net/js/cv/js+jquery-1.8.1.min:js+global+json2:js+M+Module:js+M+M:js+M+Log:js+m.statistics^ZFw^1489387530.js" type="text/javascript"></script>
+    <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
+    </style>
+    
+</head>
+<body style="background-color:floralwhite;">
+    
+<nav class="navbar navbar-inverse" style="margin-bottom:0; border-radius:0px;">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="tripedia" style="margin-top:-20px; margin:-left:-10px; height:400%"></a>
+    </div>
+    <ul class="nav navbar-nav" style="height:70px; font-size:16px">
+      <li class="bar_links"><a href="#">Home</a></li>
+      <li class="bar_links"><a href="#">Destination</a></li>
+      <li class="bar_links"><a href="#">Travel Note</a></li>
+    </ul>
+      
+    <form class="navbar-form navbar-left" style="padding:9.5px;">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+            </button>
+        </div>
+        </div>
+    </form>
+    
+    <ul class="nav navbar-nav navbar-right" style="height:70px; font-size:16px">
+      <li class="bar_links"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li class="bar_links"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div id="container" data-cs-t="deatails">
+    <div class="row row-placeTop">
+        <div class="wrapper">
+                <link href="http://css.mafengwo.net/weather/littleWeather.css?1473063887" rel="stylesheet" type="text/css"/>
+            </div>
+            <link href="http://css.mafengwo.net/css/cv/css+mdd+place-crumb:css+mdd+place-navbar^Z1U^1488783448.css" rel="stylesheet" type="text/css"/>
+            <link href="http://css.mafengwo.net/css/mdd/place-crumb.css?1477562933" rel="stylesheet" type="text/css"/>
+            <style type="text/css">
+                #header{
+                    margin-bottom: 0;
+                }
+                .crumb {
+                    width: 1000px;
+                    font:12px Arial,"Microsoft Yahei","\5FAE\8F6F\96C5\9ED1",Tahoma,Helvetica,STHeiti,"Hiragino Sans GB";
+                    height: 20px;
+                    padding: 15px 0;
+                    color: #666;
+                    line-height: 20px;
+                    margin: 0 auto;
+                }
+                .crumb .item a{
+                    color:#666;
+                    font-size:12px;
+                }
+            </style>
+        </div>
+        <div class="crumb">
+            <div class="item"><a href="/mdd/" target="_blank">Destination</a><em>&gt;</em></div>
+                <div class="item">
+                    <div class="drop">
+                        <span class="hd"><a href="#" target="_blank">China<i></i></a></span>
+                        <div class="bd">
+                            <i class="arrow"><b></b></i>
+                            <div class="col">
+                                <h3>Hotspots</h3>
+                                <ul class="clearfix">
+                                    <li><a href="#" target="_blank">Beijing</a></li>
+                                    <li><a href="#" target="_blank">Shanghai</a></li>
+                                    <li><a href="#" target="_blank">Taiwan</a></li>
+                                </ul>
+                            </div>
+                                <div class="more"><a href="#" target="_blank">&gt;&gt;More Destination</a></div>
+                        </div>
+                    </div>
+                    <em>&gt;</em>
+                </div>
+
+        <div class="item">
+            <div class="drop">
+                <span class="hd"><a href="#">Hong Kong<i></i></a></span>
+                <div class="bd">
+                    <i class="arrow"><b></b></i>
+                    <div class="col">
+                        <ul class="clearfix">
+                            <li><a href="#" target="_blank">Hong Kong Spots</a></li>
+                            <li><a href="#" target="_blank">Hong Kong Traveling Notes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+        <script language="JavaScript" type="text/javascript">
+            $(function () {
+                $('.drop').mouseenter(function(ev) {
+                    var target = $(ev.currentTarget);
+                    clearTimeout(target.data('hideTimer'));
+                    target.addClass('open');
+                    target.children('bd').fadeIn(200);
+                });
+                $('.drop').mouseleave(function(ev) {
+                    var target = $(ev.currentTarget);
+                    target.data("hideTimer", setTimeout(function() {
+                        target.removeClass('open');
+                        target.children('bd').fadeOut(200);
+                    }, 200));
+                });
+            });
+        </script>
+
+        <div class="row row-primary">
+            <div class="wrapper">
+                <div class="screen clearfix">
+                    <div class="r-main">
+                        <a class="photo" href="#" target="_blank">
+                                <img src="http://a2-q.mafengwo.net/s5/M00/87/12/wKgB3FGMgSCAZo0qAAgGckFTqJA54.jpeg?imageMogr2%2Fthumbnail%2F%211020x540r%2Fgravity%2FCenter%2Fcrop%2F%211020x540%2Fquality%2F100" width="680" height="360">
+                                    <div class="text">
+                                        <span>Hong Kong</span>
+                                    </div>
+                        </a>
+                    </div>
+                    <div class="m-impress">
+                        <div style=" padding-left: 150px; color: orange;">
+                            <h3 class="hd">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHong Kong Impression</h3>
+                        </div>
+                        <div class="bd clearfix">
+                            <ul class="tag" style="height: 140px;overflow: hidden; padding-left: 50px; color: grey;">
+                            <a target="_blank">Good</a></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-summary row-bg">
+                <div class="wrapper">
+                    <h2 class="title">General situation</h2>
+                        <div>
+                            <p style="display: none;">
+
+                            </p>
+                            <span id="mdd_poi_desc">Hong Kong is one of the world's most significant financial centers, with the highest Financial Development Index score and consistently ranks as the world's most competitive and freest economic entity. As the world's 8th largest trading entity, its legal tender, the Hong Kong dollar, is the world's 13th most traded currency. Hong Kong's tertiary sector dominated economy is characterized by simple taxation with a competitive level of corporate tax and supported by its independent judiciary system. However, while Hong Kong has one of the highest per capita incomes in the world, it suffers from severe income inequality.
+                            <br></span>
+                        </div>
+                </div>
+        </div>
+
+        <div class="row row-hotScenic row-bg" data-cs-p="Hot Spot">
+            <div class="wrapper">
+                <h2 class="title">Hot Spot</h2>
+                <div class="bd">
+
+        <div class="row row-primary">
+            <div class="wrapper">
+                <div class="screen clearfix">
+                    <div class="r-main">
+                        
+                        <img src="http://a3-q.mafengwo.net/s1/M00/6D/8F/wKgBm07QfLCGLqvoAAIk2_FpcF801.jpeg?imageMogr2%2Fthumbnail%2F%21485x320r%2Fgravity%2FCenter%2Fcrop%2F%21485x320%2Fquality%2F100" width="600" height="300">
+                        
+                    </div>
+                    <div class="m-impress">
+                        <div style=" padding-left: 0; color: orange;">
+                            <h3 class="hd" style="margin-left: 10px;">Mong Kok</h3>
+                        </div>
+                        <div class="bd clearfix">
+                            <ul class="tag" style="height: 140px;overflow: hidden; padding-left: 5px; color: grey;">
+                            <a target="_blank">Good</a></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-primary">
+            <div class="wrapper">
+                <div class="screen clearfix">
+                    <div class="r-main">
+                        
+                        <img src="http://a3-q.mafengwo.net/s1/M00/6D/8F/wKgBm07QfLCGLqvoAAIk2_FpcF801.jpeg?imageMogr2%2Fthumbnail%2F%21485x320r%2Fgravity%2FCenter%2Fcrop%2F%21485x320%2Fquality%2F100" width="600" height="300">
+                        
+                    </div>
+                    <div class="m-impress">
+                        <div style=" padding-left: 0; color: orange;">
+                            <h3 class="hd" style="margin-left: 10px;">Mong Kok</h3>
+                        </div>
+                        <div class="bd clearfix">
+                            <ul class="tag" style="height: 140px;overflow: hidden; padding-left: 5px; color: grey;">
+                            <a target="_blank">Good</a></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-primary">
+            <div class="wrapper">
+                <div class="screen clearfix">
+                    <div class="r-main">
+                        
+                        <img src="http://a3-q.mafengwo.net/s1/M00/6D/8F/wKgBm07QfLCGLqvoAAIk2_FpcF801.jpeg?imageMogr2%2Fthumbnail%2F%21485x320r%2Fgravity%2FCenter%2Fcrop%2F%21485x320%2Fquality%2F100" width="600" height="300">
+                        
+                    </div>
+                    <div class="m-impress">
+                        <div style=" padding-left: 0; color: orange;">
+                            <h3 class="hd" style="margin-left: 10px;">Mong Kok</h3>
+                        </div>
+                        <div class="bd clearfix">
+                            <ul class="tag" style="height: 140px;overflow: hidden; padding-left: 5px; color: grey;">
+                            <a target="_blank">Good</a></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                                                                                                                                                >
+                                                                                    
+
+
+        <ul class="plan-type" style="list-style-type:none;
+            margin:6px;
+            padding:0;
+            overflow:hidden;">
+            <li style="float: left;">
+                <a href="#" class="tabcon">Hong Kong Travel Notes</a>
+            </li>
+            <li  style="float: left;">
+                <a href="#" class="tabcon">Hong Kong Travel Plan</a>
+            </li>
+        </ul>
+
+        <div id="travel_notes_div">
+            <ul style="list-style-type: square">
+                <li><a href="#" class="travel_notes_link">travel note 1</a></li>
+                <li><a href="#" class="travel_notes_link">travel note 2</a></li>
+                <li><a href="#" class="travel_notes_link">travel note 3</a></li>
+                <li><a href="#" class="travel_notes_link">travel note 4</a></li>
+                <li><a href="#" class="travel_notes_link">travel note 5</a></li>
+            </ul>
+        </div>
+
+        <div>&nbsp </div>
+        <div> &nbsp</div>
+            <div id="footer">
+                <div class="nav">
+                    <img src="logo.png" class="logo" />
+                    <p class="logo_text">Tripedia&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Start your fantastic trip with tripedia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
