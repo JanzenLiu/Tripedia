@@ -29,8 +29,10 @@ module.exports = function(req, res){
 			return res.redirect('/');
 		}
 		if(user){
+			console.log(user);
 			req.flash('error', 'User already existed!');
-			return res.redirect(req.originUrl);
+			// return res.redirect(req.originUrl);
+			return res.redirect('/login');
 		}
 		newUser.save(function(err, user){
 			if(err){
@@ -39,8 +41,9 @@ module.exports = function(req, res){
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
-			callbackURI = decodeURI(req.body.callback) || '/';
-			res.redirect(callbackURI);
+			// callbackURI = decodeURI(req.body.callback) || '/';
+			// res.redirect(callbackURI);
+			res.redirect('/');
 		});
 	});	
 }

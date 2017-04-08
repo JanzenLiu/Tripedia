@@ -30,7 +30,7 @@
     <div class="MAvaImg">
         <img src="anonymous.png" height="120" width="120" alt="Anonymous"><a href="#" class="MAvaUp"><i class="Mphoto"></i></a>
     </div>
-    <div class="MAvaName"><%= user.username %>
+    <div class="MAvaName"><%= owner.username %>
         <i class="MGenderMale"></i>
     </div>   
     <div class="MAvaInfo clearfix MAvaMyInfo">
@@ -46,11 +46,11 @@
     </div>
     <div class="MAvaMore clearfix">
         <div class="MAvaNums">
-            <strong><a href="#" target="_blank"><%= user.followings_count %></a></strong>
+            <strong><a href="#" target="_blank"><%= owner.following_counts %></a></strong>
             <p>My following</p>
         </div>
         <div class="MAvaNums">
-            <strong><a href="#" target="_blank"><%= user.followers_count %></a></strong>
+            <strong><a href="#" target="_blank"><%= owner.follower_counts %></a></strong>
             <p>My follower</p>
         </div>
         
@@ -102,7 +102,7 @@
             </style>
         <div class="common_block personal_info" id="_j_taskwrap" style="background:url('bg2.jpg')">
             <div class="personal_tips">
-                <p style="text-align:center"><strong><%= user.username %></strong>，This is your homepage！</p>
+                <p style="text-align:center"><strong><%= owner.username %></strong>，This is your homepage！</p>
                 <p style="text-align:center">Tripedia helps you plan your trips and share your experience with others.<br> Now start with Tripedia!</p>
             </div>
             <div class="personal_list clearfix">

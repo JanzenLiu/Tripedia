@@ -29,7 +29,11 @@ userSchema.virtual('uid').get(function(){
 })
 
 userSchema.statics.findById = function(id, cb){
-	return this.find({_id: mongoose.Types.ObjectId(id)}, cb);
+	return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);
+};
+
+userSchema.statics.findByUsername = function(name, cb){
+	return this.findOne({username: name}, cb);
 };
 
 userSchema.methods.follow = function(id, cb){
