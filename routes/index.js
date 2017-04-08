@@ -41,7 +41,6 @@ module.exports = function(app){
 	app.use('/signup', require('./signup'));
 	app.use('/profile', require('./profile'));
 	app.use('/search', require('./search'));
-
 	app.get('/dest', function(req, res){
 		res.render('dest', {
 			title: 'Destinations',
@@ -53,6 +52,7 @@ module.exports = function(app){
 
 	app.use('/city', require('./city'));
 	app.use('/spot', require('./spot'));
+	app.use('/singlenote', require('./singlenote'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
 

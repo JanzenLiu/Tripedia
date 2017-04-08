@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var Spot = require('../models/attraction');
+var noteSchema = require('../models/travelnote');
 
 // router.get('/:username', function(req, res){
 //
@@ -25,6 +26,26 @@ var Spot = require('../models/attraction');
 // 		});
 // 	})
 // })
+var aliluya = new noteSchema({
+    title: "aliluya",
+    content:[{
+      days: 1,
+      body: "Today i'm very happy!!1"
+      },
+      {
+      days: 2,
+      body: "Today i'm very happy!!2"
+      },
+      {
+      days: 3,
+      body: "Today i'm very happy!!3"
+      },
+      {
+      days: 4,
+      body: "Today i'm very happy!!4"
+      }
+    ]
+});
 var cuhk = new Spot({
     name: "CUHK",
     city: {
@@ -44,11 +65,13 @@ var cuhk = new Spot({
     openTime: "All day"
 });
 
+
 router.get('/',function(req, res){
 
-    res.render('spot',{
+    res.render('singlenote',{
             title: "CUHK",
       			user: req.session.user,
+            singlenote: aliluya,
       			spot: cuhk,
       			success: req.flash('success').toString(),
       			error: req.flash('error').toString()
