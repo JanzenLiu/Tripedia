@@ -17,7 +17,18 @@ module.exports = function(app){
 	/logout: user logout
 	*/
 
+
 	app.get('/', function(req, res){
+	// 	req.session.user = {
+ // 	 	"__v":0,
+ // 	 	"username":"liuyide",
+ // 	 	"password":"25d55ad283aa400af464c76d713c07ad",
+ // 	 	"email":"liuyide@gmail.com",
+ // 	 	"_id":"58e64f48f63c722a733c88b9",
+ // 	 	"followings_count": 0,
+ // 	 	"followers_count": 0,
+ // 	 	"travel_notes_id":[]
+ // 	 };
 		res.render('index', {
 			title: 'Homepage',
 			user: req.session.user,
@@ -41,23 +52,14 @@ module.exports = function(app){
 	});
 
 	app.use('/city', require('./city'));
-	app.use('/poi', require('./poi'));
+	app.use('/spot', require('./spot'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
-	
+
 	app.get('/logout', function(req, res){
 	});
 
 	// 404 Page
 
-	// req.session.user = {
-	// 	"__v":0,
-	// 	"username":"liuyide",
-	// 	"password":"25d55ad283aa400af464c76d713c07ad",
-	// 	"email":"liuyide@gmail.com",
-	// 	"_id":"58e64f48f63c722a733c88b9",
-	// 	"followings_count": 0,
-	// 	"followers_count": 0,
-	// 	"travel_notes_id":[]
-	// };
+
 };

@@ -41,9 +41,10 @@ module.exports = function(req, res){
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
+			// console.log('Successfully signed up');
 			// callbackURI = decodeURI(req.body.callback) || '/';
 			// res.redirect(callbackURI);
 			res.redirect('/');
 		});
-	});	
+	});
 }
