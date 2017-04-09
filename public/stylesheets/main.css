@@ -2,11 +2,6 @@ body{margin:0;}
 .nav .dropdown {padding: 10px;}
 .logo {width: 100px;height: 100px;margin-top: 10px;margin-left:10px;}
 .logo_text{position: absolute;display: inline;color: white;top: 50px;left: 100px;font-family: fantasy;font-weight: bold;font-size: 30px;}
-.bar_links{padding:9.5px;}
-.bar_links:visited{padding:9.5px;
-}
-.bar_links:hover{padding:9.5px;color:white;background-color:black;
-}
 .right{text-align: right;
 }
 #welcome {position: absolute;width: 800px;height: 300px;top: 50%;margin-top: -180px;left: 50px;margin-left: 180px;
