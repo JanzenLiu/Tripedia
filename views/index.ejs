@@ -9,6 +9,7 @@
 <link rel='stylesheet' href='/stylesheets/homepage.css'/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="/scripts/bootstrap.min.js"></script>
+<script src="/scripts/main.js"></script>
 <script>
 $(document).ready(function () {
 	var $item = $('#mainCarousel .item');
@@ -44,10 +45,6 @@ $(document).ready(function () {
 		}
 	});
 	onscroll();
-	$("#search .dropdown-menu li a").click(function(){
-		var innerhtml = $(this).html();
-		$(this).parents('.input-group-btn').find('.dropdown-toggle').html(innerhtml+' <span class="caret"></span>');
-	});
 	$('.carousel').carousel({
 		interval: 5000,
 		pause: "false"
