@@ -17,7 +17,7 @@
             <a class="navbar-brand" target="_top" href="/">
               <img src="/images/Tripedia_white.png" alt="tripedia" />
             </a>
-            <ul class="nav navbar-nav" style="height:70px; font-size:16px">
+            <ul class="nav navbar-nav">
               <li><a href="/">Home</a></li>
               <li><a href="/dest">Destination</a></li>
               <li><a href="/note">Travel Note</a></li>
@@ -30,7 +30,7 @@
         <ul class="nav navbar-nav pull-right">
     <% if (user) { %>
       <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle bar_links" type="button" id="menu1" data-toggle="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
           <span class="glyphicon glyphicon-user"></span>
           <span><%= user.username %></span>
           <span class="caret"></span>
@@ -47,8 +47,8 @@
         </ul>
       </div>
     <% } else { %>
-      <li class="bar_links"><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-      <li class="bar_links"><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+      <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+      <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
     <% } %>
     </ul>
 
