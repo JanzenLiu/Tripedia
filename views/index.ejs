@@ -14,9 +14,9 @@ $(document).ready(function () {
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
 		if ($(window).scrollTop() > imageHeight * 0.8) {
-			$('.nav.navbar-fixed-top').removeClass("transparent");
+			$('.navbar-fixed-top').removeClass("transparent");
 		} else if ($(window).scrollTop() < imageHeight * 0.6) {
-			$('.nav.navbar-fixed-top').addClass("transparent");
+			$('.navbar-fixed-top').addClass("transparent");
 		}
 	});
 	onscroll();
