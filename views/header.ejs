@@ -12,10 +12,18 @@
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <div class="navbar-header pull-left">
-            <a class="navbar-brand" target="_top" href="/">
-              <img src="/images/Tripedia_white.png" alt="tripedia" />
-            </a>
+        <div class="navbar-header">
+          <button type="button" data-target="#topnav" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" target="_top" href="/">
+            <img src="/images/Tripedia_white.png" alt="tripedia" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="topnav">
             <ul class="nav navbar-nav">
               <li><a href="/">Home</a></li>
               <li><a href="/dest">Destination</a></li>
@@ -26,7 +34,7 @@
                 <input type="text" class="form-control" placeholder="Search">
             </form>
         </div>
-        <ul class="nav navbar-nav pull-right">
+        <ul class="nav navbar-nav navbar-right">
     <% if (user) { %>
       <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
