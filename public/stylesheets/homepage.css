@@ -2,36 +2,8 @@ body{
     margin:0;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    margin-left:10px;
-}
-
-.logo_text{
-    position: absolute;
-    display: inline;
-    color: white;
-    top: 41px;
-    left: 100px;
-    font-family: fantasy;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.bar_links{
-    padding:9.5px;
-}
-
-.bar_links:visited{
-    padding:9.5px;
-}
-
-.bar_links:hover{
-    padding:9.5px;
-    color:white;
-    background-color:black;
+#mainCarousel {
+    opacity: 0;
 }
 
 #text_in_carousel {
