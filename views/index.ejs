@@ -143,25 +143,26 @@ $(document).ready(function () {
 		<form role="search" action="/search" method="post">
 			<div class="input-group" id="search">
 				<div class="input-group-btn">
+					<input id="search_type" name="search_type" type="hidden" value="city">
 					<button type="button" class="btn btn-search btn-default dropdown-toggle" name="type" data-toggle="dropdown">
 						<span class="glyphicon glyphicon-map-marker"></span>
 						<span class="label-icon">City</span>
 						<span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
-						<li>
+						<li data-value="city">
 							<a href="javascript:;">
 								<span class="glyphicon glyphicon-map-marker"></span>
 								<span class="label-icon">City</span>
 							</a>
 						</li>
-						<li>
+						<li data-value="note">
 							<a href="javascript:;">
 							<span class="glyphicon glyphicon-file"></span>
 							<span class="label-icon">Travel Note</span>
 							</a>
 						</li>
-						<li>
+						<li data-value="user">
 							<a href="javascript:;">
 							<span class="glyphicon glyphicon-user"></span>
 							<span class="label-icon">User</span>
@@ -169,11 +170,9 @@ $(document).ready(function () {
 						</li>
 					</ul>
 				</div>
-				<input type="text" class="form-control" placeholder="Where do you want to go?">
+				<input type="text" class="form-control" name="q" placeholder="Where do you want to go?">
 				<div class="input-group-btn">
-					<button type="button" class="btn btn-search btn-default">
-					Search
-					</button>
+					<input type="submit" class="btn btn-search btn-default" value="Submit Button">
 				</div>
 			</div>  
 		</form>

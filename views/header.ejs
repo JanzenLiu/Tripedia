@@ -34,25 +34,26 @@
             <form class="navbar-form navbar-left seletive-search" role="search" action="/search" method="post">
               <div class="input-group">
                 <div class="input-group-btn">
+                  <input id="search_type" name="search_type" type="hidden" value="city">
                   <button type="button" class="btn btn-search btn-default dropdown-toggle" name="type" data-toggle="dropdown">
                     <span class="glyphicon glyphicon-map-marker"></span>
                     <span class="label-icon">City</span>
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li>
+                    <li data-value="city">
                       <a href="javascript:;">
                         <span class="glyphicon glyphicon-map-marker"></span>
                         <span class="label-icon">City</span>
                       </a>
                     </li>
-                    <li>
+                    <li data-value="note">
                       <a href="javascript:;">
                       <span class="glyphicon glyphicon-file"></span>
                       <span class="label-icon">Travel Note</span>
                       </a>
                     </li>
-                    <li>
+                    <li data-value="user">
                       <a href="javascript:;">
                       <span class="glyphicon glyphicon-user"></span>
                       <span class="label-icon">User</span>
@@ -60,7 +61,7 @@
                     </li>
                   </ul>
                 </div>
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" name="q" placeholder="Search">
               </div>  
             </form>
         <ul class="nav navbar-nav navbar-right">
