@@ -17,6 +17,7 @@ $(document).ready(function () {
 	$item.height($wHeight);
 	$('.header').height($wHeight);
 	$item.addClass('full-screen');
+	$("#search").outerWidth($("#searchbar_div").width() - $("#search_submit").outerWidth() - 10)
 
 	$('#mainCarousel .item > img').each(function() {
 		var $src = $(this).attr('src');
@@ -31,6 +32,7 @@ $(document).ready(function () {
 		$wHeight = $(window).height();
 		$item.height($wHeight);
 		$('.header').height($wHeight);
+		$("#search").outerWidth($("#searchbar_div").width() - $("#search_submit").outerWidth() - 10)
 	});
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
