@@ -14,15 +14,9 @@ $(document).ready(function () {
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
 		if ($(window).scrollTop() > imageHeight * 0.8) {
-			$('.navbar-fixed-top').animate({
-				'background-color' : 'rgba(70,167,208,1)',
-				'border-color' : 'rgba(50,152,195,1)'
-			}, 300);
+			$('.nav.navbar-fixed-top').removeClass("transparent");
 		} else if ($(window).scrollTop() < imageHeight * 0.6) {
-			$('.navbar-fixed-top').animate({
-				'background-color' : 'rgba(70,167,208,0)',
-				'border-color' : 'rgba(50,152,195,0)'
-			}, 300);
+			$('.nav.navbar-fixed-top').addClass("transparent");
 		}
 	});
 	onscroll();
@@ -30,7 +24,7 @@ $(document).ready(function () {
 </script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgba(70,167,208,0);border-color:rgba(50,152,195,0)">
+<nav class="navbar navbar-default navbar-fixed-top transparent">
     <div class="container">
         <div class="navbar-header pull-left">
             <a class="navbar-brand" target="_top" href="/">
