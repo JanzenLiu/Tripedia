@@ -102,17 +102,6 @@ def crawlCity(country, city, fileName):
 	fileName = fileName + ".json"
 	saveJson(fileName, cityObj)
 
-def crawlCountry(country, cities, fileName):
-	for city in cities:
-		try:
-			crawlCity(country, city, fileName)
-		except WebDriverException:
-			continue
-		except TimeoutException:
-			# browser.close()
-			# browser = webdriver.Firefox()
-			continue
-
 def crawlAll():
 	for country in countries:
 		for city in cities[country]:	
@@ -131,23 +120,15 @@ lp = "https://www.lonelyplanet.com"
 content = "introduction"
 
 # usCities = ["new-york-city", "los-angeles", "san-francisco", "chicago", "seattle", "washington-dc", "boston", "new-orleans", "las-vegas", "miami"]
-usCities = []
 # nzCities = ["auckland", "wellington"]
-nzCities = []
 # cnCities = ["hong-kong", "shanghai", "beijing", "tibet/lhasa", "guangdong/guangzhou", "sichuan/chengdu", "zhejiang/hangzhou", "shandong/qingdao", "shandong/taian", "shaanxi-shanxi/xian"]
-cnCities = []
 # jpCities = ["tokyo", "kansai/kyoto", "kansai/osaka", "kyushu/fukuoka", "central-honshu/nagoya", "kyushu/nagasaki", "hokkaido/sapporo", "hiroshima", "kansai/nara", "central-honshu/kanaz"]
-jpCities = []
 # bzCities = ["rio-de-janeiro", "sao-paulo", "the-northeast/salvador", "the-north/manaus", "the-northeast/recife", "the-northeast/fortaleza", "the-central-west/brasilia", "the-north/belem", "the-southeast/belo-horizonte", "the-northeast/sao-luis"]
-bzCities = []
 # egCities = ["cairo", "red-sea-coast/hurghada", "nile-valley/luxor", "mediterranean-coast/alexandria", "nile-valley/aswan", "sinai/dahab", "western-desert/siwa-oasis", "suez-canal/port-said", "sinai/nuweiba"]
-egCities = []
 # itlCities = ["rome", "venice", "florence", "milan", "sicily", "puglia/otranto", "puglia/taranto", "puglia/trani", "puglia/alberobello", "puglia/cisternino"]
-itlCities = []
 # spCities = ["barcelona", "madrid", "valencia-and-murcia/valencia", "granada", "seville", "aragon-basque-country-and-navarra/bilbao", "aragon-basque-country-and-navarra/san-sebastian", "andalucia/malaga", "canary-islands/tenerife/santa-cruz-de-tenerife", "andalucia/cordoba"]
-spCities = []
 # frCities = ["paris", "nice", "provence/marseille", "burgundy-and-the-rhone/lyon", "provence/avignon", "southwestern-france/bordeaux", "cote-dazur/cannes", "alsace-and-lorraine/strasbourg", "provence/aix-en-provence", "toulouse"]
-frCities = []
+
 
 # countries = ["usa", "new-zealand", "china", "egypt", "italy", "spain", "france", "japan", "brazil"]
 countries = ["brazil"]

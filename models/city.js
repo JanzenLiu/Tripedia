@@ -3,13 +3,19 @@ var Connection = require('./db');
 
 // Schema for City ========================
 var citySchema = mongoose.Schema({
+	
     name: String,
+    country: String,
+    path: String,
     attractions: [{
   	   aid: mongoose.Schema.Types.ObjectId,
   	   name: String
     }],
-    brief: String,
-    description: String
+    intro: String,
+    description: {
+    	subtitles: [String],
+    	bodies: [String]
+    }
 
   ////////////// to be supplement /////////////////
 });
