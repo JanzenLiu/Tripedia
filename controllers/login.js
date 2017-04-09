@@ -26,7 +26,7 @@ module.exports = function(req, res){
 		req.session.user = user;
 		req.flash('success', 'Successfully login!');
 		res.redirect('/profile');
-		callbackURI = decodeURIComponent(req.body.callback) || '/';
-		res.redirect(callbackURI);
+		// callbackURI = decodeURIComponent(req.body.callback) || '/';
+		// res.redirect(callbackURI);
 	});
 }
