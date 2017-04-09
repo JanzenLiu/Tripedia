@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 var crypto = require('crypto');
 var User = require('../models/user.js');
-var signup = require('../../controllers/account/signup');
-var login = require('../../controllers/account/login');
+var signup = require('../controllers/account/signup');
+var login = require('../controllers/account/login');
 
 // login
 router.get('/login', function(req, res){
