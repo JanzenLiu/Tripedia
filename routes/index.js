@@ -55,7 +55,7 @@ module.exports = function(app){
 	app.use('/singlenote', require('./singlenote'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
-
+	app.use('/notew', require('./notew'));
 	app.get('/logout', function(req, res){
 	});
 
