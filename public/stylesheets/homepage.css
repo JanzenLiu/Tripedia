@@ -75,7 +75,7 @@ body{
 }
 
 #search_submit{
-    display: inline-block;
+    float: right;
     margin-bottom: 3px;
     height: 35px;
 }
