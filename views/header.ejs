@@ -36,29 +36,29 @@
         </div>
         <ul class="nav navbar-nav navbar-right">
     <% if (user) { %>
-      <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-          <span class="glyphicon glyphicon-user"></span>
-          <span><%= user.username %></span>
-          <span class="caret"></span>
-        </button>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-user"></span>
+              <span><%= user.username %></span>
+              <span class="caret"></span>
+            </button>
 
-        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
-        </ul>
-      </div>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
+            </ul>
+          </div>
     <% } else { %>
-      <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-      <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+        <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+        <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
     <% } %>
-    </ul>
-
+      </ul>
+    </div>
   </div>
 </nav>
 
