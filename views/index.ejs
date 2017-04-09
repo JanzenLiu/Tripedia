@@ -19,6 +19,7 @@ $(document).ready(function () {
 	$item.addClass('full-screen');
 	$("#search").outerWidth($("#searchbar_div").width() - $("#search_submit").outerWidth() - 10);
 
+	var $currentSlide = Math.floor((Math.random() * $item.length;));
 	$('#mainCarousel .item > img').each(function() {
 		var $src = $(this).attr('src');
 		var $color = $(this).attr('data-color');
@@ -27,6 +28,11 @@ $(document).ready(function () {
 			'background-color' : $color
 		});
 		$(this).remove();
+		if($currentSlide == $(this).attr('data-slide-to')) {
+			$(this).addClass('active');
+		} else {
+			$(this).removeClass('active');
+		}
 	});
 	$(window).on('resize', function (){
 		$wHeight = $(window).height();
@@ -43,6 +49,10 @@ $(document).ready(function () {
 		}
 	});
 	onscroll();
+	$('.carousel').carousel({
+		interval: 5000,
+		pause: "false"
+	});
 });
 </script>
 </head>
