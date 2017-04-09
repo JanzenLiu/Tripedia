@@ -23,6 +23,16 @@ module.exports = function(app){
 		next();
 	});
 	app.get('/', function(req, res){
+		// req.session.user = {
+		// 	"__v":0,
+		// 	"username":"liuyide",
+		// 	"password":"25d55ad283aa400af464c76d713c07ad",
+		// 	"email":"liuyide@gmail.com",
+		// 	"_id":"58e64f48f63c722a733c88b9",
+		// 	"followings_count": 0,
+		// 	"followers_count": 0,
+		// 	"travel_notes_id":[]
+		// };
 		res.render('index', {
 			title: 'Homepage',
 			user: req.session.user,
@@ -49,20 +59,17 @@ module.exports = function(app){
 	app.use('/poi', require('./poi'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
-	
-	app.get('/logout', function(req, res){
-	});
+
+	app.get('/logout', function (req, res) {
+  // req.session.user = {
+	// 	username: "visitor"
+	// };
+	req.session.user=null;
+  req.flash('success', 'Log out successfully');
+  res.redirect('/');//登出成功后跳转到主页
+});
 
 	// 404 Page
 
-	// req.session.user = {
-	// 	"__v":0,
-	// 	"username":"liuyide",
-	// 	"password":"25d55ad283aa400af464c76d713c07ad",
-	// 	"email":"liuyide@gmail.com",
-	// 	"_id":"58e64f48f63c722a733c88b9",
-	// 	"followings_count": 0,
-	// 	"followers_count": 0,
-	// 	"travel_notes_id":[]
-	// };
+
 };

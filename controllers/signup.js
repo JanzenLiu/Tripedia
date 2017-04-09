@@ -31,17 +31,26 @@ module.exports = function(req, res){
 		if(user){
 			console.log(user);
 			req.flash('error', 'User already existed!');
-			return res.redirect(req.originUrl);
+			return res.status(403).json({
+				success: "false",
+				error: "User already existed"
+			});
+			// return res.redirect(req.originUrl);
 		}
 		newUser.save(function(err, user){
-			if(err){
+			if(err || !user){
 				req.flash('error', err);
-				return res.redirect(req.originUrl);
+				return res.status(500).json({
+					success: "false",
+					error: "Save user error"
+				});
+				// return res.redirect(req.originUrl);
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
-			callbackURI = decodeURIComponent(req.body.callback) || '/';
-			res.redirect(callbackURI);
+			// callbackURI = decodeURIComponent(req.body.callback) || '/';
+			// res.redirect(callbackURI);
+			res.redirect('/profile');
 		});
-	});	
+	});
 }
