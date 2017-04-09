@@ -41,8 +41,7 @@ module.exports = function(app){
 		});
 	});
 
-	app.use('/login', require('./login'));
-	app.use('/signup', require('./signup'));
+	app.use('/account', require('./account'));
 	app.use('/profile', require('./profile'));
 	app.use('/search', require('./search'));
 
@@ -59,15 +58,6 @@ module.exports = function(app){
 	app.use('/poi', require('./poi'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
-
-	app.get('/logout', function (req, res) {
-  // req.session.user = {
-	// 	username: "visitor"
-	// };
-	req.session.user=null;
-  req.flash('success', 'Log out successfully');
-  res.redirect('/');//登出成功后跳转到主页
-});
 
 	// 404 Page
 
