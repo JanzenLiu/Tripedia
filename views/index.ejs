@@ -13,12 +13,17 @@
 $(document).ready(function () {
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
-		var opacity = $(window).scrollTop() / imageHeight;
-		var opacityB = $(window).scrollTop() / (1.2*imageHeight);
-		$('.navbar-fixed-top').css({
-			'background-color' : 'rgba(70,167,208,'+opacity+')',
-			'border-color' : 'rgba(50,152,195,'+opacityB+')'
-		});
+		if ($(window).scrollTop > imageHeight * 0.8) {
+			$('.navbar-fixed-top').animate({
+				'background-color' : 'rgba(70,167,208,1)',
+				'border-color' : 'rgba(50,152,195,1)'
+			}, 300);
+		} else if ($(window).scrollTop < imageHeight * 0.6) {
+			$('.navbar-fixed-top').animate({
+				'background-color' : 'rgba(70,167,208,0)',
+				'border-color' : 'rgba(50,152,195,0)'
+			}, 300);
+		}
 	});
 	onscroll();
 });
