@@ -15,7 +15,8 @@ var citySchema = mongoose.Schema({
     description: {
     	subtitles: [String],
     	bodies: [String]
-    }
+    },
+    imageUrl: String
 
   ////////////// to be supplement /////////////////
 });
