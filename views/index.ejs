@@ -56,18 +56,19 @@ $(document).ready(function () {
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top transparent">
-    <div class="container">
-        <div class="navbar-header pull-left">
-            <a class="navbar-brand" target="_top" href="/">
-              <img src="/images/Tripedia_white.png" alt="tripedia" />
-            </a>
-            <ul class="nav navbar-nav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/dest">Destination</a></li>
-              <li><a href="/note">Travel Note</a></li>
-            </ul>
-        </div>
-        <ul class="nav navbar-nav pull-right">
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+    <div class="container collapse navbar-collapse" id="topnav">
+		<a class="navbar-brand" target="_top" href="/">
+			<img src="/images/Tripedia_white.png" alt="tripedia" />
+		</a>
+		<ul class="nav navbar-nav mr-auto">
+			<li><a href="/">Home</a></li>
+			<li><a href="/dest">Destination</a></li>
+			<li><a href="/note">Travel Note</a></li>
+		</ul>
+        <ul class="nav navbar-nav">
     <% if (user) { %>
       <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
