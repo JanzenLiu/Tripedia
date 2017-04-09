@@ -30,7 +30,7 @@ $(document).ready(function () {
 		$(this).parent().removeClass('active');
 		$(this).remove();
 	});
-	$item.eq($slideValue).addClass('active');
+	$item.eq($currentSlide).addClass('active');
 	$(window).on('resize', function (){
 		$wHeight = $(window).height();
 		$item.height($wHeight);
