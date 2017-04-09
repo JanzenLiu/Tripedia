@@ -4,6 +4,7 @@ var crypto = require('crypto');
 var User = require('../models/user.js');
 var signup = require('../controllers/account/signup');
 var login = require('../controllers/account/login');
+var logout = require('../controllers/account/logout');
 
 // login
 router.get('/login', function(req, res){
@@ -27,8 +28,6 @@ router.get('/signup', function(req, res){
 });
 router.post('/signup', signup);
 // logout
-router.get('/logout', function(req, res){
-    
-});
+router.get('/logout', logout);
 
 module.exports = router;
