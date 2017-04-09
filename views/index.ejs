@@ -141,8 +141,43 @@ $(document).ready(function () {
     </div>
 
     <div id="searchbar_div">
-		<input id="search" class="form-control" type="text" name="q" placeholder="Where do you want to go?/Which author do you want to look for?">
-		<button id="search_submit" type="button" class="btn btn-default">Search</button>
+		<form role="search">
+			<div class="input-group" id="search">
+				<div class="input-group-btn">
+					<button type="button" class="btn btn-search btn-default dropdown-toggle" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						<span class="label-icon">City</span>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu pull-left" role="menu">
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<span class="label-icon">City</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							<span class="glyphicon glyphicon-file"></span>
+							<span class="label-icon">Travel Note</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							<span class="glyphicon glyphicon-user"></span>
+							<span class="label-icon">User</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<input type="text" class="form-control" placeholder="Where do you want to go?">
+				<div class="input-group-btn">
+					<button type="button" class="btn btn-search btn-default">
+					Search
+					</button>
+				</div>
+			</div>  
+		</form>
     </div>
 
 </div>

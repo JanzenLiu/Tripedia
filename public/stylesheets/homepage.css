@@ -41,14 +41,6 @@ body{
 }
 
 #search{
-    display: inline-block;
-    height: 35px;
-    background-color: white;
-}
-
-#search_submit{
-    float: right;
-    margin-bottom: 3px;
     height: 35px;
 }
 
