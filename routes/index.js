@@ -17,7 +17,6 @@ module.exports = function(app){
 	/logout: user logout
 	*/
 
-		*/
 
 	app.use(function(req, res, next){
 		res.locals.url = req.originalUrl;

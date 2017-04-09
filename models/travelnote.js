@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var Connection = require('./db');
 
 // Schema for TravelNote ========================
-var noteSchema = Schema({
+var noteSchema = mongoose.Schema({
 	title 				: String,
 	author				: {
 		uid: mongoose.Schema.Types.ObjectId,
