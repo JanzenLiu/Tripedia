@@ -35,10 +35,13 @@ body{
 }
 
 #text_in_carousel {
-    position: relative;
+    position: absolute;
     width: 800px;
     height: 300px;
-    margin: 120px auto;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
 }
 
 #product{
