@@ -11,6 +11,27 @@
 <script src="/scripts/bootstrap.min.js"></script>
 <script>
 $(document).ready(function () {
+	var $item = $('#mainCarousel .item');
+	var $wHeight = $(window).height();
+
+	$item.height($wHeight);
+	$('.header').height($wHeight);
+	$item.addClass('full-screen');
+
+	$('#mainCarousel .item > img').each(function() {
+		var $src = $(this).attr('src');
+		var $color = $(this).attr('data-color');
+		$(this).parent().css({
+			'background-image' : 'url(' + $src + ')',
+			'background-color' : $color
+		});
+		$(this).remove();
+	});
+	$(window).on('resize', function (){
+		$wHeight = $(window).height();
+		$item.height($wHeight);
+		$('.header').height($wHeight);
+	});
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
 		if ($(window).scrollTop() > imageHeight * 0.8) {
@@ -67,7 +88,7 @@ $(document).ready(function () {
 <article class="clearfix">
 
 
-<div class="container"  style="height:600px; width:100%; position:relative;">
+<div class="header">
     <br>
     <div id="mainCarousel" class="carousel slide" data-ride="carousel" style="position:absolute; top:0; left:0;width:100%;height:600;">
 		<!-- Wrapper for slides -->
@@ -104,10 +125,8 @@ $(document).ready(function () {
     </div>
 
     <div id="searchbar_div">
-        <form action="#">
-            <input id="search" class="form-control" type="text" name="q" placeholder="Where do you want to go?/Which author do you want to look for?">
-            <button id="search_submit" type="button" class="btn btn-default">Search</button>
-        </form>
+		<input id="search" class="form-control" type="text" name="q" placeholder="Where do you want to go?/Which author do you want to look for?">
+		<button id="search_submit" type="button" class="btn btn-default">Search</button>
     </div>
 
 </div>

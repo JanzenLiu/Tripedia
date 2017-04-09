@@ -13,3 +13,12 @@
     background-color:rgba(70,167,208,0);
     border-color:rgba(50,152,195,0)
 }
+.carousel .full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+    position: relative;
+    width: 100%;
+}
