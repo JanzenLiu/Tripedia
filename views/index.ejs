@@ -1,8 +1,76 @@
-<%- include header %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='UTF-8'/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title><%= title %> - Tripedia</title>
+<link rel='stylesheet' href='/stylesheets/style.css'/>
+<link rel='stylesheet' href='/stylesheets/theme.min.css'/>
+<link rel='stylesheet' href='/stylesheets/homepage.css'/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/scripts/bootstrap.min.js"></script>
+<script>
+$(document).ready(function () {
+	$(window).scroll(onscroll = function () {
+		var imageHeight = $("#mainCarousel").height();
+		var opacity = $(window).scrollTop() / imageHeight;
+		var opacityB = $(window).scrollTop() / (1.2*imageHeight);
+		$('.navbar-fixed-top').css({
+			'background-color' : 'rgba(70,167,208,'+opacity+')',
+			'border-color' : 'rgba(50,152,195,'+opacityB+')'
+		});
+	});
+	onscroll();
+});
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgba(70,167,208,0);border-color:rgba(50,152,195,0)">
+    <div class="container">
+        <div class="navbar-header pull-left">
+            <a class="navbar-brand" target="_top" href="/">
+              <img src="/images/Tripedia_white.png" alt="tripedia" />
+            </a>
+            <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/dest">Destination</a></li>
+              <li><a href="/note">Travel Note</a></li>
+            </ul>
+        </div>
+        <ul class="nav navbar-nav pull-right">
+    <% if (user) { %>
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+          <span class="glyphicon glyphicon-user"></span>
+          <span><%= user.username %></span>
+          <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
+        </ul>
+      </div>
+    <% } else { %>
+      <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+      <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+    <% } %>
+    </ul>
+
+  </div>
+</nav>
+
+<article class="clearfix">
+
 
 <div class="container"  style="height:600px; width:100%; position:relative;">
     <br>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="position:absolute; top:0; left:0;width:100%;height:600;">
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel" style="position:absolute; top:0; left:0;width:100%;height:600;">
 		<!-- Indicators -->
 	    <ol class="carousel-indicators" style="bottom:100px">
 	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
