@@ -68,9 +68,8 @@
       </div>
     <% } else { %>
       // return to current URL
-      <% callbackURI = encodeURI(req.originalUrl); %>
-      <li class="bar_links"><a href="/signup?callback=<%=callbackURI %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-      <li class="bar_links"><a href="/login?callback=<%=callbackURI %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+      <li class="bar_links"><a href="/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+      <li class="bar_links"><a href="/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
     <% } %>
     </ul>
 

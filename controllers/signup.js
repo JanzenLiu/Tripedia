@@ -31,8 +31,7 @@ module.exports = function(req, res){
 		if(user){
 			console.log(user);
 			req.flash('error', 'User already existed!');
-			// return res.redirect(req.originUrl);
-			return res.redirect('/login');
+			return res.redirect(req.originUrl);
 		}
 		newUser.save(function(err, user){
 			if(err){
@@ -41,9 +40,8 @@ module.exports = function(req, res){
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
-			// callbackURI = decodeURI(req.body.callback) || '/';
-			// res.redirect(callbackURI);
-			res.redirect('/');
+			callbackURI = decodeURIComponent(req.body.callback) || '/';
+			res.redirect(callbackURI);
 		});
 	});	
 }
