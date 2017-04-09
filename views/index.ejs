@@ -141,9 +141,9 @@ $(document).ready(function () {
 
     <div id="searchbar_div">
 		<form role="search" action="/search" method="post">
+			<input id="search_type" name="search_type" type="hidden" value="city">
 			<div class="input-group" id="search">
 				<div class="input-group-btn">
-					<input id="search_type" name="search_type" type="hidden" value="city">
 					<button type="button" class="btn btn-search btn-default dropdown-toggle" name="type" data-toggle="dropdown">
 						<span class="glyphicon glyphicon-map-marker"></span>
 						<span class="label-icon">City</span>
@@ -172,7 +172,7 @@ $(document).ready(function () {
 				</div>
 				<input type="text" class="form-control" name="q" placeholder="Where do you want to go?">
 				<div class="input-group-btn">
-					<input type="submit" class="btn btn-search btn-default" value="Submit Button">
+					<input type="submit" class="btn btn-search btn-default" value="Search">
 				</div>
 			</div>  
 		</form>
