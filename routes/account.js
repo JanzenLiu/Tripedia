@@ -10,6 +10,7 @@ var logout = require('../controllers/account/logout');
 router.get('/login', function(req, res){
 	res.render('login',{
 		title: 'Login',
+		page: 'login',
 		user: req.session.user,
 		success: req.flash('success').toString(),
 		error: req.flash('error').toString()
@@ -21,6 +22,7 @@ router.post('/login', login);
 router.get('/signup', function(req, res){
 	res.render('signup',{
 		title: 'Signup',
+		page: 'signup',
 		user: req.session.user,
 		success: req.flash('success').toString(),
 		error: req.flash('error').toString()

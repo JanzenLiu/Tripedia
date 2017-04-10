@@ -1,36 +1,38 @@
 <!-- Contain header/footer or not? -->
 <%- include header %>
 
-<div id="signup" class="container">
-	<div class="login-container">
-        <div id="output"><%=error %></div>
-        <div class="avatar"></div>
-        <div class="form-box">
-            <ul class="nav nav-pills">
-                <li class="active">
-                    <a href="javascript:;">Sign Up</a>
-                </li>
-                <li>
-                    <a href="/account/login">Login</a>
-                </li>
-            </ul>
-            <form name="form2" id="regUser" accept-charset="utf-8" method="post">
-                <div class="form-group">
-                    <input type="text" name="name" class="form-control" placeholder="Username">
-                </div>
-                <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <input type="password" name="password-repeat" class="form-control" placeholder="Password Again">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="email" class="form-control" placeholder="Email Address">
-                </div>
-                <button type="submit" class="btn btn-primary">Sign Up</button>
-            </form>
+<main class="page-signup">
+    <div class="container">
+        <div class="login-container">
+            <div id="output"><%=error %></div>
+            <div class="avatar"></div>
+            <div class="form-box">
+                <ul class="nav nav-pills">
+                    <li class="active">
+                        <a href="javascript:;">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="/account/login">Login</a>
+                    </li>
+                </ul>
+                <form name="form2" id="regUser" accept-charset="utf-8" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password-repeat" class="form-control" placeholder="Password Again">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
+</main>
 
 <%- include footer %>

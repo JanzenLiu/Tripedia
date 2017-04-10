@@ -1,6 +1,7 @@
 body{
     margin: 54px 0 0 0;
 }
+/* navbar */
 .navbar-fixed-top .glyphicon {
     margin-right: 4px;
 }
@@ -28,7 +29,8 @@ body{
     position: relative;
     width: 100%;
 }
-#login, #signup {
+/* sign up and login page */
+main.page-signup, main.page-login {
     background-image: url(/images/bg_parachute.jpg);
     background-size: cover;
     background-position:center;
