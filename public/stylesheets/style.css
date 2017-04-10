@@ -1,0 +1,27 @@
+.navbar-fixed-top .glyphicon {
+    margin-right: 4px;
+}
+.navbar-default.navbar-fixed-top {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    background-color:rgba(70,167,208,1);
+    border-color:rgba(50,152,195,1)
+}
+.navbar-default.navbar-fixed-top.transparent {
+    background-color:rgba(70,167,208,0);
+    border-color:rgba(50,152,195,0)
+}
+.navbar-default.navbar-fixed-top.transparent .navbar-collapse{
+    border-color: rgba(50,152,195,0);
+}
+.carousel .full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+    position: relative;
+    width: 100%;
+}

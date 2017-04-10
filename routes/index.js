@@ -18,17 +18,22 @@ module.exports = function(app){
 	*/
 
 
+
+	app.use(function(req, res, next){
+		res.locals.url = req.originalUrl;
+		next();
+	});
 	app.get('/', function(req, res){
-	// 	req.session.user = {
- // 	 	"__v":0,
- // 	 	"username":"liuyide",
- // 	 	"password":"25d55ad283aa400af464c76d713c07ad",
- // 	 	"email":"liuyide@gmail.com",
- // 	 	"_id":"58e64f48f63c722a733c88b9",
- // 	 	"followings_count": 0,
- // 	 	"followers_count": 0,
- // 	 	"travel_notes_id":[]
- // 	 };
+		// req.session.user = {
+		// 	"__v":0,
+		// 	"username":"liuyide",
+		// 	"password":"25d55ad283aa400af464c76d713c07ad",
+		// 	"email":"liuyide@gmail.com",
+		// 	"_id":"58e64f48f63c722a733c88b9",
+		// 	"followings_count": 0,
+		// 	"followers_count": 0,
+		// 	"travel_notes_id":[]
+		// };
 		res.render('index', {
 			title: 'Homepage',
 			user: req.session.user,
@@ -37,8 +42,7 @@ module.exports = function(app){
 		});
 	});
 
-	app.use('/login', require('./login'));
-	app.use('/signup', require('./signup'));
+	app.use('/account', require('./account'));
 	app.use('/profile', require('./profile'));
 	app.use('/search', require('./search'));
 	app.get('/dest', function(req, res){
@@ -55,9 +59,7 @@ module.exports = function(app){
 	app.use('/singlenote', require('./singlenote'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
-	app.use('/notew', require('./notew'));
-	app.get('/logout', function(req, res){
-	});
+
 
 	// 404 Page
 

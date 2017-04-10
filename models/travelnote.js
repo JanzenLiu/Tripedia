@@ -8,11 +8,7 @@ var noteSchema = new mongoose.Schema({
 		uid: mongoose.Schema.Types.ObjectId,
 		name: String
 	},
-	content				: [{
-		days: Number,
-		body: String
-		//word_counts: Number
-	}],
+	body: String,
 	word_counts			: Number,
 	created_time		: Date,
 	updated_time 		: Date,
@@ -32,28 +28,6 @@ var noteSchema = new mongoose.Schema({
 });
 
 // methods ================================
-<<<<<<< HEAD
-// noteSchema.statics.findById = function(id, cb){
-// 	return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);
-// };
-//
-// noteSchema.statics.findByAuthorName = function(authorName, cb){
-//
-// 	// to be modified after referencing added...
-// 	return this.find({'author': {$elemNatch: {'name': authorName}}},cb);
-// }
-//
-// // return brief of the travel note
-// noteSchema.virtual('brief').get(function(){
-//
-// 	// to be modified
-// 	return "This is a brief for the travel note";
-// })
-//
-// noteSchema.statics.findById = function(id, cb){
-// 	return this.find({_id: mongoose.Types.ObjectId(id)}, cb);
-// };
-=======
 noteSchema.statics.findById = function(id, cb){
 	return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);
 };
@@ -110,7 +84,6 @@ noteSchema.methods.dislikedBy = function(uid, cb){
 		$inc: {"like_counts": -1}
 	}).exec();
 }
->>>>>>> cd06ae2542d3e4962e445ed8db0e8d7335a2936a
 
 // return hot travel notes
 

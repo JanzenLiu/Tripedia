@@ -9,7 +9,7 @@
 
                 <div class="item">
                     <div class="drop">
-                        <span class="hd"><a href="/travel-scenic-spot/mafengwo/21536.html" target="_blank">China<i></i></a></span>
+                        <span class="hd"><a href="/travel-scenic-spot/mafengwo/21536.html" target="_blank"><%= city.country %><i></i></a></span>
                             <div class="bd">
                                 <i class="arrow"><b></b></i>
                                     <div class="col">
@@ -64,7 +64,7 @@
                         <div class="screen clearfix">
                             <div class="r-main">
                                 <a class="photo" href="/photo/mdd/10189.html" target="_blank">
-                                        <img src="http://a2-q.mafengwo.net/s5/M00/87/12/wKgB3FGMgSCAZo0qAAgGckFTqJA54.jpeg?imageMogr2%2Fthumbnail%2F%211020x540r%2Fgravity%2FCenter%2Fcrop%2F%211020x540%2Fquality%2F100" width="680" height="360">
+                                        <img src=<%= city.imageUrl %>>
                                             <div class="text">
                                                 <span><%= city.name %></span>
                                             </div>
@@ -89,7 +89,7 @@
                                         <p style="display: none;">
 
                                         </p>
-                                        <span id="mdd_poi_desc"><%= city.description %>
+                                        <span id="mdd_poi_desc"><%= city.intro %>
                                         <br></span>
                                     </div>
                             </div>

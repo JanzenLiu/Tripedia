@@ -15,9 +15,9 @@ var userSchema = new mongoose.Schema({
 
 	// travel notes collection: add more fields for conveniece?
 	// add reference info
-	followers  			:[uid: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
-	followings  		:[uid: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
-	travel_notes		:[uid: {type: mongoose.Schema.Types.ObjectId, ref: 'TravelNote'}]
+	followers  			:[{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
+	followings  		:[{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
+	travel_notes		:[{type: mongoose.Schema.Types.ObjectId, ref: 'TravelNote'}]
 
 	//////////////////// to be supplement //////////////////////
 	// email

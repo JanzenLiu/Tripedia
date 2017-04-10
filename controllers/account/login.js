@@ -1,5 +1,5 @@
 var crypto = require('crypto');
-var User = require('../models/user.js');
+var User = require('../../models/user.js');
 
 module.exports = function(req, res){
 
@@ -15,18 +15,21 @@ module.exports = function(req, res){
 		}
 		if(!user){
 			req.flash('error', 'User does not exist!');
-			return res.redirect(req.originUrl);
+			return res.redirect(req.originalUrl);
 		}
 		// check whether the passwords match
 		if(user.password != password){
 			req.flash('error', 'Password invalid!');
-			return res.redirect(req.originUrl);
+			return res.redirect(req.originalUrl);
 		}
 
-		req.session.user = user;
-		req.flash('success', 'Successfully login!');
-		res.redirect('/profile');
-		// callbackURI = decodeURI(req.body.callback) || '/';
-		// res.redirect(callbackURI);
+		 req.session.user = user;
+		 req.flash('success', 'Successfully login!');
+		// if (typeof(req.query.callback) == "undefined") {
+		// 	callbackURI = '/';
+		// } else {
+		// 	callbackURI = decodeURIComponent(req.query.callback) || '/';
+		// }
+		res.redirect('/');
 	});
 }

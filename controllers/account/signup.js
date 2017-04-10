@@ -1,5 +1,5 @@
 var crypto = require('crypto');
-var User = require('../models/user.js');
+var User = require('../../models/user.js');
 
 module.exports = function(req, res){
 
@@ -31,20 +31,28 @@ module.exports = function(req, res){
 		if(user){
 			console.log(user);
 			req.flash('error', 'User already existed!');
-			// return res.redirect(req.originUrl);
-			return res.redirect('/login');
+			return res.status(403).json({
+				success: "false",
+				error: "User already existed"
+			});
 		}
 		newUser.save(function(err, user){
-			if(err){
+			if(err || !user){
 				req.flash('error', err);
-				return res.redirect(req.originUrl);
+				return res.status(500).json({
+					success: "false",
+					error: "Save user error"
+				});
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
-			// console.log('Successfully signed up');
-			// callbackURI = decodeURI(req.body.callback) || '/';
-			// res.redirect(callbackURI);
-			res.redirect('/');
+
+			if (typeof(req.query.callback) == "undefined") {
+				callbackURI = '/';
+			} else {
+				callbackURI = decodeURIComponent(req.query.callback) || '/';
+			}
+			res.redirect(callbackURI);
 		});
 	});
 }
