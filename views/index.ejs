@@ -13,6 +13,7 @@
 <script src="/scripts/main.js"></script>
 <script>
 $(document).ready(function () {
+	// Full screen carousel
 	var $item = $('#mainCarousel .item');
 	var $wHeight = $(window).height();
 
@@ -31,12 +32,14 @@ $(document).ready(function () {
 		$(this).parent().removeClass('active');
 		$(this).remove();
 	});
+	// Random Initialized slide
 	$item.eq($currentSlide).addClass('active');
 	$(window).on('resize', function (){
 		$wHeight = $(window).height();
 		$item.height($wHeight);
 		$('.header').height($wHeight);
 	});
+	// Transparent navbar
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
 		if ($(window).scrollTop() > imageHeight * 0.8) {
@@ -50,6 +53,8 @@ $(document).ready(function () {
 		interval: 5000,
 		pause: "false"
 	});
+	// Enter-site Animation
+	// Avoid presenting changes above to users
 	$("#mainCarousel").animate({"opacity":1},500);
 });
 </script>
@@ -58,6 +63,7 @@ $(document).ready(function () {
 <nav class="navbar navbar-default navbar-fixed-top transparent">
     <div class="container">
 		<div class="navbar-header">
+			<!-- Responsive design: collapse navabar into button -->
 			<button type="button" data-target="#topnav" data-toggle="collapse" class="navbar-toggle">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
