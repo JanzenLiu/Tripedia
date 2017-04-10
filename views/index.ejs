@@ -13,6 +13,7 @@
 <script src="/scripts/main.js"></script>
 <script>
 $(document).ready(function () {
+	// Full screen carousel
 	var $item = $('#mainCarousel .item');
 	var $wHeight = $(window).height();
 
@@ -31,12 +32,14 @@ $(document).ready(function () {
 		$(this).parent().removeClass('active');
 		$(this).remove();
 	});
+	// Random Initialized slide
 	$item.eq($currentSlide).addClass('active');
 	$(window).on('resize', function (){
 		$wHeight = $(window).height();
 		$item.height($wHeight);
 		$('.header').height($wHeight);
 	});
+	// Transparent navbar
 	$(window).scroll(onscroll = function () {
 		var imageHeight = $("#mainCarousel").height();
 		if ($(window).scrollTop() > imageHeight * 0.8) {
@@ -50,6 +53,8 @@ $(document).ready(function () {
 		interval: 5000,
 		pause: "false"
 	});
+	// Enter-site Animation
+	// Avoid presenting changes above to users
 	$("#mainCarousel").animate({"opacity":1},500);
 });
 </script>
@@ -58,6 +63,7 @@ $(document).ready(function () {
 <nav class="navbar navbar-default navbar-fixed-top transparent">
     <div class="container">
 		<div class="navbar-header">
+			<!-- Responsive design: collapse navabar into button -->
 			<button type="button" data-target="#topnav" data-toggle="collapse" class="navbar-toggle">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -76,23 +82,22 @@ $(document).ready(function () {
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
     <% if (user) { %>
-				<div class="dropdown">
-					<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-					<span class="glyphicon glyphicon-user"></span>
-					<span><%= user.username %></span>
-					<span class="caret"></span>
-					</button>
-
-					<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
-					<li role="presentation" class="divider"></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
-					<li role="presentation" class="divider"></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
-					</ul>
-				</div>
+			<li class="dropdown">
+				<a href="javascript:;" class="dropdown-toggle" id="usermenu" data-toggle="dropdown">
+				<span class="glyphicon glyphicon-user"></span>
+				<span><%= user.username %></span>
+				<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="usermenu">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
+				<li role="presentation" class="divider"></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
+				<li role="presentation" class="divider"></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
+				</ul>
+			</li>
     <% } else { %>
 			<li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
 			<li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
@@ -157,6 +162,12 @@ $(document).ready(function () {
 							<a href="javascript:;">
 							<span class="glyphicon glyphicon-file"></span>
 							<span class="label-icon">Travel Note</span>
+							</a>
+						</li>
+						<li data-value="poi">
+							<a href="javascript:;">
+							<span class="glyphicon glyphicon glyphicon-pushpin"></span>
+							<span class="label-icon">Attraction</span>
 							</a>
 						</li>
 						<li data-value="user">

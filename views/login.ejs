@@ -2,38 +2,31 @@
 <%- include header %>
 
 <!-- Add background image? -->
-<h1>Log in Tripedia </h1>
 
-<div class="login" style="margin-top:30px;">
-
-	<!-- Login/Signup switch not achieved yet -->
-    <%- include login_switch %>  
-    
-    <div class="web_qr_login" id="web_qr_login" style="display: block; height: 235px;"> 
-
-        <div><%= error %></div>
-        <!--login-->
-        <div class="web_login" id="web_login">         
-            <div class="login-box">        
-                <div class="login_form">
-                    <form name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post">
-                        <div class="uinArea" id="uinArea">
-                            <label class="input-tips" for="u"><div class="aptext">Account:</div></label>
-                            <div class="inputOuter" id="uArea"><input type="text" id="u" name="name" class="inputstyle"/></div>
-                        </div>
-                        <div class="pwdArea" id="pwdArea">
-                            <label class="input-tips" for="p"><div class="aptext">Password:</div></label> 
-                            <div class="inputOuter" id="pArea"><input type="password" id="p" name="password" class="inputstyle"/></div>
-                        </div>
-                        <div style="padding-left:50px;margin-top:20px;"><input type="submit" value="Login" style="width:150px;" class="button_blue"/></div>
-                    </form>
-
-                    <div
-               </div>
-            </div>  
+<div id="login" class="container">
+	<div class="login-container">
+        <div id="output"><%=error %></div>
+        <div class="avatar"></div>
+        <div class="form-box">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="/account/signup">Sign Up</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="javascript:;">Login</a>
+                </li>
+            </ul>
+            <form name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
         </div>
-   </div>
-
+    </div>
 </div>
 
 <%- include footer %>
