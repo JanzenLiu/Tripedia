@@ -8,13 +8,20 @@
         <div id="output"><%=error %></div>
         <div class="avatar"></div>
         <div class="form-box">
-            <%- include login_switch %>  
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="javascript:;">Login</a>
+                </li>
+            </ul>
             <form name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username">
+                    <input type="text" name="username" class="form-control" placeholder="Username">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Password">
+                    <input type="password" name="password" class="form-control" placeholder="Password">
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
             </form>
