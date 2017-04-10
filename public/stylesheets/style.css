@@ -37,17 +37,21 @@ body{
     background: #fff;
     border: 1px solid #ccc;
 }
-#output{
+.login-container .nav-pills {
+    width: 140px;
+    margin: 1em auto;
+}
+.login-container #output{
     position: absolute;
     width: 300px;
     top: -75px;
     left: 0;
     color: #fff;
 }
-#output.alert-success{
+.login-container #output.alert-success{
     background: rgb(25, 204, 25);
 }
-#output.alert-danger{
+.login-container #output.alert-danger{
     background: rgb(228, 105, 105);
 }
 .login-container::before,.login-container::after{
@@ -71,22 +75,12 @@ body{
       -ms-transform: rotateZ(-2deg);
 
 }
-.avatar{
+.login-container .avatar{
     width: 100px;height: 100px;
     margin: 10px auto 30px;
     border-radius: 100%;
     border: 2px solid #aaa;
     background-size: cover;
-}
-.form-box input{
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    height:40px;
-    border: 1px solid #ccc;;
-    background: #fafafa;
-    transition:0.2s ease-in-out;
-
 }
 .animated {
   -webkit-animation-duration: 1s;
