@@ -1,7 +1,6 @@
-body{
+body.index{
     margin:0;
 }
-
 #mainCarousel {
     opacity: 0;
 }
