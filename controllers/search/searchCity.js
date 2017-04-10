@@ -9,7 +9,7 @@ module.exports=function(keyword, callback){
     var pattern = new RegExp(keyword, "i");
     Note.find({
       "name": pattern
-    }),{
+    },{
       "name":1,
       "body":1,
       "country":1,

@@ -44,9 +44,9 @@ router.get('/', function (req, res) {
       results = posts;
   });
 }
-  console.log("--------");
-  console.log(results);
-  console.log("---------");
+  // console.log("--------");
+  // console.log(results);
+  // console.log("---------");
 
   res.render('search', {
     title: "SEARCH:" + req.query.q,

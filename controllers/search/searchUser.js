@@ -7,14 +7,18 @@ module.exports=function(keyword, callback){
   // 	});
     var pattern = new RegExp(keyword, "i");
     Note.find({
-      "name": pattern
-    }).sort({
-      time:-1
-    }).toArray(function(err, docs){
+      "username": pattern
+    },{
+      "username":1,
+      "password":1,
+      "name":1,
+      "gender":1,
+      "location":1
+    },function(err, docs){
       if (err){
         return callback(err);
       }
+      console.log(docs);
       callback(null, docs);
     });
-    return callback(err);
 }
