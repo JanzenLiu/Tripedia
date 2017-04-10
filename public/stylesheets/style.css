@@ -37,6 +37,7 @@ main.page-signup, main.page-login {
 }
 main.page-signup .container, main.page-login .container {
     z-index: 10;
+    position: relative;
 }
 .login-container{
     position: relative;
