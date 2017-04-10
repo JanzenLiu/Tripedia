@@ -1,17 +1,18 @@
-var mongoose=require('mongoose');
-mongoose.connect('mongodb://localhost/myappdatabase'); //to be modify
-var Schema=mongoose.Schema;
+var mongoose = require('mongoose');
+var Connection = require('./db');
 
 
 // Schema for Attraction ========================
-var spot= new Schema({
+var poiSchema = new Schema({
     name: String,
-    //id: Number,
-    type: String, // add enum?
-    //picture
-    introduction: String,
-    phone: String, // add validation?
-    website: String, // add validation?
+    types: [String], 
+    cityName: String,
+    cityPath: String,
+    introduction: [String],
+    contact: [String],
+    // phone: String,
+    // website: String,
+    location: String,
     position: {
         longtitude: Double, // or String, or add validation?
         langtitude: Double
@@ -27,9 +28,8 @@ var spot= new Schema({
     /////////////// to be supplement //////////////////
 });
 
-var Spot = mongoose.model('Spot', spot);
 
-module.exports = Spot;
+module.exports = mongoose.model('poi', poiSchema);
 
 
 

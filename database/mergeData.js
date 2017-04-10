@@ -21,4 +21,4 @@ tmp.find({},function(err, docs){
 	});
 });
 
-console.log("Program end");
+// console.log("Program end");
