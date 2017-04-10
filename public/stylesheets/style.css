@@ -1,0 +1,133 @@
+body{
+    margin: 54px 0 0 0;
+}
+/* navbar */
+.navbar-fixed-top .glyphicon {
+    margin-right: 4px;
+}
+.navbar-default.navbar-fixed-top {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    background-color:rgba(70,167,208,1);
+    border-color:rgba(50,152,195,1)
+}
+.navbar-default.navbar-fixed-top.transparent {
+    background-color:rgba(70,167,208,0);
+    border-color:rgba(50,152,195,0)
+}
+.navbar-default.navbar-fixed-top.transparent .navbar-collapse{
+    border-color: rgba(50,152,195,0);
+}
+.carousel .full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+    position: relative;
+    width: 100%;
+}
+/* sign up and login page */
+main.page-signup, main.page-login {
+    background-image: url(/images/bg_parachute.jpg);
+    background-size: cover;
+    background-position:center;
+}
+main.page-signup .container, main.page-login .container {
+    z-index: 10;
+    position: relative;
+}
+.login-container{
+    position: relative;
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    border: 1px solid #ccc;
+}
+.login-container .nav-pills {
+    width: 140px;
+    margin: 1em auto;
+}
+.login-container #output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+.login-container #output.alert-success{
+    background: rgb(25, 204, 25);
+}
+.login-container #output.alert-danger{
+    background: rgb(228, 105, 105);
+}
+.login-container::before,.login-container::after{
+    content: "";
+    position: absolute;
+    width: 100%;height: 100%;
+    top: 3.5px;left: 0;
+    background: rgba(255,255,255, 0.4);
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 1px solid #ccc;
+
+}
+.login-container::after{
+    top: 5px;
+    z-index: -2;
+    -webkit-transform: rotateZ(-2deg);
+     -moz-transform: rotateZ(-2deg);
+      -ms-transform: rotateZ(-2deg);
+
+}
+.login-container .avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 30px;
+    border-radius: 100%;
+    border: 2px solid #aaa;
+    background-size: cover;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}

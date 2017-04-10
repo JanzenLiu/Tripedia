@@ -1,48 +1,38 @@
 <!-- Contain header/footer or not? -->
 <%- include header %>
 
-<!-- Add background image? -->
-<h1>Log in Tripedia </h1>
-
-<div class="login" style="margin-top:30px;">
-
-	<!-- Login/Signup switch not achieved yet -->
-    <%- include login_switch %>    
-
-    <div class="qlogin" id="qlogin">
-        <div class="web_login">
-            <form name="form2" id="regUser" accept-charset="utf-8" method="post">
-                <ul class="reg_form" id="reg-ul">
-                    <div id="userCue" class="cue">Please pay attention to the format</div>
-                    <li>                
-                        <label for="user"  class="input-tips2">Username:</label>
-                        <div class="inputOuter2"><input type="text" id="user" name="name" maxlength="16" class="inputstyle2"/></div>
+<main class="page-signup">
+    <div class="container">
+        <div class="login-container">
+            <div id="output"><%=error %></div>
+            <div class="avatar"></div>
+            <div class="form-box">
+                <ul class="nav nav-pills">
+                    <li class="active">
+                        <a href="javascript:;">Sign Up</a>
                     </li>
                     <li>
-                        <label for="password" class="input-tips2">Password:</label>
-                        <div class="inputOuter2"><input type="password" id="password"  name="password" maxlength="16" class="inputstyle2"/></div>   
+                        <a href="/account/login">Login</a>
                     </li>
-                    <li>
-                        <label for="password-repeat" class="input-tips2"><nobr style="word-break: break-all; margin-left :-70px;">Confirm:</nobr></label>
-                        <div class="inputOuter2"><input type="password" id="password-repeat" name="password-repeat" maxlength="16" class="inputstyle2" /></div>    
-                    </li>
-                    <li>
-                        <label for="qq" class="input-tips2">Email:</label>
-                        <div class="inputOuter2"><input type="text" id="qq" name="email" maxlength="30" class="inputstyle2"/></div>  
-                    </li>
-                    <li>
-                        <div class="inputArea">
-                            <a href="#" class="zcxy" target="_blank">Registration Protocol</a>
-                            <input type="submit" id="reg"  style="margin-top:10px;margin-left:55px;" class="button_blue" value="Agree with the agreement and register"/> <br>
-                        </div>
-                    </li>
-                    <!-- What's the use of this div? -->
-                    <div class="cl"></div> 
                 </ul>
-            </form>
+                <form name="form2" id="regUser" accept-charset="utf-8" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password-repeat" class="form-control" placeholder="Password Again">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+            </div>
         </div>
     </div>
-
-</div>
+</main>
 
 <%- include footer %>

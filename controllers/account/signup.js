@@ -1,5 +1,5 @@
 var crypto = require('crypto');
-var User = require('../models/user.js');
+var User = require('../../models/user.js');
 
 module.exports = function(req, res){
 
@@ -35,7 +35,6 @@ module.exports = function(req, res){
 				success: "false",
 				error: "User already existed"
 			});
-			// return res.redirect(req.originUrl);
 		}
 		newUser.save(function(err, user){
 			if(err || !user){
@@ -44,13 +43,15 @@ module.exports = function(req, res){
 					success: "false",
 					error: "Save user error"
 				});
-				// return res.redirect(req.originUrl);
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
-			// callbackURI = decodeURIComponent(req.body.callback) || '/';
-			// res.redirect(callbackURI);
-			res.redirect('/profile');
+			if (typeof(req.query.callback) == "undefined") {
+				callbackURI = '/';
+			} else {
+				callbackURI = decodeURIComponent(req.query.callback) || '/';
+			}
+			res.redirect(callbackURI);
 		});
 	});
 }
