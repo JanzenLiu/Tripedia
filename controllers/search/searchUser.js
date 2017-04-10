@@ -1,5 +1,4 @@
-var City = require('../../models/city');
-
+var User = require('../../models/user');
 
 module.exports=function(keyword, callback){
   // Note.find({}, function(err, docs){
@@ -9,18 +8,13 @@ module.exports=function(keyword, callback){
     var pattern = new RegExp(keyword, "i");
     Note.find({
       "name": pattern
-    }),{
-      "name":1,
-      "body":1,
-      "country":1,
-      "_id":1
-    },function(err, docs){
+    }).sort({
+      time:-1
+    }).toArray(function(err, docs){
       if (err){
         return callback(err);
       }
-      docs.forEach(function(doc){
-        console.log(doc);
-      });
       callback(null, docs);
     });
+    return callback(err);
 }

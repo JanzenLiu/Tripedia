@@ -3,7 +3,7 @@ var Connection = require('./db');
 
 
 // Schema for Attraction ========================
-var spot= new mongoose.Schema({
+var spotSchema= new mongoose.Schema({
     name: String,
     //id: Number,
     city: {
@@ -35,6 +35,4 @@ var spot= new mongoose.Schema({
     /////////////// to be supplement //////////////////
 });
 
-var Spot = mongoose.model('Spot', spot);
-
-module.exports = Spot;
+module.exports = mongoose.model('Spot', spotSchema);
