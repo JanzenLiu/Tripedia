@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var search = require('../controllers/search');
-
+var searchCity = require('../controllers/search/searchCity');
+var searchSpot = require('../controllers/search/searchSpot');
+var searchNote = require('../controllers/search/searchNote');
 router.get('/', function (req, res) {
-  search(req.query.keyword, function (err, posts) {
+  req.query.keyword='sdfsdf';
+  searchNote(req.query.keyword, function (err, posts) {
     if (err) {
       req.flash('error', err);
       return res.redirect('/');
