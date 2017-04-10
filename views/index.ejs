@@ -7,6 +7,7 @@
 <link rel='stylesheet' href='/stylesheets/style.css'/>
 <link rel='stylesheet' href='/stylesheets/theme.min.css'/>
 <link rel='stylesheet' href='/stylesheets/homepage.css'/>
+<link rel='stylesheet' href='/stylesheets/footer.css'/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="/scripts/bootstrap.min.js"></script>
 <script src="/scripts/main.js"></script>
@@ -53,7 +54,7 @@ $(document).ready(function () {
 });
 </script>
 </head>
-<body>
+<body class="index">
 <nav class="navbar navbar-default navbar-fixed-top transparent">
     <div class="container">
 		<div class="navbar-header">
@@ -100,11 +101,7 @@ $(document).ready(function () {
 	</div>
   </div>
 </nav>
-
-<article class="clearfix">
-
-
-<div class="header">
+<section class="header">
     <div id="mainCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Wrapper for slides -->
 	    <div class="carousel-inner" role="listbox">
@@ -140,7 +137,7 @@ $(document).ready(function () {
     </div>
 
     <div id="searchbar_div">
-		<form class="seletive-search" role="search" action="/search" method="post">
+		<form class="seletive-search" role="search" action="/search" method="get">
 			<input id="search_type" name="type" type="hidden" value="city">
 			<div class="input-group" id="search">
 				<div class="input-group-btn">
@@ -177,31 +174,35 @@ $(document).ready(function () {
 			</div>  
 		</form>
     </div>
+</section>
+<!-- END of header -->
+<section class="city_recommend">
+	<h1 class="explore_the_world_text">Explore The World</h1>
+	<p class="people_travel_text">See where people are traveling, all around the world.</p>
+	<div id="newyork_div">
+		<div id="newyork_city"><a href="#" id="newyork_link">New York</a></div>
+		<div id="ave_5th"><a href="#" id="ave_5th_link">5th Avenue</a></div>
+	</div>
+	<div id="osaka_div">
+		<div id="osaka_castle"><a href="#" id="osaka_castle_link">Osaka Castle</a></div>
+		<div id="minami"><a href="#" id="minami_link">Minami</a></div>
+		<div id="osaka_city"><a href="#" id="osaka_link">Osaka</a></div>
+	</div>
+</section>
+<!-- end of City recommend -->
 
-</div>
+<section class="city_recommend">
+	<h1 class="explore_the_world_text">Travel Notes Recommandation</h1>
+	<p class="people_travel_text">See where people have visited and what they recommand</p>
+	<div id="travel_notes_div">
+		<ul style="list-style-type: square">
+			<li><a href="#" class="travel_notes_link">travel note 1</a></li>
+			<li><a href="#" class="travel_notes_link">travel note 2</a></li>
+			<li><a href="#" class="travel_notes_link">travel note 3</a></li>
+			<li><a href="#" class="travel_notes_link">travel note 4</a></li>
+			<li><a href="#" class="travel_notes_link">travel note 5</a></li>
+		</ul>
+	</div>
+</section>
 
-<p class="explore_the_world_text">Explore The World</p>
-<p class="people_travel_text">See where people are traveling, all around the world.</p>
-<div id="newyork_div">
-    <div id="newyork_city"><a href="#" id="newyork_link">New York</a></div>
-    <div id="ave_5th"><a href="#" id="ave_5th_link">5th Avenue</a></div>
-</div>
-<div id="osaka_div">
-    <div id="osaka_castle"><a href="#" id="osaka_castle_link">Osaka Castle</a></div>
-    <div id="minami"><a href="#" id="minami_link">Minami</a></div>
-    <div id="osaka_city"><a href="#" id="osaka_link">Osaka</a></div>
-</div>
-
-<p class="explore_the_world_text">Travel Notes Recommandation</p>
-<p class="people_travel_text">See where people have visited and what they recommand</p>
-<div id="travel_notes_div">
-    <ul style="list-style-type: square">
-        <li><a href="#" class="travel_notes_link">travel note 1</a></li>
-        <li><a href="#" class="travel_notes_link">travel note 2</a></li>
-        <li><a href="#" class="travel_notes_link">travel note 3</a></li>
-        <li><a href="#" class="travel_notes_link">travel note 4</a></li>
-        <li><a href="#" class="travel_notes_link">travel note 5</a></li>
-    </ul>
-</div>
-
-<%- include footer %>
+<% include footer %>

@@ -8,87 +8,35 @@
 <link rel='stylesheet' href='/stylesheets/theme.min.css'/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="/scripts/bootstrap.min.js"></script>
-<script src="/scripts/main.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-          <button type="button" data-target="#topnav" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" target="_top" href="/">
-            <img src="/images/Tripedia_white.png" alt="tripedia" />
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="topnav">
-            <ul class="nav navbar-nav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/dest">Destination</a></li>
-              <li><a href="/note">Travel Note</a></li>
-            </ul>
-            <!-- Search -->
-            <form class="navbar-form navbar-left seletive-search" role="search" action="/search" method="post">
-              <input id="search_type" name="type" type="hidden" value="city">
-              <div class="input-group">
-                <div class="input-group-btn">
-                  <button type="button" class="btn btn-search btn-default dropdown-toggle" name="type" data-toggle="dropdown">
-                    <span class="glyphicon glyphicon-map-marker"></span>
-                    <span class="label-icon">City</span>
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" role="menu">
-                    <li data-value="city">
-                      <a href="javascript:;">
-                        <span class="glyphicon glyphicon-map-marker"></span>
-                        <span class="label-icon">City</span>
-                      </a>
-                    </li>
-                    <li data-value="note">
-                      <a href="javascript:;">
-                      <span class="glyphicon glyphicon-file"></span>
-                      <span class="label-icon">Travel Note</span>
-                      </a>
-                    </li>
-                    <li data-value="user">
-                      <a href="javascript:;">
-                      <span class="glyphicon glyphicon-user"></span>
-                      <span class="label-icon">User</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <span><form action="/search" method="GET"><input type="text" name="keyword" placeholder="SEARCH" class="search" /></form></span>
-              </div>
-            </form>
-        <ul class="nav navbar-nav navbar-right">
-    <% if (user) { %>
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-              <span class="glyphicon glyphicon-user"></span>
-              <span><%= user.username %></span>
-              <span class="caret"></span>
-            </button>
 
-            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
-            </ul>
-          </div>
+        </div>
+        <ul class="nav navbar-nav pull-right">
+    <% if (user) { %>
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+          <span class="glyphicon glyphicon-user"></span>
+          <span><%= user.username %></span>
+          <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile">My profile</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/profile/post">Post travel note</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My friends</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Information</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/account/logout">Logout</a></li>
+        </ul>
+      </div>
     <% } else { %>
-        <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-        <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+      <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+      <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
     <% } %>
-      </ul>
-    </div>
+    </ul>
+
   </div>
 </nav>
 

@@ -1,7 +1,6 @@
-body{
+body.index{
     margin:0;
 }
-
 #mainCarousel {
     opacity: 0;
 }
@@ -37,7 +36,6 @@ body{
     background-color: rgba(255,255,255,0.3);
     padding: 20px 15%;
     bottom:0;
-    left:0;
 }
 
 #search{
@@ -46,7 +44,6 @@ body{
 
 .explore_the_world_text{
     color: #545454;
-    font-family: sans-serif;
     text-align: center;
     font-size: 50px;
     font-weight:800;
@@ -54,7 +51,6 @@ body{
 
 .people_travel_text{
     color: #545454;
-    font-family:sans-serif;
     text-align: center;
     font-size: 15px;
     margin-bottom: 40px;
@@ -81,7 +77,6 @@ body{
 
 #newyork_link{
     position: absolute;
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     font-size: 30px;
@@ -91,14 +86,12 @@ body{
 }
 
 #newyork_link:visited{
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     text-decoration: none;
 }
 
 #newyork_link:hover{
-    font-family: sans-serif;
     background-color: rgba(255,255,255,0.3);
     font-weight: bold;
     text-decoration: none;
@@ -116,7 +109,6 @@ body{
 
 #ave_5th_link{
     position: absolute;
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     font-size: 30px;
@@ -126,14 +118,12 @@ body{
 }
 
 #ave_5th_link:visited{
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     text-decoration: none;
 }
 
 #ave_5th_link:hover{
-    font-family: sans-serif;
     background-color: rgba(255,255,255,0.3);
     font-weight: bold;
     text-decoration: none;
@@ -160,7 +150,6 @@ body{
 
 #osaka_castle_link{
     position: absolute;
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     font-size: 30px;
@@ -170,14 +159,12 @@ body{
 }
 
 #osaka_castle_link:visited{
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     text-decoration: none;
 }
 
 #osaka_castle_link:hover{
-    font-family: sans-serif;
     background-color: rgba(255,255,255,0.3);
     font-weight: bold;
     text-decoration: none;
@@ -195,7 +182,6 @@ body{
 
 #minami_link{
     position: absolute;
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     font-size: 30px;
@@ -205,14 +191,12 @@ body{
 }
 
 #minami_link:visited{
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     text-decoration: none;
 }
 
 #minami_link:hover{
-    font-family: sans-serif;
     background-color: rgba(255,255,255,0.3);
     font-weight: bold;
     text-decoration: none;
@@ -229,7 +213,6 @@ body{
 
 #osaka_link{
     position: absolute;
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     font-size: 30px;
@@ -239,14 +222,12 @@ body{
 }
 
 #osaka_link:visited{
-    font-family: sans-serif;
     color: cornsilk;
     font-weight: bold;
     text-decoration: none;
 }
 
 #osaka_link:hover{
-    font-family: sans-serif;
     background-color: rgba(255,255,255,0.3);
     font-weight: bold;
     text-decoration: none;
@@ -258,12 +239,11 @@ body{
     height:300px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom; 100px;
+    margin-bottom: 100px;
 }
 
 .travel_notes_link{
     text-align: center;
-    font-family: sans-serif;
     color:#545454;
     font-size: 25px;
     text-decoration: none;
@@ -271,7 +251,6 @@ body{
 
 .travel_notes_link:hover{
     text-align: center;
-    font-family: sans-serif;
     color:black;
     font-size: 25px;
     text-decoration: none;
@@ -280,16 +259,7 @@ body{
 
 .travel_notes_link:visited{
     text-align: center;
-    font-family: sans-serif;
     color:#545454;
     font-size: 25px;
     text-decoration: none;
-}
-
-#footer{
-    position: relative;
-    bottom:0;
-    width: 100%;
-    height: 120px;
-    background-color: black;
 }
