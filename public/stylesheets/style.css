@@ -34,6 +34,7 @@ main.page-signup, main.page-login {
     background-image: url(/images/bg_parachute.jpg);
     background-size: cover;
     background-position:center;
+    z-index: -3;
 }
 .login-container{
     position: relative;
