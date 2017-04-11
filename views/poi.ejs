@@ -27,13 +27,22 @@
                 if(typeof(poi.contact) != "undefined" && poi.contact.length > 0) {%>
                 <section>
                     <header class="aside-header">Contact</header>
-                    <div class="aside-content"><%=poi.contact %></div>
+                    <div class="aside-content">
+                    <% for (index = 0; index < poi.contact.length; ++index) {
+                        if (poi.contact[index].substr(0, 4) == "http") {%>
+                        <a href="<%=poi.contact[index] %>" target="_blank"><%=poi.contact[index] %></a>
+                        <% }
+                        if (index != 0) {
+                            %><br><%
+                        }
+                    } %>
+                    </div>
                 </section>
                 <% }
                 if(typeof(poi.location) != "undefined" && poi.location != "") {%>
                 <section>
                     <header class="aside-header">Location</header>
-                    <div class="aside-content"><%=poi.location %></div>
+                    <div class="aside-content"><%-poi.location %></div>
                 </section>
                 <section>
                     <iframe class="poi-map"
