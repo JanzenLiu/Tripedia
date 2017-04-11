@@ -35,6 +35,11 @@
                     <header class="aside-header">Location</header>
                     <div class="aside-content"><%=poi.location %></div>
                 </section>
+                <section>
+                    <iframe class="poi-map"
+                    frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC6IgTtlS6yw0euobrG-v_2TYTF4yceAG8&q=<%=encodeURIComponent(poi.location) %>" allowfullscreen>
+                    </iframe>
                 <% } %>
             </aside>
             <article class="poi-article">
