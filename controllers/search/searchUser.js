@@ -6,7 +6,7 @@ module.exports=function(keyword, callback){
   //
   // 	});
     var pattern = new RegExp(keyword, "i");
-    Note.find({
+    User.find({
       "username": pattern
     },{
       "username":1,
