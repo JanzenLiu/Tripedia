@@ -5,8 +5,7 @@ var Connection = require('./db');
 // Schema for Attraction ========================
 var poiSchema = new mongoose.Schema({
     name: String,
-    types: [String],
-    city: { type: mongoose.Schema.types.ObjectId, ref: 'City' },
+    types: [String], 
     cityName: String,
     cityPath: String,
     introduction: [String],
