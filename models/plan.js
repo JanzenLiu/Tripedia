@@ -5,28 +5,28 @@ var Connection = require('./db');
 var planSchema = new mongoose.Schema({
   title: String,
   brief: String,
-  days: [{
-    index: Number,
-    ref: "pois",
-    body: String
-  }],
-  dayCounts: Number
+  days: [String],
+  dayCounts: Number,
+  author: {
+    uid: mongoose.Schema.Types.ObjectId,
+    name: String
+  }
 	//////////////////// to be supplement //////////////////////
 	// email
 });
 
 // methods ================================
 
-userSchema.statics.findById = function(id, cb){
+planSchema.statics.findById = function(id, cb){
 	return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);
 };
 
-userSchema.statics.findByUsername = function(name, cb){
+planSchema.statics.findByUsername = function(name, cb){
 	return this.findOne({username: name}, cb);
 };
 
 // check whether the previous user is following the latter user
-userSchema.statics.isFollowing = function(followerId, followeeId, cb){
+planSchema.statics.isFollowing = function(followerId, followeeId, cb){
 
 	// return null if follower is not following the followee, return the follower if he/she otherwise
 	return this.findOne({
@@ -37,7 +37,7 @@ userSchema.statics.isFollowing = function(followerId, followeeId, cb){
 	}, cb);
 };
 
-userSchema.methods.follow = function(id, cb){
+planSchema.methods.follow = function(id, cb){
 	// check whether the user with id hasn't been followed by the current user
 
 	return this.update({
@@ -46,7 +46,7 @@ userSchema.methods.follow = function(id, cb){
 	}).exec();
 }
 
-userSchema.methods.followedBy = function(id, cb){
+planSchema.methods.followedBy = function(id, cb){
 	// check whether the user with id hasn't followed by the current user
 
 	return this.update({
@@ -55,7 +55,7 @@ userSchema.methods.followedBy = function(id, cb){
 	}).exec();
 }
 
-userSchema.methods.unfollow = function(id, cb){
+planSchema.methods.unfollow = function(id, cb){
 	return this.update({
 		// check whether the user with id is followed by the current user
 
@@ -64,7 +64,7 @@ userSchema.methods.unfollow = function(id, cb){
 	}).exec();
 }
 
-userSchema.methods.unfollowedBy = function(id, cb){
+planSchema.methods.unfollowedBy = function(id, cb){
 	return this.update({
 		// check whether the user with id is following the current user
 
@@ -73,7 +73,7 @@ userSchema.methods.unfollowedBy = function(id, cb){
 	}).exec();
 }
 
-userSchema.methods.updateInfo = function(info, cb){
+planSchema.methods.updateInfo = function(info, cb){
 	return this.update({
 		$set: {
 			// validate the parameter object info first...
@@ -99,4 +99,4 @@ userSchema.methods.updateInfo = function(info, cb){
 // 	// modify each field of the document
 // };
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('Plan', planSchema);

@@ -5,7 +5,11 @@ module.exports = function(email, username, password, location, introduction, cal
   //   req.flash('error', 'Inconsistent password!');
   //   return callback.redirect(req.originalUrl);
   // }
-  var user = new User();
+  console.log(email);
+  console.log(username);
+  console.log(password);
+  console.log(location);
+  console.log(introduction);
   User.update({
     "email":email
     }, {
@@ -17,6 +21,7 @@ module.exports = function(email, username, password, location, introduction, cal
       }
     }, function(err){
       if (err){
+        console.log('error', err);
         return callback(err);
       }
       callback(null);

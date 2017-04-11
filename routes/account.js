@@ -50,7 +50,6 @@ router.post('/edit', function(req,res){
 	var introduction = req.body.introduction;
 	var location = req.body.location;
 	var email=req.session.user.email;
-	var user = new User;
 	edit(email, username, password, location, introduction, function(err){
 		if (err) {
       req.flash('error', err);

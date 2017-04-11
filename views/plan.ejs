@@ -1,15 +1,22 @@
-<%= include header %>
 <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Dropdown
     <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
+    <li><a href="/profile/planmaking/1">Day1</a></li>
+    <li><a href="/profile/planmaking/2">Day2</a></li>
+    <li><a href="/profile/planmaking/3">Day3</a></li>
+    <li><a href="/profile/planmaking/4">Day4</a></li>
+    <li><a href="/profile/planmaking/5">Day5</a></li>
     <li role="separator" class="divider"></li>
     <li><a href="#">Separated link</a></li>
   </ul>
 </div>
-<%= include footer %>
+<form method="post">
+  Title：<br />
+  <textarea name="title" value="title" /><%= title %></textarea><br />
+  Brief：<br />
+  <textarea name="brief" rows="20" cols="100"><%= brief %></textarea><br />
+  <input type="submit" value="Save" />
+</form>
