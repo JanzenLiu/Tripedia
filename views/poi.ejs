@@ -4,17 +4,22 @@
 $(document).ready(function () {
 	windowResize = function (){
 		var wWidth = $(window).width();
+		var wHeight = $(window).height();
         var scrollTop = ($(window).scrollTop() || $("body").scrollTop());
+        var sidebar = $(".page-aside");
 		if (wWidth > 600 && scrollTop > 170) {
             var rightborder = parseInt($(".container").css("margin-right"))+parseInt($(".container").css("padding-right"));
             var width = $(".poi-content").width() * 0.33;
-            $(".page-aside").addClass("floating");
-            $(".page-aside").css({
+            var top = $("footer").offset().top - scrollTop - sidebar.outerHeight();
+            top = top > 73 ? 73 : top;
+            sidebar.addClass("floating");
+            sidebar.css({
+                "top" : top,
                 "right" : rightborder,
                 "width" : width});
 		} else {
-            $(".page-aside").removeClass("floating");
-			$(".page-aside").css({"right" : 0, "width": "33%"});
+            sidebar.removeClass("floating");
+			sidebar.css({"top":0,"right" : 0, "width": "33%"});
 		}
 	}
 	$(window).on('resize', windowResize);
@@ -61,7 +66,7 @@ $(document).ready(function () {
                     </div>
                 </section>
                 <% }
-                if(typeof(poi.location) != "undefined" && poi.location != "") {%>
+                if(typeof(poi.location) != "undefined" && poi.location != "") { %>
                 <section>
                     <header class="aside-header">Location</header>
                     <div class="aside-content"><%-poi.location %></div>
@@ -71,6 +76,19 @@ $(document).ready(function () {
                     frameborder="0"
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC6IgTtlS6yw0euobrG-v_2TYTF4yceAG8&q=<%=encodeURIComponent(poi.location) %>" allowfullscreen>
                     </iframe>
+                </section>
+                <% }
+                if(user) { %>
+                <section>
+                    <form action="/newplan" method="post">
+                        <input type="hidden" name="attration_id" value="<%=poi._id %>">
+                        <button type="submit" class="poi-addplan-btn btn btn-primary">Add to My Plan</button>
+                    </form>
+                </section>
+                <% } else { %>
+                <section>
+                    <button type="button" class="poi-addplan-btn btn btn-primary" onclick="location.href=$('#signup-link').attr('href')">Add to My Plan</button>
+                </section>
                 <% } %>
             </aside>
             <article class="poi-article">
@@ -81,7 +99,8 @@ $(document).ready(function () {
                     <% if (typeof(poi.introduction) != "undefined") {
                         for (index = 0; index < poi.introduction.length; ++index) { %>
                     <p><%= poi.introduction[index] %></p>
-                    <% }} %>
+                    <% }
+                    } %>
                 </div>
             </article>
         </div>

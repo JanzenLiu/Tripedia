@@ -90,8 +90,8 @@
             </ul>
           </li>
     <% } else { %>
-        <li><a href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-        <li><a href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+        <li><a id="signup-link" href="/account/signup?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+        <li><a id="login-link" href="/account/login?callback=<%=encodeURIComponent(url) %>"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
     <% } %>
       </ul>
     </div>

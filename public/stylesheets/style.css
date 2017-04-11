@@ -160,8 +160,6 @@ main.page-signup .container, main.page-login .container {
 }
 .page-aside.floating {
     position: fixed;
-    top: 73px;
-    z-index: -1;
 }
 .page-aside section {
     padding-bottom: 2em;
