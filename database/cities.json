@@ -86,7 +86,8 @@
         "bodies": [],
         "subtitles": []
     },
-    "name": "Los Angeles"
+    "name": "Los Angeles",
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/3c0779e135f07899b5e9900ab7ea73e2-los-angeles.jpg",
 }{
     "country": "USA",
     "attractions": [
@@ -138,6 +139,7 @@
             "Natural Highs"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/9cf024dfd5c0bcb2b17f4785340145ea-san-francisco.jpg",
     "name": "San Francisco"
 }{
     "country": "USA",
@@ -190,6 +192,7 @@
             "Why I Love Chicago"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/50d128865db2752648e794be78a64a3e-chicago.jpg",
     "name": "Chicago"
 }{
     "country": "USA",
@@ -213,6 +216,7 @@
             "Why I Love Seattle"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-the-space-needle-at-sunrise-94088945.jpg",
     "name": "Seattle"
 }{
     "country": "USA",
@@ -266,6 +270,7 @@
             "Political Life"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-lincoln-memorial-sunrise-78589123.jpg",
     "name": "Washington, DC"
 }{
     "country": "USA",
@@ -317,6 +322,7 @@
             "Art & Music"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-boston-57326784.jpg",
     "name": "Boston"
 }{
     "country": "USA",
@@ -368,6 +374,7 @@
             "Celebration Seasons"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/59814182.jpg",
     "name": "New Orleans"
 }{
     "country": "USA",
@@ -406,6 +413,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-173148949_super.jpg",
     "name": "Las Vegas"
 }{
     "country": "USA",
@@ -444,6 +452,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/6775713.jpg",
     "name": "Miami"
 }{
     "country": "new-zealand",
@@ -482,6 +491,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-520002693_high.jpg",
     "name": "Auckland Region"
 }{
     "country": "new-zealand",
@@ -520,6 +530,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/iStock_000019858795Large.jpg",
     "name": "Wellington"
 }{
     "country": "China",
@@ -552,6 +563,7 @@
             "name": "Chi Lin Nunnery"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-the-trench-run-54952580.jpg",
     "intro": "Hong Kong has a complexity that defies definition. It's the only place where I can be searching for colonial military relics near the Chinese border, lunching with a Buddhist at a Sikh temple, trying to decipher the aesthetics of Chinese Revival architecture, or splurging on a set of knives \u2013 all within five hours \u2013 followed by a night of Cantonese opera, karaoke or poetry, anywhere I choose. Hong Kong is so intense...",
     "path": "china/hong-kong",
     "description": {
@@ -622,6 +634,7 @@
             "Entertainment & the Arts"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-sunrise-in-a-foggy-winter-morning-61814769.jpg",
     "name": "Sh\u00e0ngh\u01cei"
 }{
     "country": "China",
@@ -673,6 +686,7 @@
             "Architectural Ambition"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-556891639_high.jpg",
     "name": "B\u011bij\u012bng"
 }{
     "country": "China",
@@ -711,6 +725,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/78a5970b7661df124e01cc6f8efd572a-potala-palace.jpg",
     "name": "Lhasa"
 }{
     "country": "China",
@@ -749,6 +764,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/65129811.jpg",
     "name": "Gu\u01cengzh\u014du"
 }{
     "country": "China",
@@ -787,6 +803,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/962154d40a57a305450954c48624b5fd-giant-panda-breeding-research-base.jpg",
     "name": "Ch\u00e9ngd\u016b"
 }{
     "country": "China",
@@ -825,6 +842,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/ba95cdf517618ec301ab02ba3e86a912-hangzhou.jpg",
     "name": "H\u00e1ngzh\u014du"
 }{
     "country": "China",
@@ -863,6 +881,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/549378707_master.jpg",
     "name": "Q\u012bngd\u01ceo"
 }{
     "country": "China",
@@ -939,6 +958,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/c60984be0712ac73fb545d0b96eaf02b-xi-an.jpg",
+
     "name": "X\u012b'\u0101n"
 }{
     "country": "Japan",
@@ -990,6 +1011,8 @@
             "Fashion & Pop Culture"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-173253572_super.jpg",
+
     "name": "Tokyo"
 }{
     "country": "Japan",
@@ -1041,6 +1064,8 @@
             "The Changing Seasons"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/96681879.jpg",
+
     "name": "Kyoto"
 }{
     "country": "Japan",
@@ -1092,6 +1117,8 @@
             "The Changing Seasons"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/67679795.jpg",
+
     "name": "Kyoto"
 }{
     "intro": "",
@@ -1130,6 +1157,8 @@
         "subtitles": [],
         "bodies": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/73869669.jpg",
+
     "country": "Japan"
 }{
     "intro": "",
@@ -1168,6 +1197,8 @@
         "subtitles": [],
         "bodies": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/469164384_super.jpg",
+
     "country": "Japan"
 }{
     "intro": "",
@@ -1206,6 +1237,8 @@
         "subtitles": [],
         "bodies": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/558227261_master.jpg",
+
     "country": "Japan"
 }{
     "intro": "",
@@ -1244,6 +1277,8 @@
         "subtitles": [],
         "bodies": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/108155159.jpg",
+
     "country": "Japan"
 }{
     "intro": "",
@@ -1282,6 +1317,8 @@
         "subtitles": [],
         "bodies": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/497079645_super.jpg",
+
     "country": "Japan"
 }{
     "intro": "",
@@ -1320,6 +1357,8 @@
         "subtitles": [],
         "bodies": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/58038482.jpg",
+
     "path": "egypt/cairo"
 }{
     "country": "Egypt",
@@ -1354,6 +1393,8 @@
             "name": "Siyul Kebira"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-528895769_full.jpg",
+
     "path": "egypt/red-sea-coast/hurghada",
     "description": {
         "subtitles": [],
@@ -1392,6 +1433,8 @@
             "name": "Planetarium"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-558010253_full.jpg",
+
     "path": "egypt/mediterranean-coast/alexandria",
     "description": {
         "subtitles": [],
@@ -1427,6 +1470,8 @@
             "name": "Ruins"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-478736006_super.jpg",
+
     "path": "egypt/sinai/dahab",
     "description": {
         "subtitles": [],
@@ -1465,6 +1510,8 @@
             "name": "Woolworth's Building"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-rh450-3798_full.jpg",
+
     "path": "egypt/suez-canal/port-said",
     "description": {
         "subtitles": [],
@@ -1475,6 +1522,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-128937713_full.jpg",
+
     "path": "egypt/sinai/nuweiba",
     "name": "Nuweiba",
     "attractions": [],
@@ -1530,6 +1579,8 @@
             "name": "Mus\u00e9e Rodin"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-500759045_super.jpg",
+
     "country": "France"
 }{
     "intro": "",
@@ -1568,6 +1619,8 @@
             "name": "La Cit\u00e9 Radieuse"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-160292245_medium.jpg",
+
     "country": "France"
 }{
     "intro": "",
@@ -1606,6 +1659,8 @@
             "name": "Basilique St-Pierre"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/80337287.jpg",
+
     "country": "France"
 }{
     "intro": "",
@@ -1638,6 +1693,8 @@
             "name": "H\u00f4tel de Ville"
         }
     ],
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-97936078_super.jpg",
+
     "country": "France"
 }{
     "attractions": [
@@ -1815,6 +1872,8 @@
             "Why I Love Rome"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-roman-sunset-77415821.jpg",
+
     "name": "Rome",
     "country": "Italy"
 }{
@@ -1911,6 +1970,8 @@
             "Boutique Shopping"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-174463015_high.jpg",
+
     "name": "Florence",
     "country": "Italy"
 }{
@@ -1962,6 +2023,8 @@
             "Living By Design"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-milano-66092441.jpg",
+
     "name": "Milan",
     "country": "Italy"
 }{
@@ -2013,6 +2076,7 @@
             "Byzantine to Baroque"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-142116239_medium.jpg",
     "name": "Sicily",
     "country": "Italy"
 }{
@@ -2033,6 +2097,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/507652659_super.jpg",
+
     "name": "Taranto",
     "country": "Italy"
 }{
@@ -2043,6 +2109,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/555881139_master.jpg",
+
     "name": "Trani",
     "country": "Italy"
 }{
@@ -2053,6 +2121,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/151618767_full.jpg",
+
     "name": "Alberobello",
     "country": "Italy"
 }{
@@ -2114,6 +2184,8 @@
             "Why I Love Barcelona"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-casa-batllo%CC%81-1-5045639.jpg",
+
     "name": "Barcelona",
     "country": "Spain"
 }{
@@ -2165,6 +2237,8 @@
             "Killing the Night"
         ]
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/9d06864e1a551111cd5115d0310489a8-madrid.jpg",
+
     "name": "Madrid",
     "country": "Spain"
 }{
@@ -2203,6 +2277,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/55251876.jpg",
+
     "name": "Valencia",
     "country": "Spain"
 }{
@@ -2213,6 +2289,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-543196507_super.jpg",
+
     "name": "Granada",
     "country": "Spain"
 }{
@@ -2289,6 +2367,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-461465445_full.jpg",
+
     "name": "Bilbao",
     "country": "Spain"
 }{
@@ -2327,6 +2407,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-163188684_medium.jpg",
+
     "name": "San Sebasti\u00e1n",
     "country": "Spain"
 }{
@@ -2365,6 +2447,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-180435807_super.jpg",
+
     "name": "M\u00e1laga",
     "country": "Spain"
 }{
@@ -2413,6 +2497,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/58195626.jpg",
+
     "name": "C\u00f3rdoba",
     "country": "Spain"
 }{
@@ -2451,6 +2537,7 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-179409466_full.jpg",
     "name": "Toulouse",
     "country": "France"
 }{
@@ -2527,6 +2614,8 @@
         "bodies": [],
         "subtitles": []
     },
+    "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/65179079.jpg",
+
     "name": "Nara",
     "country": "Japan"
 }{
