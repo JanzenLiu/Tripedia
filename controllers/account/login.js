@@ -30,5 +30,6 @@ module.exports = function(req, res){
 		} else {
 			callbackURI = decodeURIComponent(req.query.callback) || '/';
 		}
+		return res.redirect(callbackURI);
 	});
 }
