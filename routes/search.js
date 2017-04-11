@@ -6,7 +6,6 @@ var searchNote = require('../controllers/search/searchNote');
 var searchUser = require('../controllers/search/searchUser');
 
 router.get('/', function (req, res) {
-  var results;
   console.log(req.query);
   if (req.query.type=='city'){
   searchCity(req.query.q, function (err, cities) {
@@ -14,7 +13,13 @@ router.get('/', function (req, res) {
       req.flash('error', err);
       return res.redirect('/');
     }
-    results = cities;
+    res.render('searchCity', {
+      title: "SEARCH:" + req.query.q,
+      user: req.session.user,
+      posts: cities,
+      success: req.flash('success').toString(),
+      error: req.flash('error').toString()
+  });
   });
   }
   else if (req.query.type=='note'){
@@ -23,7 +28,16 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-      results = notes;
+      console.log("------");
+      console.log(notes);
+      console.log('------');
+      res.render('searchCity', {
+        title: "SEARCH:" + req.query.q,
+        user: req.session.user,
+        posts: notes,
+        success: req.flash('success').toString(),
+        error: req.flash('error').toString()
+    });
   });
 }
   else if (req.query.type=='poi'){
@@ -32,28 +46,29 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-      results = posts;
+      res.render('search', {
+        title: "SEARCH:" + req.query.q,
+        user: req.session.user,
+        posts: posts,
+        success: req.flash('success').toString(),
+        error: req.flash('error').toString()
+    });
   });
 }
   else{
-    searchUser(req.query.q, function (err, posts) {
+    searchUser(req.query.q, function (err, users) {
       if (err) {
         req.flash('error', err);
         return res.redirect('/');
       }
-      results = posts;
+      res.render('search', {
+        title: "SEARCH:" + req.query.q,
+        user: req.session.user,
+        posts: users,
+        success: req.flash('success').toString(),
+        error: req.flash('error').toString()
+    });
   });
 }
-  // console.log("--------");
-  // console.log(results);
-  // console.log("---------");
-
-  res.render('search', {
-    title: "SEARCH:" + req.query.q,
-    user: req.session.user,
-    posts: results,
-    success: req.flash('success').toString(),
-    error: req.flash('error').toString()
-});
 });
 module.exports = router;

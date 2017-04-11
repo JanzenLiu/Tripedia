@@ -1,0 +1,30 @@
+.page-search{
+
+}
+
+.noresult{
+  background-color: #fff;
+  background-position: center;
+  background-size: auto;
+  border-spacing: inherit;
+}
+.middle{
+  position: relative;
+  margin-left: 30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.list-group{
+  margin-top: 50px;
+}
+.lis-group-item-text{
+  height: auto;
+}
+.box{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
