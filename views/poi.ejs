@@ -1,0 +1,55 @@
+<%- include header %>
+
+<main class="page-poi">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="#"><%=poi.city.country %></a></li>
+            <li><a href="#"><%=poi.city.name %></a></li>
+            <li class="active"><%=poi.name %></li>
+        </ul>
+        <header class="page-header">
+            <h1 class="poi-title"><%=poi.name %></h1>
+        </header>
+        <div class="poi-content">
+            <aside class="page-aside">
+                <% if(typeof(poi.openTime) != "undefined" && poi.openTime != "") { %>
+                <section>
+                    <header class="aside-header">Open Time</header>
+                    <div class="aside-content"><%=poi.openTime %></div>
+                </section>
+                <% }
+                if(typeof(poi.ticket) != "undefined" && poi.ticket != "") {%>
+                <section>
+                    <header class="aside-header">Ticket</header>
+                    <div class="aside-content"><%=poi.ticket %></div>
+                </section>
+                <% }
+                if(typeof(poi.contact) != "undefined" && poi.contact.length > 0) {%>
+                <section>
+                    <header class="aside-header">Contact</header>
+                    <div class="aside-content"><%=poi.contact %></div>
+                </section>
+                <% }
+                if(typeof(poi.location) != "undefined" && poi.location != "") {%>
+                <section>
+                    <header class="aside-header">Location</header>
+                    <div class="aside-content"><%=poi.location %></div>
+                </section>
+                <% } %>
+            </aside>
+            <article class="poi-article">
+                <div class="poi-feature-image">
+                    <image src="<%=poi.imageUrl %>">
+                </div>
+                <div class="poi-article-content">
+                    <% if (typeof(poi.introduction) != "undefined") {
+                        for (index = 0; index < poi.introduction; ++index) { %>
+                    <p><%= poi.introduction[index] %></p>
+                    <% }} %>
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+
+<%- include footer %>
