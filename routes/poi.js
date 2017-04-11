@@ -4,7 +4,8 @@ var router = express.Router();
 
 router.get('/:poiId', function(req, res){
 
-	Poi.findById(req.params.poiId, function(err, poi){
+	Poi.findById(req.params.poiId)
+	   .populate("city", "name country path", function(err, poi){
 		if(err || !poi){
 			req.flash('error', 'Attraction not found!');
 			return res.status(500).json({
@@ -15,10 +16,10 @@ router.get('/:poiId', function(req, res){
 
 		console.log(poi);
 
-		res.render('city',{
+		res.render('poi',{
 			title: poi.name,
 			user: req.session.user,
-			city: poi,
+			poi: poi,
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
