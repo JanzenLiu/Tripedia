@@ -29,6 +29,13 @@ body{
     position: relative;
     width: 100%;
 }
+/* 30px padding on top and bottom */
+main {
+    padding: 30px 0;
+}
+main.page-index {
+    padding-top: 0;
+}
 /* sign up and login page */
 main.page-signup, main.page-login {
     background-image: url(/images/bg_parachute.jpg);
