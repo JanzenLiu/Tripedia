@@ -3,8 +3,8 @@
 <main class="page-poi">
     <div class="container">
         <ul class="breadcrumb">
-            <li><a href="#"><%=poi.city.country %></a></li>
-            <li><a href="#"><%=poi.city.name %></a></li>
+            <li><%=poi.city.country %></li>
+            <li><a href="/city/<%=poi.city.path %>"><%=poi.city.name %></a></li>
             <li class="active"><%=poi.name %></li>
         </ul>
         <header class="page-header">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="poi-article-content">
                     <% if (typeof(poi.introduction) != "undefined") {
-                        for (index = 0; index < poi.introduction; ++index) { %>
+                        for (index = 0; index < poi.introduction.length; ++index) { %>
                     <p><%= poi.introduction[index] %></p>
                     <% }} %>
                 </div>
