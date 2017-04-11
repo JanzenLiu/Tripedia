@@ -4,7 +4,7 @@
     "ticket": "",
     "contact": "http://www.centralparknyc.org",
     "cityPath": "usa/new-york-city",
-    "location": "New York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "New York City, USA",
     "openTime": "6am-1am",
     "introduction": [
         "One of the world\u2019s most renowned green spaces, Central Park spreads across 843 acres of rolling meadows, boulder-studded outcroppings, elm-lined walkways, manicured European-style gardens, a lake and a reservoir \u2014 not to mention an outdoor theater, a memorial to John Lennon, an idyllic waterside eatery (the Loeb Boathouse) and one very famous statue of Alice in Wonderland. Highlights include Sheep Meadow, where thousands of people lounge and play on warm days; Central Park Zoo; and the forest-like paths of the Ramble.",
@@ -19,7 +19,7 @@
     "ticket": "suggested donation adult/child $25/free",
     "contact": "http://www.metmuseum.org212-535-7710",
     "cityPath": "usa/new-york-city",
-    "location": "1000 Fifth AveNew York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1000 Fifth AveNew York City, USA",
     "openTime": "10am-5.30pm Sun-Thu, to 9pm Fri & Sat",
     "introduction": [
         "This sprawling encyclopedic museum, founded in 1870, houses one of the largest art collections in the world. Its permanent collection has more than two million individual objects, from Egyptian temples to American paintings. Known colloquially as \u2018The Met,\u2019 the museum attracts over six million visitors a year to its 17 acres of galleries \u2013 making it the largest single-site attraction in New York City. In other words, plan on spending some time here \u2013 it is B-I-G.",
@@ -36,7 +36,7 @@
     "ticket": "tours adult/student $25/20",
     "contact": "http://www.lincolncenter.org212-875-5350",
     "cityPath": "usa/new-york-city",
-    "location": "New York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "New York City, USA",
     "openTime": "",
     "introduction": [
         "This stark arrangement of gleaming Modernist temples house some of Manhattan\u2019s most important performance companies: the New York Philharmonic, the New York City Ballet and the iconic Metropolitan Opera House, whose lobby's interior walls are dressed with brightly saturated murals by painter Marc Chagall. Various other venues are tucked in and around the 16-acre campus, including a theater, two film-screening centers and the renowned Juilliard School.",
@@ -52,7 +52,7 @@
     "ticket": "",
     "contact": "http://www.grandcentralterminal.com",
     "cityPath": "usa/new-york-city",
-    "location": "89 E 42nd StNew York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "89 E 42nd StNew York City, USA",
     "openTime": "5:30am-2am",
     "introduction": [
         "Completed in 1913, Grand Central Terminal \u2013 more commonly, if technically incorrectly, called Grand Central Station \u2013 is one of New York\u2019s beaux-arts beauties. Adorned with Tennessee-marble floors and Italian-marble ticket counters, its glorious main concourse is capped by a vaulted ceiling depicting the constellations, designed by French painter Paul C\u00e9sar Helleu. When commuters complained that the sky is backwards \u2013 painted as if looking down from above, not up \u2013 it was asserted as intentional (possibly to avoid having to admit an error).",
@@ -66,7 +66,7 @@
     "ticket": "ferry incl Statue of Liberty adult/child $18.50/9",
     "contact": "http://www.nps.gov/elis212-363-3200",
     "cityPath": "usa/new-york-city",
-    "location": "Ellis IslandNew York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Ellis IslandNew York City, USA",
     "openTime": "9:30am-3:30pm",
     "introduction": [
         "Ellis Island is America's most famous and historically important gateway. Between 1892 and 1924, over 12 million immigrants passed through this processing station, their dreams in tow. Today, its Immigration Museum delivers a poignant tribute to the immigrant experience, featuring narratives from historians, the immigrants themselves and other sources; the tour brings to life the museum\u2019s hefty collection of personal objects, official documents, photographs and film footage. Always purchase your tickets online (www.statuecruises.com) to avoid the soul-crushingly long queues.",
@@ -80,7 +80,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-york-city",
-    "location": "405 Lexington AveNew York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "405 Lexington AveNew York City, USA",
     "openTime": "lobby 8am-6pm Mon-Fri",
     "introduction": [
         "Designed by William Van Alen in 1930, the 77-floor Chrysler Building is prime-time architecture: a fusion of Moderne and Gothic aesthetics, adorned with steel eagles and topped by a spire that screams Bride of Frankenstein. The building was constructed as the headquarters for Walter P Chrysler and his automobile empire; unable to compete on the production line with bigger rivals Ford and General Motors, Chrysler trumped them on the skyline, and with one of Gotham's most beautiful lobbies.",
@@ -93,7 +93,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-york-city",
-    "location": "New York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "New York City, USA",
     "openTime": "",
     "introduction": [
         "A New York icon, the Brooklyn Bridge, which connects Brooklyn and Manhattan, was the world\u2019s first steel suspension bridge. Indeed, when it opened in 1883, the 1596ft span between its two support towers was the longest in history. Although its construction was fraught with disaster, the bridge became a magnificent example of urban design, inspiring poets, writers and painters. Its pedestrian walkway delivers soul-stirring views of lower Manhattan, the East River and the rapidly developing Brooklyn waterfront.",
@@ -106,7 +106,7 @@
     "ticket": "",
     "contact": "http://www.rockefellercenter.com",
     "cityPath": "usa/new-york-city",
-    "location": "New York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "New York City, USA",
     "openTime": "",
     "introduction": [
         "This 22-acre 'city within a city' debuted at the height of the Great Depression, with developer John D Rockefeller Jr footing the $100 million price tag. Taking nine years to build, it was America's first multi-use retail, entertainment and office space \u2013 a sprawl of 19 buildings (14 of which are the original Moderne structures). The center was declared a National Landmark in 1987. Highlights include the Top of the Rock observation deck and NBC Studio Tours.",
@@ -119,7 +119,7 @@
     "ticket": "86th-fl observation deck adult/child $34/27, incl 102nd-fl observation deck $54/47",
     "contact": "http://www.esbnyc.com",
     "cityPath": "usa/new-york-city",
-    "location": "350 Fifth AveNew York City, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "350 Fifth AveNew York City, USA",
     "openTime": "8am-2am, last elevators up 1:15am",
     "introduction": [
         "This limestone classic was built in just 410 days \u2013 using seven million hours of labor during the Great Depression \u2013 and the view from its 86th-floor outdoor deck and 102nd-floor indoor deck are heavenly. Alas, the queues to the top are notorious. Getting here very early or very late will help you avoid delays \u2013 as will buying your tickets ahead of time online, where the extra $2 convenience fee is well worth the hassle it will save you.",
@@ -133,7 +133,7 @@
     "ticket": "",
     "contact": "http://www.thebroad.org213-232-6200",
     "cityPath": "usa/los-angeles",
-    "location": "221 S Grand Ave, DowntownLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "221 S Grand Ave, DowntownLos Angeles, USA",
     "openTime": "11am-5pm Tue & Wed, to 8pm Thu & Fri, 10am-8pm Sat, to 6pm Sun",
     "introduction": [
         "From the instant it opened in September 2015, the Broad (rhymes with \u201croad\u201d) became a must-visit for contemporary art fans. It houses the world-class collection of local philanthropist and billionaire real estate honcho Eli Broad and his wife Edythe, some 2000 pieces by dozens of heavy hitters including Cindy Sherman, Jeff Koons, Andy Warhol, Robert Rauschenberg and Kara Walker.",
@@ -147,7 +147,7 @@
     "ticket": "",
     "contact": "http://www.getty.edu310-430-7300",
     "cityPath": "usa/los-angeles",
-    "location": "17985 Pacific Coast HwyLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "17985 Pacific Coast HwyLos Angeles, USA",
     "openTime": "10am-5pm Wed-Mon",
     "introduction": [
         "Although self-described as the Getty Villa Malibu, this famous museum in a replica 1st-century Roman villa is actually in Pacific Palisades. It\u2019s a stunning 64-acre showcase for exquisite Greek, Roman and Etruscan antiquities amassed by oil tycoon J Paul Getty. Admission requires a timed ticket, reservable online; parking costs $15.",
@@ -160,7 +160,7 @@
     "ticket": "",
     "contact": "http://www.santamonicapier.org310-458-8901",
     "cityPath": "usa/los-angeles",
-    "location": "Los Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Los Angeles, USA",
     "openTime": "",
     "introduction": [
         "Once the very end of the mythical Route 66, and still the object of a tourist love affair, the Santa Monica Pier dates back to 1908, and is the city\u2019s most compelling landmark. There are arcades, carnival games, a vintage carousel, a Ferris wheel, a roller coaster, and an aquarium, and the pier comes alive with free concerts (Twilight Dance Series) and outdoor movies in the summertime.",
@@ -176,7 +176,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/los-angeles",
-    "location": "Venice Pier to Rose AveLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Venice Pier to Rose AveLos Angeles, USA",
     "openTime": "24hr",
     "introduction": [
         "Life in Venice moves to a different rhythm and nowhere more so than on the famous Venice Boardwalk, officially known as Ocean Front Walk. It\u2019s a freak show, a human zoo and a wacky carnival alive with hoola-hoop magicians, old-timey jazz combos, solo distorted garage rockers and artists (good and bad) \u2013 as far as LA experiences go, it\u2019s a must.",
@@ -188,7 +188,7 @@
     "ticket": "adult/child $15/5",
     "contact": "http://www.thehollywoodmuseum.com323-464-7776",
     "cityPath": "usa/los-angeles",
-    "location": "1660 N Highland AveLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1660 N Highland AveLos Angeles, USA",
     "openTime": "10am-5pm Wed-Sun",
     "introduction": [
         "We quite like this musty temple to the stars, crammed with kitsch posters, costumes and rotating props. The museum is housed inside the handsome 1935 art-deco Max Factor Building, where the make-up pioneer once worked his magic on Marilyn Monroe and Judy Garland.",
@@ -200,7 +200,7 @@
     "ticket": "adult/child $13/11",
     "contact": "http://www.grammymuseum.org213-765-6800",
     "cityPath": "usa/los-angeles",
-    "location": "800 W Olympic BlvdLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "800 W Olympic BlvdLos Angeles, USA",
     "openTime": "10:30am-6:30pm Mon-Fri, from 10am Sat & Sun",
     "introduction": [
         "It's the highlight of LA Live. Music lovers will get lost in interactive exhibits, which define, differentiate and link musical genres, while live footage strobes. You can glimpse such things as GnR\u2019s bass drum, Lester Young\u2019s tenor, Yo Yo Ma\u2019s cello and Michael\u2019s glove (though exhibits and collections do rotate).",
@@ -212,7 +212,7 @@
     "ticket": "adult/child $12/free, 5-8pm Thu free",
     "contact": "http://www.moca.org213-626-6222",
     "cityPath": "usa/los-angeles",
-    "location": "250 S Grand AveLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "250 S Grand AveLos Angeles, USA",
     "openTime": "11am-6pm Mon, Wed & Fri, to 8pm Thu, to 5pm Sat & Sun",
     "introduction": [
         "A collection that arcs from the 1940s to the present and includes works by Mark Rothko, Dan Flavin, Joseph Cornell and other big-shot contemporary artists is housed in a postmodern building by Arata Isozaki. Galleries are below ground, yet sky-lit bright.",
@@ -224,7 +224,7 @@
     "ticket": "adult/seniors & students/child $10/7/free, Sun free",
     "contact": "http://www.molaa.org562-437-1689",
     "cityPath": "usa/los-angeles",
-    "location": "628 Alamitos AveLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "628 Alamitos AveLos Angeles, USA",
     "openTime": "11am-5pm Wed, Thu, Sat & Sun, to 9pm Fri",
     "introduction": [
         "This gem of a museum presents a rare survey of Latin American art created since 1945. Cecilia M\u00edguez\u2019 whimsical bronze statuettes, Eduardo Kingman\u2019s wrenching portraits of indigenous people and Arnaldo Roche Rabel\u2019s intensely spiritual abstracts are among the many outstanding pieces in the permanent collection."
@@ -235,7 +235,7 @@
     "ticket": "",
     "contact": "http://www.getty.edu310-440-7300",
     "cityPath": "usa/los-angeles",
-    "location": "1200 Getty Center DrLos Angeles, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1200 Getty Center DrLos Angeles, USA",
     "openTime": "10am-5:30pm Tue-Fri & Sun, to 9pm Sat",
     "introduction": [
         "In its billion-dollar, in-the-clouds perch, high above the city grit and grime, the Getty Center presents triple delights: a stellar art collection (everything from Renaissance artists to David Hockney), Richard Meier\u2019s cutting-edge architecture, and the visual splendor of seasonally changing gardens. Admission is free, but parking is $15 ($10 after 5pm).",
@@ -251,7 +251,7 @@
     "ticket": "",
     "contact": "http://anglimgilbertgallery.com415-528-7258",
     "cityPath": "usa/san-francisco",
-    "location": "1275 Minnesota St, 2nd floorSan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1275 Minnesota St, 2nd floorSan Francisco, USA",
     "openTime": "11am-6pm Tue-Sat",
     "introduction": [
         "The Bay Area hits the big time here, with gallerist Ed Gilbert continuing Anglim's 30-year legacy of launching art movements from Beat assemblage to Bay Area conceptualists. Major gallery artists range from political provocateur Enrique Chagoya to sublime sculptor Deborah Butterfield, yet shows here maintain a hair-raising edge \u2013 an upraised fist pushes through gallery walls in David Huffman's Panther. Check the website for concurrent Anglim Gilbert shows at the gallery's downtown location at 14 Geary Street."
@@ -262,7 +262,7 @@
     "ticket": "day tours adult/child/family $33/21/100, night tours adult/child $40/24",
     "contact": "http://www.nps.gov/alcatraz415-981-7625",
     "cityPath": "usa/san-francisco",
-    "location": "San Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "San Francisco, USA",
     "openTime": "call center 8am-7pm, ferries depart Pier 33 half-hourly 8:45am-3:50pm, night tours 5:55pm & 6:30pm",
     "introduction": [
         "Alcatraz: for over 150 years, the name has given the innocent chills and the guilty cold sweats. Over the decades, it\u2019s been the nation\u2019s first military prison, a forbidding maximum-security penitentiary and disputed territory between Native American activists and the FBI. No wonder that first step you take onto \u2018the Rock\u2019 seems to cue ominous music: dunh-dunh-dunnnnh!",
@@ -277,7 +277,7 @@
     "ticket": "northbound free, southbound $6.25-7.25",
     "contact": "http://www.goldengatebridge.org/visitors877-229-8655",
     "cityPath": "usa/san-francisco",
-    "location": "Hwy 101San Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hwy 101San Francisco, USA",
     "openTime": "",
     "introduction": [
         "San Franciscans have passionate perspectives on every subject, especially their signature landmark, though everyone agrees that it's a good thing that the navy didn't get its way over the bridge's design \u2013 naval officials preferred a hulking concrete span, painted with caution-yellow stripes, over the soaring art-deco design of architects Gertrude and Irving Murrow and engineer Joseph B Strauss, which, luckily, won the day.",
@@ -290,7 +290,7 @@
     "ticket": "",
     "contact": "http://www.golden-gate-park.com",
     "cityPath": "usa/san-francisco",
-    "location": "Stanyan St to Great HwySan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Stanyan St to Great HwySan Francisco, USA",
     "openTime": "",
     "introduction": [
         "When San Franciscans refer to 'the park,' there's only one that gets the definite article: Golden Gate Park. Everything San Franciscans hold dear is here: free spirits, free music, redwoods, Frisbee, protests, fine art, bonsai and buffalo.",
@@ -302,7 +302,7 @@
     "ticket": "adult/child $35/25",
     "contact": "http://www.calacademy.org415-379-8000",
     "cityPath": "usa/san-francisco",
-    "location": "55 Music Concourse DrSan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "55 Music Concourse DrSan Francisco, USA",
     "openTime": "9:30am-5pm Mon-Sat, from 11am Sun",
     "introduction": [
         "Architect Renzo Piano's 2008 landmark LEED-certified green building houses 40,000 weird and wonderful animals in a four-story rainforest, split-level aquarium and planetarium all under a 'living roof' of California wildflowers. After the penguins nod off to sleep, the wild rumpus starts at kid's-only Academy Sleepovers ($109; ages five to 17, plus adult chaperones; 6pm to 8am including snack and breakfast) and over-21 NightLife Thursdays ($15), when rainforest-themed cocktails encourage strange mating rituals among shy internet daters."
@@ -313,7 +313,7 @@
     "ticket": "$25",
     "contact": "http://www.sfmoma.org415-357-4000",
     "cityPath": "usa/san-francisco",
-    "location": "151 3rd StSan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "151 3rd StSan Francisco, USA",
     "openTime": "Fri-Tue 10am-5pm, Thu until 9pm (public spaces open at 9am)",
     "introduction": [
         "Recently reopened and benefiting from expanded exhibition space, SFMOMA is SoMa's must-visit gallery. Destined from its start in 1935 to defy convention, it invested early in photography, installations, and other then-experimental media. Once the collection moved into Mario Botta\u2019s light-filled brick box in 1995, SFMOMA leaned full-tilt toward the western horizon, pushing the art world to embrace new media, artists and ideas. For a quick hit without paying the entrance fee, take a peak at the free art on display on floors 1 and 2."
@@ -324,7 +324,7 @@
     "ticket": "",
     "contact": "http://www.ferrybuildingmarketplace.com415-983-8030",
     "cityPath": "usa/san-francisco",
-    "location": "Market St & the EmbarcaderoSan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Market St & the EmbarcaderoSan Francisco, USA",
     "openTime": "10am-6pm Mon-Fri, from 9am Sat, 11am-5pm Sun",
     "introduction": [
         "Hedonism is alive and well at this transit hub turned gourmet emporium, where foodies happily miss their ferries slurping local oysters and bubbly. Star chefs are frequently spotted at the farmers market that wraps around the building year-round."
@@ -335,7 +335,7 @@
     "ticket": "",
     "contact": "http://www.pier39.com",
     "cityPath": "usa/san-francisco",
-    "location": "Beach St & the EmbarcaderoSan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Beach St & the EmbarcaderoSan Francisco, USA",
     "openTime": "",
     "introduction": [
         "Beach bums took over San Francisco\u2019s most coveted waterfront real estate in 1990 and have been making a public display of themselves ever since, canoodling, belching, scratching their naked backsides and gleefully shoving one another off the docks. Naturally these unkempt squatters became San Francisco\u2019s favorite mascots, and since California law requires boats to make way for marine mammals, yacht owners have to relinquish valuable slips to accommodate as many as 1300 sea lions.",
@@ -347,7 +347,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/san-francisco",
-    "location": "btwn Grant Ave & Stockton St, California St & BroadwaySan Francisco, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "btwn Grant Ave & Stockton St, California St & BroadwaySan Francisco, USA",
     "openTime": "",
     "introduction": [
         "The 41 historic alleyways packed into Chinatown's 22 blocks have seen it all since 1849: gold rushes and revolution, incense and opium, fire and icy receptions. These narrow backstreets are lined with towering buildings because there was nowhere to go but up in Chinatown after 1870, when laws limited Chinese immigration, employment and housing. Chinatown Alleyway Tours and Chinatown Heritage Walking Tours offer enlightening, community-supporting strolls through the area."
@@ -358,7 +358,7 @@
     "ticket": "adult/child $18/13",
     "contact": "http://www.fieldmuseum.org312-922-9410",
     "cityPath": "usa/chicago",
-    "location": "1400 S Lake Shore DrChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1400 S Lake Shore DrChicago, USA",
     "openTime": "9am-5pm",
     "introduction": [
         "The mammoth Field Museum houses everything but the kitchen sink \u2013 beetles, mummies, gemstones, Bushman the stuffed ape. The collection's rock star is Sue, the largest Tyrannosaurus rex yet discovered. She even gets her own gift shop. Special exhibits, such as the 3-D movie, cost extra.",
@@ -374,7 +374,7 @@
     "ticket": "",
     "contact": "http://www.millenniumpark.org312-742-1168",
     "cityPath": "usa/chicago",
-    "location": "201 E Randolph StChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "201 E Randolph StChicago, USA",
     "openTime": "6am-11pm",
     "introduction": [
         "The city's showpiece is a trove of free and arty sights. It includes Pritzker Pavilion, Frank Gehry\u2019s swooping silver band shell, which hosts free concerts nightly in summer (6:30pm; bring a picnic and bottle of wine); Anish Kapoor's beloved silvery sculpture Cloud Gate, aka the 'Bean'; and Jaume Plensa\u2019s Crown Fountain, a de facto water park that projects video images of locals spitting water, gargoyle style.",
@@ -387,7 +387,7 @@
     "ticket": "adult/child $25/free",
     "contact": "http://www.artic.edu312-443-3600",
     "cityPath": "usa/chicago",
-    "location": "111 S Michigan AveChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "111 S Michigan AveChicago, USA",
     "openTime": "10:30am-5pm Fri-Wed, to 8pm Thu",
     "introduction": [
         "The second-largest art museum in the country, the Art Institute's collection of impressionist and post-impressionist paintings rivals those in France, and the number of surrealist works is tremendous. Download the free app for DIY tours; it offers 50 jaunts, everything from highlights (Grant Wood's American Gothic, Edward Hopper's Nighthawks) to a 'birthday-suit tour' of naked works. Allow two hours to browse the museum's must-sees; art buffs should allocate much longer.",
@@ -399,7 +399,7 @@
     "ticket": "adult/child $18/11",
     "contact": "http://www.msichicago.org773-684-1414",
     "cityPath": "usa/chicago",
-    "location": "5700 S Lake Shore DrChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "5700 S Lake Shore DrChicago, USA",
     "openTime": "9:30am-5:30pm Jun-Aug, reduced hours Sep-May",
     "introduction": [
         "Geek out at the largest science museum in the Western Hemisphere. Highlights include a WWII German U-boat nestled in an underground display ($9 extra to tour it) and the 'Science Storms' exhibit with a mock tornado and tsunami. Other popular exhibits include the baby chick hatchery, the minuscule furnishings in Colleen Moore\u2019s fairy castle and the life-sized shaft of a coal mine ($9 extra to descend and tour its workings).",
@@ -411,7 +411,7 @@
     "ticket": "",
     "contact": "http://www.cubs.com",
     "cityPath": "usa/chicago",
-    "location": "1060 W Addison StChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1060 W Addison StChicago, USA",
     "openTime": "",
     "introduction": [
         "Built in 1914 and named for the chewing-gum guy, Wrigley Field \u2013 aka the Friendly Confines \u2013 is the second-oldest baseball park in the major leagues. It\u2019s filled with legendary traditions and curses, and has a home team that used to suffer from the longest dry spell in US sports history but finally pulled off a win in the World Series last year. Before 2016, the hapless Cubbies hadn\u2019t won a championship since 1908, a sad record that was unmatched in pro football, hockey or basketball.",
@@ -423,7 +423,7 @@
     "ticket": "adult/child $22/14",
     "contact": "http://www.theskydeck.com312-875-9696",
     "cityPath": "usa/chicago",
-    "location": "233 S Wacker DrChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "233 S Wacker DrChicago, USA",
     "openTime": "9am-10pm Apr-Sep, 10am-8pm Oct-Mar",
     "introduction": [
         "It's Chicago's tallest building, and the 103rd-floor Skydeck puts you high into the heavens. Take the ear-popping, 70-second elevator ride to the top, then step onto one of the glass-floored ledges jutting out in mid-air for a knee-buckling perspective straight down. On clear days the view sweeps over four states. The entrance is on Jackson Blvd. Queues can be up to an hour on busy days (peak times are in summer, between 11am and 4pm Friday through Sunday).",
@@ -435,7 +435,7 @@
     "ticket": "",
     "contact": "http://www.navypier.com312-595-7437",
     "cityPath": "usa/chicago",
-    "location": "600 E Grand AveChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "600 E Grand AveChicago, USA",
     "openTime": "10am-10pm Sun-Thu, to midnight Fri & Sat Jun-Aug, 10am-8pm Sun-Thu, to 10pm Fri & Sat Sep-May",
     "introduction": [
         "Half-mile-long Navy Pier is Chicago's most-visited attraction, sporting a 196ft Ferris wheel and other carnival rides ($6 to $8 each), an IMAX theater, a beer garden and lots of chain restaurants. Locals groan over its commercialization, but its lakefront view and cool breezes can't be beat. The fireworks displays on summer Wednesdays (9:30pm) and Saturdays (10:15pm) are a treat, too.",
@@ -447,7 +447,7 @@
     "ticket": "adult/child $20/13",
     "contact": "http://www.360chicago.com888-875-8439",
     "cityPath": "usa/chicago",
-    "location": "875 N Michigan Ave, John Hancock Center, 94th flChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "875 N Michigan Ave, John Hancock Center, 94th flChicago, USA",
     "openTime": "9am-11pm",
     "introduction": [
         "This is the new name for the John Hancock Center Observatory. In many ways the view here surpasses the one at Willis Tower. The 94th-floor lookout has informative displays and the TILT feature (floor-to-ceiling windows that you stand in as they tip out over the ground; it costs $7 extra and is fairly cheesy). Not interested in such frivolities? Shoot straight up to the 96th-floor Signature Lounge, where the view is free if you buy a drink ($8 to $16)."
@@ -458,7 +458,7 @@
     "ticket": "adult/student $12/7",
     "contact": "http://www.mcachicago.org312-280-2660",
     "cityPath": "usa/chicago",
-    "location": "220 E Chicago AveChicago, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "220 E Chicago AveChicago, USA",
     "openTime": "10am-8pm Tue, to 5pm Wed-Sun",
     "introduction": [
         "Consider it the Art Institute\u2019s brash, rebellious sibling, with especially strong minimalist, surrealist and conceptual photography collections, and permanent works by Ren\u00e9 Magritte, Cindy Sherman and Andy Warhol. Covering art from 1945 onward, the MCA\u2019s collection spans the gamut, with displays arranged to blur the boundaries between painting, sculpture, video and other media. Exhibits change regularly so you never know what you'll see, but count on it being offbeat and provocative."
@@ -469,7 +469,7 @@
     "ticket": "",
     "contact": "http://www.pikeplacemarket.org",
     "cityPath": "usa/seattle",
-    "location": "85 Pike StSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "85 Pike StSeattle, USA",
     "openTime": "9am-6pm Mon-Sat, 9am-5pm Sun",
     "introduction": [
         "A cavalcade of noise, smells, personalities, banter and urban theater sprinkled liberally around a spatially challenged waterside strip, Pike Place Market is Seattle in a bottle. In operation since 1907 and still as soulful today as it was on day one, this wonderfully local experience highlights the city for what it really is: all-embracing, eclectic and proudly unique.",
@@ -481,7 +481,7 @@
     "ticket": "adult/child $25/16",
     "contact": "http://www.empmuseum.org206-770-2700",
     "cityPath": "usa/seattle",
-    "location": "325 5th Ave NSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "325 5th Ave NSeattle, USA",
     "openTime": "10am-7pm Jun-Aug, to 5pm Sep-May",
     "introduction": [
         "The Museum of Pop Culture (formerly EMP, an acronym of the museum's original name 'Experience Music Project') is an inspired marriage between super-modern architecture and legendary rock-and-roll history that sprang from the imagination (and pocket) of Microsoft co-creator Paul Allen. Inside its avant-garde frame, designed by Canadian architect Frank Gehry, you can tune into the famous sounds of Seattle (with an obvious bias toward Jimi Hendrix and grunge) or attempt to imitate the masters in the Interactive Sound Lab. There's a permanent science-fiction exhibit on the same site.",
@@ -493,7 +493,7 @@
     "ticket": "adult/child $27/16",
     "contact": "http://www.chihulygardenandglass.com206-753-4940",
     "cityPath": "usa/seattle",
-    "location": "305 Harrison StSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "305 Harrison StSeattle, USA",
     "openTime": "11am-6pm Sun-Thurs, till 7pm Fri & Sat",
     "introduction": [
         "Opened in 2012 and reinforcing Seattle\u2019s position as the Venice of North America, this exquisite exposition of the life and work of dynamic local sculptor Dale Chihuly is possibly the finest collection of curated glass art you'll ever see. It shows off Chihuly's creative designs in a suite of interconnected dark and light rooms, before depositing you in an airy glass atrium and \u2013 finally \u2013 a landscaped garden in the shadow of the Space Needle.",
@@ -505,7 +505,7 @@
     "ticket": "adult/child $22/13",
     "contact": "http://www.spaceneedle.com206-905-2100",
     "cityPath": "usa/seattle",
-    "location": "400 Broad StSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "400 Broad StSeattle, USA",
     "openTime": "10am-9:30pm",
     "introduction": [
         "This streamlined, modern-before-its-time tower built for the 1962 World\u2019s Fair has been the city\u2019s defining symbol for over 50 years. The needle anchors the complex now called Seattle Center and draws over one million annual visitors to its flying saucer\u2013like observation deck and pricey rotating restaurant. Purchase a combination ticket with Chihuly Garden and Glass for $46."
@@ -516,7 +516,7 @@
     "ticket": "adult/child $21/13, 5-9pm 1st Thu of month free",
     "contact": "http://www.museumofflight.org206-764-5720",
     "cityPath": "usa/seattle",
-    "location": "9404 E Marginal Way S, Boeing FieldSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "9404 E Marginal Way S, Boeing FieldSeattle, USA",
     "openTime": "9am-5pm",
     "introduction": [
         "Chronicling flight history from Kitty Hawk to Concorde, the city that spawned Boeing, not surprisingly, coughs up one of the nation's finest aviation museums. It's a multifarious affair gluing together a broad sweep of flying-related memorabilia in several hangar-sized galleries. The exhibits include some of the most ingenious human-made objects that have defied gravity: picture nefarious V2 rockets, Apollo lunar modules and aerodynamic gliders."
@@ -527,7 +527,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/seattle",
-    "location": "3015 NW 54th StSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3015 NW 54th StSeattle, USA",
     "openTime": "",
     "introduction": [
         "Seattle shimmers like an impressionist painting on sunny days at the Hiram M Chittenden Locks. Here, the fresh waters of Lake Washington and Lake Union drop 22ft into saltwater Puget Sound. Construction of the canal and locks began in 1911; today 100,000 boats pass through them annually. You can view fish-ladder activity through underwater glass panels, stroll through botanical gardens and visit a small museum.",
@@ -540,7 +540,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/seattle",
-    "location": "2901 Western AveSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "2901 Western AveSeattle, USA",
     "openTime": "sunrise-sunset",
     "introduction": [
         "This smart urban renewal project and outpost of the Seattle Art Museum was inaugurated in 2007 to widespread local approval. The terraced park is landscaped over railway tracks and overlooks Puget Sound with the distant Olympic Mountains winking on the horizon. Joggers and dog-walkers meander daily through its zigzagging paths, enjoying over 20 pieces of modern sculpture.",
@@ -553,7 +553,7 @@
     "ticket": "adult/child $8/6",
     "contact": "http://www.nordicmuseum.org206-789-5707",
     "cityPath": "usa/seattle",
-    "location": "3014 NW 67th StSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3014 NW 67th StSeattle, USA",
     "openTime": "10am-4pm Tue-Sat, noon-4pm Sun",
     "introduction": [
         "Reason alone to come to Ballard \u2013 if the beer, fine food and waterside parks weren\u2019t enough \u2013 is this little gem of a museum dedicated to the brave Nordic pioneers who helped found the neighborhood (then a separate city) in the late 19th century. It brings together a hugely accomplished collection of stories, artifacts and other assorted treasures from Norwegian, Swedish, Finnish, Danish and Icelandic immigrants.",
@@ -567,7 +567,7 @@
     "ticket": "",
     "contact": "http://www.nps.gov/klse206-553-3000",
     "cityPath": "usa/seattle",
-    "location": "319 2nd Ave SSeattle, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "319 2nd Ave SSeattle, USA",
     "openTime": "10am-5pm",
     "introduction": [
         "This wonderful museum eloquently run by the US National Park Service has exhibits, photos and news clippings from the 1897 Klondike gold rush, when a Seattle-on-steroids acted as a fueling depot for prospectors bound for the Yukon in Canada. It would cost $20 entry anywhere else; in Seattle it\u2019s free!",
@@ -580,7 +580,7 @@
     "ticket": "adult/child $10/$6, admission free Sun",
     "contact": "http://www.nationalcathedral.org202-537-6200",
     "cityPath": "usa/washington-dc",
-    "location": "3101 Wisconsin Ave NWWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3101 Wisconsin Ave NWWashington, DC, USA",
     "openTime": "10am-5:30pm Mon-Fri, to 8pm some days May-Sep, 10am-4:30pm Sat, 8am-4pm Sun",
     "introduction": [
         "This Gothic cathedral, as dramatic as its European counterparts, blends both the spiritual and the profane in its architectural treasures. The stained-glass windows are stunning (check out the 'Space Window' with an embedded lunar rock); you'll need binoculars to spy the Darth Vader gargoyle on the exterior. Specialized tours delve deeper into the esoteric; call or go online for the schedule. There's also an excellent cafe here.",
@@ -595,7 +595,7 @@
     "ticket": "",
     "contact": "http://www.visitthecapitol.gov",
     "cityPath": "usa/washington-dc",
-    "location": "First St NE & E Capitol StWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "First St NE & E Capitol StWashington, DC, USA",
     "openTime": "8:30am-4:30pm Mon-Sat",
     "introduction": [
         "Since 1800, this is where the legislative branch of American government \u2013 ie Congress \u2013 has met to write the country's laws. The lower House of Representatives (435 members) and upper Senate (100) meet respectively in the south and north wings of the building. Enter via the underground visitor center below the East Plaza. Guided tours of the building are free, but you need a ticket. Get one at the information desk, or reserve online in advance (there\u2019s no fee).",
@@ -608,7 +608,7 @@
     "ticket": "",
     "contact": "http://www.whitehouse.gov202-456-7041",
     "cityPath": "usa/washington-dc",
-    "location": "Washington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Washington, DC, USA",
     "openTime": "tours 7:30-11:30am Tue-Thu, to 1:30pm Fri & Sat",
     "introduction": [
         "The White House has survived both fire (the Brits torched it in 1814) and insults (Jefferson groused that it was 'big enough for two emperors, one Pope and the grand Lama'). Tours must be arranged in advance. Americans must apply via one of their state's members of Congress, and non-Americans must apply through either the US consulate in their home country or their country's consulate in DC. Applications are taken from 21 days to six months in advance; three months ahead is the recommended sweet spot.",
@@ -620,7 +620,7 @@
     "ticket": "",
     "contact": "http://www.ushmm.org202-488-0400",
     "cityPath": "usa/washington-dc",
-    "location": "100 Raoul Wallenberg Pl SWWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "100 Raoul Wallenberg Pl SWWashington, DC, USA",
     "openTime": "10am-5:20pm, to 6:20pm Mon-Fri Apr & May",
     "introduction": [
         "For a deep understanding of the Holocaust \u2013 its victims, perpetrators and bystanders \u2013 this harrowing museum is a must-see. The main exhibit gives visitors the identity card of a single Holocaust victim, whose story is revealed as you take a winding route into a hellish past marked by ghettos, rail cars and death camps. It also shows the flip side of human nature, documenting the risks many citizens took to help the persecuted.",
@@ -632,7 +632,7 @@
     "ticket": "",
     "contact": "http://www.americanart.si.edu202-633-1000",
     "cityPath": "usa/washington-dc",
-    "location": "cnr 8th & F Sts NWWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "cnr 8th & F Sts NWWashington, DC, USA",
     "openTime": "11:30am-7pm",
     "introduction": [
         "If you only visit one art museum in DC, make it the Reynolds Center, which combines the National Portrait Gallery and the American Art Museum. There is, simply put, no better collection of American art in the world than at these two Smithsonian museums. Famed works by Edward Hopper, Georgia O\u2019Keeffe, Andy Warhol, Winslow Homer and loads more celebrated artists fill the galleries.",
@@ -644,7 +644,7 @@
     "ticket": "",
     "contact": "http://www.loc.gov",
     "cityPath": "usa/washington-dc",
-    "location": "1st St SEWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1st St SEWashington, DC, USA",
     "openTime": "8:30am-4:30pm Mon-Sat",
     "introduction": [
         "The world's largest library \u2013 with 29 million books and counting \u2013 awes in both scope and design. The centerpiece is the 1897 Jefferson Building. Gawk at the Great Hall, done up in stained glass, marble and mosaics of mythical characters, then seek out the Gutenberg Bible (c 1455), Thomas Jefferson's round library and the reading room viewing area. Free tours of the building take place between 10:30am and 3:30pm on the half-hour.",
@@ -656,7 +656,7 @@
     "ticket": "",
     "contact": "http://www.corcoran.org202-639-1704",
     "cityPath": "usa/washington-dc",
-    "location": "500 17th St NWWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "500 17th St NWWashington, DC, USA",
     "openTime": "",
     "introduction": [
         "DC's oldest art museum has always been terrific, but it had a tough time standing up to the free, federal competition around the block. In mid-2014 it gave up and let the National Gallery of Art take possession. The Corcoran's historic beaux-arts building will close for renovations into 2016 (at least). It will then reopen as a National Gallery annex showcasing modern and contemporary works from the merged collection.",
@@ -670,7 +670,7 @@
         "http://www.nps.gov/wamo"
     ],
     "cityPath": "usa/washington-dc",
-    "location": "2 15th St NWWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "2 15th St NWWashington, DC, USA",
     "openTime": "9am-5pm, to 10pm Jun-Aug",
     "introduction": [
         "Just peaking at 555ft (and 5in), the Washington Monument is the tallest building in the district. It took two phases of construction to complete; note the different hues of the stone. A 70-second elevator ride whisks you to the observation deck for the city's best views. Same-day tickets for a timed entrance are available at the kiosk by the monument. Arrive early.",
@@ -685,7 +685,7 @@
         "866-272-6272"
     ],
     "cityPath": "usa/washington-dc",
-    "location": "700 Pennsylvania Ave NWWashington, DC, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "700 Pennsylvania Ave NWWashington, DC, USA",
     "openTime": "10am-5:30pm Sep\u2013mid-Mar, to 7pm mid-Mar\u2013Aug",
     "introduction": [
         "It's hard not to feel a little in awe of the big three documents in the National Archives: the Declaration of Independence, the Constitution and the Bill of Rights, plus one of four copies of the Magna Carta. Taken together, it becomes clear just how radical the American experiment was for its time. The Public Vaults, a bare scratching of archival bric-a-brac, make a flashy rejoinder to the main exhibit.",
@@ -699,7 +699,7 @@
         "http://www.bostonteapartyship.com"
     ],
     "cityPath": "usa/boston",
-    "location": "Congress St BridgeBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Congress St BridgeBoston, USA",
     "openTime": "10am-5pm",
     "introduction": [
         "'Boston Harbor a teapot tonight!' To protest unfair taxes, a gang of rebellious colonists dumped 342 chests of tea into the water. The 1773 protest \u2013 the Boston Tea Party \u2013 set into motion the events leading to the Revolutionary War. Nowadays, replica Tea Party Ships are moored at Griffin's Wharf, alongside an excellent experiential museum dedicated to the catalytic event. Using re-enactments, multimedia and other fun exhibits, the museum addresses all aspects of the Boston Tea Party and events that followed.",
@@ -714,7 +714,7 @@
         "http://www.harvard.edu"
     ],
     "cityPath": "usa/boston",
-    "location": "Massachusetts AveBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Massachusetts AveBoston, USA",
     "openTime": "",
     "introduction": [
         "Founded in 1636 to educate men for the ministry, Harvard is America\u2019s oldest college. The original Ivy League school has eight graduates who went on to be US presidents, not to mention dozens of Nobel laureates and Pulitzer Prize winners. The geographic heart of Harvard University \u2013 where redbrick buildings and leaf-covered paths exude academia \u2013 is Harvard Yard. Free historical tours of Harvard Yard depart from the Smith Campus Center; self-guided tours are also available.",
@@ -728,7 +728,7 @@
         "http://www.bpl.org"
     ],
     "cityPath": "usa/boston",
-    "location": "700 Boylston StBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "700 Boylston StBoston, USA",
     "openTime": "9am-9pm Mon-Thu, to 5pm Fri & Sat year-round, also 1-5pm Sun Oct-May",
     "introduction": [
         "Dating from 1852, the esteemed Boston Public Library lends credence to Boston\u2019s reputation as the \u2018Athens of America.\u2019 The old McKim building is notable for its magnificent facade and exquisite interior art. Pick up a free brochure and take a self-guided tour; alternatively, free guided tours depart from the entrance hall (times vary).",
@@ -742,7 +742,7 @@
         "http://www.trinitychurchboston.org"
     ],
     "cityPath": "usa/boston",
-    "location": "206 Clarendon StBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "206 Clarendon StBoston, USA",
     "openTime": "10am-5pm Tue-Sat, 1-5pm Sun",
     "introduction": [
         "A masterpiece of American architecture, Trinity Church is the country's ultimate example of Richardsonian Romanesque. The granite exterior, with a massive portico and side cloister, uses sandstone in colorful patterns. The interior is an awe-striking array of vibrant murals and stained glass, most by artist John LaFarge, who cooperated closely with architect Henry Hobson Richardson to create an integrated composition of shapes, colors and textures. Free architectural tours are offered following Sunday service around 11:15am."
@@ -755,7 +755,7 @@
         "http://www.neaq.org"
     ],
     "cityPath": "usa/boston",
-    "location": "Central WharfBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Central WharfBoston, USA",
     "openTime": "9am-5pm Mon-Fri, to 6pm Sat & Sun, 1hr later Jul & Aug",
     "introduction": [
         "Teeming with sea creatures of all sizes, shapes and colors, this giant fishbowl is the centerpiece of downtown Boston's waterfront. The main attraction is the three-story Giant Ocean Tank, which swirls with thousands of creatures great and small, including turtles, sharks and eels. Countless side exhibits explore the lives and habitats of other underwater oddities, as well as penguins and marine mammals.",
@@ -771,7 +771,7 @@
         "http://www.gardnermuseum.org"
     ],
     "cityPath": "usa/boston",
-    "location": "280 The FenwayBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "280 The FenwayBoston, USA",
     "openTime": "11am-5pm Wed-Mon, to 9pm Thu",
     "introduction": [
         "The magnificent Venetian-style palazzo that houses this museum was home to \u2018Mrs Jack\u2019 Gardner herself until her death in 1924. A monument to one woman\u2019s taste for acquiring exquisite art, the Gardner is filled with almost 2000 priceless objects, primarily European, including outstanding tapestries and Italian Renaissance and 17th-century Dutch paintings. The four-story greenhouse courtyard is a masterpiece and a tranquil oasis that alone is worth the price of admission.",
@@ -786,7 +786,7 @@
         "http://www.mit.edu"
     ],
     "cityPath": "usa/boston",
-    "location": "77 Massachusetts AveBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "77 Massachusetts AveBoston, USA",
     "openTime": "tours 11am & 3pm Mon-Fri",
     "introduction": [
         "The Massachusetts Institute of Technology offers a completely novel perspective on Cambridge academia: proudly nerdy, but not quite as tweedy as Harvard. A recent frenzy of building has resulted in some of the most architecturally intriguing structures you\u2019ll find on either side of the river. Tours depart from the MIT Information Center.",
@@ -800,7 +800,7 @@
         "http://www.mos.org"
     ],
     "cityPath": "usa/boston",
-    "location": "Charles River DamBoston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Charles River DamBoston, USA",
     "openTime": "9am-7pm Sat-Thu Jul & Aug, to 5pm Sep-Jun, to 9pm Fri year-round",
     "introduction": [
         "This educational playground has more than 600 interactive exhibits. Favorites include the world\u2019s largest lightning-bolt generator, a full-scale space capsule, a world population meter and an impressive dinosaur exhibit. The amazing array of exhibits and presentations explores computers and technology, maps and models, the human body and human evolution, and the birds and the bees (both literally and figuratively). The newest addition is the Hall of Human Life, where visitors can witness the hatching of baby chicks.",
@@ -814,7 +814,7 @@
         "http://www.esplanadeassociation.org"
     ],
     "cityPath": "usa/boston",
-    "location": "Boston, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Boston, USA",
     "openTime": "",
     "introduction": [
         "The southern bank of the Charles River Basin is an enticing urban escape, with grassy knolls and cooling waterways, all designed by Frederick Law Olmsted. It stretches almost 3 miles along the Boston shore of the Charles River, from the Museum of Science to Boston University Bridge. The park is dotted with public art, including an oversized bust of Arthur Fiedler, longtime conductor of the Boston Pops. Paths along the river are ideal for bicycling, jogging or walking.",
@@ -829,7 +829,7 @@
         "504-528-1944"
     ],
     "cityPath": "usa/new-orleans",
-    "location": "945 Magazine StNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "945 Magazine StNew Orleans, USA",
     "openTime": "9am-5pm",
     "introduction": [
         "This extensive, heart-wrenching museum presents an admirably nuanced and thorough analysis of the biggest war of the 20th century. And its exhibits, which are displayed in three grand pavilions, are amazing. Wall-sized photographs capture the confusion of D-Day. Riveting oral histories tell remarkable stories of survival. A stroll through the snowy woods of Ardennes feels eerily cold. The experience is personal, immersive and educational. Don't miss it.",
@@ -844,7 +844,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-orleans",
-    "location": "Washington AveNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Washington AveNew Orleans, USA",
     "openTime": "7am-2:30pm Mon-Fri, to noon Sat",
     "introduction": [
         "Shaded by groves of lush greenery, this cemetery exudes a strong sense of Southern subtropical gothic. Built in 1833, it is divided by two intersecting footpaths that form a cross. Look out for the crypts built by fraternal organizations such as the Jefferson Fire Company No 22, which took care of their members and their families in large shared tombs. Some of the wealthier family tombs were built of marble, with elaborate details, but most were constructed simply of inexpensive plastered brick.",
@@ -861,7 +861,7 @@
         "504-482-4888"
     ],
     "cityPath": "usa/new-orleans",
-    "location": "Esplanade Ave & City Park AveNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Esplanade Ave & City Park AveNew Orleans, USA",
     "openTime": "",
     "introduction": [
         "Live oaks, Spanish moss and lazy bayous frame this masterpiece of urban planning. Three miles long and 1 mile wide, dotted with gardens, waterways, bridges and home to a captivating art museum, City Park is bigger than Central Park in NYC, and it's New Orleans\u2019 prettiest green space. It\u2019s also a perfect expression of a local \u2018park,\u2019 in the sense that it is an only slightly tamed expression of the forest and Louisiana wetlands that are the natural backdrop of the city.",
@@ -876,7 +876,7 @@
         "504-539-9650"
     ],
     "cityPath": "usa/new-orleans",
-    "location": "925 Camp StNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "925 Camp StNew Orleans, USA",
     "openTime": "10am-5pm Wed-Mon, plus 5:30-8pm Thu",
     "introduction": [
         "One of our favorite museums in the city manages to be beautiful, educational and unpretentious all at once. New Orleans entrepreneur Roger Houston Ogden has assembled one of the finest collections of Southern art anywhere, which includes huge galleries ranging from impressionist landscapes to outsider folk-art quirkiness, to contemporary installation work. ",
@@ -889,7 +889,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-orleans",
-    "location": "Decatur & St Peter StsNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Decatur & St Peter StsNew Orleans, USA",
     "openTime": "",
     "introduction": [
         "Sprinkled with lazing loungers, surrounded by sketch artists, fortune-tellers and traveling performers, and watched over by cathedrals, offices and shops plucked from a Parisian fantasy, Jackson Sq is one of America\u2019s great town greens and the heart of the Quarter. The identical, block-long Pontalba Buildings overlook the scene, and the nearly identical Cabildo and Presbyt\u00e8re structures flank the impressive St Louis Cathedral, which fronts the square. In the middle of the park stands the Jackson monument \u2013 Clark Mills\u2019 bronze equestrian statue of the hero of the Battle of New Orleans, Andrew Jackson, which was unveiled in 1856. ",
@@ -904,7 +904,7 @@
         "504-568-6968"
     ],
     "cityPath": "usa/new-orleans",
-    "location": "701 Chartres StNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "701 Chartres StNew Orleans, USA",
     "openTime": "10am-4:30pm Tue-Sun, closed Mon",
     "introduction": [
         "The former seat of government in colonial Louisiana now serves as the gateway to exploring the history of the state in general, and New Orleans in particular. It\u2019s also a magnificent building in its own right; the elegant Cabildo marries elements of Spanish colonial architecture and French urban design better than most buildings in the city. Exhibits range from Native American tools, to 'Wanted' posters for escaped slaves, to a gallery\u2019s worth of paintings of stone-faced old New Orleanians.",
@@ -919,7 +919,7 @@
         "504-525-9585"
     ],
     "cityPath": "usa/new-orleans",
-    "location": "Jackson SqNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Jackson SqNew Orleans, USA",
     "openTime": "8am-4pm",
     "introduction": [
         "One of the best examples of French architecture in the country, this triple-spired cathedral is dedicated to Louis IX, the French king sainted in 1297; it's a most innocuous bit of Gallic heritage in the heart of an American city. In addition to hosting black, white and Creole Catholic congregants, St Louis has also attracted those who, in the best New Orleanian tradition, mix their influences, such as voodoo queen Marie Laveau.",
@@ -933,7 +933,7 @@
         "http://www.noladeadspace.com"
     ],
     "cityPath": "usa/new-orleans",
-    "location": "1300 St Louis StNew Orleans, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1300 St Louis StNew Orleans, USA",
     "openTime": "9am-3pm Mon-Sat, to noon Sun",
     "introduction": [
         "This cemetery received the remains of most early Creoles. The shallow water table necessitated above-ground burials, with bodies placed in the family tombs you see to this day. The supposed grave of voodoo queen Marie Laveau is here, scratched with 'XXX's from spellbound devotees. By request of the family that owns the tomb, do not add to this graffiti; to do so is also technically illegal. In 2015, in response to ongoing vandalism, cemetery visitation was limited to relatives of the interred and approved guided tours."
@@ -947,7 +947,7 @@
         "702-229-2734"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "300 Stewart AveLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "300 Stewart AveLas Vegas, USA",
     "openTime": "9am-9pm",
     "introduction": [
         "It's hard to say what's more impressive: the museum's physical location in a historic federal courthouse where mobsters sat for federal hearings in 1950\u201351, the fact that the board of directors is headed up by a former FBI Special Agent, or the thoughtfully curated exhibits telling the story of organized crime in America. In addition to hands-on FBI equipment and mob-related artifacts, the museum boasts a series of multimedia exhibits featuring interviews with real-life Tony Sopranos.",
@@ -963,7 +963,7 @@
         "702-385-7111"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "129 E Fremont StLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "129 E Fremont StLas Vegas, USA",
     "openTime": "24hr",
     "introduction": [
         "Check out the polished brass and white leather seats in the casino: day or night, the Golden Nugget is downtown's poshest address. With classy eateries and a swimming pool famous for its shark tank, the Golden Nugget outshines the competition. This swank carpet joint rakes in a moneyed downtown crowd with a 38,000-sq-ft casino populated by table games and slot machines with the same odds as at Strip megaresorts. The nonsmoking poker room hosts daily tournaments.",
@@ -979,7 +979,7 @@
         "http://www.citycenter.com"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "3780 Las Vegas Blvd SLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3780 Las Vegas Blvd SLas Vegas, USA",
     "openTime": "",
     "introduction": [
         "We\u2019ve seen this symbiotic relationship before (think giant hotel anchored by a mall \u2018concept\u2019) but the way that this futuristic-feeling complex places a small galaxy of hypermodern, chichi hotels in orbit around the glitzy Crystals shopping center is a first. The uber-upscale spread includes the subdued, stylish Vdara, the hush-hush opulent Mandarin Oriental and the dramatic architectural showpiece Aria, whose sophisticated casino provides a fitting backdrop to its many drop-dead gorgeous restaurants."
@@ -992,7 +992,7 @@
         "http://voodoozipline.com"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "3700 W Flamingo RdLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3700 W Flamingo RdLas Vegas, USA",
     "openTime": "11am to midnight",
     "introduction": [
         "How does \u201cflying\u201d between two hotel towers sound? If the idea puts a spell on you, then the VooDoo ZipLine at the Rio All-Suites Hotel is a definite must-do. The ride starts with you strapped into a seat on a 50-story Masquerade tower. Four hundred feet below is the expansive pool area, and beyond is the cityscape. Once the operator sets you free, you'll whiz down metal lines to a lower tower, taking in the 800ft-long rush along the way.",
@@ -1006,7 +1006,7 @@
         "http://www.sevenmagicmountains.com"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "I-15 S at Sloan Rd (exit 25)Las Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "I-15 S at Sloan Rd (exit 25)Las Vegas, USA",
     "openTime": "",
     "introduction": [
         "What's that rising from the desert floor along Interstate 15 just south of Las Vegas\u2026 gigantic, neon-colored, stacked-up marshmallows? Actually, the monumental, multi-hued stone work is an outdoor art installation by the renowned Swiss artist Ugo Rondinone. Set to be in place into 2018, Seven Magic Mountains is drawing art lovers, the merely curious and their myriad cameras to a dusty swath of desert a dozen miles south of the Las Vegas Strip. What does it all mean? You decide.",
@@ -1021,7 +1021,7 @@
         "702-455-7955"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "1830 S Boulder HwyLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1830 S Boulder HwyLas Vegas, USA",
     "openTime": "9am-4:30pm",
     "introduction": [
         "Amble among recreations of what the Las Vegas region looked like decades and even centuries before the modern neon-lit era of casinos and hotels. From dioramas of pre-historic ecology and later local Native American heritage to displays of steamships that plied the mighty Colorado River nearby in the 19th and early 20th centuries, this is an unexpected treasure. 'Heritage Street' recreates a small town scene of area's early modern days. It's perfect for families with kids."
@@ -1035,7 +1035,7 @@
         "702-384-3466"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "900 Las Vegas Blvd NorthLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "900 Las Vegas Blvd NorthLas Vegas, USA",
     "openTime": "9am to 4pm",
     "introduction": [
         "For many, the words 'museum' and 'Las Vegas' might not seem to really go together. But, in fact, this is a town with more than 2 million inhabitants, so it has all the normal civic institutions of any other large American city, including buildings featuring scientifically organized displays of artifacts. Such would be the Las Vegas Natural History Museum, a lesser-known cultural gem.",
@@ -1051,7 +1051,7 @@
         "702-409-0655"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "7800 North TenayaLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "7800 North TenayaLas Vegas, USA",
     "openTime": "7am-2pm Tue, Thu, Sat, Sun",
     "introduction": [
         "Long before golf courses, lawns and palm trees filled Las Vegas with greenery, there were a few farmers who eked out lives here in the tough Mojave Desert. Of special note is the immense, 60-acre Gilcrease Orchard. This nearly 100-year-old farm grows a wide variety of fruits and vegetables. It's popular for walking among the fields and picking fresh produce during the harvest season, especially pumpkins for Halloween. Fresh cider and doughnuts are favorite items for sale. Expect many families.",
@@ -1066,7 +1066,7 @@
         "702-455-7522"
     ],
     "cityPath": "usa/las-vegas",
-    "location": "7050 Wetlands Park LnLas Vegas, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "7050 Wetlands Park LnLas Vegas, USA",
     "openTime": "",
     "introduction": [
         "While Las Vegas is located in the parched Mojave Desert, it's not bone dry. One of the best places to see this is at Clark County Wetlands Park. The water that greens the city (and fills hotel fountains and pools) flows through a vast swath of foliage on the edge of town. Featuring walking trails and a large visitor's center with interactive science displays, the Wetlands are a wonderland of swaying reeds and leafy cottonwood trees.",
@@ -1081,7 +1081,7 @@
         "305-361-5811"
     ],
     "cityPath": "usa/miami",
-    "location": "1200 S Crandon BlvdMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1200 S Crandon BlvdMiami, USA",
     "openTime": "8am-sunset",
     "introduction": [
         "If you don\u2019t make it to the Florida Keys, come to this park for a taste of their unique island ecosystems. The 494-acre space is a tangled clot of tropical fauna and dark mangroves \u2013 look for the \u2018snorkel\u2019 roots that provide air for half-submerged mangrove trees \u2013 all interconnected by sandy trails and wooden boardwalks, and surrounded by miles of pale ocean. A concession shack rents kayaks, bikes, in-line skates, beach chairs and umbrellas.",
@@ -1096,7 +1096,7 @@
         "305-531-1001"
     ],
     "cityPath": "usa/miami",
-    "location": "1001 Washington AveMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1001 Washington AveMiami, USA",
     "openTime": "10am-6pm, to 9pm Thu & Fri",
     "introduction": [
         "Visit this excellent design museum early in your stay to put the aesthetics of Miami Beach into fascinating context. It\u2019s one thing to see how wealth, leisure and the pursuit of beauty manifests in Miami Beach, it\u2019s another to understand the roots and shadings of local artistic movements. By chronicling the interior evolution of everyday life, the Wolfsonian reveals how these trends were architecturally manifested in SoBe\u2019s exterior deco. Which reminds us of the Wolfsonian\u2019s own noteworthy facade. Remember the Gothic-futurist apartment-complex-cum-temple-of-evil in Ghostbusters? Well, this imposing structure, with its grandiose \u2018frozen fountain\u2019 and lion-head-studded grand elevator, could serve as a stand-in for that set."
@@ -1110,7 +1110,7 @@
         "305-250-9133"
     ],
     "cityPath": "usa/miami",
-    "location": "3251 S Miami AveMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3251 S Miami AveMiami, USA",
     "openTime": "9:30am-4:30pm Wed-Mon",
     "introduction": [
         "They call Miami the Magic City, and if it is, this Italian villa, the housing equivalent of a Faberg\u00e9 egg, is its most fairy-tale residence. In 1916, industrialist James Deering started a Miami tradition by making a ton of money and building ridiculously grandiose digs. He employed 1000 people (then 10% of the local population) and stuffed his home with 15th- to 19th-century furniture, tapestries, paintings and decorative arts; today, the grounds used for the display of rotating contemporary-art exhibitions."
@@ -1123,7 +1123,7 @@
         "http://www.historymiami.org"
     ],
     "cityPath": "usa/miami",
-    "location": "101 W Flagler StMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "101 W Flagler StMiami, USA",
     "openTime": "10am-5pm Tue-Fri, from noon Sat & Sun",
     "introduction": [
         "South Florida \u2013 a land of escaped slaves, guerilla Native Americans, gangsters, land grabbers, pirates, tourists, drug dealers and alligators \u2013 has a special history, and it takes a special kind of museum to capture that narrative. This place, located in the Miami-Dade Cultural Center, does just that, weaving together the stories of the region\u2019s successive waves of population, from Native Americans to Nicaraguans.",
@@ -1138,7 +1138,7 @@
         "305-285-5880"
     ],
     "cityPath": "usa/miami",
-    "location": "1465 SW 8th StMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1465 SW 8th StMiami, USA",
     "openTime": "11am-3am Tue-Sat",
     "introduction": [
         "The jewel of the Little Havana Art District, Cuba Ocho functions as a community center, art gallery and research outpost for all things Cuban. The interior resembles an old Havana cigar bar, yet the walls are decked out in artwork that references both the classical past of Cuban art and its avant-garde future. Frequent music, films, drama performances, readings and other events go off every week. The center opens during the evening for these events; check online for more information."
@@ -1152,7 +1152,7 @@
         "305-375-3000"
     ],
     "cityPath": "usa/miami",
-    "location": "1103 Biscayne BlvdMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1103 Biscayne BlvdMiami, USA",
     "openTime": "10am-6pm Tue-Sun, to 9pm Thu, closed Mon",
     "introduction": [
         "The P\u00e9rez can claim fine rotating exhibits that concentrate on post-WWII international art, but just as impressive are its location and exterior. This art institution inaugurated Museum Park, a patch of land that overseas the broad blue swathe of Biscayne Bay. Swiss architects Herzog & de Meuron designed the structure, which integrates tropical foliage, glass and metal \u2013 a melding of tropical vitality and fresh modernism that is a nice architectural analogy for Miami itself."
@@ -1163,7 +1163,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "usa/miami",
-    "location": "SW 8th St at SW 15th AveMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "SW 8th St at SW 15th AveMiami, USA",
     "openTime": "9am-6pm",
     "introduction": [
         "Little Havana\u2019s most evocative reminder of Old Cuba is M\u00e1ximo G\u00f3mez Park, or \u2018Domino Park,\u2019 where the sound of elderly men trash-talking over games of chess is harmonized by the quick clack-clack of slapping dominoes. The jarring backtrack, plus the heavy smell of cigars and a sunrise-bright mural of the 1993 Summit of the Americas, combine to make M\u00e1ximo G\u00f3mez one of the most sensory sites in Miami (although it is admittedly one of the most tourist-heavy ones as well)."
@@ -1177,7 +1177,7 @@
         "305-667-1651"
     ],
     "cityPath": "usa/miami",
-    "location": "10901 Old Cutler RdMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "10901 Old Cutler RdMiami, USA",
     "openTime": "7:30am-4:30pm",
     "introduction": [
         "If you need to escape Miami\u2019s madness, consider a green day in the country\u2019s largest tropical botanical garden. A butterfly grove, jungle biospheres, and gentle vistas of marsh and keys habitats, plus frequent art installations from folks like Roy Lichtenstein, are all stunning. In addition to easy-to-follow, self-guided walking tours, a free 40-minute tram tours the entire park on the hour from 10am to 3pm. Located 5 miles south of Coral Gables."
@@ -1190,7 +1190,7 @@
         "http://www.thewynwoodwalls.com"
     ],
     "cityPath": "usa/miami",
-    "location": "NW 2nd Ave btwn 25th & 26th StsMiami, USA\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "NW 2nd Ave btwn 25th & 26th StsMiami, USA",
     "openTime": "",
     "introduction": [
         "In the midst of rusted warehouses and concrete blah, there's a pastel-and-graffiti explosion of urban art. Wynwood Walls is a collection of murals and paintings laid out over an open courtyard that invariably bowls people over with its sheer color profile and unexpected location. What\u2019s on offer tends to change with the coming and going of major arts events such as Art Basel, but it's always interesting stuff."
@@ -1201,7 +1201,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/auckland",
-    "location": "Auckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Auckland, New Zealand",
     "openTime": "",
     "introduction": [
         "This volcanic cone was the isthmus\u2019 key pa and the greatest fortress in the country. At the top (182m) there are 360-degree views and the grave of John Logan Campbell, who gifted the land to the city in 1901 and requested that a memorial be built to the M\u0101ori people on the summit. Nearby is the stump of the last \u2018one tree\u2019. Allow time to explore surrounding Cornwall Park with its mature trees and historic Acacia Cottage (1841).",
@@ -1216,7 +1216,7 @@
         "http://www.doc.govt.nz"
     ],
     "cityPath": "new-zealand/auckland",
-    "location": "Goat Island RdLeigh, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Goat Island RdLeigh, New Zealand",
     "openTime": "",
     "introduction": [
         "Only 3km from Leigh, this 547-hectare aquatic area was established in 1975 as the country\u2019s first marine reserve. In less than 40 years the sea has reverted to a giant aquarium, giving an impression of what the NZ coast must have been like before humans arrived. You only need step knee-deep into the water to see snapper (the big fish with blue dots and fins), blue maomao and stripy parore swimming around.",
@@ -1232,7 +1232,7 @@
         "09-309 0443"
     ],
     "cityPath": "new-zealand/auckland",
-    "location": "Auckland Domain, ParnellAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Auckland Domain, ParnellAuckland, New Zealand",
     "openTime": "10am-5pm",
     "introduction": [
         "This imposing neoclassical temple (1929), capped with an impressive copper-and-glass dome (2007), dominates the Auckland Domain and is a prominent part of the Auckland skyline, especially when viewed from the harbour. Admission packages can be purchased, which incorporate a highlights tour and a M\u0101ori cultural performance ($45 to $55).",
@@ -1244,7 +1244,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/auckland",
-    "location": "250 Mt Eden RdAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "250 Mt Eden RdAuckland, New Zealand",
     "openTime": "",
     "introduction": [
         "From the top of Auckland\u2019s highest volcanic cone (196m) the entire isthmus and both harbours are laid bare. The symmetrical crater (50m deep) is known as Te Ipu Kai a Mataaho (the Food Bowl of Mataaho, the god of things hidden in the ground) and is considered highly tapu (sacred). Do not enter it, but feel free to explore the remainder of the mountain. The remains of pa terraces and food storage pits are clearly visible.",
@@ -1259,7 +1259,7 @@
         "09-639 2010"
     ],
     "cityPath": "new-zealand/auckland",
-    "location": "Pah Homestead, 72 Hillsborough Rd, HillsboroughAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Pah Homestead, 72 Hillsborough Rd, HillsboroughAuckland, New Zealand",
     "openTime": "10am-3pm Tue-Fri, to 5pm Sat & Sun",
     "introduction": [
         "Housed in a gorgeous 1879 mansion with views to One Tree Hill and the Manukau Harbour, the Wallace Arts Centre is endowed with contemporary New Zealand art from an extensive private collection, which is changed every four to six weeks. Have lunch on the veranda and wander among the magnificent trees in the surrounding park. The art is also very accessible, ranging from a life-size skeletal rugby ruck to a vibrant Ziggy Stardust painted on glass.",
@@ -1274,7 +1274,7 @@
         "09-379 1349"
     ],
     "cityPath": "new-zealand/auckland",
-    "location": "cnr Kitchener & Wellesley StsAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "cnr Kitchener & Wellesley StsAuckland, New Zealand",
     "openTime": "10am-5pm",
     "introduction": [
         "Following a significant 2011 refurbishment, Auckland's premier art repository now has a striking glass-and-wood atrium grafted onto its 1887 French-chateau frame. It showcases the best of NZ art, along with important works by Pieter Bruegel the Younger, Guido Reni, Picasso, C\u00e9zanne, Gauguin and Matisse. Highlights include the intimate 19th-century portraits of tattooed M\u0101ori subjects by Charles Goldie, and the starkly dramatic text-scrawled canvasses of Colin McCahon.",
@@ -1289,7 +1289,7 @@
         "09-360 3805"
     ],
     "cityPath": "new-zealand/auckland",
-    "location": "Motions RdAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Motions RdAuckland, New Zealand",
     "openTime": "9.30am-5pm, last entry 4.15pm",
     "introduction": [
         "At this modern, spacious zoo, the big foreigners tend to steal the attention from the timid natives, but if you can wrestle the kids away from the tigers and orangutans, there's a well-presented NZ section. Called Te Wao Nui, it's divided into six ecological zones: Coast (seals, penguins), Islands (mainly lizards, including NZ's pint-sized dinosaur, the tuatara), Wetlands (ducks, herons, eels), Night (kiwi, naturally, along with frogs, native owls and weta), Forest (birds) and High Country (cheekier birds and lizards).",
@@ -1301,7 +1301,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/auckland",
-    "location": "Takarunga Rd, DevonportAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Takarunga Rd, DevonportAuckland, New Zealand",
     "openTime": "6am-10pm",
     "introduction": [
         "North Head was a M\u0101ori pa and is still a fortress of sorts, with the navy maintaining a presence. It's riddled with tunnels; started at the end of the 19th century in response to the Russian threat and extended during WWI and WWII."
@@ -1315,7 +1315,7 @@
         "09-255 0666"
     ],
     "cityPath": "new-zealand/auckland",
-    "location": "118 Montgomerie Rd, MangereAuckland, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "118 Montgomerie Rd, MangereAuckland, New Zealand",
     "openTime": "9am-6pm Mon-Fri, 9am-4pm Sat & Sun",
     "introduction": [
         "Clearly the roar of jets doesn\u2019t bother grapes, as NZ\u2019s most awarded winery is just 4km from the airport. The parklike grounds of Villa Maria are a green oasis in the encircling industrial zone. Short tours ($5) take place at 11am and 3pm. There\u2019s a charge for tastings ($5, refundable on purchase), but lingering over wine and antipasto (platters $40 to $50, lunch $33 to $36) on the restaurant's terrace sure beats hanging around the departure lounge.",
@@ -1330,7 +1330,7 @@
         "04-381 7000"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "55 Cable StWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "55 Cable StWellington, New Zealand",
     "openTime": "10am-6pm",
     "introduction": [
         "Te Papa is Wellington's 'must-see' attraction, for reasons well beyond the fact that it's New Zealand's national museum. It's highly interactive, fun, and full of surprises: aptly, \u2018Te Papa Tongarewa\u2019 loosely translates as \u2018treasure box\u2019. The riches inside include an amazing collection of M\u0101ori artefacts and the museum\u2019s own colourful marae (meeting house); natural history and environment exhibitions; Pacific and NZ history galleries; the National Art Collection; and themed hands-on \u2018discovery centres\u2019 for children. Big-name temporary exhibitions incur an admission fee, although general admission is free.",
@@ -1345,7 +1345,7 @@
         "04 920 9213"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "53 Waiapu RdWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "53 Waiapu RdWellington, New Zealand",
     "openTime": "9am-5pm, last entry 4pm",
     "introduction": [
         "This groundbreaking eco-sanctuary is hidden in the hills about 2km west of town: the Karori bus (No 3) passes nearby, or see the Zealandia website for info on the free shuttle. Living wild within the fenced valley are more than 30 native bird species, including rare takahe, saddleback, hihi and kaka, as well as tuatara and little spotted kiwi. An excellent exhibition relays NZ\u2019s natural history and world-renowned conservation story.",
@@ -1360,7 +1360,7 @@
         "04-913 9032"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "Civic Sq, Wakefield StWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Civic Sq, Wakefield StWellington, New Zealand",
     "openTime": "10am-5pm",
     "introduction": [
         "Housed in the monumental old library in Civic Sq, Wellington\u2019s much-loved City Gallery does a cracking job of securing acclaimed contemporary international exhibitions, as well as unearthing up-and-comers and supporting those at the forefront of the NZ scene. Charges may apply for major exhibits; the Nikau Cafe compensates."
@@ -1374,7 +1374,7 @@
         "04-499 4444"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "101 Glenmore StWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "101 Glenmore StWellington, New Zealand",
     "openTime": "daylight hours",
     "introduction": [
         "These hilly, 25-hectare botanic gardens can be almost effortlessly visited via the Wellington Cable Car (nice bit of planning, eh?), although there are several other entrances hidden in the hillsides. The gardens boast a tract of original native forest, the beaut Lady Norwood Rose Garden, 25,000 spring tulips and various international plant collections. Add in fountains, a playground, sculptures, a duck pond, a cafe and city skyline views, and you\u2019ve got a grand day out indeed."
@@ -1385,7 +1385,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/wellington",
-    "location": "Lookout RdWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lookout RdWellington, New Zealand",
     "openTime": "",
     "introduction": [
         "The city's most accessible view point is atop 196m-high Mt Victoria, east of the city centre. You can take the No 20 bus most of the way up, but the rite of passage is to sweat it out on the walk (ask a local for directions or just follow your nose). If you\u2019ve got wheels, take Oriental Pde along the waterfront and then scoot up Carlton Gore Rd. Awesome views and actually rather interesting info panels."
@@ -1399,7 +1399,7 @@
         "04-570 6500"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "45 Laings RdWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "45 Laings RdWellington, New Zealand",
     "openTime": "10am-5pm",
     "introduction": [
         "A beacon of culture and delight, the excellent Dowse is worth visiting for its jaunty architecture alone. It\u2019s a family-friendly, accessible art museum showcasing NZ art, craft and design, with a nice cafe to boot (and a winter ice rink!). It's a 15-minute drive or a short ride on bus 83 from central Wellington."
@@ -1413,7 +1413,7 @@
         "04-472 2199"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "Cable Car Lane, rear 280 Lambton QuayWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Cable Car Lane, rear 280 Lambton QuayWellington, New Zealand",
     "openTime": "departs every 10min, 7am-10pm Mon-Fri, 8.30am-10pm Sat, 9am-9pm Sun",
     "introduction": [
         "One of Wellington\u2019s big-ticket attractions is the little red cable car that clanks up the steep slope from Lambton Quay to Kelburn. At the top are the Wellington Botanic Gardens, the Carter Observatory and the small but nifty Cable Car Museum. The latter evocatively depicts the cable car\u2019s story since it was built in 1902 to open up hilly Kelburn for settlement. Ride the cable car back down the hill, or wander down through the gardens."
@@ -1427,7 +1427,7 @@
         "04-909 4100"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "cnr Camperdown Rd & Weka StWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "cnr Camperdown Rd & Weka StWellington, New Zealand",
     "openTime": "9am-5.30pm",
     "introduction": [
         "Film buffs will dig the Weta Cave, a mind-blowing minimuseum of the Academy Award\u2013winning special-effects company that brought The Lord of the Rings, King Kong, The Adventures of Tintin and The Hobbit to life. Learn how they do it on 45-minute guided tours, starting every half-hour. Weta Cave is 9km east of the city centre: drive, ride your bike, catch the Miramar bus (No 2) or book transport with your admission. Book online."
@@ -1441,7 +1441,7 @@
         "04-472 8904"
     ],
     "cityPath": "new-zealand/wellington",
-    "location": "Bond Store, Queens WharfWellington, New Zealand\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Bond Store, Queens WharfWellington, New Zealand",
     "openTime": "10am-5pm",
     "introduction": [
         "For an imaginative, interactive experience of Wellington\u2019s social and maritime history, swing into the Wellington Museum, occupying an 1892 Bond Store. Highlights include a moving documentary on the Wahine, the interisland ferry that sank in the harbour in 1968 with the loss of 51 lives. M\u0101ori legends are dramatically told using tiny holographic actors and special effects. The new 'Attic' exhibition space opened in 2015."
@@ -1454,7 +1454,7 @@
         "852 2540 0350"
     ],
     "cityPath": "china/hong-kong",
-    "location": "124-126 Hollywood RdHong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "124-126 Hollywood RdHong Kong, China",
     "openTime": "8am-6pm",
     "introduction": [
         "One of Hong Kong\u2019s oldest temples and a declared monument, atmospheric Man Mo Temple is dedicated to the gods of literature (\u2018Man\u2019), holding a writing brush, and of war (\u2018Mo\u2019), wielding a sword. Built in 1847 during the Qing dynasty by wealthy Chinese merchants, it was, besides a place of worship, a court of arbitration for local disputes when trust was thin between the Chinese and the colonialists.",
@@ -1472,7 +1472,7 @@
         "852 2522 0922"
     ],
     "cityPath": "china/hong-kong",
-    "location": "Hong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hong Kong, China",
     "openTime": "24hr",
     "introduction": [
         "Standing at 552m, Victoria Peak is the highest point on Hong Kong Island. The Peak is also one of the most visited spots by tourists in Hong Kong, and it\u2019s not hard to see why. Sweeping views of the vibrant metropolis, verdant woods, easy but spectacular walks \u2013 all reachable in just eight minutes from Central by Hong Kong\u2019s earliest form of transport.",
@@ -1486,7 +1486,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/hong-kong",
-    "location": "Salisbury RdHong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Salisbury RdHong Kong, China",
     "openTime": "",
     "introduction": [
         "One of the finest city skylines in the world has to be that of Hong Kong Island, and the promenade here is one of the best ways to get an uninterrupted view. It\u2019s a lovely place to stroll around during the day, but it really comes into its own in the evening, during the nightly Symphony of Lights, a spectacular sound-and-light show involving 44 buildings on the Hong Kong Island skyline.",
@@ -1504,7 +1504,7 @@
         "852 2522 0922"
     ],
     "cityPath": "china/hong-kong",
-    "location": "Lower Terminus, 33 Garden RdHong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lower Terminus, 33 Garden RdHong Kong, China",
     "openTime": "7am-midnight",
     "introduction": [
         "The Peak Tram is not really a tram but a cable-hauled funicular railway that has been scaling the 396m ascent to the highest point on Hong Kong Island since 1888. A ride on the tram is a classic Hong Kong experience, with vertiginous views over the city as you ascend up the steep mountainside.",
@@ -1516,7 +1516,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/hong-kong",
-    "location": "New Territories, Hong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "New Territories, Hong Kong, China",
     "openTime": "",
     "introduction": [
         "This 400-year-old village inside Plover Cove Country Park is arguably Hong Kong's best-preserved Hakka walled village and has an intact feng shui woodland. Featuring 200 houses, three ancestral halls, two temples, and a breezy square fringed by banyans and opening onto recently revived rice paddies, Lai Chi Wo is not only a sight to behold, but also one of Hong Kong's most biologically diverse freshwater wetlands.",
@@ -1541,7 +1541,7 @@
         "852 2327 8141"
     ],
     "cityPath": "china/hong-kong",
-    "location": "2 Chuk Yuen VillageHong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "2 Chuk Yuen VillageHong Kong, China",
     "openTime": "7am-5.30pm",
     "introduction": [
         "An explosion of colourful pillars, roofs, lattice work, flowers and incense, this busy temple is a destination for all walks of Hong Kong society, from pensioners and business people to parents and young professionals.",
@@ -1557,7 +1557,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/hong-kong",
-    "location": "Temple StHong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Temple StHong Kong, China",
     "openTime": "6-11pm",
     "introduction": [
         "The liveliest night market in Hong Kong, Temple St extends from Man Ming Lane in the north to Nanking St in the south and is cut in two by the Tin Hau Temple complex. While you may find better bargains further north in New Kowloon, and certainly over the border in Sh\u0113nzh\u00e8n, it is still a good place to go for the bustling atmosphere and the smells and tastes on offer from the dai pai dong (open-air street stall) food.",
@@ -1576,7 +1576,7 @@
         "852 2354 1888"
     ],
     "cityPath": "china/hong-kong",
-    "location": "5 Chi Lin DrHong Kong, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "5 Chi Lin DrHong Kong, China",
     "openTime": "nunnery 9am-4.30pm, garden 6.30am-7pm",
     "introduction": [
         "One of the most beautiful and arrestingly built environments in Hong Kong, this large Buddhist complex, originally dating from the 1930s, was rebuilt completely of wood (and not a single nail) in the style of the Tang dynasty in 1998. It is a serene place, with lotus ponds, immaculate bonsai tea plants and bougainvillea, and silent nuns delivering offerings of fruit and rice to Buddha and arhats (Buddhist disciples freed from the cycle of birth and death) or chanting behind intricately carved screens.",
@@ -1592,7 +1592,7 @@
         "http://www.m50.com.cn/en"
     ],
     "cityPath": "china/shanghai",
-    "location": "50 Moganshan Rd; \u83ab\u5e72\u5c71\u8def50\u53f7Sh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "50 Moganshan Rd; \u83ab\u5e72\u5c71\u8def50\u53f7Sh\u00e0ngh\u01cei, China",
     "openTime": "",
     "introduction": [
         "Sh\u00e0ngh\u01cei may be known for its glitz and glamour, but it's got an edgy subculture, too. The industrial M50 art complex is one prime example, where galleries have set up in disused factories and cotton mills, utilising the vast space to showcase contemporary Chinese emerging and established artists. There's a lot to see, so plan to spend half a day poking around the site.",
@@ -1606,7 +1606,7 @@
     "ticket": "high/low season \u00a540/30",
     "contact": "",
     "cityPath": "china/shanghai",
-    "location": "Anren St; \u5b89\u4ec1\u8857Sh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Anren St; \u5b89\u4ec1\u8857Sh\u00e0ngh\u01cei, China",
     "openTime": "8.30am-5.15pm, last entry at 4.45pm",
     "introduction": [
         "With its shaded alcoves, glittering pools churning with fish, pavilions, pines sprouting wistfully from rockeries and roving packs of Japanese tourists, the Y\u00f9yu\u00e1n Gardens is one of Sh\u00e0ngh\u01cei's premier sights \u2013 but becomes overpoweringly crowded at weekends. The spring and summer blossoms bring a fragrant, floral aspect to the gardens, especially the luxurious petals of its Magnolia grandiflora, Sh\u00e0ngh\u01cei's flower. Other trees include the luohan pine, bristling with thick needles, willows, gingkos, cherry trees and magnificent dawn redwoods.",
@@ -1620,7 +1620,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/shanghai",
-    "location": "3 East Zhongshan No 1 Rd; 3 \u4e2d\u5c71\u4e1c\u4e00\u8defSh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3 East Zhongshan No 1 Rd; 3 \u4e2d\u5c71\u4e1c\u4e00\u8defSh\u00e0ngh\u01cei, China",
     "openTime": "",
     "introduction": [
         "Symbolic of concession-era Sh\u00e0ngh\u01cei, the Bund was the city\u2019s Wall Street, a place of feverish trading and fortunes made and lost. Originally a towpath for dragging barges of rice, the Bund (an Anglo-Indian term for the embankment of a muddy waterfront) was gradually transformed into a grandiose sweep of the most powerful banks and trading houses in Sh\u00e0ngh\u01cei.The optimum activity here is to simply stroll, contrasting the bones of the past with the futuristic geometry of P\u01d4d\u014dng\u2019s skyline.",
@@ -1633,7 +1633,7 @@
     "ticket": "\u00a550",
     "contact": "",
     "cityPath": "china/shanghai",
-    "location": "1686-1688 West Nanjing Rd; \u5357\u4eac\u897f\u8def1686-1688\u53f7Sh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1686-1688 West Nanjing Rd; \u5357\u4eac\u897f\u8def1686-1688\u53f7Sh\u00e0ngh\u01cei, China",
     "openTime": "7.30am-5pm",
     "introduction": [
         "With the original temple dating back to AD 1216, the much-restored J\u00ecng\u2019\u0101n Temple was here well before all the audacious skyscrapers and glitzy shopping malls. Today it stands like a shimmering mirage in defiance of West Nanjing Rd\u2019s soaring modern architecture; a sacred portal to the Buddhist world that partially, at least, underpins this metropolis of 24 million souls.",
@@ -1648,7 +1648,7 @@
     "ticket": "high/low season \u00a520/10",
     "contact": "",
     "cityPath": "china/shanghai",
-    "location": "cnr Anyuan & Jiangning Rds; \u5b89\u8fdc\u8def\u548c\u6c5f\u5b81\u8def\u8857\u53e3Sh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "cnr Anyuan & Jiangning Rds; \u5b89\u8fdc\u8def\u548c\u6c5f\u5b81\u8def\u8857\u53e3Sh\u00e0ngh\u01cei, China",
     "openTime": "8am-4.30pm",
     "introduction": [
         "One of Sh\u00e0ngh\u01cei\u2019s few active Buddhist monasteries, this temple was built between 1918 and 1928. The highlight is a transcendent Buddha crafted from pure jade, one of five shipped back to China by the monk Hui Gen at the turn of the 20th century. It's a popular stopover for tour buses, so be prepared for crowds. In February, during the Lunar New Year, the temple is very busy, as some 20,000 Chinese Buddhists throng to pray for prosperity.",
@@ -1664,7 +1664,7 @@
         "http://www.shanghaitower.com.cn"
     ],
     "cityPath": "china/shanghai",
-    "location": "cnr Middle Yincheng & Huayuanshiqiao RdsSh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "cnr Middle Yincheng & Huayuanshiqiao RdsSh\u00e0ngh\u01cei, China",
     "openTime": "9am-9pm",
     "introduction": [
         "China\u2019s tallest building dramatically twists skywards from its footing in L\u00f9ji\u0101zu\u01d0. The 121-storey 632m-tall Gensler-designed Sh\u00e0ngh\u01cei Tower topped out in August 2013 and opened in mid-2016. The spiral-shaped tower houses office space, entertainment venues, shops, a conference centre, a luxury hotel and \u2018sky lobbies\u2019. The gently corkscrewing form \u2013 its nine interior cylindrical units wrapped in two glass skins \u2013 is the world\u2019s second-tallest building at the time of writing. The observation deck on the 118th floor is the world's highest.",
@@ -1679,7 +1679,7 @@
         "http://www.tianzifang.cn"
     ],
     "cityPath": "china/shanghai",
-    "location": "Taikang Rd; \u6cf0\u5eb7\u8defSh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Taikang Rd; \u6cf0\u5eb7\u8defSh\u00e0ngh\u01cei, China",
     "openTime": "",
     "introduction": [
         "Ti\u00e1nz\u01d0f\u00e1ng and X\u012bnti\u0101nd\u00ec are based on a similar idea \u2013 an entertainment complex housed within a warren of traditional l\u00f2ngt\u00e1ng (\u5f04\u5802; alleyways) \u2013 but when it comes to genuine charm and vibrancy, Ti\u00e1nz\u01d0f\u00e1ng is the one that delivers. You do need to wade through the souvenir stalls to get to the good stuff, but this network of design studios, cafes, bars and boutiques is the perfect antidote to Sh\u00e0ngh\u01cei's oversized malls and intimidating skyscrapers. With some families still residing in neighbouring buildings, a community mood survives.",
@@ -1694,7 +1694,7 @@
         "021 6862 2000"
     ],
     "cityPath": "china/shanghai",
-    "location": "510 West Beijing Rd; \u5317\u4eac\u897f\u8def510\u53f7Sh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "510 West Beijing Rd; \u5317\u4eac\u897f\u8def510\u53f7Sh\u00e0ngh\u01cei, China",
     "openTime": "9am-5.15pm Tue-Sun",
     "introduction": [
         "Perhaps not quite on the same scale as the Smithsonian, Sh\u00e0ngh\u01cei's new sleek space would nevertheless be a fitting choice for a Night at the Museum movie. As comprehensive as it is entertaining and informative, the museum is packed with displays of taxidermied animals, dinosaurs and cool interactive features. Its architecture is also a highlight, with a striking design that is beautifully integrated in its art-filled J\u00ecng\u2019\u0101n Sculpture Park setting.",
@@ -1710,7 +1710,7 @@
         "http://www.xintiandi.com"
     ],
     "cityPath": "china/shanghai",
-    "location": "2 blocks btwn Taicang, Zizhong, Madang & South Huangpi Rds; \u592a\u4ed3\u8def\u4e0e\u9a6c\u5f53\u8def\u8def\u53e3Sh\u00e0ngh\u01cei, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "2 blocks btwn Taicang, Zizhong, Madang & South Huangpi Rds; \u592a\u4ed3\u8def\u4e0e\u9a6c\u5f53\u8def\u8def\u53e3Sh\u00e0ngh\u01cei, China",
     "openTime": "",
     "introduction": [
         "With its own namesake metro station, X\u012bnti\u0101nd\u00ec has been a Sh\u00e0ngh\u01cei icon for a decade or more. An upscale entertainment and shopping complex modelled on traditional alleyway (l\u00f2ngt\u00e1ng) homes, this was the first development in the city to prove that historical architecture makes big commercial sense. Elsewhere that might sound like a no-brainer, but in 21st-century China, where bulldozers are always on standby, it came as quite a revelation.",
@@ -1725,7 +1725,7 @@
         "010 8500 7114"
     ],
     "cityPath": "china/beijing",
-    "location": "B\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "B\u011bij\u012bng, China",
     "openTime": "8.30am-5pm Apr-Oct, to 4.30pm Nov-Mar, last entry 1hr prior to closing, closed Mon Sep-Jun",
     "introduction": [
         "Ringed by a 52m-wide moat at the very heart of B\u011bij\u012bng, the Forbidden City is China\u2019s largest and best-preserved collection of ancient buildings, and the largest palace complex in the world. So called because it was off limits for 500 years, when it was steeped in stultifying ritual and Byzantine regal protocol, the other-worldly palace was the reclusive home to two dynasties of imperial rule until the Republic overthrew the last Qing emperor. It has been Unesco World Heritage\u2013listed site since 1987.",
@@ -1763,7 +1763,7 @@
         "010 6702 9917"
     ],
     "cityPath": "china/beijing",
-    "location": "Tiantan Donglu, \u5929\u575b\u4e1c\u8defB\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Tiantan Donglu, \u5929\u575b\u4e1c\u8defB\u011bij\u012bng, China",
     "openTime": "park 6.30am-10pm, sights 8am-5.30pm Apr-Oct, park 6.30am-8pm, sights 8am-5pm Nov-Mar",
     "introduction": [
         "A tranquil oasis of peace and methodical Confucian design in one of China\u2019s busiest urban landscapes, the 267-hectare Temple of Heaven Park is absolutely unique. It originally served as a vast stage for solemn rites performed by the emperor of the time (known as the Son of Heaven), who prayed here for good harvests and sought divine clearance and atonement. Strictly speaking, it's an altar rather than a temple \u2013 so don\u2019t expect burning incense or worshippers.",
@@ -1782,7 +1782,7 @@
     "ticket": "Apr-Oct \u00a530, through ticket \u00a560, Nov-Mar \u00a520, through ticket \u00a550, audio guide \u00a540",
     "contact": "",
     "cityPath": "china/beijing",
-    "location": "19 Xinjian Gongmen, \u65b0\u5efa\u5bab\u95e819\u53f7B\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "19 Xinjian Gongmen, \u65b0\u5efa\u5bab\u95e819\u53f7B\u011bij\u012bng, China",
     "openTime": "7am-7pm, sights 8am-5pm summer, 8.30am-4.30pm winter",
     "introduction": [
         "As mandatory a B\u011bij\u012bng sight as the Great Wall or the Forbidden City, the Summer Palace was the playground for emperors fleeing the suffocating summer torpor of the old imperial city. A marvel of design, the palace \u2013 with its huge lake and hilltop views \u2013 offers a pastoral escape into the landscapes of traditional Chinese painting. It merits an entire day\u2019s exploration, although a (high-paced) morning or afternoon exploring the temples, gardens, pavilions, bridges and corridors may suffice.",
@@ -1800,7 +1800,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/beijing",
-    "location": "cnr Jiuxianqiao Lu & Jiuxianqiao Beilu, \u9152\u4ed9\u6865\u8defB\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "cnr Jiuxianqiao Lu & Jiuxianqiao Beilu, \u9152\u4ed9\u6865\u8defB\u011bij\u012bng, China",
     "openTime": "galleries 10am-6pm, most closed Mon",
     "introduction": [
         "A vast area of disused factories built by the East Germans, 798 Art District, also known as D\u00e0sh\u0101nzi (\u5927\u5c71\u5b50), is B\u011bij\u012bng\u2019s main concentration of contemporary art galleries. The industrial complex celebrates its proletarian roots in the communist heyday of the 1950s via the retouched red Maoist slogans decorating gallery walls and statues of burly, lantern-jawed workers dotting the lanes. The giant former factory workshops are ideally suited to multimedia installations and other ambitious projects.",
@@ -1817,7 +1817,7 @@
         "http://www.yonghegong.cn"
     ],
     "cityPath": "china/beijing",
-    "location": "12 Yonghegong Dajie, \u5317\u65b0\u6865\u96cd\u548c\u5bab\u5927\u885712\u53f7B\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "12 Yonghegong Dajie, \u5317\u65b0\u6865\u96cd\u548c\u5bab\u5927\u885712\u53f7B\u011bij\u012bng, China",
     "openTime": "9am-4.30pm",
     "introduction": [
         "This exceptional temple is a glittering attraction in B\u011bij\u012bng\u2019s Buddhist firmament. If you only have time for one temple (the Temple of Heaven isn\u2019t really a temple) make it this one, where riveting roofs, fabulous frescoes, magnificent decorative arches, tapestries, eye-popping carpentry, Tibetan prayer wheels, tantric statues and a superb pair of Chinese lions mingle with dense clouds of incense.",
@@ -1833,7 +1833,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/beijing",
-    "location": "B\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "B\u011bij\u012bng, China",
     "openTime": "",
     "introduction": [
         "Flanked by stern 1950s Soviet-style buildings and ringed by white perimeter fences, the world\u2019s largest public square (440,000 sq metres) is an immense flatland of paving stones at the heart of B\u011bij\u012bng. If you get up early, you can watch the flag-raising ceremony at sunrise, performed by a troop of People\u2019s Liberation Army (PLA) soldiers drilled to march at precisely 108 paces per minute, 75cm per pace. The soldiers emerge through the Gate of Heavenly Peace to goose-step impeccably across Chang\u2019an Jie; all traffic is halted. The same ceremony in reverse is performed at sunset.",
@@ -1847,7 +1847,7 @@
     "ticket": "bag storage \u00a510, electonics storage per device \u00a510",
     "contact": "",
     "cityPath": "china/beijing",
-    "location": "Ti\u0101n\u2019\u0101nm\u00e9n SqB\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Ti\u0101n\u2019\u0101nm\u00e9n SqB\u011bij\u012bng, China",
     "openTime": "7am-noon Tue-Sun",
     "introduction": [
         "No doubt one of B\u011bij\u012bng's more surreal spectacles is the sight of Mao Zedong's embalmed corpse on public display within his mausoleum. The Soviet-inspired memorial hall was constructed soon after Mao died in September 1976, and is a prominent landmark in the middle of Ti\u0101n\u2019\u0101nm\u00e9n Sq. He is still revered across much of China, as evidenced by the perpetual snaking queues of locals here clutching flowers to pay their respects; some are reduced to tears but most are in high spirits, treating it like any other stop along their B\u011bij\u012bng tour.",
@@ -1862,7 +1862,7 @@
     "ticket": "\u00a520, both towers through ticket \u00a530",
     "contact": "",
     "cityPath": "china/beijing",
-    "location": "Gulou Dongdajie, \u9f13\u697c\u4e1c\u5927\u8857B\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Gulou Dongdajie, \u9f13\u697c\u4e1c\u5927\u8857B\u011bij\u012bng, China",
     "openTime": "9am-5pm, last tickets 4.40pm",
     "introduction": [
         "The modest, grey-stone structure of the Bell Tower is arguably more charming than its resplendent other half, the Drum Tower, after which this area of B\u011bij\u012bng is named. It also has the added advantage of being able to view its sister tower from a balcony.",
@@ -1879,7 +1879,7 @@
         "http://en.chnmuseum.cn"
     ],
     "cityPath": "china/beijing",
-    "location": "Guangchangdongce Lu, Ti\u0101n\u2019\u0101nm\u00e9n Sq; \u5929\u5b89\u95e8\uff0c\u5e7f\u573a\u4e1c\u4fa7\u8defB\u011bij\u012bng, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Guangchangdongce Lu, Ti\u0101n\u2019\u0101nm\u00e9n Sq; \u5929\u5b89\u95e8\uff0c\u5e7f\u573a\u4e1c\u4fa7\u8defB\u011bij\u012bng, China",
     "openTime": "9am-5pm Tue-Sun, last entry 4pm",
     "introduction": [
         "B\u011bij\u012bng\u2019s premier museum is housed in an immense 1950s communist-style building on the eastern side of Ti\u0101n\u2019\u0101nm\u00e9n Sq, and is well worth visiting. The Ancient China exhibition on the basement floor is outstanding. You could easily spend a couple of hours in this exhibition alone. It contains dozens and dozens of stunning examples of ceramics, calligraphy jade and bronze pieces dating from prehistoric China through to the Qing dynasty. It's all displayed beautifully in modern, spacious, low-lit exhibition halls. You'll need your passport to gain entry.",
@@ -1893,7 +1893,7 @@
     "ticket": "May-Oct \u00a5200, Nov-Apr \u00a5100",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Lhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lhasa, China",
     "openTime": "9.30am-3pm Nov-Apr, 9am-3.30pm May-Oct, interior chapels close 4.30pm",
     "introduction": [
         "The magnificent Potala Palace, once the seat of the Tibetan government and the winter residence of the Dalai Lamas, is Lhasa's cardinal landmark. Your first sight of its towering, fortress-like walls is a moment you'll remember for years. An architectural wonder even by modern standards, the palace rises 13 storeys from 130m-high Marpo Ri (Red Hill) and contains more than 1000 rooms. Pilgrims and tourists alike shuffle open-mouthed through the three storeys, past the dozens of magnificent chapels, golden stupas and prayer halls.",
@@ -1907,7 +1907,7 @@
     "ticket": "adult \u00a585",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Lhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lhasa, China",
     "openTime": "8.30-6.30pm, most chapels closed after noon",
     "introduction": [
         "The 1300-year-old Jokhang Temple is the spiritual heart of Tibet: the continuous waves of awestruck pilgrims prostrating themselves outside are a testament to its timeless allure. The central golden Buddha image here is the most revered in all of Tibet.",
@@ -1920,7 +1920,7 @@
     "ticket": "admission \u00a510",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Deji ZhongluLhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Deji ZhongluLhasa, China",
     "openTime": "dawn-dusk",
     "introduction": [
         "This hidden corner of Lhasa features more than 5000 painted rock carvings that were created on the back side of Chagpo Ri over the course of a millennium. Throughout the day, pilgrims perform full-body prostrations in front of the images, while stone carvers at the far end of the courtyard contribute to a large ch\u00f6rten built entirely of the carvers\u2019 mani stones. The best way to visit the area is as part of the Lingkhor pilgrim route."
@@ -1931,7 +1931,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Lhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lhasa, China",
     "openTime": "",
     "introduction": [
         "You start the tour of the main Potala building from the top and descend through the bowels of the building to exit on the ground floor. The gilded buddhas, intricate mandalas and towering funeral stupas you pass en route rank as the highlights of the Potala.",
@@ -1962,7 +1962,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Lhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lhasa, China",
     "openTime": "",
     "introduction": [
         "On the roof of the Potala, the private quarters of the 13th and 14th Dalai Lamas are to the right. The Dalai Lamas would have watched festival dances performed in the courtyard below from the hidden balconies of these personal chambers.",
@@ -1975,7 +1975,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Lhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lhasa, China",
     "openTime": "",
     "introduction": [
         "For your first visit to the Barkhor, enter from Barkhor Sq, a large plaza that was cleared in 1985. The square has been a focus for violent political protest on several occasions, notably in 1998 (when a Dutch tourist was shot in the shoulder) and most recently in 2008. The square is now bordered by metal detectors, riot-squad vehicles, fire-extinguisher teams (to prevent self-immolations) and rooftop surveillance. Despite the stream of selfie-taking tourists, the atmosphere is one of occupation or siege.",
@@ -1988,7 +1988,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Minzu NanluLhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Minzu NanluLhasa, China",
     "openTime": "9.30am\u20115.30pm Tue-Sun",
     "introduction": [
         "This museum has some interesting exhibits and heavy Communist Party propaganda. Starting with the prehistory of Tibet, the multiple halls cover everything from weapons and musical instruments to folk handicrafts and fine ancient thangkas (Tibetan sacred art). A useful handheld audio self-touring device (\u00a510) is available if you bring your passport as a deposit.",
@@ -2003,7 +2003,7 @@
     "ticket": "\u00a520",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Lhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Lhasa, China",
     "openTime": "7.30am-8pm",
     "introduction": [
         "The main image at this temple is the fabulously ornate Jowo Miky\u00f6ba (Akshobhya) statue, which represents Sakyamuni at the age of eight. The statue is in the inner Tsangkhang, protected by the four guardian kings and a curtain of chain mail, which pilgrims rub for good luck. The lower half of the statue was discovered in 1983 in a Lhasa rubbish tip and the head was discovered in Be\u01d0j\u012bng\u2019s Forbidden City and brought back to Lhasa by the 10th Panchen Lama.",
@@ -2016,7 +2016,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
-    "location": "Bejing DongluLhasa, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Bejing DongluLhasa, China",
     "openTime": "",
     "introduction": [
         "Gy\u00fcme was founded in the mid-15th century as one of Tibet\u2019s foremost Tantric training colleges, second only in Lhasa to the monasteries of Sera and Drepung. More than 500 monks were once in residence, and students of the college underwent a physically and intellectually gruelling course of study. It\u2019s easy to miss the surprisingly impressive temple; look for an imposing entrance set back from Beijing Donglu.",
@@ -2028,7 +2028,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/guangdong/guangzhou",
-    "location": "Gu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Gu\u01cengzh\u014du, China",
     "openTime": "",
     "introduction": [
         "To the southwest of Gu\u01cengzh\u014du is the dappled oasis of Sh\u0101mi\u00e0n Island. It was acquired as a foreign concession in 1859 after the two Opium Wars. Shamian Dajie, the main boulevard, is a gentle stretch of gardens dotted by old houses, cafes and galleries. The Church of Our Lady of Lourdes, built by the French in 1892, is on the eastern end. Sh\u0101mi\u00e0n is so picturesque that you're sure to spot photo shoots for online clothing stores on the streets."
@@ -2041,7 +2041,7 @@
         "020 8181 4559"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "34 Enlong Li, Zhongshan QiluGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "34 Enlong Li, Zhongshan QiluGu\u01cengzh\u014du, China",
     "openTime": "8.30am-5pm",
     "introduction": [
         "An all-in-one ancestral shrine, Confucian school and \u2018chamber of commerce\u2019 for the Chen clan, this compound was built in 1894 by the residents of 72 villages in Gu\u01cengd\u014dng, where the Chen lineage is predominant. There are 19 buildings in the traditional L\u01d0ngn\u00e1n style, all featuring exquisite carvings, statues and paintings, and decorated with ornate scrollwork throughout."
@@ -2054,7 +2054,7 @@
         "020 3482 2187"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "Gu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Gu\u01cengzh\u014du, China",
     "openTime": "8am-6pm",
     "introduction": [
         "One of Gu\u0103ngd\u014dng's four famous classical gardens, this graceful property was built in 1871 by an official of the Qing court. It incorporates the landscaping styles of S\u016bzh\u014du and H\u00e1ngzh\u014du, and the features of L\u012dngn\u00e1n architecture. The result is a photogenic collection of pavilions, terraces, halls, bridges and lakes. It also has a dessert shop selling ginger milk curd (\u59dc\u6c41\u649e\u5976; ji\u0101ngzh\u012b zhu\u00e0ngn\u0103i).",
@@ -2070,7 +2070,7 @@
         "020 3618 2920"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "867 Jiefang BeiluGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "867 Jiefang BeiluGu\u01cengzh\u014du, China",
     "openTime": "9am-4.45pm",
     "introduction": [
         "This superb mausoleum from the 2000-year-old N\u00e1nyu\u00e8 kingdom is one of China\u2019s best museums. It houses the tomb of Zhao Mo, second king of N\u00e1nyu\u00e8, who was sent south by the emperor in 214 BC to quell unrest and established a sovereign state with Gu\u01cengzh\u014du as its capital. Don\u2019t miss Zhao Mo\u2019s jade burial suit \u2013 the precious stone was thought to preserve the body."
@@ -2084,7 +2084,7 @@
         "020 3804 6886"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "2 Zhujiang DongluGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "2 Zhujiang DongluGu\u01cengzh\u014du, China",
     "openTime": "9am-4pm Tue-Sun",
     "introduction": [
         "This ultramodern museum has an extensive collection illuminating the human and natural history of Gu\u01cengd\u014dng, as well as Cantonese art, literature and architecture. English explanations are unfortunately limited to brief leaflets, but there are plenty of self-evident visual treats for kids, including dinosaur fossils and model whales. Inspired by the Chinese lacquer box, the museum\u2019s appearance is a striking contrast against the curvilinear design of the Gu\u01cengzh\u014du Opera House further to the west. ID required for entry.",
@@ -2098,7 +2098,7 @@
         "020 8666 1950"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "988 Jiefang BeiluGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "988 Jiefang BeiluGu\u01cengzh\u014du, China",
     "openTime": "6am-9pm",
     "introduction": [
         "A statue of the symbol of Gu\u01cengzh\u014du \u2013 the Five Rams (\u4e94\u7f8a) that supposedly carried the five immortals who founded the city \u2013 stands guard at this park. On a hilltop is red-walled Zh\u00e8nh\u01cei Tower (\u9547\u6d77\u697c; Zh\u00e8nh\u01cei L\u00f3u), built in 1380 as a watchtower to keep out pirates. The tower is home to the excellent Gu\u01cengzh\u014du City Museum, which traces the city\u2019s history from the Neolithic period. To the east is Gu\u01cengzh\u014du Art Gallery, which has displays on the city's trading history with the West."
@@ -2111,7 +2111,7 @@
         "020 8339 2843"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "87 Liurong LuGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "87 Liurong LuGu\u01cengzh\u014du, China",
     "openTime": "8am-5pm",
     "introduction": [
         "This Buddhist temple was built in AD 537 to enshrine Buddhist relics brought over from India and placed in the octagonal Decorated Pagoda (Hu\u0101 T\u01ce). The temple was given its current name by the exiled poet Su Dongbo in 1099, who waxed lyrical over the (now gone) banyans in the courtyard. You can see the characters 'six banyans' (li\u00f9r\u00f3ng) that he wrote above the gates.",
@@ -2126,7 +2126,7 @@
         "020 3839 2666"
     ],
     "cityPath": "china/guangdong/guangzhou",
-    "location": "1 Zhujiang XiluGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1 Zhujiang XiluGu\u01cengzh\u014du, China",
     "openTime": "9am-4.30pm Tue-Sun, tours 10am, 11am, 2pm, 3pm & 4pm",
     "introduction": [
         "Authored by architect Zaha Hadid, southern China's biggest performance venue has transformed the area with its other-worldly appearance. With futuristic glass panels knitted together to form subtle curves, it's been described as pebbles on the bed of the Pearl River. To enter, you have to join one of five 45-minute daily tours. Tours in English require booking a day in advance.",
@@ -2138,7 +2138,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/guangdong/guangzhou",
-    "location": "21 Huifu Lu, cnr Beijing LuGu\u01cengzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "21 Huifu Lu, cnr Beijing LuGu\u01cengzh\u014du, China",
     "openTime": "",
     "introduction": [
         "Hidden behind bustling Beijing Lu and spanning a whole block is this calm complex featuring three 10-tonne bronze Buddha statues (representing the past, present and future). Equally gigantic are the 350-year-old cinnamon and avocado trees donated by (modern-day) Vietnam and decorated in red lanterns. The temple was built in the Nanhan period (907\u2013971), with the latest iteration from 1649, and renovations in 2016. By night, you might hear monks chanting, and the complex is lit up spectacularly neon-like."
@@ -2152,7 +2152,7 @@
         "028 8351 0033"
     ],
     "cityPath": "china/sichuan/chengdu",
-    "location": "1375 Xiongmao Dadao; \u718a\u732b\u5927\u90531375\u53f7Ch\u00e9ngd\u016b, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1375 Xiongmao Dadao; \u718a\u732b\u5927\u90531375\u53f7Ch\u00e9ngd\u016b, China",
     "openTime": "8am-5.30pm",
     "introduction": [
         "One of Ch\u00e9ngd\u016b\u2019s most popular attractions, this reserve 18km north of the city centre is the easiest way to glimpse S\u00ecchu\u0101n\u2019s most famous residents outside of a zoo. The enclosures here are large and well maintained. Home to nearly 120 giant and 76 red pandas, the base focuses on getting these shy creatures to breed.",
@@ -2166,7 +2166,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/sichuan/chengdu",
-    "location": "66 Wenshuyuan Lu; \u6587\u6b8a\u9662\u8def66\u53f7Ch\u00e9ngd\u016b, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "66 Wenshuyuan Lu; \u6587\u6b8a\u9662\u8def66\u53f7Ch\u00e9ngd\u016b, China",
     "openTime": "6am-9pm",
     "introduction": [
         "This Tang dynasty monastery is dedicated to W\u00e9nsh\u016b (Manjushri), the Bodhisattva of Wisdom, and is Ch\u00e9ngd\u016b\u2019s largest and best-preserved Buddhist temple. The air is heavy with incense and the low murmur of chanting; despite frequent crowds of worshippers, there\u2019s still a sense of serenity and solitude.",
@@ -2178,7 +2178,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/sichuan/chengdu",
-    "location": "9 Citang Jie; \u7960\u5802\u88579\u53f7Ch\u00e9ngd\u016b, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "9 Citang Jie; \u7960\u5802\u88579\u53f7Ch\u00e9ngd\u016b, China",
     "openTime": "6.30am-10pm",
     "introduction": [
         "On weekends, locals fill this park with dancing, song and taichi. There\u2019s a small, willow-tree-lined boating lake and a number of teahouses: H\u00e8 M\u00edng Teahouse is the most popular and atmospheric."
@@ -2219,7 +2219,7 @@
     "ticket": "adult/student \u00a560/30",
     "contact": "",
     "cityPath": "china/sichuan/chengdu",
-    "location": "231 Wuhouci Dajie; \u6b66\u4faf\u7960\u5927\u8857231\u53f7Ch\u00e9ngd\u016b, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "231 Wuhouci Dajie; \u6b66\u4faf\u7960\u5927\u8857231\u53f7Ch\u00e9ngd\u016b, China",
     "openTime": "8am-8pm",
     "introduction": [
         "Located adjacent to N\u00e1nji\u0101o Park and surrounded by mossy cypresses, this temple (rebuilt in 1672) honours several figures from the Three Kingdoms period, namely legendary military strategist Zhuge Liang and Emperor Liu Bei (his tomb is here). Both were immortalised in the Chinese literature classic, Romance of the Three Kingdoms (S\u0101n Gu\u00f3 Y\u01ceny\u00ec).",
@@ -2231,7 +2231,7 @@
     "ticket": "\u00a510",
     "contact": "",
     "cityPath": "china/sichuan/chengdu",
-    "location": "9 Huanlu Xi Er Duan; \u4e00\u73af\u8def\u897f\u4e8c\u6bb59\u53f7Ch\u00e9ngd\u016b, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "9 Huanlu Xi Er Duan; \u4e00\u73af\u8def\u897f\u4e8c\u6bb59\u53f7Ch\u00e9ngd\u016b, China",
     "openTime": "8am-6pm",
     "introduction": [
         "Located alongside Culture Park, this is Ch\u00e9ngd\u016b\u2019s oldest and most extensive Taoist temple. Q\u012bngy\u00e1ng (or Green Ram) Temple dates from the Zhou dynasty, although most of what you see is Qing. A highlight is the unusually squat, eight-sided pagoda, built without bolts or pegs. There's also a popular teahouse (\u00a510) inside, towards the back."
@@ -2244,7 +2244,7 @@
         "http://www.cdmuseum.com"
     ],
     "cityPath": "china/sichuan/chengdu",
-    "location": "west side of Ti\u0101nf\u01d4 Sq; \u5929\u5e9c\u5e7f\u573a\u897f\u4fa7Ch\u00e9ngd\u016b, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "west side of Ti\u0101nf\u01d4 Sq; \u5929\u5e9c\u5e7f\u573a\u897f\u4fa7Ch\u00e9ngd\u016b, China",
     "openTime": "9am-5pm Tue-Sun",
     "introduction": [
         "Spanning ancient Shu and pre-Qin to the Revolutionary era and modern Ch\u00e9ngd\u016b, this brand-new five-storey museum is packed with historical and cultural relics of the city's past. Don't miss the 'Puppetry and Shadow Plays of China' gallery on the top floor, with excellent examples of the art from across the country."
@@ -2272,7 +2272,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/shandong/qingdao",
-    "location": "Q\u012bngd\u01ceo, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Q\u012bngd\u01ceo, China",
     "openTime": "24hr",
     "introduction": [
         "Within central Q\u012bngd\u01ceo, Zh\u014dngsh\u0101n Park is a vast 69 hectares of lakes, gardens and walking paths; it's an amusement park for kids and is also the venue of lively festivals in the spring and summer. In the park\u2019s northeast rises T\u00e0ip\u00edng Hill with a cable car to the TV Tower at the top. Also within the park is Q\u012bngd\u01ceo\u2019s largest temple, Zh\u00e0nsh\u0101n Temple, an active Buddhist sanctuary.",
@@ -2287,7 +2287,7 @@
         "0532 8383 3437"
     ],
     "cityPath": "china/shandong/qingdao",
-    "location": "56-1 Dengzhou Lu, \u767b\u5dde\u8def56-1\u53f7Q\u012bngd\u01ceo, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "56-1 Dengzhou Lu, \u767b\u5dde\u8def56-1\u53f7Q\u012bngd\u01ceo, China",
     "openTime": "8.30am-6pm",
     "introduction": [
         "For a self-serving introduction to China\u2019s iconic beer, head to the original and still-operating brewery. On view are old photos, preserved brewery equipment and statistics, but there are also a few fascinating glimpses of the modern factory line. The aroma of hops is everywhere. Thankfully, you get to sample brews along the way.",
@@ -2299,7 +2299,7 @@
     "ticket": "summer/winter \u00a515/10",
     "contact": "",
     "cityPath": "china/shandong/qingdao",
-    "location": "26 Qinyu Lu, \u7434\u5c7f\u8def26\u53f7Q\u012bngd\u01ceo, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "26 Qinyu Lu, \u7434\u5c7f\u8def26\u53f7Q\u012bngd\u01ceo, China",
     "openTime": "7.30am-6.30pm",
     "introduction": [
         "In the shape of a q\u00edn (a stringed instrument) jutting into Q\u012bngd\u01ceo Bay, this former island \u2013 which lends its name to the city \u2013 was connected to the mainland in the 1940s. The Germans built the white lighthouse in 1900 on the leafy promontory. It is an excellent spot for watching the city come to life in the morning, and there's free entry from 6am to official opening."
@@ -2310,7 +2310,7 @@
     "ticket": "\u00a510",
     "contact": "",
     "cityPath": "china/shandong/qingdao",
-    "location": "15 Jiangsu Lu, \u6c5f\u82cf\u8def15\u53f7Q\u012bngd\u01ceo, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "15 Jiangsu Lu, \u6c5f\u82cf\u8def15\u53f7Q\u012bngd\u01ceo, China",
     "openTime": "8.30am-5.30pm",
     "introduction": [
         "On a street of German buildings, this copper-capped beauty was designed by Curt Rothkegel and built in 1908. The interior is simple and Lutheran in its sparseness, apart from some carvings on the pillar cornices. You can climb up to inspect the clock mechanism (from Bockenem, dated 1909)."
@@ -2323,7 +2323,7 @@
         "http://www.bmy.com.cn"
     ],
     "cityPath": "china/shaanxi-shanxi/xian",
-    "location": "X\u012b'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "X\u012b'\u0101n, China",
     "openTime": "8.30am-5.30pm Mar-Nov, to 5pm Dec-Feb",
     "introduction": [
         "The Terracotta Army isn't just X\u012b'\u0101n's premier sight, it's one of the most famous archaeological finds in the world. This subterranean life-size army of thousands has silently stood guard over the soul of China's first unifier for more than two millennia. Either Qin Shi Huang was terrified of the vanquished spirits awaiting him in the afterlife, or as most archaeologists believe, he expected his rule to continue in death as it had in life.",
@@ -2344,7 +2344,7 @@
     "ticket": "grounds \u00a550, pagoda \u00a540",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
-    "location": "Yanta Nanlu, \u96c1\u5854\u5357\u8defX\u012b'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Yanta Nanlu, \u96c1\u5854\u5357\u8defX\u012b'\u0101n, China",
     "openTime": "8am-7pm Apr-Oct, to 6pm Nov-Mar",
     "introduction": [
         "This pagoda, X\u012b\u2019\u0101n\u2019s most famous landmark, 4km southeast of the South Gate and formerly within the old (and huge) Tang dynasty city wall, dominates the surrounding modern buildings. One of China\u2019s best examples of a Tang-style pagoda (squarish rather than round), it was completed in AD 652 to house Buddhist sutras brought back from India by the monk Xuan Zang. His travels inspired one of the best-known works of Chinese literature, Journey to the West.",
@@ -2358,7 +2358,7 @@
     "ticket": "Mar-Nov \u00a5120, Dec-Feb \u00a590",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
-    "location": "X\u012b'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "X\u012b'\u0101n, China",
     "openTime": "8am-6pm",
     "introduction": [
         "Dating way back to the 2nd century AD, this temple was built to house parts of a sacred finger bone of the Buddha, presented to China by India\u2019s King Asoka who undertook the distribution of Sakyamuni's relics. The older section is worth a visit and you can join the queue of pilgrims who shuffle past the finger bone. The real reason to make the trip out here is the superb museum and its collection of Tang-dynasty treasures.",
@@ -2374,7 +2374,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/zhejiang/hangzhou",
-    "location": "H\u00e1ngzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "H\u00e1ngzh\u014du, China",
     "openTime": "",
     "introduction": [
         "The very definition of classical beauty in China, West Lake is utterly mesmerising: pagoda-topped hills rise over willow-lined waters as boats drift slowly through a vignette of leisurely charm. Walkways, perfectly positioned benches, parks and gardens around the banks of the lake offer a thousand and one vantage points for visitors to admire the faultless scenery.",
@@ -2394,7 +2394,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/zhejiang/hangzhou",
-    "location": "H\u00e1ngzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "H\u00e1ngzh\u014du, China",
     "openTime": "8am-5.30pm",
     "introduction": [
         "The lush, green scenery around this tea village up in the hills southwest of West Lake makes for a wonderful break from the bustle of Hangzhou. Visitors can wander through the village and up into the tea plantations themselves. During the spring, which is the best time to visit, straw-hatted workers can be seen picking the tea leaves by hand in the fields, and baskets of the fresh leaves are left out to dry in the sun back in the village.",
@@ -2407,7 +2407,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/zhejiang/hangzhou",
-    "location": "H\u00e1ngzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "H\u00e1ngzh\u014du, China",
     "openTime": "",
     "introduction": [
         "Vantage point on B\u01ceosh\u00ed Sh\u0101n."
@@ -2418,7 +2418,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/zhejiang/hangzhou",
-    "location": "Hefang Jie, \u6cb3\u574a\u8857H\u00e1ngzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hefang Jie, \u6cb3\u574a\u8857H\u00e1ngzh\u014du, China",
     "openTime": "",
     "introduction": [
         "At the south end of Zhongshan Zhonglu is this touristy, crowded and bustling pedestrian street, with makeshift puppet theatres, teahouses and gift and curio stalls, selling everything from stone teapots to boxes of l\u00f3ngx\u016bt\u00e1ng (\u9f99\u987b\u7cd6; dragon whiskers sweets), ginseng and silk. It\u2019s also home to several traditional medicine shops, including the H\u00faq\u00ecngy\u00fa T\u00e1ng Chinese Medicine Museum, which is an actual dispensary and clinic.",
@@ -2432,7 +2432,7 @@
         "http://www.chinasilkmuseum.com"
     ],
     "cityPath": "china/zhejiang/hangzhou",
-    "location": "73-1 Yuhuangshan Lu, \u7389\u7687\u5c71\u8def73-1\u53f7H\u00e1ngzh\u014du, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "73-1 Yuhuangshan Lu, \u7389\u7687\u5c71\u8def73-1\u53f7H\u00e1ngzh\u014du, China",
     "openTime": "9am-5pm Tue-Sun, noon-5pm Mon",
     "introduction": [
         "This vast museum is devoted to all things silk, covering fashion, craftsmanship and the historic Silk Road in great depth. Extensive galleries showcase the evolution of the q\u00edp\u00e1o (Chinese dress) from the 1920s onward, as well as some fabulously ornate European gowns from the 1600-1800s.",
@@ -2444,7 +2444,7 @@
     "ticket": "\u00a554",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
-    "location": "X\u012b'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "X\u012b'\u0101n, China",
     "openTime": "8am-8.30pm Apr-Oct, to 7pm Nov-Mar",
     "introduction": [
         "X\u012b'\u0101n is one of the few cities in China where the imposing old city walls still stand. Built in 1370 during the Ming dynasty, the magnificent 12m-high walls are surrounded by a dry moat and form a rectangle with a perimeter of 14km. Most sections have been restored or rebuilt, and it is possible to walk the walls in their entirety in a leisurely four hours (or around two hours by bike, or at a slow jog).",
@@ -2457,7 +2457,7 @@
     "ticket": "\u00a520",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
-    "location": "Guangren Si Lu, \u5e7f\u4ec1\u5bfa\u8defX\u012b'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Guangren Si Lu, \u5e7f\u4ec1\u5bfa\u8defX\u012b'\u0101n, China",
     "openTime": "8am-5.30pm",
     "introduction": [
         "The sole Tibetan Buddhist temple in the entire province, Gu\u01cengr\u00e9n Temple originally dates to the early 18th century, but was largely rebuilt in the 20th century. As a sacred Tibetan Buddhist place of worship, the temple hums with mystery and spiritual energy. Perhaps the most valuable object in the temple resides in the final hall, a golden representation of Sakyamuni that rests upon a Tang dynasty pedestal. There is only one other like it, housed at the Jokhang Temple in Lhasa.",
@@ -2471,7 +2471,7 @@
     "ticket": "Mar-Nov \u00a525, Dec-Feb \u00a515, Muslims free",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
-    "location": "Huajue Xiang, \u5316\u89c9\u5df7X\u012b'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Huajue Xiang, \u5316\u89c9\u5df7X\u012b'\u0101n, China",
     "openTime": "8am-7.30pm Mar-Nov, to 5.30pm Dec-Feb",
     "introduction": [
         "Bigger than many temples in China, the Great Mosque is a gorgeous blend of Chinese and Islamic architecture and one of the most fascinating sacred sites in the land. The present buildings are mostly Ming and Qing, though the mosque was founded in the 8th century. Arab influences extend from the central minaret (cleverly disguised as a stumpy pagoda) to the enormous turquoise-roofed Prayer Hall (not open to visitors) at the back of the complex, dating to the Ming dynasty.",
@@ -2485,7 +2485,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/red-sea-coast/hurghada",
-    "location": "Hurghada, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hurghada, Egypt",
     "openTime": "",
     "introduction": [
         "A mind-boggling abundance of marine life is on display here, 5km south of the Giftun Islands, making Gota Abu Ramada a popular spot for underwater photographers, snorkellers and night divers. Depth: 3m to 15m. Rating: novice."
@@ -2496,7 +2496,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/red-sea-coast/hurghada",
-    "location": "Hurghada, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hurghada, Egypt",
     "openTime": "",
     "introduction": [
         "These islands are surrounded by a number of spectacular reefs teeming with marine life, including Hamda, Banana Reef, Sha\u2019ab Sabrina, Erg Somaya and Sha\u2019ab Torfa. Depth: 5m to 30m. Rating: intermediate."
@@ -2507,7 +2507,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/red-sea-coast/hurghada",
-    "location": "Hurghada, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hurghada, Egypt",
     "openTime": "",
     "introduction": []
 }{
@@ -2516,7 +2516,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/red-sea-coast/hurghada",
-    "location": "Hurghada, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Hurghada, Egypt",
     "openTime": "",
     "introduction": []
 }{
@@ -2525,7 +2525,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/red-sea-coast/hurghada",
-    "location": "Southern Straits of GubalHurghada, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Southern Straits of GubalHurghada, Egypt",
     "openTime": "",
     "introduction": [
         "The reef\u2019s upper section is home to bannerfish, angelfish and snappers. If the current is strong, you can drift along the wall skirting the edges of huge coral outcroppings. Depth: 10m to 30m. Rating: intermediate."
@@ -2539,7 +2539,7 @@
         "041 271 59 11"
     ],
     "cityPath": "italy/venice",
-    "location": "Piazzetta San Marco 52Venice, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazzetta San Marco 52Venice, Italy",
     "openTime": "8.30am-7pm summer, to 5.30pm winter",
     "introduction": [
         "This grand Gothic palace was the Doge's official residence from the 9th century, and seat of the Venetian Republic's government (and prisons) for nearly seven centuries. The Doge's Apartments are on the 1st floor, but it's the lavishly decorated 2nd-floor chambers that are the real highlight. These culminate in the echoing Sala del Maggior Consiglio (Grand Council Hall), home to the Doge\u2019s throne and a 22m-by-7m Paradise painting by Tintoretto\u2019s son Domenico.",
@@ -2559,7 +2559,7 @@
         "041 270 83 11"
     ],
     "cityPath": "italy/venice",
-    "location": "Piazza San MarcoVenice, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazza San MarcoVenice, Italy",
     "openTime": "9.45am-5pm Mon-Sat, 2-5pm Sun summer, to 4pm Sun winter",
     "introduction": [
         "With its Byzantine domes and 8500 sq metres of luminous mosaics, Venice's basilica is an unforgettable sight. It dates to the 9th century when, according to legend, two merchants smuggled the corpse of St Mark out of Egypt in a barrel of pork fat. When the original burnt down in 932 Venice rebuilt the basilica in its own cosmopolitan image, with Byzantine domes, a Greek cross layout and walls clad in marbles from Syria, Egypt and Palestine.",
@@ -2577,7 +2577,7 @@
         "http://basilicasalutevenezia.it"
     ],
     "cityPath": "italy/venice",
-    "location": "Campo della Salute 1bVenice, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Campo della Salute 1bVenice, Italy",
     "openTime": "basilica 9.30am-noon & 3-5.30pm, sacristry 10am-noon & 3-5pm Mon-Sat, 3-5pm Sun",
     "introduction": [
         "Guarding the entrance to the Grand Canal, this 17th-century domed church was commissioned by Venice\u2019s plague survivors as thanks for their salvation. Baldassare Longhena's uplifting design is an engineering feat that defies simple logic; in fact the church is said to have mystical curative properties. Titian eluded the plague until age 94, leaving 12 key paintings in the basilica's art-slung sacristy.",
@@ -2594,7 +2594,7 @@
         "041 523 48 64"
     ],
     "cityPath": "italy/venice",
-    "location": "Campo San Rocco 3052Venice, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Campo San Rocco 3052Venice, Italy",
     "openTime": "9.30am-5.30pm, Tesoro to 5.15pm",
     "introduction": [
         "Everyone wanted the commission to paint this building dedicated to the patron saint of the plague-stricken, so Tintoretto cheated: instead of producing sketches like rival Veronese, he gifted a splendid ceiling panel of patron St Roch, knowing it couldn't be refused or matched by other artists. The artist documents Mary's life story in the assembly hall, and both Old and New Testament scenes in the Sala Grande Superiore upstairs. ",
@@ -2611,7 +2611,7 @@
         "041 220 12 15"
     ],
     "cityPath": "italy/venice",
-    "location": "Isola di San Giorgio MaggioreVenice, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Isola di San Giorgio MaggioreVenice, Italy",
     "openTime": "guided tours 10am-5pm Sat & Sun",
     "introduction": [
         "A defunct naval academy has been cleverly converted into a shipshape contemporary art gallery for the Fondazione Giorgio Cini, preserving the original double-height timber ceiling and going for a weatherbeaten-high-design look with luminous stairs in glass and rusted iron. Behind Palladio\u2019s grand church extend the grounds of the former monastery with a long history, beginning in the 10th century with its Benedictine founders and finishing with the staircase and library built by Longhena in the 1640s. ",
@@ -2627,7 +2627,7 @@
         "02 9280 0360"
     ],
     "cityPath": "italy/milan",
-    "location": "Piazza Santa Maria delle Grazie 2Milan, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazza Santa Maria delle Grazie 2Milan, Italy",
     "openTime": "8.15am-6.45pm Tue-Sun",
     "introduction": [
         "Milan's most famous mural, Leonardo da Vinci\u2019s The Last Supper is hidden away on a wall of the refectory adjoining the Basilica di Santa Maria delle Grazie. Depicting Christ and his disciples at the dramatic moment when Christ reveals he's aware of his betrayal, it's a masterful psychological study and one of the world's most iconic images. To see it you must book in advance or sign up for a guided city tour.",
@@ -2643,7 +2643,7 @@
         "02 8844 1274"
     ],
     "cityPath": "italy/milan",
-    "location": "Piazzale Cimitero MonumentaleMilan, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazzale Cimitero MonumentaleMilan, Italy",
     "openTime": "8am-6pm Tue-Sun",
     "introduction": [
         "Behind striking Renaissance-revival black-and-white walls, Milan\u2019s wealthy have kept their dynastic ambitions alive long after death with grand sculptural gestures since 1866. Nineteenth-century death-and-the-maiden eroticism gives way to some fabulous abstract forms from mid-century masters. Studio BBPR\u2019s geometric steel-and-marble memorial to Milan\u2019s WWII concentration camp dead sits in the centre, stark and moving. Grab a map inside the forecourt.",
@@ -2658,7 +2658,7 @@
         "02 722 631"
     ],
     "cityPath": "italy/milan",
-    "location": "Via Brera 28Milan, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Via Brera 28Milan, Italy",
     "openTime": "8.30am-7.15pm Tue-Wed & Fri-Sun, to 10.15pm Thu",
     "introduction": [
         "Located upstairs from the centuries-old Accademia di Belle Arti (still one of Italy\u2019s most prestigious art schools), this gallery houses Milan\u2019s impressive collection of Old Masters, much of it \u2018lifted\u2019 from Venice by Napoleon. Rubens, Goya and Van Dyck all have a place in the collection, but you're here for the Italians: Titian, Tintoretto, Veronese, and the Bellini brothers. Much of the work has tremendous emotional clout, most notably Mantegna's brutal Lamentation over the Dead Christ.",
@@ -2672,7 +2672,7 @@
         "02 8844 5208"
     ],
     "cityPath": "italy/milan",
-    "location": "Corso Magenta 15Milan, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Corso Magenta 15Milan, Italy",
     "openTime": "9.30am-7.30pm Tue-Sun",
     "introduction": [
         "This 16th-century royal chapel and one-time Benedictine convent is Milan's hidden crown jewel, every inch of it covered in breathtaking frescoes, most of them executed by Bernardino Luini who worked with Leonardo da Vinci. Many of the frescoes immortalise Ippolita Sforza, Milanese literary maven, and other members of the powerful Sforza and Bentivoglio clans who paid for the chapel's decoration.",
@@ -2687,7 +2687,7 @@
         "02 8846 3703"
     ],
     "cityPath": "italy/milan",
-    "location": "Piazza CastelloMilan, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazza CastelloMilan, Italy",
     "openTime": "9am-5.30pm Tue-Sun",
     "introduction": [
         "Originally a Visconti fortress, this iconic red-brick castle was later home to the mighty Sforza dynasty, who ruled Renaissance Milan. The castle's defences were designed by the multitalented da Vinci; Napoleon later drained the moat and removed the drawbridges. Today, it houses seven specialised museums, which gather together intriguing fragments of Milan\u2019s cultural and civic history, including Michelangelo\u2019s final work, the Rondanini Piet\u00e0, now housed in the frescoed hall of the castle's Ospedale Spagnolo (Spanish Hospital).",
@@ -2704,7 +2704,7 @@
         "01 40 20 53 17"
     ],
     "cityPath": "france/paris",
-    "location": "rue de Rivoli & quai des Tuileries, 1erParis, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "rue de Rivoli & quai des Tuileries, 1erParis, France",
     "openTime": "9am-6pm Mon, Thu, Sat & Sun, to 9.45pm Wed & Fri",
     "introduction": [
         "Few art galleries are as prized as the Mus\u00e9e du Louvre, Paris\u2019 pi\u00e8ce de r\u00e9sistance and the world's most visited museum. The palace rambles over four floors, up and down innumerable staircases, and through three wings. Showcasing 35,000 works of art \u2013 from Mesopotamian, Egyptian and Greek antiquities to masterpieces by artists such as da Vinci (including his incomparable Mona Lisa), Michelangelo and Rembrandt \u2013 it would take nine months to glance at every piece, rendering advance planning essential.",
@@ -2726,7 +2726,7 @@
         "http://www.senat.fr/visite/jardin"
     ],
     "cityPath": "france/paris",
-    "location": "numerous entrancesParis, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "numerous entrancesParis, France",
     "openTime": "hours vary",
     "introduction": [
         "This inner-city oasis of formal terraces, chestnut groves and lush lawns has a special place in Parisians' hearts. Napol\u00e9on dedicated the 23 gracefully laid-out hectares of the Luxembourg Gardens to the children of Paris, and many residents spent their childhood prodding 1920s wooden sailboats with long sticks on the octagonal Grand Bassin pond, watching puppets perform Punch & Judy\u2013type shows at the Th\u00e9\u00e2tre du Luxembourg, and riding the carrousel (merry-go-round) or ponies.",
@@ -2745,7 +2745,7 @@
         "http://www.catacombes.paris.fr"
     ],
     "cityPath": "france/paris",
-    "location": "1 av Colonel Henri Roi-Tanguy, 14eParis, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "1 av Colonel Henri Roi-Tanguy, 14eParis, France",
     "openTime": "10am-8pm Tue-Sun",
     "introduction": [
         "Paris\u2019 most macabre sight is its underground tunnels lined with skulls and bones. In 1785 it was decided to rectify the hygiene problems of Paris\u2019 overflowing cemeteries by exhuming the bones and storing them in disused quarry tunnels and the Catacombes were created in 1810.",
@@ -2766,7 +2766,7 @@
         "01 55 25 82 10"
     ],
     "cityPath": "france/paris",
-    "location": "16 rue du Repos & 8 bd de M\u00e9nilmontant, 20eParis, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "16 rue du Repos & 8 bd de M\u00e9nilmontant, 20eParis, France",
     "openTime": "8am-6pm Mon-Fri, 8.30am-6pm Sat, 9am-6pm Sun mid-Mar\u2013Oct, shorter hours Nov\u2013mid-Mar",
     "introduction": [
         "The world\u2019s most-visited cemetery, P\u00e8re Lachaise opened in 1804. Its 70,000 ornate and ostentatious tombs of the rich and famous form a verdant, 44-hectare sculpture garden. The most visited are those of 1960s rock star Jim Morrison (division 6) and Oscar Wilde (division 89). Pick up cemetery maps at the conservation office near the main bd de M\u00e9nilmontant entrance. Other notables buried here include composer Chopin; playwright Moli\u00e8re; poet Apollinaire; and writers Balzac, Proust, Gertrude Stein and Colette.",
@@ -2781,7 +2781,7 @@
         "http://www.musee-rodin.fr"
     ],
     "cityPath": "france/paris",
-    "location": "79 rue de Varenne, 7eParis, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "79 rue de Varenne, 7eParis, France",
     "openTime": "10am-5.45pm Tue-Sun",
     "introduction": [
         "Sculptor, painter, sketcher, engraver and collector Auguste Rodin donated his entire collection to the French state in 1908 on the proviso that they dedicate his former workshop and showroom, the beautiful 1730 H\u00f4tel Biron, to displaying his works. They\u2019re now installed not only in the magnificently restored mansion itself, but in its rose-filled garden \u2013 one of the most peaceful places in central Paris and a wonderful spot to contemplate his famous work The Thinker.",
@@ -2800,7 +2800,7 @@
         "04 84 35 13 13"
     ],
     "cityPath": "france/provence/marseille",
-    "location": "7 Promenade Robert LaffontMarseille, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "7 Promenade Robert LaffontMarseille, France",
     "openTime": "10am-8pm Wed-Mon Jul & Aug, 11am-7pm Wed-Mon May, Jun, Sep & Oct, 11am-6pm Wed-Mon Nov-Apr",
     "introduction": [
         "The icon of modern Marseille, this stunning museum explores the history, culture and civilisation of the Mediterranean region through anthropological exhibits, rotating art exhibitions and film. The collection sits in a bold, contemporary building, J4, designed by Algerian-born, Marseille-educated architect Rudi Ricciotti. It is linked by a vertigo-inducing footbridge to the 13th-century Fort St-Jean, from which there are stupendous views of the Vieux Port and the Mediterranean. The fort grounds and their gardens are free to explore.",
@@ -2815,7 +2815,7 @@
         "http://www.villa-mediterranee.org"
     ],
     "cityPath": "france/provence/marseille",
-    "location": "bd du LittoralMarseille, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "bd du LittoralMarseille, France",
     "openTime": "noon-6pm Tue-Fri, 10am-6pm Sat & Sun",
     "introduction": [
         "This eye-catching white structure next to MuCEM is no ordinary \u2018villa\u2019. Designed by architect Stefano Boeri in 2013, the sleek white edifice sports a spectacular cantilever overhanging an ornamental pool. Inside, a viewing gallery with glass-panelled floor (look down if you dare!), and two or three temporary multimedia exhibitions evoke aspects of the Mediterranean, be they sea life, history or environmental. But it\u2019s the building itself that\u2019s the undisputed highlight here."
@@ -2828,7 +2828,7 @@
         "http://www.if.monuments-nationaux.fr"
     ],
     "cityPath": "france/provence/marseille",
-    "location": "Marseille, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Marseille, France",
     "openTime": "10am-6pm Apr-Oct, to 5pm rest of year",
     "introduction": [
         "Located 3.5km west of the Vieux Port, this island fortress-prison was immortalised in Alexandre Dumas\u2019 classic 1844 novel The Count of Monte Cristo. Many political prisoners were incarcerated here including the Revolutionary hero Mirabeau and the Communards of 1871. Other than the island itself there\u2019s not a great deal to see, but it\u2019s worth the trip just for the views of the Vieux Port. Frioul If Express runs boats (\u20ac10.50 return, 20 minutes, around nine daily) from the quay."
@@ -2842,7 +2842,7 @@
         "04 91 16 78 00"
     ],
     "cityPath": "france/provence/marseille",
-    "location": "280 bd MicheletMarseille, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "280 bd MicheletMarseille, France",
     "openTime": "9am-6pm",
     "introduction": [
         "Visionary international-style architect Le Corbusier redefined urban living in 1952 with the completion of his vertical 337-apartment \u2018garden city\u2019, popularly known as La Cit\u00e9 Radieuse. Today it is mostly private apartments, plus a hotel, H\u00f4tel Le Corbusier, the high-end restaurant Le Ventre de l\u2019Architecte and a rooftop terrace. Architecture buffs can book guided tours (adult/child \u20ac10/5) that include a model apartment; contact the tourist office. It\u2019s about 5km south of the centre along av du Prado."
@@ -2855,7 +2855,7 @@
         "http://www.palais-des-papes.com"
     ],
     "cityPath": "france/provence/avignon",
-    "location": "place du PalaisAvignon, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place du PalaisAvignon, France",
     "openTime": "9am-8pm Jul, to 8.30pm Aug, shorter hours Sep-Jun",
     "introduction": [
         "The largest Gothic palace ever built, the Palais des Papes was erected by Pope Clement V, who abandoned Rome in 1309 as a result of violent disorder following his election. It served as the seat of papal power for seven decades, and its immense scale provides ample testament to the medieval might of the Roman Catholic church. Ringed by 3m-thick walls, its cavernous halls, chapels and antechambers are largely bare today, but an audioguide (\u20ac2) provides a useful backstory.",
@@ -2871,7 +2871,7 @@
         "04 90 86 44 58"
     ],
     "cityPath": "france/provence/avignon",
-    "location": "place du PalaisAvignon, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place du PalaisAvignon, France",
     "openTime": "10am-1pm & 2-6pm Wed-Mon",
     "introduction": [
         "The archbishops' palace during the 14th and 15th centuries now houses outstanding collections of primitive, pre-Rennaissance, 13th- to 16th-century Italian religious paintings by artists including Botticelli, Carpaccio and Giovanni di Paolo \u2013 the most famous is Botticelli\u2019s La Vierge et l\u2019Enfant (1470).",
@@ -2883,7 +2883,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/provence/avignon",
-    "location": "Avignon, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Avignon, France",
     "openTime": "",
     "introduction": [
         "This impressive vast square surrounding Palais des Papes provides knockout photo ops. On top of the Romanesque 17th-century cathedral stands a golden statue of the Virgin Mary (weighing 4.5 tonnes), while next to the cathedral, the hilltop Rocher des Doms gardens provide great views of the Rh\u00f4ne, Mont Ventoux and Les Alpilles. Opposite the palace is the 17th-century H\u00f4tel des Monnaies, once the papal mint, and festooned with elaborate carvings and heraldic beasts."
@@ -2897,7 +2897,7 @@
         "04 90 16 56 20"
     ],
     "cityPath": "france/provence/avignon",
-    "location": "5 rue VioletteAvignon, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "5 rue VioletteAvignon, France",
     "openTime": "11am-6pm Tue-Sun Sep-Jun, to 7pm daily Jul & Aug",
     "introduction": [
         "Reopened in summer 2015 after significant renovation and expansion, Avignon's contemporary-arts museum focuses on works from the 1960s to the present. Work spans from minimalist and conceptual to video and photography \u2013 in stark contrast to the classic 18th-century mansion housing it."
@@ -2908,7 +2908,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/provence/avignon",
-    "location": "place St-PierreAvignon, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place St-PierreAvignon, France",
     "openTime": "8am-8pm Mon-Sat",
     "introduction": [
         "Basilique St-Pierre, in the centre of the walled city of Avignon, was built between the 14th and 16th centuries in the Flamboyant Gothic style."
@@ -2919,7 +2919,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/cote-dazur/cannes",
-    "location": "Cannes, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Cannes, France",
     "openTime": "",
     "introduction": [
         "The multi-starred hotels and couture shops lining the iconic bd de la Croisette (aka La Croisette) may be the preserve of the rich and famous, but anyone can enjoy strolling the palm-shaded promenade \u2013 a favourite pastime among Cannois at night, when it twinkles with bright lights. Views of the Baie de Cannes and nearby Est\u00e9rel mountains are beautiful, and seafront hotel palaces dazzle in all their stunning art-deco glory.",
@@ -2931,7 +2931,7 @@
     "ticket": "adult/child \u00a530/15",
     "contact": "",
     "cityPath": "china/shandong/taian",
-    "location": "Daimiao Beijie, \u5cb1\u5e99\u5317\u8857T\u00e0i'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Daimiao Beijie, \u5cb1\u5e99\u5317\u8857T\u00e0i'\u0101n, China",
     "openTime": "8am-6pm summer, to 5pm winter",
     "introduction": [
         "This magnificent Taoist temple complex is where all T\u00e0i\u2019\u0101n roads lead, being the traditional first stop on the pilgrimage route up T\u00e0i Sh\u0101n. The grounds are an impressive example of Song-dynasty (960\u20131127) temple construction with features of an imperial palace, though other structures stood here 1000 years before that.",
@@ -2946,7 +2946,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "china/shandong/taian",
-    "location": "T\u00e0i Sh\u0101n, T\u00e0i'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "T\u00e0i Sh\u0101n, T\u00e0i'\u0101n, China",
     "openTime": "8am-5.15pm",
     "introduction": [
         "The sublimely perched Azure Clouds Temple is dedicated to Bixia. The iron tiling of the temple buildings is intended to prevent damage by strong winds, and ch\u012bw\u011bn (ornaments meant to protect against fire) decorate their bronze eaves."
@@ -2957,7 +2957,7 @@
     "ticket": "\u00a55",
     "contact": "",
     "cityPath": "china/shandong/taian",
-    "location": "T\u00e0i Sh\u0101n, T\u00e0i'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "T\u00e0i Sh\u0101n, T\u00e0i'\u0101n, China",
     "openTime": "8am-5pm",
     "introduction": [
         "The Red Gate Palace is the first of a series of temples dedicated to Bixia, the compassionate daughter of the god of T\u00e0i Sh\u0101n. She wears a headdress adorned with phoenixes and is accompanied by nine attendants including the Goddesses of Children and of Eyesight."
@@ -2984,7 +2984,7 @@
     "ticket": "shoe covers \u00a51",
     "contact": "",
     "cityPath": "china/shandong/taian",
-    "location": "T\u00e0i'\u0101n, China\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "T\u00e0i'\u0101n, China",
     "openTime": "",
     "introduction": [
         "The main hall of the D\u00e0i Temple is the colossal, twin-eaved, nine-bay-wide Hall of Heavenly Blessing, which dates to AD 1009. The dark interior houses an exquisite, 62m-long Song-dynasty mural depicting Emperor Zhenzong as the Lord of T\u00e0i Sh\u0101n, the god of longevity to whom the entire complex is dedicated."
@@ -2998,7 +2998,7 @@
         "06 6988 4676"
     ],
     "cityPath": "italy/rome",
-    "location": "Viale VaticanoRome, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Viale VaticanoRome, Italy",
     "openTime": "9am-6pm Mon-Sat, 9am-2pm last Sun of the month, last entry 2hr before close",
     "introduction": [
         "Founded by Pope Julius II in the early 16th century and enlarged by successive pontiffs, the Vatican Museums boast one of the world's greatest art collections. Exhibits, which are displayed along about 7km of halls and corridors, range from Egyptian mummies and Etruscan bronzes to ancient busts, old masters and modern paintings. Highlights include the spectacular collection of classical statuary in the Museo Pio-Clementino, a suite of rooms frescoed by Raphael, and the Michelangelo-painted Sistine Chapel.",
@@ -3044,7 +3044,7 @@
         "06 6988 5518"
     ],
     "cityPath": "italy/rome",
-    "location": "St Peter's SquareRome, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "St Peter's SquareRome, Italy",
     "openTime": "7am-7pm summer, to 6.30pm winter",
     "introduction": [
         "In this city of outstanding churches, none can hold a candle to St Peter's (Basilica di San Pietro), Italy\u2019s largest, richest and most spectacular basilica. Built atop an earlier 4th-century church, it was consecrated in 1626 after 120 years' construction. Its lavish interior contains many spectacular works of art, including three of Italy's most celebrated masterpieces: Michelangelo\u2019s Piet\u00e0, his soaring dome, and Bernini\u2019s 29m-high baldachin over the papal altar.",
@@ -3080,7 +3080,7 @@
         "06 3 28 10"
     ],
     "cityPath": "italy/rome",
-    "location": "Piazzale del Museo Borghese 5Rome, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazzale del Museo Borghese 5Rome, Italy",
     "openTime": "9am-7pm Tue-Sun",
     "introduction": [
         "If you only have the time (or inclination) for one art gallery in Rome, make it this one. Housing what's often referred to as the \u2018queen of all private art collections\u2019, it boasts paintings by Caravaggio, Raphael, and Titian, as well as some sensational sculptures by Bernini. Highlights abound, but look out for Bernini's Ratto di Proserpina (Rape of Proserpina) and Canova's Venere vincitrice (Venus Victrix).",
@@ -3104,7 +3104,7 @@
         "06 06 08"
     ],
     "cityPath": "italy/rome",
-    "location": "Piazza del Campidoglio 1Rome, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazza del Campidoglio 1Rome, Italy",
     "openTime": "9.30am-7.30pm, last admission 6.30pm",
     "introduction": [
         "Dating to 1471, the Capitoline Museums are the world's oldest public museums. Their collection of classical sculpture is one of Italy's finest, including crowd-pleasers such as the iconic Lupa capitolina (Capitoline Wolf), a sculpture of Romulus and Remus under a wolf, and the Galata morente (Dying Gaul), a moving depiction of a dying Gaul warrior. There's also a formidable picture gallery with masterpieces by the likes of Titian, Tintoretto, Rubens and Caravaggio.",
@@ -3122,7 +3122,7 @@
     "ticket": "basilica/cloister free/\u20ac5 with audio guide",
     "contact": "",
     "cityPath": "italy/rome",
-    "location": "Piazza di San Giovanni in Laterano 4Rome, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazza di San Giovanni in Laterano 4Rome, Italy",
     "openTime": "7am-6.30pm, cloister 9am-6pm",
     "introduction": [
         "For a thousand years this monumental cathedral was the most important church in Christendom. Commissioned by Constantine and consecrated in AD 324, it was the first Christian basilica built in the city and, until the late 14th century, was the pope\u2019s main place of worship. It's still Rome\u2019s official cathedral and the pope\u2019s seat as the bishop of Rome.",
@@ -3142,7 +3142,7 @@
         "http://www.parcovalledeitempli.it"
     ],
     "cityPath": "italy/sicily",
-    "location": "Agrigento, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Agrigento, Italy",
     "openTime": "8.30am-7pm year-round, plus 7.30-10pm Mon-Fri, 7.30-11pm Sat & Sun mid-Jul\u2013mid-Sep",
     "introduction": [
         "Sicily's most enthralling archaeological site encompasses the ruined ancient city of Akragas, highlighted by the stunningly well-preserved Tempio della Concordia (Temple of Concordia), one of several ridge-top temples that once served as beacons for homecoming sailors. The 1300-hectare park, 3km south of Agrigento, is split into eastern and western zones. Ticket offices with car parks are at the park's southwestern corner (the main Porta V entrance) and at the northeastern corner near the Temple of Hera (Eastern Entrance).",
@@ -3164,7 +3164,7 @@
         "http://www.federicosecondo.org"
     ],
     "cityPath": "italy/sicily",
-    "location": "Piazza IndipendenzaPalermo, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Piazza IndipendenzaPalermo, Italy",
     "openTime": "8.15am-5.40pm Mon-Sat, 8.15-9.45am & 11.15am-1pm Sun",
     "introduction": [
         "Designed by Roger II in 1130, this extraordinary chapel is Palermo's top tourist attraction. Located on the mid-level of Palazzo dei Normanni's three-tiered loggia, its glittering gold mosaics are complimented by inlaid marble floors and a wooden muqarnas ceiling, the latter a masterpiece of Arabic-style honeycomb carving reflecting Norman Sicily's cultural complexity.",
@@ -3196,7 +3196,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "italy/sicily",
-    "location": "Stromboli, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Stromboli, Italy",
     "openTime": "",
     "introduction": [
         "For nature lovers, climbing Stromboli is one of Sicily's not-to-be-missed experiences. Since 2005 access has been strictly regulated: you can walk freely to 400m, but need a guide to continue any higher. Organised treks depart daily (between 3.30pm and 6pm, depending on the season), timed to reach the summit (924m) at sunset and to allow 45 minutes to observe the crater's fireworks.",
@@ -3208,7 +3208,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "italy/sicily",
-    "location": "Valley of the Temples, Agrigento, Italy\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Valley of the Temples, Agrigento, Italy",
     "openTime": "",
     "introduction": [
         "One of the best-preserved ancient Greek temples in existence, the Temple of Concordia has survived almost entirely intact since it was constructed in 430 BC. It was converted into a Christian basilica in the 6th century and the main structure reinforced, giving it a better chance of surviving earthquakes. In 1748 the temple was restored to its original form and given the name it is now known by.",
@@ -3220,7 +3220,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/nice",
-    "location": "Nice, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Nice, France",
     "openTime": "",
     "introduction": [
         "Getting lost among the dark, narrow, winding alleyways of Nice\u2019s old town is a highlight. The layout has barely changed since the 1700s, and it\u2019s now packed with delis, restaurants, boutiques and bars, but the centrepiece remains cours Saleya: a massive market square that\u2019s permanently thronging in summer. The food market is perfect for fresh produce and foodie souvenirs, while the flower market is worth visiting just for the colours and fragrances. A flea market is held on Monday.",
@@ -3233,7 +3233,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/nice",
-    "location": "Nice, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Nice, France",
     "openTime": "8.30am-8pm Apr-Sep, to 6pm Oct-Mar",
     "introduction": [
         "For the best views over Nice\u2019s red-tiled rooftops, climb the winding staircases up to this wooded outcrop on the eastern edge of the old town. It\u2019s been occupied since ancient times; archaeological digs have revealed Celtic and Roman remains, and the site was later occupied by a medieval castle that was razed by Louis XIV in 1706 (only the 16th-century Tour Bellanda remains). There are various entrances, including one beside the tower, or you can cheat and ride the free lift.",
@@ -3249,7 +3249,7 @@
         "04 97 13 42 01"
     ],
     "cityPath": "france/nice",
-    "location": "place Yves KleinNice, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place Yves KleinNice, France",
     "openTime": "10am-6pm Tue-Sun",
     "introduction": [
         "European and American avant-garde works from the 1950s to the present are the focus of this museum. Highlights include many works by Christo and Nice\u2019s New Realists: Niki de Saint Phalle, C\u00e9sar, Arman and Yves Klein. The building\u2019s rooftop also works as an exhibition space (with knockout panoramas of Nice to boot)."
@@ -3260,7 +3260,7 @@
     "ticket": "adult/student E\u00a380/40",
     "contact": "",
     "cityPath": "egypt/cairo",
-    "location": "Cairo, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Cairo, Egypt",
     "openTime": "8am-4pm",
     "introduction": [
         "The last remaining wonder of the ancient world; for nearly 4000 years, the extraordinary shape, impeccable geometry and sheer bulk of the Giza Pyramids have invited the obvious questions: \u2018How were we built, and why?\u2019 Centuries of research have given us parts of the answer.",
@@ -3275,7 +3275,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/cairo",
-    "location": "off Sharia al-Azhar & al-GamaliyyaCairo, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "off Sharia al-Azhar & al-GamaliyyaCairo, Egypt",
     "openTime": "",
     "introduction": [
         "The skinny lanes of Khan al-Khalili are basically a medieval-style mall. This agglomeration of shops \u2013 many arranged around small courtyards \u2013 stock everything from soap powder to semiprecious stones, not to mention toy camels and alabaster pyramids. It's open from early morning to sundown (except Friday morning and Sunday), although many shops are open as long as there are customers, even on Sunday.",
@@ -3288,7 +3288,7 @@
     "ticket": "combo ticket  with Mosque of ar-Rifa'i E\u00a340",
     "contact": "",
     "cityPath": "egypt/cairo",
-    "location": "Midan Salah ad-DinCairo, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Midan Salah ad-DinCairo, Egypt",
     "openTime": "8am-4.30pm",
     "introduction": [
         "Massive yet elegant, this great structure is regarded as the finest piece of early-Mamluk architecture in Cairo. It was built between 1356 and 1363 by Sultan Hassan, a grandson of Sultan Qalaun; he took the throne at the age of 13, was deposed and reinstated no less than three times, then assassinated shortly before the mosque was completed. Beyond the striking, recessed entrance, a dark passage leads into a peaceful courtyard surrounded by soaring walls.",
@@ -3300,7 +3300,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/cairo",
-    "location": "Cairo, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Cairo, Egypt",
     "openTime": "9am-4pm",
     "introduction": [
         "Sultan Qaitbey  was as ruthless as any Mamluk sultan, but he was also something of an aesthete. His mosque, completed in 1474 as part of a much larger funerary complex, is widely agreed to mark the pinnacle of Islamic architecture in Cairo. The interior is one of the most pleasant places to sit and relax, but the true glory is the exterior of the dome, carved with the finest, most intricate floral designs anywhere in the Islamic world. ",
@@ -3314,7 +3314,7 @@
         "3337 2933"
     ],
     "cityPath": "egypt/cairo",
-    "location": "off Sharia Wizarat al-Ziraa, DoqqiCairo, Egypt\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "off Sharia Wizarat al-Ziraa, DoqqiCairo, Egypt",
     "openTime": "9am-1.30pm Wed-Mon",
     "introduction": [
         "Built in 1930 in the most expansive British colonial style, this whole museum should be in a museum. Only two buildings of a much larger complex are still open, and they\u2019re a bit decrepit, but they still pack in amazing amounts of information: dioramas depict traditional weddings, glass cases are packed with wax cucurbits, and scale models demonstrate the wheat-threshing process. Dusty and a bit spooky, it\u2019s a true hall of wonders and a real favourite."
@@ -3325,7 +3325,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/nice",
-    "location": "Nice, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Nice, France",
     "openTime": "",
     "introduction": [
         "The most famous stretch of seafront in Nice \u2013 if not France \u2013 is this vast paved promenade, which gets its name from the English expat patrons who paid for it in 1822. It runs for the whole 4km sweep of the Baie des Anges with a dedicated lane for cyclists and skaters; if you fancy joining them, you can rent skates, scooters and bikes from Roller Station.",
@@ -3342,7 +3342,7 @@
         "04 93 81 08 08"
     ],
     "cityPath": "france/nice",
-    "location": "164 av des Ar\u00e8nes de CimiezNice, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "164 av des Ar\u00e8nes de CimiezNice, France",
     "openTime": "10am-6pm Wed-Mon",
     "introduction": [
         "This museum, 2km north in the leafy Cimiez quarter, houses a fascinating assortment of works by Matisse, including oil paintings, drawings, sculptures, tapestries and Matisse\u2019s famous paper cut-outs. The permanent collection is displayed in a red-ochre 17th-century Genoese villa in an olive grove. Temporary exhibitions are in the futuristic basement building. Matisse is buried in the Monast\u00e8re Notre Dame de Cimiez cemetery, across the park from the museum.",
@@ -3357,7 +3357,7 @@
         "04 93 53 87 20"
     ],
     "cityPath": "france/nice",
-    "location": "4 av Dr M\u00e9nardNice, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "4 av Dr M\u00e9nardNice, France",
     "openTime": "10am-6pm Wed-Mon May-Oct, to 5pm Nov-Apr",
     "introduction": [
         "The strange, dreamlike and often unsettling work of the Belarusian painter Marc Chagall (1887\u20131985) is displayed at this small museum, which owns the largest public collection of the painter\u2019s work. The main hall displays 12 huge interpretations (1954\u201367) of stories from Genesis and Exodus. From the city centre, allow about 20 minutes to walk to the museum (signposted from av de l\u2019Olivetto)."
@@ -3401,7 +3401,7 @@
         "05 56 96 51 60"
     ],
     "cityPath": "france/southwestern-france/bordeaux",
-    "location": "20 cours d'AlbretBordeaux, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "20 cours d'AlbretBordeaux, France",
     "openTime": "11am-6pm mid-Jul\u2013mid-Aug, closed Tue rest of year",
     "introduction": [
         "The evolution of Occidental art from the Renaissance to the mid-20th century is on view at Bordeaux\u2019s Museum of Fine Arts, which occupies two wings of the 1770s-built H\u00f4tel de Ville, either side of elegant city park Jardin de la Mairie. The museum was established in 1801; highlights include 17th-century Flemish, Dutch and Italian paintings. Temporary exhibitions are regularly hosted at its nearby annexe, Galerie des Beaux-Arts."
@@ -3414,7 +3414,7 @@
         "http://www.cathedrale-bordeaux.fr"
     ],
     "cityPath": "france/southwestern-france/bordeaux",
-    "location": "place Jean MoulinBordeaux, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place Jean MoulinBordeaux, France",
     "openTime": "2-6pm Mon, 10am-noon & 2-6pm Tue-Sun",
     "introduction": [
         "Lording over the city, and a Unesco World Heritage site prior to the city's classification, the cathedral's oldest section dates from 1096; most of what you see today was built in the 13th and 14th centuries. Enjoy exceptional masonry carvings in the north portal.",
@@ -3426,7 +3426,7 @@
     "ticket": "adult/child \u20ac4/2",
     "contact": "",
     "cityPath": "france/southwestern-france/bordeaux",
-    "location": "39 rue BouffardBordeaux, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "39 rue BouffardBordeaux, France",
     "openTime": "11am-6pm Wed-Mon",
     "introduction": [
         "Faience pottery, porcelain, gold, iron, glasswork and furniture are displayed at the small Decorative Arts and Design Museum, at home in an elegant golden-stone h\u00f4tel particulier (private mansion) dating to 1779. Temporary exhibitions command a higher admission fee."
@@ -3439,7 +3439,7 @@
         "http://www.cathedrale-strasbourg.fr"
     ],
     "cityPath": "france/alsace-and-lorraine/strasbourg",
-    "location": "place de la Cath\u00e9draleStrasbourg, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place de la Cath\u00e9draleStrasbourg, France",
     "openTime": "7-11.15am & 12.45-7pm, astronomical clock tickets sold 11.30am-12.25pm Mon-Sat, platform 9am-7.15pm",
     "introduction": [
         "Nothing prepares you for your first glimpse of Strasbourg's Cath\u00e9drale Notre-Dame, completed in all its Gothic grandeur in 1439. The lace-fine fa\u00e7ade lifts the gaze little by little to flying buttresses, leering gargoyles and a 142m spire. The interior is exquisitely lit by 12th- to 14th-century stained-glass windows, including the western portal's jewel-like rose window. The Gothic-meets-Renaissance astronomical clock strikes solar noon at 12.30pm with a parade of figures portraying the different stages of life and Jesus with his Apostles.",
@@ -3454,7 +3454,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/alsace-and-lorraine/strasbourg",
-    "location": "Strasbourg, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Strasbourg, France",
     "openTime": "",
     "introduction": [
         "History seeps through the twisting lanes and cafe-rimmed plazas of Grande \u00cele, Strasbourg's Unesco World Heritage\u2013listed island bordered by the River Ill. These streets \u2013 with their photogenic line-up of wonky, timber-framed houses in sherbet colours \u2013 are made for aimless ambling. They cower beneath the soaring magnificence of the cathedral and its sidekick, the gingerbready 15th-century Maison Kammerzell, with its ornate carvings and leaded windows. The alleys are at their most atmospheric when lantern lit at night."
@@ -3467,7 +3467,7 @@
         "http://www.musees.strasbourg.eu"
     ],
     "cityPath": "france/alsace-and-lorraine/strasbourg",
-    "location": "3 place du Ch\u00e2teauStrasbourg, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "3 place du Ch\u00e2teauStrasbourg, France",
     "openTime": "10am-6pm Tue-Sun",
     "introduction": [
         "Occupying a cluster of sublime 14th- and 16th-century buildings, this museum harbours one of Europe\u2019s premier collections of Romanesque, Gothic and Renaissance sculpture (including many originals from the cathedral), plus 15th-century paintings and stained glass. Christ de Wissembourg (c 1060) is the oldest work of stained glass in France.",
@@ -3479,7 +3479,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/alsace-and-lorraine/strasbourg",
-    "location": "6 rue Averro\u00e8sStrasbourg, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "6 rue Averro\u00e8sStrasbourg, France",
     "openTime": "",
     "introduction": [
         "Designed by Italian architect Paolo Portoghesi and opened in September 2012, France's biggest mosque (accommodating 1500 worshippers) sits on a bend in the River Ill and is topped by a copper dome and flanked by wings resembling a flower in bud. More than just another landmark, it took 20 years of political to-ing and fro-ing for this project to come to fruition and its completion is considered the beginning of a new era for Muslims and religious tolerance in France."
@@ -3490,7 +3490,7 @@
     "ticket": "",
     "contact": "",
     "cityPath": "france/alsace-and-lorraine/strasbourg",
-    "location": "Strasbourg, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Strasbourg, France",
     "openTime": "9am-7pm",
     "introduction": [
         "An expression of flourishing Franco-German friendship, Strasbourg and its German neighbour Kehl have turned former customs posts and military installations into this 60-hectare garden, whose play areas, promenades and parkland straddle both banks of the Rhine. The centrepiece is Marc Mimram\u2019s sleek (and hugely expensive) suspension bridge, which has proved a big hit with pedestrians and cyclists. From the tram stop, walk east or take bus 21 for three stops. It is 3km southeast of central Strasbourg (Grande \u00cele)."
@@ -3503,7 +3503,7 @@
         "http://www.cite-espace.com/en"
     ],
     "cityPath": "france/toulouse",
-    "location": "av Jean GonordToulouse, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "av Jean GonordToulouse, France",
     "openTime": "10am-7pm daily Jul & Aug, to 5pm or 6pm Sep-Dec & Feb-Jun, closed Mon in Feb, Mar & Sep-Dec, closed Jan",
     "introduction": [
         "The fantastic space museum on the city's eastern outskirts brings Toulouse's illustrious aeronautical history to life through hands-on exhibits, including a moon-running simulator, a rotating pod to test your tolerance for space travel, a planetarium and an observatory, plus a vast cinema to immerse you in a space mission. The showpieces are the full-scale replicas of iconic spacecraft, including the Mars Rover and a 52m-high Ariane 5 space rocket.",
@@ -3516,7 +3516,7 @@
     "ticket": "ambulatory \u20ac2.50",
     "contact": "",
     "cityPath": "france/toulouse",
-    "location": "place St-SerninToulouse, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place St-SerninToulouse, France",
     "openTime": "8.30am-6pm Mon-Sat, to 7.30pm Sun",
     "introduction": [
         "This well-preserved Romanesque edifice is built from golden and rose-hued stonework up to the tip of the octogonal bell tower. Entry is free, but it\u2019s worth the additional charge to explore the ambulatory, where marble statues stare out from alcoves in the pink brick walls. The tomb of the basilica\u2019s namesake St Sernin (also known as St Saturnin) has pride of place: he was Toulouse\u2019s first bishop and met a gruesome end when pagan priests tied him to a bull.",
@@ -3530,7 +3530,7 @@
         "http://www.augustins.org"
     ],
     "cityPath": "france/toulouse",
-    "location": "21 rue de MetzToulouse, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "21 rue de MetzToulouse, France",
     "openTime": "10am-6pm Thu-Mon, to 9pm Wed",
     "introduction": [
         "Located within a former Augustinian monastery, this fine-arts museum spans the Roman era through to the early 20th century. Echoing stairwells and high-vaulted chambers are part of the fun, but artistic highlights include the French rooms \u2013 with works by Delacroix, Ingres and Courbet \u2013 and works by Toulouse-Lautrec and Monet, among the standouts from the 20th-century collection. Don't skip the 14th-century cloister gardens, with gurning gargoyle statues that seem to pose around the courtyard. Temporary exhibitions are \u20ac4 extra."
@@ -3543,7 +3543,7 @@
         "http://www.fondation-bemberg.fr"
     ],
     "cityPath": "france/toulouse",
-    "location": "place d\u2019Ass\u00e9zatToulouse, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "place d\u2019Ass\u00e9zatToulouse, France",
     "openTime": "10am-12.30pm & 1.30-6pm Tue-Sun, to 8.30pm Thu",
     "introduction": [
         "This luxurious museum of fine arts and historic design is housed within Toulouse\u2019s most impressive h\u00f4tel particulier (private mansion), the H\u00f4tel d'Ass\u00e9zat. On the 1st floor, velvet-walled rooms are packed with period furniture, while the 2nd floor exhibits artworks spanning impressionist to expressionist schools of thought. There are sketches by Picasso and Modigliani, plus some minor works by Pissarro and Egon Schiele."
@@ -3556,7 +3556,7 @@
         "http://www.canaldumidi.com"
     ],
     "cityPath": "france/toulouse",
-    "location": "Toulouse, France\u00a9 Mapbox\u00a9 OpenStreetMap contributors",
+    "location": "Toulouse, France",
     "openTime": "",
     "introduction": [
         "The Canal du Midi is an engineering wonder, a 241km waterway constructed under Louis XIV to link the Atlantic to the Mediterranean Sea. Deservedly inscribed on Unesco's list of the world's cultural heritage, the stretch wending from Toulouse towards Port Lauragais has 40km of cycling and walking paths to enjoy."
