@@ -2,13 +2,13 @@ var mongoose = require('mongoose');
 var Connection = require('./db');
 
 // Schema for TravelNote ========================
-var noteSchema = mongoose.Schema({
+var noteSchema = new mongoose.Schema({
 	title 				: String,
 	author				: {
 		uid: mongoose.Schema.Types.ObjectId,
 		name: String
 	},
-	body				: String,
+	body: String,
 	word_counts			: Number,
 	created_time		: Date,
 	updated_time 		: Date,

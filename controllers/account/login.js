@@ -23,12 +23,13 @@ module.exports = function(req, res){
 			return res.redirect(req.originalUrl);
 		}
 
-		req.session.user = user;
-		req.flash('success', 'Successfully login!');
-		if (typeof(req.query.callback) == "undefined") {
-			callbackURI = '/';
-		} else {
-			callbackURI = decodeURIComponent(req.query.callback) || '/';
-		}
+		 req.session.user = user;
+		 req.flash('success', 'Successfully login!');
+		// if (typeof(req.query.callback) == "undefined") {
+		// 	callbackURI = '/';
+		// } else {
+		// 	callbackURI = decodeURIComponent(req.query.callback) || '/';
+		// }
+		res.redirect('/');
 	});
 }
