@@ -1,11 +1,742 @@
-<%- include header %>
 
-<form method="post">
-	Title: <br />
-	<input type="text" name="title" /><br />
-	Main Body:<br />
-	<textarea name="text" rows="20" cols="100"></textarea><br />
-	<input type="submit" value="post" />
-</form>
 
-<%- include footer %>
+<!DOCTYPE html>
+<html class="gr__mafengwo_cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>添加文字 - 写游记</title>
+
+
+<script type="text/javascript" async="" charset="utf-8" src="http://c.cnzz.com/core.php?web_id=30065558&amp;t=q"></script>
+<script type="text/javascript" async="" charset="utf-8" src="http://w.cnzz.com/c.php?id=30065558&amp;async=1"></script>
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" href="../homepage/main.css" />
+
+<link href="http://css.mafengwo.net/css/cv/css+base:css+jquery.suggest:css+plugins:css+plugins+jquery.jgrowl:css+other+popup:css+mfw-header.2015^YlVS^1490234841.css" rel="stylesheet" type="text/css">
+
+
+
+<link href="http://css.mafengwo.net/css/cv/css+jquery-ui-1.9.1.custom.min:css+new_notes+new_notes:css+clip:css+new_notes+catalog^a1A^1488767901.css" rel="stylesheet" type="text/css">
+
+
+    <style type="text/css">
+
+        .photo-bar a.sub-btn {
+            height:34px;
+        }
+
+        .art_title > a.save, .article a.cancel {
+            width:78px;
+            padding:0;
+            text-align:center;
+        }
+
+        .add_word_v2 .art_pop {
+            top:inherit;
+            bottom: 66px;
+        }
+        .add_word_v2 textarea {overflow:hidden}
+
+        .btn_publish, .btn_preview {overflow:hidden}
+
+        .up_list li {overflow:hidden}
+
+        .du_top .btn_big {overflow:hidden}
+
+        #_j_elephantscrolltop {display:none !important}
+        ._j_image_item .selected {display:none}
+        ._j_image_item.on .selected {display:block}
+        ._j_draftnum {font-style:normal}
+
+        .online_mode ._j_online_up{display:block}
+        .uploading_mode ._j_local_up{display:block}
+        ._j_local_up, ._j_online_up {display:none}
+        .online_mode ._j_logic_up, .uploading_mode ._j_logic_up {position:absolute}
+
+        .fully_loading {display:none}
+        .set_btn {display:none}
+        .set_drag {display:none}
+        .set_page {display:block}
+        .loading_video {display:none}
+        .video_up_success {display:none}
+        ._j_topvideo_delete {display:none}
+        ._j_load_v {display:none}
+
+        ._j_toppic_uploaded .set_btn {display:block}
+        ._j_toppic_uploaded .set_drag {display:block}
+        ._j_toppic_uploaded .set_page {display:none}
+        ._j_topvideo_uploaded .video_up_success {display:block}
+        ._j_topvideo_uploaded ._j_topvideo_delete {display:block}
+        ._j_topvideo_uploaded .set_drag {display:none}
+
+        ._j_toppic_uploading .set_bg img {display:none}
+        ._j_toppic_uploading .set_btn {display:none}
+        ._j_toppic_uploading .set_drag {display:none}
+        ._j_toppic_uploading .set_page {display:none}
+        ._j_toppic_uploading .video_up_success {display:none}
+
+        ._j_toppic_loading .set_bg img {display:none}
+        ._j_toppic_loading .set_btn {display:none}
+        ._j_toppic_loading .set_drag {display:none}
+        ._j_toppic_loading .set_page {display:none}
+        ._j_toppic_loading .fully_loading {display:block}
+        ._j_toppic_loading .video_up_success {display:none}
+
+        ._j_topvideo_uploading ._j_load_v {display:block}
+        ._j_topvideo_uploading .set_drag {display:none}
+        ._j_topvideo_uploading .video_up_success {display:none}
+        ._j_topvideo_uploading #_j_cover_do{z-index:-1}
+
+
+        .m_modify {display:none}
+        .m_delete {display:none}
+        .m_save {display:none}
+        .m_cancel {display:none}
+
+        ._j_music_uploaded .m_modify {display:inline}
+        ._j_music_uploaded .m_delete {display:inline}
+
+        ._j_music_uploading .m_modify {display:none}
+        ._j_music_uploading .m_delete {display:none}
+
+        ._j_music_editing .m_save {display:inline}
+        ._j_music_editing .m_cancel {display:inline}
+        ._j_music_editing .m_modify {display:none}
+        ._j_music_editing .m_delete {display:none}
+        ._j_music_editing input.m_text {display:inline-block}
+        ._j_music_editing .m_showname {display:none}
+
+        .hover .whirl {display:block}
+
+        ul.city_suggest_result {border:1px solid #ccc; width:186px}
+        ul.city_suggest_result li {background:#fdfdfd; height:28px; line-height:28px; padding-left:15px; text-align:left; font-size:12px}
+        ul.city_suggest_result li.on {background:#f0f0f0}
+        .nf_search {position:relative; z-index:1}
+
+        .content_list {overflow:hidden}
+        .content_list .view_main {width:680px; float:left}
+        .content_list .view_side {margin-top:100px}
+        .catalog-list-cnt {overflow:hidden}
+
+        .loading_forward {display:none; height:30px; position:relative}
+        .loading_backward {display:none;top:-20px;  height:30px;z-index:-1}
+
+        .forward_load .loading_forward {display:block}
+        .backward_load .loading_backward {display:block}
+
+    </style>
+
+
+<script language="javascript" src="http://js.mafengwo.net/js/cv/js+jquery-1.8.1.min:js+global+json2:js+M+Module:js+M+M:js+M+Log:js+m.statistics^ZFw^1489387530.js" type="text/javascript"></script>
+
+<script async="" src="http://js.mafengwo.net/js/cv/js+Dropdown:js+pageletcommon+pageHeadUserInfoWWWNormal:js+jquery.tmpl:js+M+module+InputListener:js+M+module+SuggestionXHR:js+M+module+DropList:js+M+module+Suggestion:js+M+module+MesSearchEvent:js+SiteSearch:js+AHeader:js+M+module+PageAdmin:js+M+module+Storage:js+M+module+Cookie:js+M+module+ResourceKeeper:js+jquery.jgrowl.min:js+AMessage:js+M+module+dialog+Layer:js+M+module+dialog+DialogBase:js+M+module+dialog+Dialog:js+M+module+FrequencyVerifyControl:js+M+module+FrequencySystemVerify:js+ALogin:js+M+module+ScrollObserver:js+M+module+QRCode:js+AToolbar:js+ACnzzGaLog:js+ARecruit:js+ALazyLoad:js+jquery.mousewheel.min:js+M+module+ScrollBar:js+M+module+StickyAndStayBlock:js+note+ControllerEditCatalog:js+module+app+Page:js+plupload:js+module+uploader+Pluploader:js+M+module+dialog+confirm:js+M+module+dialog+alert:js+cvideo+swfobject:js+note+VideoUploader:js+M+module+FrequencyAppVerify:js+note+GinfoDraftDialog:js+M+module+TopTip:js+M+module+Clip:js+note+AEditInfo:js+note+AProgressBar:js+plugins+jquery.rotate:js+note+PicPanel:js+note+PicUploaderDialog:js+note+ParagraphDialog:js+note+NoteEditVideoBox:js+note+UploaderMachine:js+note+NoteEditUploaderBox:js+EmotionsHd:js+EmojiBox:js+M+module+ClickToggle:js+M+module+TextareaAutosize:js+note+NoteEditTextBox:js+jquery-ui-core:js+jquery-ui-selectable:js+jquery-ui-draggable:js+jquery-ui-droppable:js+M+module+Slider:js+note+PlaceRelPicPanel:js+M+module+KeyListener:js+M+module+RichInput:js+note+PlaceSuggestPanel:js+note+PicRelatePoiDialog:js+M+module+HoverTip:js+note+AEditContent:js+jquery-ui-sortable:js+note+ASideSort^YlBURg^1489552560.js"></script><script async="" src="http://js.mafengwo.net/js/mdd/mdd_index.js?1482808021"></script><style type="text/css">._j_fix_block_fix_1{position:fixed;top:120px}</style><style type="text/css">._j_fix_block_abs_2{position:absolute;bottom:0px}</style><script async="" src="http://js.mafengwo.net/js/BrowserState.js?1476871089"></script>
+</head>
+
+<body data-gr-c-s-loaded="true" style="position: relative;">
+
+<nav class="navbar navbar-inverse" style="margin-bottom:0; border-radius:0px; height:70px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="../homepage/homepage.html"><img src="../image/logo.jpg" alt="tripedia" style="margin-top:-20px; margin:-left:-10px; height:400%"></a>
+    </div>
+    <ul class="nav navbar-nav" style="height:70px; font-size:16px">
+      <li class="bar_links"><a href="../homepage/homepage.html">Home</a></li>
+      <li class="bar_links"><a href="../destination/destination.html">Destination</a></li>
+      <li class="bar_links"><a href="#">Travel Note</a></li>
+    </ul>
+
+    <form class="navbar-form navbar-left" style="padding:9.5px;">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+            </button>
+        </div>
+        </div>
+    </form>
+
+    <ul class="nav navbar-nav navbar-right" style="height:70px; font-size:16px">
+      <li class="bar_links"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li class="bar_links"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="cp_placeholder" id="_j_progressbar" >
+        <div class="complete_percent" style="border-style:none">
+            <div class="cp_center" id="_j_top_bar">
+                <a role="button" tabindex="0" class="btn_big cp_preview flt2 btn_preview _j_preview" title="预览" href="/note/create.php/view/?id=200673852">预览</a>
+                <div class="store_draft flt2" id="_j_drafttip">
+                    <span class="hide">内容自动保存于 <em>15:15:06</em></span>
+                    <a role="button" class="store_it draft_remain _j_savedraft" title="保存草稿">保存草稿</a>
+                </div>
+                <div class="cp_detail _j_progressdetail" id="completeDetail" style="display:inline-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="main" id="_j_maincnt">
+    <div class="set_index" id="_j_cover_box" style="height: 241.667px;">
+        <div class="set_bg _j_toppiccnt">     </div>
+        <div class="fully_loading">
+            <p vtip="头图加载中...">头图加载中...</p>
+            <img src="http://images.mafengwo.net/images/post/new_notes/fully_loading_v2.gif" alt="loading">
+        </div>
+        <div class="set_page" id="_j_pluplader_btn_container_1">
+                <a role="button" class="set_add  _j_uploaderattop _j_upload_toppic" id="_j_upload_toppic"></a>
+                <h2>设置游记头图</h2>
+                <p>图片建议选择尺寸大于1680px的高清大图，如相机原图</p>
+                <div class="clear"></div>
+                <div id="html5_1bd9g47ki165gadp1dbusfc1a7g3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 200px; left: 275px; width: 67px; height: 67px; overflow: hidden; z-index: -1;"><input id="html5_1bd9g47ki165gadp1dbusfc1a7g3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" accept="image/jpeg,.JPEG,image/png,image/gif">
+                </div>
+        </div>
+        <div class="set_title ">
+            <input type="text" id="_j_title" value="" placeholder="填写游记标题" maxlength="48">
+            <span>可输入<strong>48</strong>字</span>
+            <div class="clear"></div>
+        </div>
+        <div class="set_btn" id="_j_cover_do">
+            <a role="button" title="设置头图" class="a_set _j_addtoppiclabel"><i></i><span>设置头图</span></a>
+            <ul>
+                <li id="_j_change_cover_cnt"><a role="button" title="更换头图" class="a_change _j_upload_toppic" id="_j_change_toppic"><i></i><span>重新上传头图</span></a></li>
+                <li><a role="button" title="重新编辑头图" class="a_change _j_reposition_cover" data-fileid="" data-url="" data-size="[]"><i></i><span>重新编辑头图</span></a></li>
+                <li><a role="button" title="" class="a_add  _j_addtopvideo"><i></i><span id="_j_video_switch">添加头图视频</span><strong>NEW</strong></a><a role="button" id="swfCoverDiv" title=""></a></li>
+                <li class="_j_topvideo_delete"><a role="button" title="" class="a_delete delete_video" id="_j_delete_video"><i></i><span>删除头图视频</span></a></li>
+            </ul>
+        </div>
+        <div class="loading_video _j_load_v">
+            <h3>视频正在上传...</h3>
+            <div class="loading_bar"><span></span></div>
+            <a role="button" class="cancel_up _j_cover_cancel" id="_j_upload_top_video_cancel" title="取消上传">取消上传</a>                <div class="clear"></div>
+            <div class="loading_num"></div>
+        </div>
+        <div class="video_up_success" id="video_up_success" vid="0">
+            <div class="trans_success hide">
+                <i></i>
+                <p>视频处理成功！请到预览页观看</p>
+            </div>
+            <div class="trans_wait ">
+                <i class="vus2"></i>
+                <p>视频处理中</p>
+            </div>
+            <div class="trans_del hide">
+                <i class="vus2"></i>
+                <p>视频未通过审核</p>
+            </div>
+        </div>
+    </div>
+    <div class="add" id="_j_content_area">
+        <div class="content_list">
+            <div class="view_main">
+                <div class="block-loading loading_backward"></div>
+                <div class="add_list" id="_j_content_box" style="min-height:20px">
+                    <div class="add_button add_button_show" style="position:relative">
+
+	                   <div class="edit_object _j_editobject" style="position:relative; margin-bottom:10px; margin-left:-45px;">
+	                   <ul>
+		                  <li class="eo_word _j_add_text_btn">
+			                 <a role="button" title="添加文字"><i></i><span>添加文字</span></a>
+		                  </li>
+                          <li class="eo_pic _j_uploadbtncnt">
+			                 <a role="button" title="添加照片" class="_j_uploadboxbtn"><i></i><span>添加照片</span></a>
+			                 <span class="close _j_close_mobile_notice"></span>
+		                  </li>
+		                  <li class="eo_video _j_add_movie_btn">
+			                 <a role="button" title="添加视频"><i></i><span>添加视频</span></a>
+		                  </li>
+		                  <li class="eo_title _j_add_paragraph_title_btn">
+			                 <a role="button" title="添加段落标题"><i></i><span>添加段落标题</span></a>
+                          </li>
+	                   </ul>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view_side">
+                <div style="height: 66px; display: none;"></div>
+                <div id="pagelet-block-5b7ccc0cdd9e6d1d6464f882ec73e489" class="_j_sticky_block pagelet-block" data-api=":note:pagelet:editCatalogApi" data-params="{&quot;id&quot;:&quot;200673852&quot;}" data-async="1" data-controller="/js/note/ControllerEditCatalog">
+                    <div class="notes_catalog">
+                        <div class="side_title" id="_j_catalogtitle">游记目录</div>
+                        <div id="_j_catalog_list_wrap" style="position: relative; height: 36px;">
+                        <ul class="catalog_content" style="position: relative; overflow-y: hidden; max-height: 526px;">
+                            <li id="_j_paragraph_nav_0">
+                                <span class="catalog_num">01/</span><a role="button" tabindex="0" data-seq="" data-index="0" title="默认段落(0)" class="catalog_line _j_cataloglink">默认段落</a>
+                            </li>
+                        </ul>
+                        <div class="scrollbar" style="position: absolute; right: 0px; top: 0px; width: 5px; height: 100px; background-color: rgb(214, 214, 214); border-radius: 10px; cursor: pointer; opacity: 0; display: none;"></div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="draft_con" id="_j_publish_bar">
+            <span class="draft_btn">
+                <a role="button" title="预览" href="/note/create.php/view/?id=200673852" class="btn_big btn_white btn_preview _j_preview">预览</a>
+                <a role="button" title="发表游记" class="btn_big btn_publish _j_btn_publish">发表游记</a>
+            </span>
+            <a role="button" title="保存草稿" class="draft_remain _j_savedraft">保存草稿</a>
+            <span class="draft_auto">内容自动保存于 <strong>15:15:06</strong></span>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+    <script id="_j_paragraph_dialog_content_tmpl" type="text/x-jquery-tmpl">
+    <div class="base_info" id="_j_edit_paragraph_title">
+		<div class="write_base_info">
+			<h2>添加段落标题</h2>
+			<div class="add_paragraph">
+				<dl class="paragraph_item clearfix">
+					<dt class="dt_name"><span>*</span>段落名称</dt>
+					<dd>
+						<div class="paragraph_name">
+							<input type="text" class="_j_paragraph_title_input">
+						</div>
+						<div class="paragraph_tips">
+							<p>添加段落名称让你的游记更加清晰明了。</p>
+						</div>
+						<!--<div class="show_name"><input type="checkbox" checked="checked" id="showName"><label for="showName">名称在正文中显示</label></div>-->
+					</dd>
+				</dl>
+
+			</div>
+			<div class="base_info_button">
+				<a role="button" class="btn_big _j_submit" title="确定">确定</a>
+			</div>
+		</div>
+	</div>
+    </script>
+    <script id="_j_paragraph_uploader_tmpl" type="text/x-jquery-tmpl">
+    <div>
+        {{if data.thumb}}
+        <span class="uploaded_pic" data-file="${data.file}"><img src="${data.thumb}" style="width:168px; height:60px" /></span>
+        <span id="_j_upload_paragraph_pic_btn" class="change_pic">更改图片</span>
+        {{else}}
+        <a id="_j_upload_paragraph_pic_btn" role="button" title="自定义图片">+自定义图片</a>
+        {{/if}}
+    </div>
+    </script>
+
+    <script id="_j_editor_text_pop_tmpl" type="text/x-jquery-tmpl">
+    <div class="add_word_v2" style="display:none">
+        <textarea placeholder="在这儿添加游记文字......" maxlength="5000" class="_j_edittxtarea"></textarea>
+        <div class="add_article">
+            <a class="save _j_savetext" title="完成">完成</a>
+            <!--<a class="cancel _j_canceltext" title="取消">取消</a>-->
+            <a class="expression _j_face" title="选择表情"><i></i></a>
+            <a class="at _j_at" title="点名"><i></i></a>
+            <div class="_j_popcnt hide"></div>
+        </div>
+    </div>
+    </script>
+
+    <script id="_j_atbox_pop_tmpl" type="text/x-jquery-tmpl">
+    <div class="art_pop_box art_at art_pop hide">
+        <div class="art_search clearfix">
+            <input type="text" placeholder="请输入用户名号">
+            <ul class="result hide"></ul>
+        </div>
+        <div class="art_opt">
+            <a role="button" class="art_submit">确定</a>
+        </div>
+    </div>
+    </script>
+
+    <script id="_j_editor_video_pop_tmpl" type="text/x-jquery-tmpl">
+        <div class="art_pop add_video_editor video_pop" style="position:relative; top:0; left:0; z-index:1; display:none">
+            <a role="button" class="exp_close _j_close">×</a>
+            <div class="art_pop_box">
+                <div class="video _j_logic_up" >
+                    <div class="video_top clearfix">
+                        <strong class="video_name vt_up"><i></i>本地上传</strong>
+                        <strong class="video_name vt_online"><i></i>在线视频</strong>
+                    </div>
+                    <div class="video_con">
+                        <div class="video_up">
+                            <input type="hidden" id="videofile" name="videofile" v_id="" v_url=""/></span>
+                            <a role="button" class="btn_big">上传视频</a>
+                            <div class="swfupload swfDiv _j_swfUpCover" ></div>
+                            <p>请上传200M以内的视频</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video_l video_padding _j_local_up">
+                    <div class="video_title">
+                        <strong class="video_name vt_up"><i></i>本地上传</strong>
+                    </div>
+                    <div class="video_con">
+                        <div class="video_uping">
+                            <div class="video_bar clearfix">
+                                <p class="flt1"><span class="_j_progress"></span></p>
+                                <strong class="flt1 _j_cancel_up">取消上传</strong>
+                            </div>
+                            <div class="uping_per" fsize="">
+
+                            </div>
+                            <div class="vu_tips">
+                                <a class="flt2 btn_c _j_add_video disable" style="visibility:hidden">完成上传</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video video_padding _j_online_up">
+                    <div class="video_title">
+                        <strong class="video_name vt_online on"><i></i>在线视频</strong>
+                    </div>
+                    <div class="video_con">
+                        <div class="video_copy">
+                            <p>请复制粘贴视频源文件地址(视频格式必须是.swf)：</p>
+                            <div class="vc_input"><input type="text" placeholder="http://" name="v_url"/></div>
+                        </div>
+                        <div class="vu_tips">
+                            <a role="button" class="flt2 btn_c _j_add_online_v">确定</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script id="_j_editor_uploader_pop_tmpl" type="text/x-jquery-tmpl">
+        <div class="art-add-img" style="display:none;">
+        <a role="button" class="exp_close _j_close" style="top:41px;right:-75px;">×</a>
+            <div class="art-pop-box">
+                <div class="img-mobile">
+                    <div class="img-wrap">
+                        <div class="qrcode"><img src="http://images.mafengwo.net/images/post/new_notes/nn_v2/code-loading.gif"></div>
+                        <h4>上传手机照片<a class="a-question" href="/i/5518100.html" target="_blank"></a></h4>
+                    </div>
+                    <div class="art-tips">用微信扫描二维码轻松上传手机照片</div>
+                    <div class="uploading-info">正在上传中<span><em>.</em><em>.</em><em>.</em></span></div>
+                </div>
+                <div class="img-local">
+                    <div class="img-wrap"><a class="art-btn-upload _j_uploadbtn" href="javascript:void(0);"><i class="icon-upImg"></i>上传本地图片</a></div>
+                    <div class="art-tips">选取的图片尺寸应大于100*50，大小应小于30M。<br>按ctrl键可支持多选，每次最多添加100张图片。</div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script id="_j_picupload_dialog_content_tmpl" type="text/x-jquery-tmpl">
+    <div id="_j_upload_list_box">
+        <div class="uppic-wrapper">
+            <div class="uppic-content">
+                <div class="uppic-title"><strong>添加照片</strong></div>
+                <div class="uppic-list" id="_j_upload_photo_box">
+                    <ul class="clearfix _j_piclist_cnt"><li style="display:none"><a class="btn-upAdd _j_continue_upload" role="button"><i></i></a></li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="btm-action btm-upbar">
+            <div class="btm-cnt">
+                <a class="btn-primary" role="button" id="_j_next_step">上传</a>
+                <span class="up-nums"><span class="_j_finishedindex">0</span> / <em style="font-style:normal" class="_j_totalcount">0</em></span>
+                <div class="upload-bar"><span style="width: 0;" class="process _j_progress"></span></div>
+                <div class="water-mark _j_watermark_cnt">水印<span class="switch _j_wmswitch{{if !wm.open}} off{{/if}}"><i></i></span><a data-style="${wm.style}" data-position="${wm.position}" class="_j_wmsetting" role="button" tabindex="0">设置水印</a></div>
+            </div>
+        </div>
+    </div>
+    </script>
+
+    <script id="_j_upload_watermark_setting_tmpl" type="text/x-jquery-tmpl">
+    <div>
+        <div class="sw-pv wm_s1 wmp10"><i></i><img src="http://images.mafengwo.net/images/post/watermark-img.jpg" height="270" width="480"></div>
+        <dl>
+          <dt>样式：</dt>
+          <dd><input name="style" class="_j_style" data-style="1" type="radio" value="">样式一</dd>
+          <dd><input name="style" class="_j_style" data-style="2" type="radio" value="">样式二</dd>
+          <dd><input name="style" class="_j_style" data-style="3" type="radio" value="">样式三</dd>
+        </dl>
+        <dl>
+          <dt>位置：</dt>
+          <dd><input name="position" class="_j_position" data-position="10" type="radio" value="">右下角</dd>
+          <dd><input name="position" class="_j_position" data-position="8" type="radio" value="">左下角</dd>
+          <dd><input name="position" class="_j_position" data-position="2" type="radio" value="">右上角</dd>
+          <dd><input name="position" class="_j_position" data-position="0" type="radio" value="">左上角</dd>
+          <dd><input name="position" class="_j_position" data-position="9" type="radio" value="">底部居中</dd>
+        </dl>
+        <div class="sw-btn">
+          <a role="button" tabindex="0" class="cancel _j_cancel">取消</a>
+          <a role="button" tabindex="0" class="submit _j_submit">保存</a>
+        </div>
+    </div>
+    </script>
+
+    <script id="_j_upload_pic_item" type="text/x-jquery-tmpl">
+    <li id="_j_photo_${file.id}" data-file_id="${file.id}" class="_j_picitem wait">
+        <div class="upitem-mask mask-wait">
+            <span class="btn-upClose _j_remove_up"></span>
+            <div class="mask-txt mask-txt-line2">等待<br>上传</div>
+        </div>
+        <div class="upitem-mask mask-progress">
+            <span class="btn-upClose _j_stop_up"></span>
+            <div class="mask-bar"><span class="_j_prog" style="width:0"></span></div>
+        </div>
+        <div class="upitem-mask mask-failed">
+            <div class="s-failed"><i></i>上传失败</div>
+        </div>
+    </li>
+    </script>
+
+    <script id="_j_picrelate_dialog_content_tmpl" type="text/x-jquery-tmpl">
+    <div id="_j_poi_box">
+        <div class="uppic-wrapper">
+            <div class="uppic-content _j_relpoi_picconent">
+                <div class="uppic-title"><strong>添加照片</strong> &gt; 关联拍摄地点 （共 <span class="_j_piccount"></span> 张照片）</div>
+                <div class="uppic-list" id="_j_photo_box">
+                    <ul class="clearfix _j_photo_box_list"></ul>
+                    <div class="nothing hide" id="_j_photo_complete"><i></i>所有照片都已关联到拍摄地点</div>
+                </div>
+            </div>
+            <div class="btm-action _j_baseaction">
+                <div class="btm-cnt">
+                    <div class="_j_withpoi">
+                        <p class="hd"><i></i>选择照片拖动到拍摄地点里</p>
+                        <div class="bd">
+                            <span class="btn-slide btn-slide-left _j_prev"><i></i></span>
+                            <span class="btn-slide btn-slide-right _j_next"><i></i></span>
+                            <div class="item-addplace _j_addpoi">
+                                <i></i>
+                                <div>添加拍摄地点</div>
+                            </div>
+                            <div class="place-slide-box" id="_j_poi_list"><ul></ul></div>
+                        </div>
+                    </div>
+                    <div class="_j_withoutpoi">
+                        <div class="place-title clearfix">
+                            <h3><i class="i-place"></i>添加拍摄地点</h3>
+                            <span><i></i>添加完拍摄地点后拖动照片到拍摄地点里</span>
+                        </div>
+                        <div class="place-search _j_addpoi">
+                            <i class="i-search"></i>
+                            <span class="added-group _j_richinput_item_list"></span>
+                            <input class="inp-txt _j_richinput_input" type="text" placeholder="去过的景点，旅馆，餐馆，城市，国家">
+                        </div>
+                    </div>
+                    <div class="operate clearfix"><a role="button" class="btn-primary _j_submit_relatepoipic" id="_j_sumbit_pic">完成</a></div>
+                </div>
+            </div>
+            <div class="_j_suggestion_bottom_panel hide">
+                <div>
+                    <div class="uppic-overlay"></div>
+                    <div class="btm-action btm-addplace">
+                        <div class="btm-cnt">
+                            <div class="place-title clearfix">
+                                <h3><i class="i-place"></i>添加拍摄地点</h3>
+                                <span><i></i>添加完拍摄地点后拖动照片到拍摄地点里</span>
+                            </div>
+                            <div class="place-search focus">
+                                <i class="i-search"></i>
+                                <span class="added-group _j_richinput_item_list"></span>
+                                <input class="inp-txt _j_richinput_input" type="text" placeholder="去过的景点，旅馆，餐馆，城市，国家">
+                            </div>
+                            <div class="place-rec _j_rec_cnt hide">
+                                <div class="hd clearfix">
+                                    <div class="rec-nav _j_rec_list_navs">
+                                        <a role="button" data-id="3" class="on">景点</a>
+                                        <a role="button" data-id="1">美食</a>
+                                        <a role="button" data-id="2">住宿</a>
+                                        <a role="button" data-id="4">购物</a>
+                                        <a role="button" data-id="5">娱乐</a>
+                                        <a role="button" data-id="6">交通</a>
+                                    </div>
+                                    你可能还去过以下地点
+                                </div>
+                                <div class="bd" style="position:relative"><ul class="clearfix _j_rec_list"></ul></div>
+                            </div>
+                            <div class="operate clearfix">
+                                <a class="btn-primary _j_submit" role="button">添加完成</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="_j_relpoipic_bottom_panel hide">
+                <div>
+                    <div class="uppic-overlay"></div>
+                    <div class="btm-action btm-placeManage">
+                        <div class="btm-cnt">
+                            <div class="hd _j_relpoipictitle"></div>
+                            <div class="bd uppic-list" id="_j_grouped_pic_list">
+                                <ul class="clearfix"></ul>
+                            </div>
+                            <div class="operate clearfix"><a class="btn-primary _j_finish">完成</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </script>
+
+    <script id="_j_poi_item_tmpl" type="text/x-jquery-tmpl">
+    <li data-rel="${data.key}_${data.id}" data-id="${data.id}" data-name="${data.name}" data-key="${data.key}" data-poi-icon="${data.icon}">
+        <span class="btn-upClose _j_closepoi"></span>
+        <div class="img _j_block" title="${data.name}"></div>
+        <i class="icon-type icon-${data.icon}"></i>
+        <div class="p-title">${data.name}</div>
+    </li>
+    </script>
+
+    <script id="_j_relate_pic_item_tmpl" type="text/x-jquery-tmpl">
+        <li data-seq="${data.seq}" data-pid="${data.pid}" data-file="${data.file}" data-id="${data.id}" data-name="${data.name}" data-key="${data.key}" data-rel="${data.key}_${data.id}" class="_j_photoitem ui-draggable _j_picitem_${data.seq}{{if data.id > 0}} hide{{/if}}{{if data.isnew == 1}} _j_newinsert{{/if}}">
+            <img src="${data.thumb}" width="100">
+            <div class="upitem-mask mask-selected">
+                <i class="i-selected"></i>
+            </div>
+        </li>
+    </script>
+
+    <script id="_j_poipic_item_tmpl" type="text/x-jquery-tmpl">
+    <li data-seq="${seq}">
+        <img src="${thumb}">
+        <div class="upitem-mask mask-hover">
+            <div class="mask-txt _j_ungroup">移出 x</div>
+        </div>
+    </li>
+    </script>
+
+    <script id="_j_paragraphtip" type="text/x-jquery-tmpl">
+    <div class="title_tips">
+        <dl>
+            <dt>段落</dt>
+            <dd>
+                <p>给游记添加小标题段落，如【目录】、【路线】、【花费】、【交通】、【住宿】、【Tips】等自定义条目。</p>
+                <p>系统提供5款小标题配图，同时支持自定义配图功能。</p>
+            </dd>
+            <dt>举个例子...</dt>
+            <dd><img src="http://images.mafengwo.net/images/post/new_notes/nn_v2/paragrah.gif" alt=""></dd>
+        </dl>
+    </div>
+    </script>
+
+    <script id="_j_full_draftbox_dialog_tmpl" type="text/x-jquery-tmpl">
+    <div class="pop_draft _j_draft_container">
+        <div class="draft_title">
+            <strong class="_j_draft_num">草稿箱(<i class="_j_draftnum">10</i>)</strong>
+            <span class="_j_draft_full">草稿箱已满，请先清理草稿箱！</span>
+        </div>
+        <div class="draft_detail _j_draft_body">
+            <ul class="_j_draft_list"></ul>
+        </div>
+        <div class="draft_tips hide">草稿箱干干净净啦~</div>
+        <div class="draft_handle clearfix">
+            <a role="button" tabindex="0" class="btn_c flt2 _j_draft_confirm" title="完成">完成</a>
+            <a role="button" tabindex="0" class="clear_draft _j_draft_clear" title="清空草稿箱">
+                <i class="delete"></i>
+                <span>清空草稿箱</span>
+            </a>
+        </div>
+    </div>
+    </script>
+
+
+    <script id="_j_sortitem_texttip_tmpl" type="text/x-jquery-tmpl">
+    <div class="word_con hide">
+        <div class="word_text"><p></p></div>
+        <div class="word_more"></div>
+        <span><i></i></span>
+    </div>
+    </script>
+    <script id="_j_sortitem_tmpl" type="text/x-jquery-tmpl">
+    <ul>
+    <li class="{{if data.type == "video"}}li_video{{else data.type == "txt"}}word{{else data.type == "paragraph"}}li_paragraph{{/if}}" data-seq="${data.seq}" id="_j_sort_${data.seq}">
+        {{if data.type == "image"}}
+        <img class="photo" src="${data.thumb}" />
+        {{else data.type == "video"}}
+        <img src="http://images.mafengwo.net/images/post/new_notes/video_v2.gif" />
+        {{else data.type == "paragraph"}}
+        <img src="http://images.mafengwo.net/images/post/new_notes/paragraph.gif" />
+        {{else data.type == "txt"}}
+        <img src="http://images.mafengwo.net/images/post/new_notes/word_v2.gif" />
+        {{/if}}
+        {{if data.type == "txt"}}
+        <div class="word_data">${data.content}</div>
+        {{else data.type == "paragraph"}}
+        <div class="word_data">${data.title}</div>
+        {{/if}}
+        <div class="selected">
+            <p class="cover_pop"></p>
+            <i></i>
+        </div>
+    </li>
+    </ul>
+    </script>
+
+    <script id="_j_relate_mdd_pop_tmpl" type="text/x-jquery-tmpl">
+        <a role="button" class="close-btn"><i></i></a>
+        <div class="pl-head">
+            <img src="${ex_info.link_url}">
+            <div class="pl-msg">
+                <h3>第${ex_info.seq}篇大作发表成功!</h3>
+                <p>你已在蚂蜂窝留下了${ex_info.word_num}字，${ex_info.photo_num}张图片<br>相当于著有一本《${ex_info.book_title}》</p>
+            </div>
+        </div>
+        <div class="pl-body">
+            <div class="pl-subtit">系统检测到你的游记中提及了以下目的地，请选择和你游记最有关联的目的地</div>
+            <div class="pl-tags" style="overflow:auto">
+                {{each(i, mdd) mdd_tags}}
+                    <a class="pl-tag" name="info_tag">${mdd}</a>
+                {{/each}}
+            </div>
+            <div class="pl-subtit">如果都不理想，那就为你的游记添加一个目的地吧</div>
+            <div class="pl-add">
+                <div class="pl-search">
+                    <form name="mdd-search-form" action="/search/s.php" method="get">
+                        <div class="pl-schbar">
+                            <input autocomplete="off" class="search-input" type="text" name="q" placeholder="搜索目的地"><i></i>
+                        </div>
+                    </form>
+                    <div class="pl-schlist hide">
+                        <ul class="suggest-list">
+                        </ul>
+                    </div>
+                </div>
+                <div class="input_mddname_panel hide">
+                    <a class="pl-tag cur input_mddname" role="button">aaa</a>
+                </div>
+            </div>
+            <div class="pl-action"><a class="btn-done">完成</a></div>
+        </div>
+    </script>
+
+
+<link href="http://css.mafengwo.net/css/mfw-footer.css?1478231953" rel="stylesheet" type="text/css">
+
+<div id="footer_1">
+        <div class="nav">
+            <img src="../image/logo.jpg" class="logo" />
+            <p class="logo_text">Tripedia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start your fantastic trip with tripedia</p>
+        </div>
+</div>
+
+
+
+<link href="http://css.mafengwo.net/css/mfw-toolbar.css?1459131121" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<script language="javascript" type="text/javascript">
+if (typeof M !== "undefined" && typeof M.loadResource === "function") {
+M.loadResource("http://js.mafengwo.net/js/cv/js+Dropdown:js+pageletcommon+pageHeadUserInfoWWWNormal:js+jquery.tmpl:js+M+module+InputListener:js+M+module+SuggestionXHR:js+M+module+DropList:js+M+module+Suggestion:js+M+module+MesSearchEvent:js+SiteSearch:js+AHeader:js+M+module+PageAdmin:js+M+module+Storage:js+M+module+Cookie:js+M+module+ResourceKeeper:js+jquery.jgrowl.min:js+AMessage:js+M+module+dialog+Layer:js+M+module+dialog+DialogBase:js+M+module+dialog+Dialog:js+M+module+FrequencyVerifyControl:js+M+module+FrequencySystemVerify:js+ALogin:js+M+module+ScrollObserver:js+M+module+QRCode:js+AToolbar:js+ACnzzGaLog:js+ARecruit:js+ALazyLoad:js+jquery.mousewheel.min:js+M+module+ScrollBar:js+M+module+StickyAndStayBlock:js+note+ControllerEditCatalog:js+module+app+Page:js+plupload:js+module+uploader+Pluploader:js+M+module+dialog+confirm:js+M+module+dialog+alert:js+cvideo+swfobject:js+note+VideoUploader:js+M+module+FrequencyAppVerify:js+note+GinfoDraftDialog:js+M+module+TopTip:js+M+module+Clip:js+note+AEditInfo:js+note+AProgressBar:js+plugins+jquery.rotate:js+note+PicPanel:js+note+PicUploaderDialog:js+note+ParagraphDialog:js+note+NoteEditVideoBox:js+note+UploaderMachine:js+note+NoteEditUploaderBox:js+EmotionsHd:js+EmojiBox:js+M+module+ClickToggle:js+M+module+TextareaAutosize:js+note+NoteEditTextBox:js+jquery-ui-core:js+jquery-ui-selectable:js+jquery-ui-draggable:js+jquery-ui-droppable:js+M+module+Slider:js+note+PlaceRelPicPanel:js+M+module+KeyListener:js+M+module+RichInput:js+note+PlaceSuggestPanel:js+note+PicRelatePoiDialog:js+M+module+HoverTip:js+note+AEditContent:js+jquery-ui-sortable:js+note+ASideSort^YlBURg^1489552560.js");
+M.loadResource("http://js.mafengwo.net/js/mdd/mdd_index.js?1482808021");
+}
+</script>
+
+
+
+</body></html>
