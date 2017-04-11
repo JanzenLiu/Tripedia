@@ -1,29 +1,24 @@
-var mongoose=require('mongoose');
+var mongoose = require('mongoose');
 var Connection = require('./db');
 
 
 // Schema for Attraction ========================
-var spotSchema= new mongoose.Schema({
+
+var poiSchema = new mongoose.Schema({
     name: String,
-    //id: Number,
-    city: {
-      cid: mongoose.Schema.Types.ObjectId,
-      name: String
-    },
-    type: String, // add enum?
-    //picture
-    introduction: String,
-    phone: String, // add validation?
-    website: String, // add validation?
+    types: [String],
+    cityName: String,
+    cityPath: String,
+    introduction: [String],
+    imageUrl: String,
+    contact: [String],
+    // phone: String,
+    // website: String,
+    location: String,
     position: {
         longtitude: String, // or String, or add validation?
         langtitude: String
     },
-    transport: {
-      rough: String,
-      detail: String
-    },
-    travelTime: String,
     ticket: String,
     openTime: String,
     comments: [{
@@ -35,4 +30,13 @@ var spotSchema= new mongoose.Schema({
     /////////////// to be supplement //////////////////
 });
 
-module.exports = mongoose.model('Spot', spotSchema);
+
+poiSchema.statics.findById = function(id, cb){
+    return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);
+};
+
+module.exports = mongoose.model('poi', poiSchema);
+
+
+
+// methods ================================

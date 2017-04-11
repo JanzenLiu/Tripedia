@@ -1,39 +1,27 @@
 var crypto = require('crypto');
 var User = require('../../models/user.js');
-module.exports = function(req, res){
-  var username= req.body.name,
-  old_password = req.body.password,
-  password = req.body['password-repead'],
-  password_re = req.body.email;
-  if (password_re != password){
-    req.flash('error', 'Inconsistent password!');
-    return res.redirect('/signup');
-  }
-  if (username){
-    User.findOne({username: username}, function(err, user){
+module.exports = function(username, password, email, callback){
+  // if (password_re != password){
+  //   req.flash('error', 'Inconsistent password!');
+  //   return callback.redirect(req.originalUrl);
+  // }
+  var user = new User();
+  User.update({
+    "email":email
+    }, {
+      $set: {username: username}
+    }, function(err){
       if (err){
-        flash('error', err);
-        return res.redirect('/');
+        return callback(err);
       }
-      if (user){
-        flash('error', 'User already existed!');
-        return res.status(403).json({
-          success: "false",
-          error: "User already existed"
-        });
-      }
-    })
-  }
-  else{
-    username=req.name;
-  }
-  if (!password){
-    psssword=req.password;
-  }
-  res.name = username;
-  res.password = password;
-  flash('success', 'Successfully updata');
-  res.redirect('/');
-  callback(null, res);
-
+      callback(null);
+    });
+  //   // req.flash('success', 'Successfully Signed up!');
+    //
+    // if (typeof(req.query.callback) == "undefined") {
+    //   callbackURI = '/';
+    // } else {
+    //   callbackURI = decodeURIComponent(req.query.callback) || '/';
+    // }
+    // res.redirect(callbackURI);
 }

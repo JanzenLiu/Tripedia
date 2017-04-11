@@ -6,6 +6,7 @@ var signup = require('../controllers/account/signup');
 var login = require('../controllers/account/login');
 var logout = require('../controllers/account/logout');
 var edit = require('../controllers/account/edit');
+var username, password;
 // login
 router.get('/login', function(req, res){
 	res.render('login',{
@@ -33,15 +34,8 @@ router.post('/signup', signup);
 router.get('/logout', logout);
 //edit
 router.get('/edit', function(req,res){
-	var user = req.session.user;
-	
-	edit(req.session.user, function(err, user){
-		if (err){
-			req.flash('error', err);
-			return res.redirect('/');
-		}
-		console.log(user);
-	});
+	username = req.session.user.username;
+	password = req.session.user.password;
 	res.render('edit',{
 		title: 'Edit',
 		page: 'Edit',
@@ -50,5 +44,19 @@ router.get('/edit', function(req,res){
 		error: req.flash('error').toString()
 	});
 });
-router.post('/edit', edit);
+router.post('/edit', function(req,res){
+	var name = req.body.name;
+	var password = req.body.password;
+	var email=req.session.user.email;
+	var user = new User;
+	edit(name, password, email, function(err){
+		if (err) {
+      req.flash('error', err);
+      return res.redirect(url);
+    }
+		req.flash('success');
+		req.session.user.username = name;
+		res.redirect('/');
+	});
+});
 module.exports = router;
