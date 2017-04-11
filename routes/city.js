@@ -12,7 +12,8 @@ var City = require('../models/city')
 router.get('/:pathname', function(req, res){
 
 	City.findOne({path: req.params.pathname})
-		.populate("pois", "name imageUrl", function(err, city){
+		.populate("pois", "name imageUrl"
+		.exec(function(err, city){
 		if(err || !city){
 			req.flash('error', 'City not found!');
 			return res.status(500).json({
@@ -30,7 +31,7 @@ router.get('/:pathname', function(req, res){
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
-	});
+	}).populate("pois");
 });
 
 router.get('/:country/:city', function(req, res){
@@ -41,7 +42,8 @@ router.get('/:country/:city', function(req, res){
 
 	var pathname = [country, city].join("/");
 	City.findOne({path: pathname})
-		.populate("pois", "name imageUrl", function(err, city){
+		.populate("pois", "name imageUrl")
+		.exec(function(err, city){
 		if(err || !city){
 			req.flash('error', 'City not found!');
 			return res.status(500).json({
@@ -59,7 +61,7 @@ router.get('/:country/:city', function(req, res){
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
-	});
+	}).populate("pois");
 });
 
 router.get('/:country/:area/:city', function(req, res){
@@ -71,7 +73,8 @@ router.get('/:country/:area/:city', function(req, res){
 
 	var pathname = [country, area, city].join("/");
 	City.findOne({path: pathname})
-		.populate("pois", "name imageUrl", function(err, city){
+		.populate("pois", "name imageUrl")
+		.exec(function(err, city){
 		if(err || !city){
 			req.flash('error', 'City not found!');
 			return res.status(500).json({
