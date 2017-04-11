@@ -1,16 +1,15 @@
-<%- include header %>
-
-<div>
-	<p>a</p>
-	<p>aa</p>
-
+<%= include header %>
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
 </div>
-<form method="post">
-  Title: <br />
-  <input type="text" name="title" /><br />
-  Main：<br />
-  <textarea name="text" rows="20" cols="100"></textarea><br />
-  <input type="submit" value="submit" />
-</form>
-
-<%- include footer %>
+<%= include footer %>

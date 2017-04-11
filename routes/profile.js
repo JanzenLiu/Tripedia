@@ -1,7 +1,10 @@
 var express = require('express');
 var router = express.Router();
+var mongoose = require('mongoose');
 var postController = require('../controllers/post');
-var planController = require('../controllers/plan')
+var planController = require('../controllers/plan');
+var noteShow = require('../controllers/note/show');
+var noteEdit = require('../controllers/note/edit');
 
 router.get('/', function(req, res){
 	res.render('profile',{
@@ -13,7 +16,7 @@ router.get('/', function(req, res){
 	});
 });
 
-router.get('/edit', function(req, res){});
+
 router.get('/following', function(req, res){});
 router.get('/follower', function(req, res){});
 router.get('/post', function(req, res){
@@ -25,13 +28,13 @@ router.get('/post', function(req, res){
 	});
 });
 router.post('/post', postController);
-router.get('/plan', function(req, res){
-	res.render('plan',{
-		title: 'Post a Travel Plan',
-		user: req.session.user,
-		success: req.flash('success').toString(),
-		error: req.flash('error').toString()
-	});
-});
-router.post('/plan', planController);
+// router.get('/plan', function(req, res){
+// 	res.render('plan',{
+// 		title: 'Post a Travel Plan',
+// 		user: req.session.user,
+// 		success: req.flash('success').toString(),
+// 		error: req.flash('error').toString()
+// 	});
+// });
+// router.post('/plan', planController);
 module.exports = router;
