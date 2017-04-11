@@ -1,7 +1,7 @@
 <%function poiListItem(poi) { %>
 	<div class="grid grid-two">
         <div class="figure">
-        <a href="#" target="_blank" title="<%= poi.name %>">
+        <a href="/poi/<%= poi._id %>" target="_blank" title="<%= poi.name %>">
             <img src="<%= poi.imageUrl %>" width="485" height="320">
             <h3 class="title"><%= poi.name %></h3>
             <div class="mask-container">
