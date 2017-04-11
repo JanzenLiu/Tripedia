@@ -45,7 +45,6 @@ router.get('/edit', function(req,res){
 	});
 });
 router.post('/edit', function(req,res){
-	console.log('ababababababaababababa');
 	var password = req.body.password;
 	var username = req.body.name;
 	var introduction = req.body.introduction;
