@@ -65,14 +65,14 @@ City.find({}, function(err, cities){
 					poiId = doc._id;
 					poi.aid = poiId;
 
-					doc.update({$push:{"city": mongoose.Types.ObjectId(city._id)}}, function)(err){
+					doc.update({$push:{"city": mongoose.Types.ObjectId(city._id)}}, function(err){
 						if(err){
 							console.log(err);
 							return;
 						}
 						console.log(mongoose.Types.ObjectId(city._id));
 					});
-					docs.save();
+					doc.save();
 
 					successCount++;
 
