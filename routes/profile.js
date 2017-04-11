@@ -3,9 +3,6 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var postController = require('../controllers/post');
 var planController = require('../controllers/plan');
-var noteShow = require('../controllers/note/show');
-var noteEdit = require('../controllers/note/edit');
-
 router.get('/', function(req, res){
 	res.render('profile',{
 		title: 'My Profile',
@@ -37,4 +34,14 @@ router.post('/post', postController);
 // 	});
 // });
 // router.post('/plan', planController);
+//at most five days
 module.exports = router;
+router.get('/planmaking', function(req, res){
+		res.render('post',{
+			title: "Design a plan",
+			user: req.session.user,
+			success:req.flash('success').toString(),
+			error: req.flash('error').toString()
+		});
+});
+router.post('/planmaking/:dayNo', planController);
