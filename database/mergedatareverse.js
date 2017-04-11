@@ -26,9 +26,9 @@ var db = require('../models/db');
 // });
 
 // ================ join city with attractions ================
-Poi.find({}, function(err, poi){
+City.find({}, function(err, cities){
 
-	if(err || !poi){
+	if(err || !cities){
 		cosole.log(err);
 		return;
 	}
@@ -37,21 +37,21 @@ Poi.find({}, function(err, poi){
 	failureCount = 0;
 
 
-	pois.forEach(function(poi){
+	cities.forEach(function(city){
 
-		city = poi["cityName"];
+		pois = city["attractions"];
 
 		// pois.forEach(function(poi){
 		// 	console.log(poi);
 		// });
 
-		city.forEach(function(city){
+		pois.forEach(function(poi){
 
 			// console.log(poi);
 
-			cityName = city;
+			poiName = poi.name;
 
-			City.findOne({"name": cityName},function(err, doc){
+			Poi.findOne({"name": poiName},function(err, doc){
 
 				// console.log("Finding", poiName, "in", city.name);
 
@@ -62,29 +62,26 @@ Poi.find({}, function(err, poi){
 				}
 				else{
 
-					cityId = doc._id;
+					poiId = doc._id;
+					poi.aid = poiId;
 
-					poi.update({$push: {"city": mongoose.Types.ObjectId(cityId)}}, function(err){
+					doc.update({$push:{"city": mongoose.Types.ObjectId(city._id)}}, function)(err){
 						if(err){
 							console.log(err);
 							return;
 						}
-						console.log(mongoose.Types.ObjectId(cityId));
+						console.log(mongoose.Types.ObjectId(city._id));
 					});
-
-					poi.save()
+					docs.save();
 
 					successCount++;
-          console.log("Merging data ends");
-        	return;
 
 					// console.log(successCount, "success(es)");
 				}
 			});
 		});
 	});
+
+	console.log("Merging data ends");
+	return;
 });
-
-
-
-// console.log("Program end");
