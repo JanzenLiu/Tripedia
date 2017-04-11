@@ -7,7 +7,7 @@ module.exports=function(keyword, callback){
   //
   // 	});
     var pattern = new RegExp(keyword, "i");
-    Note.find({
+    City.find({
       "name": pattern
     },{
       "name":1,
