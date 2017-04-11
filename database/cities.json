@@ -87,7 +87,7 @@
         "subtitles": []
     },
     "name": "Los Angeles",
-    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/3c0779e135f07899b5e9900ab7ea73e2-los-angeles.jpg",
+    "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/3c0779e135f07899b5e9900ab7ea73e2-los-angeles.jpg"
 }{
     "country": "USA",
     "attractions": [
@@ -959,7 +959,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/c60984be0712ac73fb545d0b96eaf02b-xi-an.jpg",
-
     "name": "X\u012b'\u0101n"
 }{
     "country": "Japan",
@@ -1012,7 +1011,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-173253572_super.jpg",
-
     "name": "Tokyo"
 }{
     "country": "Japan",
@@ -1065,7 +1063,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/96681879.jpg",
-
     "name": "Kyoto"
 }{
     "country": "Japan",
@@ -1118,7 +1115,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/67679795.jpg",
-
     "name": "Kyoto"
 }{
     "intro": "",
@@ -1158,7 +1154,6 @@
         "bodies": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/73869669.jpg",
-
     "country": "Japan"
 }{
     "intro": "",
@@ -1198,7 +1193,6 @@
         "bodies": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/469164384_super.jpg",
-
     "country": "Japan"
 }{
     "intro": "",
@@ -1238,7 +1232,6 @@
         "bodies": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/558227261_master.jpg",
-
     "country": "Japan"
 }{
     "intro": "",
@@ -1278,7 +1271,6 @@
         "bodies": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/108155159.jpg",
-
     "country": "Japan"
 }{
     "intro": "",
@@ -1318,7 +1310,6 @@
         "bodies": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/497079645_super.jpg",
-
     "country": "Japan"
 }{
     "intro": "",
@@ -1358,7 +1349,6 @@
         "bodies": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/58038482.jpg",
-
     "path": "egypt/cairo"
 }{
     "country": "Egypt",
@@ -1394,7 +1384,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-528895769_full.jpg",
-
     "path": "egypt/red-sea-coast/hurghada",
     "description": {
         "subtitles": [],
@@ -1434,7 +1423,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-558010253_full.jpg",
-
     "path": "egypt/mediterranean-coast/alexandria",
     "description": {
         "subtitles": [],
@@ -1471,7 +1459,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-478736006_super.jpg",
-
     "path": "egypt/sinai/dahab",
     "description": {
         "subtitles": [],
@@ -1511,7 +1498,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-rh450-3798_full.jpg",
-
     "path": "egypt/suez-canal/port-said",
     "description": {
         "subtitles": [],
@@ -1523,7 +1509,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-128937713_full.jpg",
-
     "path": "egypt/sinai/nuweiba",
     "name": "Nuweiba",
     "attractions": [],
@@ -1580,7 +1565,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-500759045_super.jpg",
-
     "country": "France"
 }{
     "intro": "",
@@ -1620,7 +1604,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-160292245_medium.jpg",
-
     "country": "France"
 }{
     "intro": "",
@@ -1660,7 +1643,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/80337287.jpg",
-
     "country": "France"
 }{
     "intro": "",
@@ -1694,7 +1676,6 @@
         }
     ],
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-97936078_super.jpg",
-
     "country": "France"
 }{
     "attractions": [
@@ -1873,7 +1854,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-roman-sunset-77415821.jpg",
-
     "name": "Rome",
     "country": "Italy"
 }{
@@ -1971,7 +1951,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-174463015_high.jpg",
-
     "name": "Florence",
     "country": "Italy"
 }{
@@ -2024,7 +2003,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-milano-66092441.jpg",
-
     "name": "Milan",
     "country": "Italy"
 }{
@@ -2098,7 +2076,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/507652659_super.jpg",
-
     "name": "Taranto",
     "country": "Italy"
 }{
@@ -2110,7 +2087,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/555881139_master.jpg",
-
     "name": "Trani",
     "country": "Italy"
 }{
@@ -2122,7 +2098,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/151618767_full.jpg",
-
     "name": "Alberobello",
     "country": "Italy"
 }{
@@ -2185,7 +2160,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/stock-photo-casa-batllo%CC%81-1-5045639.jpg",
-
     "name": "Barcelona",
     "country": "Spain"
 }{
@@ -2238,7 +2212,6 @@
         ]
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/a/g/hi/t/9d06864e1a551111cd5115d0310489a8-madrid.jpg",
-
     "name": "Madrid",
     "country": "Spain"
 }{
@@ -2278,7 +2251,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/55251876.jpg",
-
     "name": "Valencia",
     "country": "Spain"
 }{
@@ -2290,7 +2262,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-543196507_super.jpg",
-
     "name": "Granada",
     "country": "Spain"
 }{
@@ -2368,7 +2339,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-461465445_full.jpg",
-
     "name": "Bilbao",
     "country": "Spain"
 }{
@@ -2408,7 +2378,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-163188684_medium.jpg",
-
     "name": "San Sebasti\u00e1n",
     "country": "Spain"
 }{
@@ -2448,7 +2417,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-180435807_super.jpg",
-
     "name": "M\u00e1laga",
     "country": "Spain"
 }{
@@ -2498,7 +2466,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/58195626.jpg",
-
     "name": "C\u00f3rdoba",
     "country": "Spain"
 }{
@@ -2615,7 +2582,6 @@
         "subtitles": []
     },
     "imageUrl": "https://lonelyplanetimages.imgix.net/mastheads/65179079.jpg",
-
     "name": "Nara",
     "country": "Japan"
 }{
