@@ -9,8 +9,9 @@ var userSchema = new mongoose.Schema({
 	email				: String, // add validation
 	age					: Number,
 	gender				: {type: String, enum: ['male','female','unknown']},
-	location			: "String",
+	location			: String,
 	about				: String,
+	contact			: String,
 	following_counts	: {type: Number, default: 0},
 	follower_counts		: {type: Number, default: 0},
 	travel_note_counts	: {type: Number, default: 0},
