@@ -1,6 +1,6 @@
 {
     "name": "Central Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/e169d0c6394f2e1f46eea3f653f2b7b4-central-park.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/e169d0c6394f2e1f46eea3f653f2b7b4-central-park.jpg",
     "ticket": "",
     "contact": "http://www.centralparknyc.org",
     "cityPath": "usa/new-york-city",
@@ -15,7 +15,7 @@
     ]
 }{
     "name": "Metropolitan Museum of Art",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/86761495.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/86761495.jpg",
     "ticket": "suggested donation adult/child $25/free",
     "contact": "http://www.metmuseum.org212-535-7710",
     "cityPath": "usa/new-york-city",
@@ -48,7 +48,7 @@
     ]
 }{
     "name": "Grand Central Terminal",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/291365624e2be80c126423f6b03dd123-grand-central-terminal.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/291365624e2be80c126423f6b03dd123-grand-central-terminal.jpg",
     "ticket": "",
     "contact": "http://www.grandcentralterminal.com",
     "cityPath": "usa/new-york-city",
@@ -62,7 +62,7 @@
     ]
 }{
     "name": "Ellis Island",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/10dde96588c6cddf880e59c2f99f1fdd-ellis-island.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/10dde96588c6cddf880e59c2f99f1fdd-ellis-island.jpg",
     "ticket": "ferry incl Statue of Liberty adult/child $18.50/9",
     "contact": "http://www.nps.gov/elis212-363-3200",
     "cityPath": "usa/new-york-city",
@@ -76,7 +76,7 @@
     ]
 }{
     "name": "Chrysler Building",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/bb732ec0787e7614de9c247eaad3d4a5-chrysler-building.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/bb732ec0787e7614de9c247eaad3d4a5-chrysler-building.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-york-city",
@@ -89,7 +89,7 @@
     ]
 }{
     "name": "Brooklyn Bridge",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/f8c30685f6616d91b9bd6fe095b008ee-brooklyn-bridge.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/f8c30685f6616d91b9bd6fe095b008ee-brooklyn-bridge.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-york-city",
@@ -102,7 +102,7 @@
     ]
 }{
     "name": "Rockefeller Center",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/7f34e6834dd91084960367fe59e55d5d-rockefeller-center.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/7f34e6834dd91084960367fe59e55d5d-rockefeller-center.jpg",
     "ticket": "",
     "contact": "http://www.rockefellercenter.com",
     "cityPath": "usa/new-york-city",
@@ -115,7 +115,7 @@
     ]
 }{
     "name": "Empire State Building",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/stock-photo-new-york-city-manhattan-100424161.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/stock-photo-new-york-city-manhattan-100424161.jpg",
     "ticket": "86th-fl observation deck adult/child $34/27, incl 102nd-fl observation deck $54/47",
     "contact": "http://www.esbnyc.com",
     "cityPath": "usa/new-york-city",
@@ -129,7 +129,7 @@
     ]
 }{
     "name": "Broad",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/52698cf17b2aa8a21f5016dd15b96596-broad.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/52698cf17b2aa8a21f5016dd15b96596-broad.jpg",
     "ticket": "",
     "contact": "http://www.thebroad.org213-232-6200",
     "cityPath": "usa/los-angeles",
@@ -143,7 +143,7 @@
     ]
 }{
     "name": "Getty Villa",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/906c5352b1f0379bf4946276c11107b8-getty-villa.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/906c5352b1f0379bf4946276c11107b8-getty-villa.jpg",
     "ticket": "",
     "contact": "http://www.getty.edu310-430-7300",
     "cityPath": "usa/los-angeles",
@@ -156,7 +156,7 @@
     ]
 }{
     "name": "Santa Monica Pier",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/cae63bf619e45c0571196ecc769823af-santa-monica-pier.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/cae63bf619e45c0571196ecc769823af-santa-monica-pier.jpg",
     "ticket": "",
     "contact": "http://www.santamonicapier.org310-458-8901",
     "cityPath": "usa/los-angeles",
@@ -172,7 +172,7 @@
     ]
 }{
     "name": "Venice Boardwalk",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-162296033_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-162296033_super.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/los-angeles",
@@ -196,7 +196,7 @@
     ]
 }{
     "name": "Grammy Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/148832759_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/148832759_full.jpg",
     "ticket": "adult/child $13/11",
     "contact": "http://www.grammymuseum.org213-765-6800",
     "cityPath": "usa/los-angeles",
@@ -231,7 +231,7 @@
     ]
 }{
     "name": "Getty Center",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/b4e167284c50ea31039528d2ae4a2bb204516ca7280162812d71b86d98c1b05c/589b9d3edb5ef373c518d84bd1d90ffe1f20156e0b1a7ec358b5bb134c5a624d.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/b4e167284c50ea31039528d2ae4a2bb204516ca7280162812d71b86d98c1b05c/589b9d3edb5ef373c518d84bd1d90ffe1f20156e0b1a7ec358b5bb134c5a624d.jpg",
     "ticket": "",
     "contact": "http://www.getty.edu310-440-7300",
     "cityPath": "usa/los-angeles",
@@ -258,7 +258,7 @@
     ]
 }{
     "name": "Alcatraz",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/shutterstock_239675278.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/shutterstock_239675278.jpg",
     "ticket": "day tours adult/child/family $33/21/100, night tours adult/child $40/24",
     "contact": "http://www.nps.gov/alcatraz415-981-7625",
     "cityPath": "usa/san-francisco",
@@ -273,7 +273,7 @@
     ]
 }{
     "name": "Golden Gate Bridge",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/a96e988d975f9697e5343f5cd1cb8aad-golden-gate-bridge.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/a96e988d975f9697e5343f5cd1cb8aad-golden-gate-bridge.jpg",
     "ticket": "northbound free, southbound $6.25-7.25",
     "contact": "http://www.goldengatebridge.org/visitors877-229-8655",
     "cityPath": "usa/san-francisco",
@@ -286,7 +286,7 @@
     ]
 }{
     "name": "Golden Gate Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/9e68694c001a27324b3d451dcca80b21b24ee2093c07c6c9b181e486f5cf5aaf/6382a0229ca9bbc595155d0f311da934703f38875b4dcfd955d4d56be5f738dc.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/9e68694c001a27324b3d451dcca80b21b24ee2093c07c6c9b181e486f5cf5aaf/6382a0229ca9bbc595155d0f311da934703f38875b4dcfd955d4d56be5f738dc.jpg",
     "ticket": "",
     "contact": "http://www.golden-gate-park.com",
     "cityPath": "usa/san-francisco",
@@ -309,7 +309,7 @@
     ]
 }{
     "name": "San Francisco Museum of Modern Art",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/9836b43c713892e9cf320705b6b6014817b7a7f14086f4911f964268639f4799/60590bf994862a491bf25970dbddf7403bb15646e21049a30cd1d6a627e88f51.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/9836b43c713892e9cf320705b6b6014817b7a7f14086f4911f964268639f4799/60590bf994862a491bf25970dbddf7403bb15646e21049a30cd1d6a627e88f51.jpg",
     "ticket": "$25",
     "contact": "http://www.sfmoma.org415-357-4000",
     "cityPath": "usa/san-francisco",
@@ -320,7 +320,7 @@
     ]
 }{
     "name": "Ferry Building",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-513406357_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-513406357_full.jpg",
     "ticket": "",
     "contact": "http://www.ferrybuildingmarketplace.com415-983-8030",
     "cityPath": "usa/san-francisco",
@@ -331,7 +331,7 @@
     ]
 }{
     "name": "Sea Lions at Pier 39",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-469238757_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-469238757_full.jpg",
     "ticket": "",
     "contact": "http://www.pier39.com",
     "cityPath": "usa/san-francisco",
@@ -354,7 +354,7 @@
     ]
 }{
     "name": "Field Museum of Natural History",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/811f19aadc5151fb9482e32b3bb37c0a-field-museum-of-natural-history.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/811f19aadc5151fb9482e32b3bb37c0a-field-museum-of-natural-history.jpg",
     "ticket": "adult/child $18/13",
     "contact": "http://www.fieldmuseum.org312-922-9410",
     "cityPath": "usa/chicago",
@@ -370,7 +370,7 @@
     ]
 }{
     "name": "Millennium Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/shutterstock_254980540.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/shutterstock_254980540.jpg",
     "ticket": "",
     "contact": "http://www.millenniumpark.org312-742-1168",
     "cityPath": "usa/chicago",
@@ -383,7 +383,7 @@
     ]
 }{
     "name": "Art Institute of Chicago",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/a0962dfa9d4754a28568c144203a0b29-art-institute-of-chicago.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/a0962dfa9d4754a28568c144203a0b29-art-institute-of-chicago.jpg",
     "ticket": "adult/child $25/free",
     "contact": "http://www.artic.edu312-443-3600",
     "cityPath": "usa/chicago",
@@ -395,7 +395,7 @@
     ]
 }{
     "name": "Museum of Science & Industry",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/edc9b3d3b2395ad56d71fd3797f2706e-museum-of-science-industry.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/edc9b3d3b2395ad56d71fd3797f2706e-museum-of-science-industry.jpg",
     "ticket": "adult/child $18/11",
     "contact": "http://www.msichicago.org773-684-1414",
     "cityPath": "usa/chicago",
@@ -407,7 +407,7 @@
     ]
 }{
     "name": "Wrigley Field",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/shutterstock_136487138.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/shutterstock_136487138.jpg",
     "ticket": "",
     "contact": "http://www.cubs.com",
     "cityPath": "usa/chicago",
@@ -419,7 +419,7 @@
     ]
 }{
     "name": "Willis Tower",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/65d65c90412aafdc4e6d96dd932853e5-willis-tower.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/65d65c90412aafdc4e6d96dd932853e5-willis-tower.jpg",
     "ticket": "adult/child $22/14",
     "contact": "http://www.theskydeck.com312-875-9696",
     "cityPath": "usa/chicago",
@@ -431,7 +431,7 @@
     ]
 }{
     "name": "Navy Pier",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/a63949fe532d4dd8ca9f16822984afcc-navy-pier.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/a63949fe532d4dd8ca9f16822984afcc-navy-pier.jpg",
     "ticket": "",
     "contact": "http://www.navypier.com312-595-7437",
     "cityPath": "usa/chicago",
@@ -443,7 +443,7 @@
     ]
 }{
     "name": "360\u00b0 Chicago",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/492bb706cc638e1c032bf69f040091b5-john-hancock-center.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/492bb706cc638e1c032bf69f040091b5-john-hancock-center.jpg",
     "ticket": "adult/child $20/13",
     "contact": "http://www.360chicago.com888-875-8439",
     "cityPath": "usa/chicago",
@@ -465,7 +465,7 @@
     ]
 }{
     "name": "Pike Place Market",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/7424ecf6a4ae6a41b9576b5a4cff226516fa1016f9642f184615cbafa98edc29/99a2363532927448a5813244ab781cdd4642272af788ec65e45f5c9af32a70c7.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/7424ecf6a4ae6a41b9576b5a4cff226516fa1016f9642f184615cbafa98edc29/99a2363532927448a5813244ab781cdd4642272af788ec65e45f5c9af32a70c7.jpg",
     "ticket": "",
     "contact": "http://www.pikeplacemarket.org",
     "cityPath": "usa/seattle",
@@ -477,7 +477,7 @@
     ]
 }{
     "name": "Museum of Pop Culture",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/eb3f27f784ae8807b68cfd9a0c143a7a-emp-museum.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/eb3f27f784ae8807b68cfd9a0c143a7a-emp-museum.jpg",
     "ticket": "adult/child $25/16",
     "contact": "http://www.empmuseum.org206-770-2700",
     "cityPath": "usa/seattle",
@@ -501,7 +501,7 @@
     ]
 }{
     "name": "Space Needle",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/70537b86f448ead74674d37aade140ef-space-needle.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/70537b86f448ead74674d37aade140ef-space-needle.jpg",
     "ticket": "adult/child $22/13",
     "contact": "http://www.spaceneedle.com206-905-2100",
     "cityPath": "usa/seattle",
@@ -512,7 +512,7 @@
     ]
 }{
     "name": "Museum of Flight",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/c6a72a9e5374d3d27b5fa2baf28228f0-museum-of-flight.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/c6a72a9e5374d3d27b5fa2baf28228f0-museum-of-flight.jpg",
     "ticket": "adult/child $21/13, 5-9pm 1st Thu of month free",
     "contact": "http://www.museumofflight.org206-764-5720",
     "cityPath": "usa/seattle",
@@ -523,7 +523,7 @@
     ]
 }{
     "name": "Hiram M Chittenden Locks",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-182306553_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-182306553_full.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/seattle",
@@ -536,7 +536,7 @@
     ]
 }{
     "name": "Olympic Sculpture Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/0ed63762e848507f13c063b91b6c7c26-olympic-sculpture-park.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/0ed63762e848507f13c063b91b6c7c26-olympic-sculpture-park.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/seattle",
@@ -576,7 +576,7 @@
     ]
 }{
     "name": "Washington National Cathedral",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/a4c1f244ce78564e0e43f6bea7d7273f-washington-national-cathedral.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/a4c1f244ce78564e0e43f6bea7d7273f-washington-national-cathedral.jpg",
     "ticket": "adult/child $10/$6, admission free Sun",
     "contact": "http://www.nationalcathedral.org202-537-6200",
     "cityPath": "usa/washington-dc",
@@ -591,7 +591,7 @@
     ]
 }{
     "name": "Capitol",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/ee987d05a26935b54212b6b5bba5c0cb-capitol.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/ee987d05a26935b54212b6b5bba5c0cb-capitol.jpg",
     "ticket": "",
     "contact": "http://www.visitthecapitol.gov",
     "cityPath": "usa/washington-dc",
@@ -604,7 +604,7 @@
     ]
 }{
     "name": "White House",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/a05fe16d208e722a68cc697f171f2a86-white-house.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/a05fe16d208e722a68cc697f171f2a86-white-house.jpg",
     "ticket": "",
     "contact": "http://www.whitehouse.gov202-456-7041",
     "cityPath": "usa/washington-dc",
@@ -628,7 +628,7 @@
     ]
 }{
     "name": "Reynolds Center for American Art & Portraiture",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/f94174c1d735af4bf6d6dbde94debc05-reynolds-center-for-american-art-portraiture.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/f94174c1d735af4bf6d6dbde94debc05-reynolds-center-for-american-art-portraiture.jpg",
     "ticket": "",
     "contact": "http://www.americanart.si.edu202-633-1000",
     "cityPath": "usa/washington-dc",
@@ -652,7 +652,7 @@
     ]
 }{
     "name": "Corcoran Gallery of Art",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/a49a4ba8a033608c15370daafe644df08bb7f022ea19469ad476903fd6931ed6/8aecd9a121edc82ac1321c3999cba6939b1fa6a2e2f714f3a9fe23a594bb75ec.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/a49a4ba8a033608c15370daafe644df08bb7f022ea19469ad476903fd6931ed6/8aecd9a121edc82ac1321c3999cba6939b1fa6a2e2f714f3a9fe23a594bb75ec.jpg",
     "ticket": "",
     "contact": "http://www.corcoran.org202-639-1704",
     "cityPath": "usa/washington-dc",
@@ -664,7 +664,7 @@
     ]
 }{
     "name": "Washington Monument",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/104111843.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/104111843.jpg",
     "ticket": "",
     "contact": [
         "http://www.nps.gov/wamo"
@@ -693,7 +693,7 @@
     ]
 }{
     "name": "Boston Tea Party Ships & Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-513714171_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-513714171_full.jpg",
     "ticket": "adult/child $26/16",
     "contact": [
         "http://www.bostonteapartyship.com"
@@ -708,7 +708,7 @@
     ]
 }{
     "name": "Harvard University",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/123edcfd83e899e3bfce0e2ae34d31db-harvard-university.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/123edcfd83e899e3bfce0e2ae34d31db-harvard-university.jpg",
     "ticket": "tours free",
     "contact": [
         "http://www.harvard.edu"
@@ -722,7 +722,7 @@
     ]
 }{
     "name": "Boston Public Library",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/104973243.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/104973243.jpg",
     "ticket": "",
     "contact": [
         "http://www.bpl.org"
@@ -736,7 +736,7 @@
     ]
 }{
     "name": "Trinity Church",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/7934923bbe3dc400a0491fc24044b69a-trinity-church.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/7934923bbe3dc400a0491fc24044b69a-trinity-church.jpg",
     "ticket": "adult/child $7/free",
     "contact": [
         "http://www.trinitychurchboston.org"
@@ -749,7 +749,7 @@
     ]
 }{
     "name": "New England Aquarium",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-121331515_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-121331515_super.jpg",
     "ticket": "adult/child $27/19",
     "contact": [
         "http://www.neaq.org"
@@ -780,7 +780,7 @@
     ]
 }{
     "name": "Massachusetts Institute of Technology",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-172365182_high.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-172365182_high.jpg",
     "ticket": "",
     "contact": [
         "http://www.mit.edu"
@@ -794,7 +794,7 @@
     ]
 }{
     "name": "Museum of Science",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/d461935fa040fa82d506c2fd591179dd3afafe8660a27f7c5462d2460a39cdc5/a689bf625095357fae5e333848f0d036023b9d9c4d5fd185dd07e9d61874a530.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/d461935fa040fa82d506c2fd591179dd3afafe8660a27f7c5462d2460a39cdc5/a689bf625095357fae5e333848f0d036023b9d9c4d5fd185dd07e9d61874a530.jpg",
     "ticket": "adult/child $23/20",
     "contact": [
         "http://www.mos.org"
@@ -808,7 +808,7 @@
     ]
 }{
     "name": "Charles River Esplanade",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/1a63a74e0b4c85cc6360ae9cabe732ea-charles-river-esplanade.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/1a63a74e0b4c85cc6360ae9cabe732ea-charles-river-esplanade.jpg",
     "ticket": "",
     "contact": [
         "http://www.esplanadeassociation.org"
@@ -822,7 +822,7 @@
     ]
 }{
     "name": "National WWII Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/2153c722dedb6534b0dc2adca4eb2516-national-world-war-ii-museum.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/2153c722dedb6534b0dc2adca4eb2516-national-world-war-ii-museum.jpg",
     "ticket": "adult/child/senior $23/14/20, plus 1/2 films $5/10",
     "contact": [
         "http://www.nationalww2museum.org",
@@ -840,7 +840,7 @@
     ]
 }{
     "name": "Lafayette Cemetery No 1",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/387160f23b832aacc4b6bd30cc4e9673-lafayette-cemetery-no-1.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/387160f23b832aacc4b6bd30cc4e9673-lafayette-cemetery-no-1.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-orleans",
@@ -854,7 +854,7 @@
     ]
 }{
     "name": "City Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-565420717_high.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-565420717_high.jpg",
     "ticket": "",
     "contact": [
         "http://www.neworleanscitypark.com",
@@ -869,7 +869,7 @@
     ]
 }{
     "name": "Ogden Museum of Southern Art",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/c24c1c223945cff53bdcd848efff2225-ogden-museum-of-southern-art.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/c24c1c223945cff53bdcd848efff2225-ogden-museum-of-southern-art.jpg",
     "ticket": "adult/child 5-17yr/student $10/5/8",
     "contact": [
         "http://www.ogdenmuseum.org",
@@ -885,7 +885,7 @@
     ]
 }{
     "name": "Jackson Square",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/8d75d648db2dc079b69b166049917b497d775a7e698726fa3aa165a9d39889f5/14a7dab9341da1c906c96e1fc03e3f7149d79e3136b6ce08a9c210514a2f708d.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/8d75d648db2dc079b69b166049917b497d775a7e698726fa3aa165a9d39889f5/14a7dab9341da1c906c96e1fc03e3f7149d79e3136b6ce08a9c210514a2f708d.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/new-orleans",
@@ -897,7 +897,7 @@
     ]
 }{
     "name": "Cabildo",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/4b979ae27bcc5ab9c040b050120dd6c8-cabildo.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/4b979ae27bcc5ab9c040b050120dd6c8-cabildo.jpg",
     "ticket": "adult/child under 12yr/student $6/free/5",
     "contact": [
         "http://louisianastatemuseum.org/museums/the-cabildo",
@@ -927,7 +927,7 @@
     ]
 }{
     "name": "St Louis Cemetery No 1",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/0b6523fe3a9a9d47c2589ee8f93c9471f83757714fd844697ed10c0d7e3095ac/6483ab788842972f9f265093d7084ae225c756abf1bcbab9a7d0ef0dc1d3c38d.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/0b6523fe3a9a9d47c2589ee8f93c9471f83757714fd844697ed10c0d7e3095ac/6483ab788842972f9f265093d7084ae225c756abf1bcbab9a7d0ef0dc1d3c38d.jpg",
     "ticket": "admission by guided tour",
     "contact": [
         "http://www.noladeadspace.com"
@@ -940,7 +940,7 @@
     ]
 }{
     "name": "Mob Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/fa0228e73d24b63461e868d50208e555-mob-museum.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/fa0228e73d24b63461e868d50208e555-mob-museum.jpg",
     "ticket": "adult/child 11-17yr $20/14",
     "contact": [
         "http://www.themobmuseum.org",
@@ -973,7 +973,7 @@
     ]
 }{
     "name": "CityCenter",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/d84fa706a084ef344a77e70f638c3869-citycenter.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/d84fa706a084ef344a77e70f638c3869-citycenter.jpg",
     "ticket": "",
     "contact": [
         "http://www.citycenter.com"
@@ -1028,7 +1028,7 @@
     ]
 }{
     "name": "Las Vegas Natural History Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/c4eb5016a7a470b4fbb32e1d8251193a-las-vegas-natural-history-museum.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/c4eb5016a7a470b4fbb32e1d8251193a-las-vegas-natural-history-museum.jpg",
     "ticket": "adult/senior, military, student/child $10/8/5",
     "contact": [
         "http://www.lvnhm.org",
@@ -1089,7 +1089,7 @@
     ]
 }{
     "name": "Wolfsonian-FIU",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-107325892_master.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-107325892_master.jpg",
     "ticket": "adult/child 6-12 $7/5, free from 6-9pm Fri",
     "contact": [
         "http://www.wolfsonian.org",
@@ -1103,7 +1103,7 @@
     ]
 }{
     "name": "Vizcaya Museum & Gardens",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/4f3c9989939b8d49f280d031dab58b62-vizcaya-museum-gardens.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/4f3c9989939b8d49f280d031dab58b62-vizcaya-museum-gardens.jpg",
     "ticket": "adult/6-12yr/student & senior $18/6/10",
     "contact": [
         "http://www.vizcayamuseum.org",
@@ -1159,7 +1159,7 @@
     ]
 }{
     "name": "M\u00e1ximo G\u00f3mez Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-522933375_high.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-522933375_high.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "usa/miami",
@@ -1184,7 +1184,7 @@
     ]
 }{
     "name": "Wynwood Walls",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-175246614_high.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-175246614_high.jpg",
     "ticket": "",
     "contact": [
         "http://www.thewynwoodwalls.com"
@@ -1197,7 +1197,7 @@
     ]
 }{
     "name": "One Tree Hill",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-472339930_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-472339930_super.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/auckland",
@@ -1210,7 +1210,7 @@
     ]
 }{
     "name": "Goat Island Marine Reserve",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/c7661b2da069ec4279998bff96f2cd13-goat-island-marine-reserve.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/c7661b2da069ec4279998bff96f2cd13-goat-island-marine-reserve.jpg",
     "ticket": "",
     "contact": [
         "http://www.doc.govt.nz"
@@ -1225,7 +1225,7 @@
     ]
 }{
     "name": "Auckland Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/464fb1bcd460c09b7e2f4df1ca2bdecc-auckland-museum.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/464fb1bcd460c09b7e2f4df1ca2bdecc-auckland-museum.jpg",
     "ticket": "adult/child $25/10",
     "contact": [
         "http://www.aucklandmuseum.com",
@@ -1240,7 +1240,7 @@
     ]
 }{
     "name": "Mt Eden",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/6a3d1b1c45a8cce9089d009c05c5cde6-mt-eden.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/6a3d1b1c45a8cce9089d009c05c5cde6-mt-eden.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/auckland",
@@ -1267,7 +1267,7 @@
     ]
 }{
     "name": "Auckland Art Gallery",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/345dcb3d833a5457feccba9287ca8bce-auckland-art-gallery.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/345dcb3d833a5457feccba9287ca8bce-auckland-art-gallery.jpg",
     "ticket": "",
     "contact": [
         "http://www.aucklandartgallery.com",
@@ -1282,7 +1282,7 @@
     ]
 }{
     "name": "Auckland Zoo",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-85733746_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-85733746_full.jpg",
     "ticket": "adult/child $28/12",
     "contact": [
         "http://www.aucklandzoo.co.nz",
@@ -1308,7 +1308,7 @@
     ]
 }{
     "name": "Villa Maria",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/ca419971cca3e58dcca65fece5ecf4b7-villa-maria.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/ca419971cca3e58dcca65fece5ecf4b7-villa-maria.jpg",
     "ticket": "",
     "contact": [
         "http://www.villamaria.co.nz",
@@ -1323,7 +1323,7 @@
     ]
 }{
     "name": "Te Papa",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/fd7fd10bf5c90c40f311495726175789-te-papa.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/fd7fd10bf5c90c40f311495726175789-te-papa.jpg",
     "ticket": "",
     "contact": [
         "http://www.tepapa.govt.nz",
@@ -1338,7 +1338,7 @@
     ]
 }{
     "name": "Zealandia",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/f0bbd7b89e76e5d5072163dbefde4f99-zealandia.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/f0bbd7b89e76e5d5072163dbefde4f99-zealandia.jpg",
     "ticket": "adult/child/family exhibition only $9/5/21, exhibition & admission $18.50/10/46",
     "contact": [
         "http://www.visitzealandia.com",
@@ -1353,7 +1353,7 @@
     ]
 }{
     "name": "City Gallery Wellington",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/50ae5d1b6a4f681980f507cfdd8b1c6e-city-gallery.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/50ae5d1b6a4f681980f507cfdd8b1c6e-city-gallery.jpg",
     "ticket": "",
     "contact": [
         "http://www.citygallery.org.nz",
@@ -1367,7 +1367,7 @@
     ]
 }{
     "name": "Wellington Botanic Gardens",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/3c94b18758fc5483c09421e02dbe9d0f-wellington-botanic-gardens.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/3c94b18758fc5483c09421e02dbe9d0f-wellington-botanic-gardens.jpg",
     "ticket": "",
     "contact": [
         "http://www.wellington.govt.nz",
@@ -1381,7 +1381,7 @@
     ]
 }{
     "name": "Mt Victoria Lookout",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/e118b9e95b9ef0477e97003e5b586e6a-mt-victoria-lookout.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/e118b9e95b9ef0477e97003e5b586e6a-mt-victoria-lookout.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "new-zealand/wellington",
@@ -1406,7 +1406,7 @@
     ]
 }{
     "name": "Wellington Cable Car",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/de2467d9252ad578a8236a026dbbfddc-cable-car-museum.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/de2467d9252ad578a8236a026dbbfddc-cable-car-museum.jpg",
     "ticket": "adult/child one way $4/2, return $7.50/3.50",
     "contact": [
         "http://www.wellingtoncablecar.co.nz",
@@ -1420,7 +1420,7 @@
     ]
 }{
     "name": "Weta Cave",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/950fed76644407ef6ca1f662f287f96b-weta-cave.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/950fed76644407ef6ca1f662f287f96b-weta-cave.jpg",
     "ticket": "admission & tour adult/child $25/12, with return transport $65/40",
     "contact": [
         "http://www.wetanz.com",
@@ -1434,7 +1434,7 @@
     ]
 }{
     "name": "Wellington Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/46cb046cf4b1e5330e4956e27d119c2e-museum-of-wellington-city-sea.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/46cb046cf4b1e5330e4956e27d119c2e-museum-of-wellington-city-sea.jpg",
     "ticket": "",
     "contact": [
         "http://www.museumswellington.org.nz",
@@ -1448,7 +1448,7 @@
     ]
 }{
     "name": "Man Mo Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-491266609_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-491266609_super.jpg",
     "ticket": "",
     "contact": [
         "852 2540 0350"
@@ -1465,7 +1465,7 @@
     ]
 }{
     "name": "Victoria Peak",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/102175235.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/102175235.jpg",
     "ticket": "",
     "contact": [
         "http://www.thepeak.com.hk",
@@ -1482,7 +1482,7 @@
     ]
 }{
     "name": "Tsim Sha Tsui East Promenade",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/7d7f69401f633a02ac0ef59135f84dee-tsim-sha-tsui-east-promenade.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/7d7f69401f633a02ac0ef59135f84dee-tsim-sha-tsui-east-promenade.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/hong-kong",
@@ -1497,7 +1497,7 @@
     ]
 }{
     "name": "Peak Tram",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/45a8ebb9f4729ba512d2a6b3a2afdb7d-peak-tram.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/45a8ebb9f4729ba512d2a6b3a2afdb7d-peak-tram.jpg",
     "ticket": "one way/return adult HK$28/40, child 3-11yr & seniors over 65yr HK$11/18",
     "contact": [
         "http://www.thepeak.com.hk",
@@ -1534,7 +1534,7 @@
     ]
 }{
     "name": "Sik Sik Yuen Wong Tai Sin Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/cb127781c8aaf4c46a1f670b2ef8329e-sik-sik-yuen-wong-tai-sin-temple.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/cb127781c8aaf4c46a1f670b2ef8329e-sik-sik-yuen-wong-tai-sin-temple.jpg",
     "ticket": "donation HK$2",
     "contact": [
         "http://www.siksikyuen.org.hk",
@@ -1553,7 +1553,7 @@
     ]
 }{
     "name": "Temple Street Night Market",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/aa1c8fbf96df18e97096e7226654f814-temple-street-night-market.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/aa1c8fbf96df18e97096e7226654f814-temple-street-night-market.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/hong-kong",
@@ -1569,7 +1569,7 @@
     ]
 }{
     "name": "Chi Lin Nunnery",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/6c63ed79ac9ac222f700899e611e9c44-chi-lin-nunnery.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/6c63ed79ac9ac222f700899e611e9c44-chi-lin-nunnery.jpg",
     "ticket": "",
     "contact": [
         "http://www.chilin.org",
@@ -1586,7 +1586,7 @@
     ]
 }{
     "name": "M50",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/1c53f95e6470d04b5eed3af4024db0fd-m50.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/1c53f95e6470d04b5eed3af4024db0fd-m50.jpg",
     "ticket": "",
     "contact": [
         "http://www.m50.com.cn/en"
@@ -1602,7 +1602,7 @@
     ]
 }{
     "name": "Y\u00f9yu\u00e1n Gardens & Bazaar",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/2113809.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/2113809.jpg",
     "ticket": "high/low season \u00a540/30",
     "contact": "",
     "cityPath": "china/shanghai",
@@ -1616,7 +1616,7 @@
     ]
 }{
     "name": "The Bund",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-450094801_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-450094801_super.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/shanghai",
@@ -1644,7 +1644,7 @@
     ]
 }{
     "name": "Jade Buddha Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-570397767_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-570397767_super.jpg",
     "ticket": "high/low season \u00a520/10",
     "contact": "",
     "cityPath": "china/shanghai",
@@ -1658,7 +1658,7 @@
     ]
 }{
     "name": "Sh\u00e0ngh\u01cei Tower",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/548748633_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/548748633_full.jpg",
     "ticket": "\u00a5160",
     "contact": [
         "http://www.shanghaitower.com.cn"
@@ -1673,7 +1673,7 @@
     ]
 }{
     "name": "Ti\u00e1nz\u01d0f\u00e1ng",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/148886636_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/148886636_full.jpg",
     "ticket": "",
     "contact": [
         "http://www.tianzifang.cn"
@@ -1704,7 +1704,7 @@
     ]
 }{
     "name": "X\u012bnti\u0101nd\u00ec",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/b40bb87872bd525c5d6ca058c41c4971-xintiandi.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/b40bb87872bd525c5d6ca058c41c4971-xintiandi.jpg",
     "ticket": "",
     "contact": [
         "http://www.xintiandi.com"
@@ -1718,7 +1718,7 @@
     ]
 }{
     "name": "Forbidden City",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/1262645.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/1262645.jpg",
     "ticket": "Nov-Mar \u00a540, Apr-Oct \u00a560, Clock Exhibition Hall \u00a510, Hall of Jewellery \u00a510, audio guide \u00a540",
     "contact": [
         "http://www.dpm.org.cn",
@@ -1757,7 +1757,7 @@
     ]
 }{
     "name": "Temple of Heaven Park",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/7d17a3ca32132ece9d22b9b5553eb1ac-temple-of-heaven-park.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/7d17a3ca32132ece9d22b9b5553eb1ac-temple-of-heaven-park.jpg",
     "ticket": "park/through ticket Apr-Oct \u00a515/35, Nov-Mar \u00a510/30, audio guide \u00a540 (deposit \u00a550)",
     "contact": [
         "010 6702 9917"
@@ -1778,7 +1778,7 @@
     ]
 }{
     "name": "Summer Palace",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/eb256de36c6d179d6a6a942382725465-summer-palace.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/eb256de36c6d179d6a6a942382725465-summer-palace.jpg",
     "ticket": "Apr-Oct \u00a530, through ticket \u00a560, Nov-Mar \u00a520, through ticket \u00a550, audio guide \u00a540",
     "contact": "",
     "cityPath": "china/beijing",
@@ -1796,7 +1796,7 @@
     ]
 }{
     "name": "798 Art District",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/e0b24c3329a55246957652dbc1f2fe671436492bec0fa9bf01f2d3eedfe98260/653f78703bc010df7baa9ca0100f0151a67b636a09fe07860bbbda17f8c24fe8.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/e0b24c3329a55246957652dbc1f2fe671436492bec0fa9bf01f2d3eedfe98260/653f78703bc010df7baa9ca0100f0151a67b636a09fe07860bbbda17f8c24fe8.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/beijing",
@@ -1811,7 +1811,7 @@
     ]
 }{
     "name": "Lama Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/4d4d4cf48b76ff130d030bd71d681374e2109873d5893905508fb030aca348c2/9a244b6f3454f4c1ee4a2294625637108d763ae66c5e32b3b814c59de39b9abc.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/4d4d4cf48b76ff130d030bd71d681374e2109873d5893905508fb030aca348c2/9a244b6f3454f4c1ee4a2294625637108d763ae66c5e32b3b814c59de39b9abc.jpg",
     "ticket": "\u00a525, English audio guide \u00a550",
     "contact": [
         "http://www.yonghegong.cn"
@@ -1829,7 +1829,7 @@
     ]
 }{
     "name": "Ti\u0101n\u2019\u0101nm\u00e9n Square",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/19ef01efe8a193c8fd44e87e3672d58898b386f60f79ae7874a4889db86fce78/d53962ff6fa62104367aa5242a4878a06f00d5a811fc5afb65c70eae574d58f2.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/19ef01efe8a193c8fd44e87e3672d58898b386f60f79ae7874a4889db86fce78/d53962ff6fa62104367aa5242a4878a06f00d5a811fc5afb65c70eae574d58f2.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/beijing",
@@ -1843,7 +1843,7 @@
     ]
 }{
     "name": "Chairman Mao Memorial Hall",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/178522674_medium.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/178522674_medium.jpg",
     "ticket": "bag storage \u00a510, electonics storage per device \u00a510",
     "contact": "",
     "cityPath": "china/beijing",
@@ -1858,7 +1858,7 @@
     ]
 }{
     "name": "Bell Tower",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/b3e00116c18dabe89c518feead4501a3fcd9f66f8b8887636f15b9c23fe4015a/9f4b9ef99ddd87fbe86c2564873e2c5707a0a41b5684c34894014a42738584a3.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/b3e00116c18dabe89c518feead4501a3fcd9f66f8b8887636f15b9c23fe4015a/9f4b9ef99ddd87fbe86c2564873e2c5707a0a41b5684c34894014a42738584a3.jpg",
     "ticket": "\u00a520, both towers through ticket \u00a530",
     "contact": "",
     "cityPath": "china/beijing",
@@ -1873,7 +1873,7 @@
     ]
 }{
     "name": "National Museum of China",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/shutterstock_72787513.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/shutterstock_72787513.jpg",
     "ticket": "audio guide \u00a530",
     "contact": [
         "http://en.chnmuseum.cn"
@@ -1889,7 +1889,7 @@
     ]
 }{
     "name": "Potala Palace",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/78a5970b7661df124e01cc6f8efd572a-potala-palace.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/78a5970b7661df124e01cc6f8efd572a-potala-palace.jpg",
     "ticket": "May-Oct \u00a5200, Nov-Apr \u00a5100",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
@@ -1903,7 +1903,7 @@
     ]
 }{
     "name": "Jokhang Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/59556a1f47c3f9339a6d9738a52f8380-jokhang-temple.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/59556a1f47c3f9339a6d9738a52f8380-jokhang-temple.jpg",
     "ticket": "adult \u00a585",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
@@ -1927,7 +1927,7 @@
     ]
 }{
     "name": "Red Palace",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/4e4a246c6b116752798a1a2ce3026702-top-things-to-do-in-tibet.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/4e4a246c6b116752798a1a2ce3026702-top-things-to-do-in-tibet.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/tibet/lhasa",
@@ -2024,7 +2024,7 @@
     ]
 }{
     "name": "Sh\u0101mi\u00e0n Island",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/c6c1894cc6bc591688a186240940bff9-shamian-island.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/c6c1894cc6bc591688a186240940bff9-shamian-island.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/guangdong/guangzhou",
@@ -2035,7 +2035,7 @@
     ]
 }{
     "name": "Chen Clan Ancestral Hall",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/e2e59324804fb797b3ef48e0a05e88ad-chen-clan-ancestral-hall.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/e2e59324804fb797b3ef48e0a05e88ad-chen-clan-ancestral-hall.jpg",
     "ticket": "\u00a510",
     "contact": [
         "020 8181 4559"
@@ -2145,7 +2145,7 @@
     ]
 }{
     "name": "Giant Panda Breeding Research Base",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/962154d40a57a305450954c48624b5fd-giant-panda-breeding-research-base.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/962154d40a57a305450954c48624b5fd-giant-panda-breeding-research-base.jpg",
     "ticket": "adult/student \u00a558/29",
     "contact": [
         "http://www.panda.org.cn",
@@ -2185,7 +2185,7 @@
     ]
 }{
     "name": "J\u012bnsh\u0101 Site Museum",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-461115600_master.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-461115600_master.jpg",
     "ticket": "\u00a580",
     "contact": [
         "http://www.jinshasitemuseum.com"
@@ -2317,7 +2317,7 @@
     ]
 }{
     "name": "Army of Terracotta Warriors",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/0078226f7b5b1d04a5fbd6bda1cc53d6-army-of-terracotta-warriors.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/0078226f7b5b1d04a5fbd6bda1cc53d6-army-of-terracotta-warriors.jpg",
     "ticket": "adult/student Mar-Nov \u00a5150/75, Dec-Feb \u00a5120/60",
     "contact": [
         "http://www.bmy.com.cn"
@@ -2340,7 +2340,7 @@
     ]
 }{
     "name": "Big Goose Pagoda",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/31b7eff222876b7a04043be57bd8bc5c-big-goose-pagoda.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/31b7eff222876b7a04043be57bd8bc5c-big-goose-pagoda.jpg",
     "ticket": "grounds \u00a550, pagoda \u00a540",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
@@ -2354,7 +2354,7 @@
     ]
 }{
     "name": "F\u01cem\u00e9n Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/e5e26308bb994d5a22e4f1eb1bfeb3bc-f-men-temple.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/e5e26308bb994d5a22e4f1eb1bfeb3bc-f-men-temple.jpg",
     "ticket": "Mar-Nov \u00a5120, Dec-Feb \u00a590",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
@@ -2370,7 +2370,7 @@
     ]
 }{
     "name": "West Lake",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-157982752_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-157982752_super.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "china/zhejiang/hangzhou",
@@ -2440,7 +2440,7 @@
     ]
 }{
     "name": "X\u012b\u2019\u0101n City Walls",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/d9a0cf787c1e22560f9cf9f29e7e5ced-xi-an-city-walls.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/d9a0cf787c1e22560f9cf9f29e7e5ced-xi-an-city-walls.jpg",
     "ticket": "\u00a554",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
@@ -2453,7 +2453,7 @@
     ]
 }{
     "name": "Gu\u01cengr\u00e9n Temple",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/b72888ebed8760f70aa1e0e02711a8f9-gu-ngren-temple.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/b72888ebed8760f70aa1e0e02711a8f9-gu-ngren-temple.jpg",
     "ticket": "\u00a520",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
@@ -2467,7 +2467,7 @@
     ]
 }{
     "name": "Great Mosque",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/e98a48b0120be32e6b5f09b1bd971978-great-mosque.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/e98a48b0120be32e6b5f09b1bd971978-great-mosque.jpg",
     "ticket": "Mar-Nov \u00a525, Dec-Feb \u00a515, Muslims free",
     "contact": "",
     "cityPath": "china/shaanxi-shanxi/xian",
@@ -2532,7 +2532,7 @@
     ]
 }{
     "name": "Palazzo Ducale",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-530442373_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-530442373_super.jpg",
     "ticket": "adult/reduced \u20ac19/12",
     "contact": [
         "http://www.palazzoducale.visitmuve.it",
@@ -2552,7 +2552,7 @@
     ]
 }{
     "name": "Basilica di San Marco",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/c4f11577c82938c14742a8b2457ea456642b0931063a04cc447b013838840d9f/04ae0c5a03dd0588b6edfacdfa80c41f438318105dc095aec94a0ca7076d2cc5.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/c4f11577c82938c14742a8b2457ea456642b0931063a04cc447b013838840d9f/04ae0c5a03dd0588b6edfacdfa80c41f438318105dc095aec94a0ca7076d2cc5.jpg",
     "ticket": "",
     "contact": [
         "http://www.basilicasanmarco.it",
@@ -2571,7 +2571,7 @@
     ]
 }{
     "name": "Basilica di Santa Maria della Salute",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/2aa87740d483a98883f6f0b931066b6a-basilica-di-santa-maria-della-salute.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/2aa87740d483a98883f6f0b931066b6a-basilica-di-santa-maria-della-salute.jpg",
     "ticket": "basilica free, sacristy adult/reduced \u20ac4/2",
     "contact": [
         "http://basilicasalutevenezia.it"
@@ -2587,7 +2587,7 @@
     ]
 }{
     "name": "Scuola Grande di San Rocco",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/89dc006cff2bef9d8b4787a758f860b53ebe7531ded91b24587538440457edb4/7ba95774292879fb8b5f7e0b64e07138e94f3cc2316564dd20068b8994a43b19.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/89dc006cff2bef9d8b4787a758f860b53ebe7531ded91b24587538440457edb4/7ba95774292879fb8b5f7e0b64e07138e94f3cc2316564dd20068b8994a43b19.jpg",
     "ticket": "adult/reduced \u20ac10/8",
     "contact": [
         "http://www.scuolagrandesanrocco.it",
@@ -2604,7 +2604,7 @@
     ]
 }{
     "name": "Fondazione Giorgio Cini",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/55b360343243e8c4f05246ae6be32fc1-fondazione-giorgio-cini.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/55b360343243e8c4f05246ae6be32fc1-fondazione-giorgio-cini.jpg",
     "ticket": "adult/reduced incl guided tour \u20ac10/8",
     "contact": [
         "http://www.cini.it",
@@ -2620,7 +2620,7 @@
     ]
 }{
     "name": "The Last Supper",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/548b28fda7dcd301301a77b8e5d14f16d57e3bf0c9e7c01e8df1aa80a9a5467c/44d0ea2e00ece56c5f9406e3f0e9c8ea9e9aebba6b08c4456c1390908f81b375.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/548b28fda7dcd301301a77b8e5d14f16d57e3bf0c9e7c01e8df1aa80a9a5467c/44d0ea2e00ece56c5f9406e3f0e9c8ea9e9aebba6b08c4456c1390908f81b375.jpg",
     "ticket": "adult/reduced \u20ac10/5, plus \u20ac2 booking fee",
     "contact": [
         "http://www.cenacolovinciano.net",
@@ -2651,7 +2651,7 @@
     ]
 }{
     "name": "Pinacoteca di Brera",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/3c1a8928839daace7984801a43d3ad309264b5fbd79507e7a6e1c430e85c5ec6/5d1aaa225734eec5cdfb9fe7e789b9646053a42bc2fa402f1b551d1aef2bfca7.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/3c1a8928839daace7984801a43d3ad309264b5fbd79507e7a6e1c430e85c5ec6/5d1aaa225734eec5cdfb9fe7e789b9646053a42bc2fa402f1b551d1aef2bfca7.jpg",
     "ticket": "adult/reduced \u20ac10/7",
     "contact": [
         "http://www.pinacotecabrera.org",
@@ -2666,7 +2666,7 @@
     ]
 }{
     "name": "Chiesa di San Maurizio",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/8630923c6e187f36dace503eb89dc681-chiesa-di-san-maurizio.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/8630923c6e187f36dace503eb89dc681-chiesa-di-san-maurizio.jpg",
     "ticket": "",
     "contact": [
         "02 8844 5208"
@@ -2680,7 +2680,7 @@
     ]
 }{
     "name": "Castello Sforzesco",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/bb10d38b32a4d2314172920671cb9698f04c328c76f367fea1936d54a63d8c1c/c62f65e45dd63cb7e86af0b18df99089967daf1539b4e34ef032a1d6b4e04f31.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/bb10d38b32a4d2314172920671cb9698f04c328c76f367fea1936d54a63d8c1c/c62f65e45dd63cb7e86af0b18df99089967daf1539b4e34ef032a1d6b4e04f31.jpg",
     "ticket": "adult/reduced \u20ac5/3",
     "contact": [
         "http://www.milanocastello.it",
@@ -2697,7 +2697,7 @@
     ]
 }{
     "name": "Mus\u00e9e du Louvre",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-548231661_full.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-548231661_full.jpg",
     "ticket": "adult/child \u20ac15/free",
     "contact": [
         "http://www.louvre.fr",
@@ -2720,7 +2720,7 @@
     ]
 }{
     "name": "Jardin du Luxembourg",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/c205fc1321c578380bfcb1eef323ed6e-jardin-du-luxembourg.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/c205fc1321c578380bfcb1eef323ed6e-jardin-du-luxembourg.jpg",
     "ticket": "",
     "contact": [
         "http://www.senat.fr/visite/jardin"
@@ -2739,7 +2739,7 @@
     ]
 }{
     "name": "Les Catacombes",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/dfa6b7e6323dbea2252ecb4d6ebd5eab-les-catacombes.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/dfa6b7e6323dbea2252ecb4d6ebd5eab-les-catacombes.jpg",
     "ticket": "adult/child \u20ac12/free, online booking incl audioguide \u20ac27/5",
     "contact": [
         "http://www.catacombes.paris.fr"
@@ -2759,7 +2759,7 @@
     ]
 }{
     "name": "Cimeti\u00e8re du P\u00e8re Lachaise",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/fb5bfb81ac9e9a2017ba835e92c458a9-cimetiere-du-pere-lachaise.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/fb5bfb81ac9e9a2017ba835e92c458a9-cimetiere-du-pere-lachaise.jpg",
     "ticket": "",
     "contact": [
         "http://www.pere-lachaise.com",
@@ -2775,7 +2775,7 @@
     ]
 }{
     "name": "Mus\u00e9e Rodin",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/bd0fbbcfb602d1f6b51db4f371a513b6-musee-rodin.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/bd0fbbcfb602d1f6b51db4f371a513b6-musee-rodin.jpg",
     "ticket": "adult/child museum incl garden \u20ac10/free, garden only \u20ac4/free",
     "contact": [
         "http://www.musee-rodin.fr"
@@ -2822,7 +2822,7 @@
     ]
 }{
     "name": "Ch\u00e2teau d\u2019If",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/92358a4b94e453c0cb196bc0c8b9448a-chateau-d-if.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/92358a4b94e453c0cb196bc0c8b9448a-chateau-d-if.jpg",
     "ticket": "adult/child \u20ac5.50/free",
     "contact": [
         "http://www.if.monuments-nationaux.fr"
@@ -2849,7 +2849,7 @@
     ]
 }{
     "name": "Palais des Papes",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/f125cb8d46c079edbd26daf63ddd76da-palais-des-papes.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/f125cb8d46c079edbd26daf63ddd76da-palais-des-papes.jpg",
     "ticket": "adult/child \u20ac11/9, with Pont St-B\u00e9nezet \u20ac13.50/10.50",
     "contact": [
         "http://www.palais-des-papes.com"
@@ -2915,7 +2915,7 @@
     ]
 }{
     "name": "La Croisette",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/75c7d7dbabad8f06776311a10cb158b3-la-croisette.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/75c7d7dbabad8f06776311a10cb158b3-la-croisette.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "france/cote-dazur/cannes",
@@ -2964,7 +2964,7 @@
     ]
 }{
     "name": "T\u00e0i Sh\u0101n",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/4740350cdc1fbed83461b5a1b947130d0550e5f71f7881592568b57e7c265adb/0726b031660cb79ec153b48bfdd1dc735bc27fe31171924836a8afdc4aadc5e0.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/4740350cdc1fbed83461b5a1b947130d0550e5f71f7881592568b57e7c265adb/0726b031660cb79ec153b48bfdd1dc735bc27fe31171924836a8afdc4aadc5e0.jpg",
     "ticket": "adult/student & senior Feb-Nov \u00a5127/60, Dec & Jan \u00a5102/50",
     "contact": [
         "http://www.taishangeopark.com"
@@ -2991,7 +2991,7 @@
     ]
 }{
     "name": "Vatican Museums",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-132986402_medium.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-132986402_medium.jpg",
     "ticket": "adult/reduced \u20ac16/8, last Sun of the month free",
     "contact": [
         "http://www.museivaticani.va",
@@ -3037,7 +3037,7 @@
     ]
 }{
     "name": "St Peter's Basilica",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/27719292d4f8f9129bdd04561b49e57543828cd239e29ee868bd101503f33646/ca9d3953d4c60441143ae03f86f3056af400504f5f92de21e56de3b270d55403.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/27719292d4f8f9129bdd04561b49e57543828cd239e29ee868bd101503f33646/ca9d3953d4c60441143ae03f86f3056af400504f5f92de21e56de3b270d55403.jpg",
     "ticket": "",
     "contact": [
         "http://www.vatican.va",
@@ -3073,7 +3073,7 @@
     ]
 }{
     "name": "Museo e Galleria Borghese",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/d9317578da1373be340e0971efbe65d2a981d8b6c1a890ece48a710ec7d15d05/ff2c88441c09ca1eb63ef6cab009981268f8b26823e3a539086c9b77ecdbb345.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/d9317578da1373be340e0971efbe65d2a981d8b6c1a890ece48a710ec7d15d05/ff2c88441c09ca1eb63ef6cab009981268f8b26823e3a539086c9b77ecdbb345.jpg",
     "ticket": "adult/reduced \u20ac15/8.50",
     "contact": [
         "http://www.galleriaborghese.it",
@@ -3097,7 +3097,7 @@
     ]
 }{
     "name": "Capitoline Museums",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/GettyImages-77817885_super.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/GettyImages-77817885_super.jpg",
     "ticket": "adult/reduced \u20ac11.50/9.50",
     "contact": [
         "http://www.museicapitolini.org",
@@ -3118,7 +3118,7 @@
     ]
 }{
     "name": "Basilica di San Giovanni in Laterano",
-    "imageUrl": "lonelyplanetimages.imgix.net/assets/image/aa0101dd05df4ff274edc7d4b193c56d448c04023e0d36787c3b1dbffe6fc3e9/af6d96c95ec9e465d70f32f8373c08148fdc0a4e6201c41211cda162a8666ee4.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/assets/image/aa0101dd05df4ff274edc7d4b193c56d448c04023e0d36787c3b1dbffe6fc3e9/af6d96c95ec9e465d70f32f8373c08148fdc0a4e6201c41211cda162a8666ee4.jpg",
     "ticket": "basilica/cloister free/\u20ac5 with audio guide",
     "contact": "",
     "cityPath": "italy/rome",
@@ -3158,7 +3158,7 @@
     ]
 }{
     "name": "Cappella Palatina",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/22971e7420941bb0d90ab1b3f00c25b0-cappella-palatina.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/22971e7420941bb0d90ab1b3f00c25b0-cappella-palatina.jpg",
     "ticket": "adult/reduced Fri-Mon \u20ac8.50/6.50, Tue-Thu \u20ac7/5, plus possible exhibition supplement",
     "contact": [
         "http://www.federicosecondo.org"
@@ -3175,7 +3175,7 @@
     ]
 }{
     "name": "Villa Romana del Casale",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/9138071e7bf23c282f13dd6b4c9fd8a6-villa-romana-del-casale.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/9138071e7bf23c282f13dd6b4c9fd8a6-villa-romana-del-casale.jpg",
     "ticket": "adult/reduced \u20ac10/5",
     "contact": [
         "http://www.villaromanadelcasale.it",
@@ -3192,7 +3192,7 @@
     ]
 }{
     "name": "Stromboli Crater",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/149a0074f915f1eb23986ab02452e35b-stromboli-crater.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/149a0074f915f1eb23986ab02452e35b-stromboli-crater.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "italy/sicily",
@@ -3204,7 +3204,7 @@
     ]
 }{
     "name": "Tempio della Concordia",
-    "imageUrl": "lonelyplanetimages.imgix.net/mastheads/186234330_high.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/mastheads/186234330_high.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "italy/sicily",
@@ -3216,7 +3216,7 @@
     ]
 }{
     "name": "Vieux Nice",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/7ed8c0a2a9ec9439d1284d232718125e-vieux-nice.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/7ed8c0a2a9ec9439d1284d232718125e-vieux-nice.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "france/nice",
@@ -3256,7 +3256,7 @@
     ]
 }{
     "name": "Pyramids of Giza",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/82e213048af4e026b6ba31e8f24cc923-pyramids-of-giza.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/82e213048af4e026b6ba31e8f24cc923-pyramids-of-giza.jpg",
     "ticket": "adult/student E\u00a380/40",
     "contact": "",
     "cityPath": "egypt/cairo",
@@ -3271,7 +3271,7 @@
     ]
 }{
     "name": "Khan al-Khalili",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/75e2b6ed30bff0bbb28c4c30577fcf06-greatest-markets.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/75e2b6ed30bff0bbb28c4c30577fcf06-greatest-markets.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "egypt/cairo",
@@ -3321,7 +3321,7 @@
     ]
 }{
     "name": "Promenade des Anglais",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/bdf8e8edc110a61812472f67f0b8f318-promenade-des-anglais.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/bdf8e8edc110a61812472f67f0b8f318-promenade-des-anglais.jpg",
     "ticket": "",
     "contact": "",
     "cityPath": "france/nice",
@@ -3335,7 +3335,7 @@
     ]
 }{
     "name": "Mus\u00e9e Matisse",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/0808d328be1bbf5e9d094aa8ea900efe-musee-matisse.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/0808d328be1bbf5e9d094aa8ea900efe-musee-matisse.jpg",
     "ticket": "",
     "contact": [
         "http://www.musee-matisse-nice.org",
@@ -3364,7 +3364,7 @@
     ]
 }{
     "name": "La Cit\u00e9 du Vin",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/874cd8d4c23685c9b70d43068893061b-la-cite-du-vin.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/874cd8d4c23685c9b70d43068893061b-la-cite-du-vin.jpg",
     "ticket": "adult/child \u20ac20/free",
     "contact": [
         "http://www.laciteduvin.com",
@@ -3408,7 +3408,7 @@
     ]
 }{
     "name": "Cath\u00e9drale St-Andr\u00e9",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/592016b77a1fd04612ebc82c0fd53dc8-cathedrale-st-andre.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/592016b77a1fd04612ebc82c0fd53dc8-cathedrale-st-andre.jpg",
     "ticket": "",
     "contact": [
         "http://www.cathedrale-bordeaux.fr"
@@ -3433,7 +3433,7 @@
     ]
 }{
     "name": "Cath\u00e9drale Notre-Dame",
-    "imageUrl": "lonelyplanetimages.imgix.net/a/g/hi/t/6fc135ea2194f32c9609d23d109c81c5-cathedrale-notre-dame.jpg",
+    "imageUrl": "//lonelyplanetimages.imgix.net/a/g/hi/t/6fc135ea2194f32c9609d23d109c81c5-cathedrale-notre-dame.jpg",
     "ticket": "astronomical clock adult/child \u20ac2/1.50, platform adult/child \u20ac5/2.50",
     "contact": [
         "http://www.cathedrale-strasbourg.fr"
