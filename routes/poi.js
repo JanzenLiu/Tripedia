@@ -18,7 +18,8 @@ router.get('/:poiId', function(req, res){
 		console.log(poi);
 		if (typeof(poi.location) != "undefined") {
 			var citypos = poi.location.indexOf(poi.city.name);
-			poi.location = poi.location.substr(0, citypos) + "<br>" + poi.location.substr(citypos);
+			if (citypos != 0)
+				poi.location = poi.location.substr(0, citypos) + "<br>" + poi.location.substr(citypos);
 		}
 		
 
