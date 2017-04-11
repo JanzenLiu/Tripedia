@@ -12,7 +12,7 @@ var City = require('../models/city')
 router.get('/:pathname', function(req, res){
 
 	City.findOne({path: req.params.pathname})
-		.populate("pois", "name imageUrl"
+		.populate("pois", "name imageUrl")
 		.exec(function(err, city){
 		if(err || !city){
 			req.flash('error', 'City not found!');
@@ -31,7 +31,7 @@ router.get('/:pathname', function(req, res){
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
-	}).populate("pois");
+	});
 });
 
 router.get('/:country/:city', function(req, res){
