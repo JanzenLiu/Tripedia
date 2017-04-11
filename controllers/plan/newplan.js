@@ -1,13 +1,13 @@
 var User = require('../../models/user');
 var Plan = require('../../models/plan');
 var mongoose = require('mongoose')
-module.exports = function(old_title, title, brief, authorId, authorName, flag, callback){
+module.exports = function(title, brief, authorId, authorName, flag, key, callback){
   if(flag == 1){
     console.log("abccc");
   var newPlan = new Plan({
     title: title,
     author: {
-      uid: mongoose.Types.ObjectId(authorId),
+      uid: authorId,
       name: authorName
     },
     brief: brief
@@ -30,8 +30,9 @@ module.exports = function(old_title, title, brief, authorId, authorName, flag, c
 
 }
 else{
+  console.log(authorId);
   Plan.update({
-    "title":old_title
+    "key":key
   },{
     $set:{
       title:title,
@@ -42,7 +43,6 @@ else{
         return callback(err);
       }
       callback(null);
-
     }
   });
 }

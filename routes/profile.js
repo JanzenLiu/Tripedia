@@ -40,7 +40,6 @@ router.post('/post', postController);
 // });
 // router.post('/plan', planController);
 //at most five days
-module.exports = router;
 router.get('/planmaking', function(req, res){
 		res.render('plan',{
 			title: title,
@@ -51,13 +50,15 @@ router.get('/planmaking', function(req, res){
 		});
 });
 router.post('/planmaking',function(req,res){
-	flag=flag + 1;
-	var old_title=title;
 	title=req.body.title;
+	flag+=1;
+	if(flag==1){
+		key=title;
+	}
 	brief=req.body.brief;
 	var authorId = req.session.user._id;
 	var authorName=req.session.user.username;
-	CreatePlan(old_title, title, brief, authorId, authorName, flag, function(err){
+	CreatePlan( title, brief, authorId, authorName, flag, key, function(err){
 		if(err){
 			req.flash('error',err);
 			return res.redirect('/profile/planmaking')
@@ -108,3 +109,4 @@ router.get('/planmaking/:dayNo', function(req,res){
 	});
 });
 router.post('/planmaking/:dayNo', planController);
+module.exports = router;
