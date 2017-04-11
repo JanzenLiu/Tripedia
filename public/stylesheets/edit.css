@@ -1,0 +1,17 @@
+main.page-edit{
+  background-image: url("/images/edit_profile/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main.page-edit .container{
+  z-index: 10;
+  position: relative;
+}
+.edit-container{
+  position: relative;
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px 30px 30px;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid #ccc;
+}
