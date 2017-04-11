@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
+var multer  = require('multer');
 
 // router setup
 var routes = require('./routes/index');
@@ -13,6 +14,7 @@ var settings = require('./settings');
 var Connection = require('./models/db');
 var flash = require('connect-flash');
 
+var multer  = require('multer');
 var app = express();
 
 // application engine setup
@@ -42,6 +44,11 @@ app.use(session({
 	})
 }));
 app.use(express.static('public'));
+
+
+var upload = multer({
+  dest: './public/images'
+});
 
 routes(app);
 

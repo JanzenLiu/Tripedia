@@ -18,6 +18,7 @@ module.exports = function(app){
 	*/
 
 
+
 	app.use(function(req, res, next){
 		res.locals.url = req.originalUrl;
 		next();
@@ -44,7 +45,6 @@ module.exports = function(app){
 	app.use('/account', require('./account'));
 	app.use('/profile', require('./profile'));
 	app.use('/search', require('./search'));
-
 	app.get('/dest', function(req, res){
 		res.render('dest', {
 			title: 'Destinations',
@@ -55,9 +55,11 @@ module.exports = function(app){
 	});
 
 	app.use('/city', require('./city'));
-	app.use('/poi', require('./poi'));
+	app.use('/spot', require('./spot'));
+	app.use('/singlenote', require('./singlenote'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
+
 
 	// 404 Page
 

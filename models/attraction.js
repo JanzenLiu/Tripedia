@@ -3,9 +3,10 @@ var Connection = require('./db');
 
 
 // Schema for Attraction ========================
+
 var poiSchema = new mongoose.Schema({
     name: String,
-    types: [String], 
+    types: [String],
     cityName: String,
     cityPath: String,
     introduction: [String],
@@ -28,6 +29,7 @@ var poiSchema = new mongoose.Schema({
 
     /////////////// to be supplement //////////////////
 });
+
 
 poiSchema.statics.findById = function(id, cb){
     return this.findOne({_id: mongoose.Types.ObjectId(id)}, cb);

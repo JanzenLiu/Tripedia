@@ -1,0 +1,22 @@
+<% function searchNoteItem(item) { %>
+	<div class="grid grid-two">
+        <div class="figure">
+            <!-- <img src="<%= poi.imageUrl %>" width="485" height="320"> -->
+            <h3 class="title">11111</h3>
+            <div class="mask-container">
+                <div class="mask">
+                    <div class="middle">
+                        <h3>11111</h3>
+                            <p>11111</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<% } %>
+
+<% searchNoteList = function(notes){ %>
+	<% if(notes){ %>
+		<% notes.map(searchNoteItem) %>
+	<% } %>
+<% } %>

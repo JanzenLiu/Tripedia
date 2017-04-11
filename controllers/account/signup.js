@@ -46,6 +46,7 @@ module.exports = function(req, res){
 			}
 			req.session.user = user;
 			req.flash('success', 'Successfully Signed up!');
+
 			if (typeof(req.query.callback) == "undefined") {
 				callbackURI = '/';
 			} else {
