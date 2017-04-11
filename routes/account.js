@@ -45,17 +45,22 @@ router.get('/edit', function(req,res){
 	});
 });
 router.post('/edit', function(req,res){
-	var name = req.body.name;
 	var password = req.body.password;
+	var username = req.body.name;
+	var introduction = req.body.introduction;
+	var location = req.body.location;
 	var email=req.session.user.email;
 	var user = new User;
-	edit(name, password, email, function(err){
+	edit(email, username, password, location, introduction, function(err){
 		if (err) {
       req.flash('error', err);
-      return res.redirect(url);
+      return res.redirect('/account/edit');
     }
+		req.session.user.username=username;
+		req.session.user.password=password;
+		req.session.user.introduction=introduction;
+		req.session.user.location=location;
 		req.flash('success');
-		req.session.user.username = name;
 		res.redirect('/');
 	});
 });
