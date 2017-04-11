@@ -29,7 +29,7 @@ router.get('/:pathname', function(req, res){
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
-	});
+	}).populate("pois");
 });
 
 router.get('/:country/:city', function(req, res){
@@ -57,7 +57,7 @@ router.get('/:country/:city', function(req, res){
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
-	});
+	}).populate("pois");
 });
 
 router.get('/:country/:area/:city', function(req, res){

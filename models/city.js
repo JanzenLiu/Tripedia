@@ -11,6 +11,10 @@ var citySchema = mongoose.Schema({
   	   aid: mongoose.Schema.Types.ObjectId,
   	   name: String
     }],
+    pois: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "poi"
+    }],
     intro: String,
     description: {
     	subtitles: [String],

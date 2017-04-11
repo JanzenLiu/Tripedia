@@ -7,8 +7,10 @@ var userSchema = new mongoose.Schema({
 	password			: String,
 	name				: String,
 	email				: String, // add validation
-	gender				: {type: String, enum: ['male', 'female', 'transgender', 'unknown']}, // "M" for male, "F" for female... Add verification
-	location			: String,
+	age					: Number,
+	gender				: {type: String, enum: ['male','female','unknown']},
+	location			: {type: mongoose.Schema.Types.ObjectId, ref: 'City'},
+	about				: String,
 	following_counts	: {type: Number, default: 0},
 	follower_counts		: {type: Number, default: 0},
 	travel_note_counts	: {type: Number, default: 0},
