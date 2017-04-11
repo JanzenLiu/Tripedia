@@ -138,3 +138,44 @@ main.page-signup .container, main.page-login .container {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+/* Attraction(POI) page */
+.poi-article {
+    font-size: 20px;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+.poi-article-content {
+    margin-top: 3em;
+}
+.poi-feature-image {
+    margin-bottom: 40px;
+}
+.poi-feature-image img {
+    width: 100%;
+}
+.page-aside {
+    font-size: 14px;
+}
+.page-aside section {
+    padding-bottom: 2em;
+}
+.page-aside header.aside-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+@media (max-width: 599px){
+    aside.page-aside {
+        margin-top: 36px;
+    }
+}
+@media (min-width: 600px){
+    article.poi-article {
+        float: right;
+        width: 60%;
+        margin-right: 7%;
+    }
+    aside.page-aside {
+        float: right;
+        width: 33%;
+    }
+}
