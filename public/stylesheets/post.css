@@ -1,0 +1,42 @@
+main.write-note{
+  background-image: url(/images/edit_profile/bg2.jpg);
+  background-size: cover;
+  background-position:center;
+}
+
+main.write-note .container{
+  z-index: 10;
+  position: relative;
+}
+
+.post-container{
+  position: relative;
+  margin: 50px auto;
+  width: 80%;
+  height: 1047px;
+  background-color: hsla(0, 100%, 50%, 0.3);
+}
+
+#gap{
+  position: relative;
+  height:40px;
+}
+
+
+.main{
+  position:relative;
+  margin-top:40px auto;
+  width: 80%;
+}
+
+ul.nav-pills {
+      top: 220px;
+      position: fixed;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 810px) {
+    .main{
+        margin-left: 150px;
+    }
+  }
