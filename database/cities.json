@@ -1,5 +1,5 @@
 {
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Central Park"
@@ -50,7 +50,7 @@
     },
     "name": "New York City"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Broad"
@@ -88,7 +88,7 @@
     },
     "name": "Los Angeles"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Anglim Gilbert Gallery"
@@ -140,7 +140,7 @@
     },
     "name": "San Francisco"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Field Museum of Natural History"
@@ -192,7 +192,7 @@
     },
     "name": "Chicago"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [],
     "intro": "",
     "path": "usa/seattle",
@@ -215,7 +215,7 @@
     },
     "name": "Seattle"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Washington National Cathedral"
@@ -268,7 +268,7 @@
     },
     "name": "Washington, DC"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Boston Tea Party Ships & Museum"
@@ -319,7 +319,7 @@
     },
     "name": "Boston"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "National WWII Museum"
@@ -370,7 +370,7 @@
     },
     "name": "New Orleans"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Mob Museum"
@@ -408,7 +408,7 @@
     },
     "name": "Las Vegas"
 }{
-    "country": "usa",
+    "country": "USA",
     "attractions": [
         {
             "name": "Bill Baggs Cape Florida State Park"
@@ -522,7 +522,7 @@
     },
     "name": "Wellington"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Man Mo Temple"
@@ -573,7 +573,7 @@
     },
     "name": "Hong Kong"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "M50"
@@ -624,7 +624,7 @@
     },
     "name": "Sh\u00e0ngh\u01cei"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Forbidden City"
@@ -675,7 +675,7 @@
     },
     "name": "B\u011bij\u012bng"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Potala Palace"
@@ -713,7 +713,7 @@
     },
     "name": "Lhasa"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Sh\u0101mi\u00e0n Island"
@@ -751,7 +751,7 @@
     },
     "name": "Gu\u01cengzh\u014du"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Giant Panda Breeding Research Base"
@@ -789,7 +789,7 @@
     },
     "name": "Ch\u00e9ngd\u016b"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "West Lake"
@@ -827,7 +827,7 @@
     },
     "name": "H\u00e1ngzh\u014du"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Han Dynasty Brick Museum"
@@ -865,7 +865,7 @@
     },
     "name": "Q\u012bngd\u01ceo"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "D\u00e0i Temple"
@@ -903,7 +903,7 @@
     },
     "name": "T\u00e0i'\u0101n"
 }{
-    "country": "china",
+    "country": "China",
     "attractions": [
         {
             "name": "Army of Terracotta Warriors"
@@ -941,7 +941,7 @@
     },
     "name": "X\u012b'\u0101n"
 }{
-    "country": "japan",
+    "country": "Japan",
     "attractions": [
         {
             "name": "Sens\u014d-ji"
@@ -992,7 +992,7 @@
     },
     "name": "Tokyo"
 }{
-    "country": "japan",
+    "country": "Japan",
     "attractions": [
         {
             "name": "Kiyomizu-dera"
@@ -1043,7 +1043,7 @@
     },
     "name": "Kyoto"
 }{
-    "country": "japan",
+    "country": "Japan",
     "attractions": [
         {
             "name": "Kiyomizu-dera"
@@ -1130,7 +1130,7 @@
         "subtitles": [],
         "bodies": []
     },
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "attractions": [
@@ -1168,7 +1168,7 @@
         "subtitles": [],
         "bodies": []
     },
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "attractions": [
@@ -1206,7 +1206,7 @@
         "subtitles": [],
         "bodies": []
     },
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "attractions": [
@@ -1244,7 +1244,7 @@
         "subtitles": [],
         "bodies": []
     },
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "attractions": [
@@ -1282,7 +1282,7 @@
         "subtitles": [],
         "bodies": []
     },
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "attractions": [
@@ -1314,7 +1314,7 @@
             "name": "Agricultural Museum"
         }
     ],
-    "country": "egypt",
+    "country": "Egypt",
     "name": "Cairo",
     "description": {
         "subtitles": [],
@@ -1322,7 +1322,7 @@
     },
     "path": "egypt/cairo"
 }{
-    "country": "egypt",
+    "country": "Egypt",
     "intro": "",
     "name": "Hurghada",
     "attractions": [
@@ -1360,7 +1360,7 @@
         "bodies": []
     }
 }{
-    "country": "egypt",
+    "country": "Egypt",
     "intro": "",
     "name": "Alexandria",
     "attractions": [
@@ -1398,7 +1398,7 @@
         "bodies": []
     }
 }{
-    "country": "egypt",
+    "country": "Egypt",
     "intro": "",
     "name": "Dahab",
     "attractions": [
@@ -1433,7 +1433,7 @@
         "bodies": []
     }
 }{
-    "country": "egypt",
+    "country": "Egypt",
     "intro": "",
     "name": "Port Said",
     "attractions": [
@@ -1479,7 +1479,7 @@
     "name": "Nuweiba",
     "attractions": [],
     "intro": "",
-    "country": "egypt"
+    "country": "Egypt"
 }{
     "intro": "Paris\u2019 grandeur is inspiring but what I love most about the city is its intimacy. Its quartiers (quarters) are like a patchwork of villages, and while it\u2019s one of the world\u2019s major metropolises \u2013 with all of the culture and facilities that go with it \u2013 there\u2019s a real sense of community at the local shops, markets and cafes that hasn\u2019t changed since my childhood. Yet because every little \u2018village\u2019 has its own evolving...",
     "path": "france/paris",
@@ -1530,7 +1530,7 @@
             "name": "Mus\u00e9e Rodin"
         }
     ],
-    "country": "france"
+    "country": "France"
 }{
     "intro": "",
     "path": "france/provence/marseille",
@@ -1568,7 +1568,7 @@
             "name": "La Cit\u00e9 Radieuse"
         }
     ],
-    "country": "france"
+    "country": "France"
 }{
     "intro": "",
     "path": "france/provence/avignon",
@@ -1606,7 +1606,7 @@
             "name": "Basilique St-Pierre"
         }
     ],
-    "country": "france"
+    "country": "France"
 }{
     "intro": "",
     "path": "france/cote-dazur/cannes",
@@ -1638,7 +1638,7 @@
             "name": "H\u00f4tel de Ville"
         }
     ],
-    "country": "france"
+    "country": "France"
 }{
     "attractions": [
         {
@@ -1669,7 +1669,7 @@
             "name": "Cath\u00e9drale St-Sauveur"
         }
     ],
-    "country": "france",
+    "country": "France",
     "intro": "",
     "description": {
         "subtitles": [],
@@ -1707,7 +1707,7 @@
             "name": "Escadaria Selar\u00f3n"
         }
     ],
-    "country": "brazil",
+    "country": "Brazil",
     "intro": "The arrival of summer signals the start of Rio\u2019s most intense period of partying and celebration. Christmas and New Year festivities run seamlessly into Carnival. And although the main event doesn\u2019t start until late February, the samba schools\u2019 weekly ensaios (rehearsal events) are in full swing by the start of December. Ever the outdoors city, the rising temperatures draw locals and tourists alike to Rio\u2019s beaches...",
     "description": {
         "subtitles": [
@@ -1758,7 +1758,7 @@
             "name": "Museu de Arte Moderna"
         }
     ],
-    "country": "brazil",
+    "country": "Brazil",
     "intro": "",
     "description": {
         "subtitles": [],
@@ -1816,7 +1816,7 @@
         ]
     },
     "name": "Rome",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "Venice is the consummate magician. It makes marble palaces vanish into silent fogs, labyrinthine calli (streets) disappear at the whim of moody tides, and can even turn the most pedestrian of people into fantastical, masked creatures. Just like its world-famous Carnevale, Venice thrives on mystery and awe, from the secret passageways that riddle Gothic Palazzo Ducale, to the esoteric powers of the Basilica di Santa...",
     "path": "italy/venice",
@@ -1867,7 +1867,7 @@
         ]
     },
     "name": "Venice",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "Florence is made for walking, which suits me perfectly, but what never ceases to amaze me is its overwhelming beauty. It's impossible not to be completely and utterly seduced by the sheer size and grandeur of Brunelleschi's red cathedral dome on Piazza del Duomo; by the sensual beauty of a stash of lesser-known Michelangelo sculptures that no one really talks about (forget David \u2013 Dawn and Dusk sends shivers down my...",
     "path": "italy/florence",
@@ -1912,7 +1912,7 @@
         ]
     },
     "name": "Florence",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "From cutting-edge design showcases to hi-tech olive presses and a sidewalk scene that makes Fashion Week seem entirely redundant, Milan is both thrilling and fun. Everyone here is fizzing with ideas, ambition and energy, and it\u2019s catching. Unlike nonna\u2019s Italy further south, Milanese, like New Yorkers, are refreshing modernists. The main currency here isn\u2019t the euro or amazing design gadgetry, it\u2019s inspiration \u2013 and...",
     "path": "italy/milan",
@@ -1963,7 +1963,7 @@
         ]
     },
     "name": "Milan",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "Decades after my first visit, I still find Sicily one of the world's most captivating places. Among the island's innumerable charms, here are a few personal favourites: the ever-present scent of lemon trees, the purity of dawn light on terracotta walls, the colourful decrepitude of Palermo's markets, the drama of Stromboli erupting against a darkening sky, the sense that history lurks always just around the next...",
     "path": "italy/sicily",
@@ -2014,7 +2014,7 @@
         ]
     },
     "name": "Sicily",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "",
     "path": "italy/puglia/otranto",
@@ -2024,7 +2024,7 @@
         "subtitles": []
     },
     "name": "Otranto",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "",
     "path": "italy/puglia/taranto",
@@ -2034,7 +2034,7 @@
         "subtitles": []
     },
     "name": "Taranto",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "",
     "path": "italy/puglia/trani",
@@ -2044,7 +2044,7 @@
         "subtitles": []
     },
     "name": "Trani",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "",
     "path": "italy/puglia/alberobello",
@@ -2054,7 +2054,7 @@
         "subtitles": []
     },
     "name": "Alberobello",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "",
     "path": "italy/puglia/cisternino",
@@ -2064,7 +2064,7 @@
         "subtitles": []
     },
     "name": "Cisternino",
-    "country": "italy"
+    "country": "Italy"
 }{
     "intro": "I love the sea, and taking an early-morning jog along the Mediterranean is my favourite way to start the day. I'm also a bit of a history nerd, and relish strolling the cobblestone lanes of the Gothic quarter, thinking about the people in past centuries who walked these streets. Then there's the food and drink \u2013 the first-rate tapas bars, the abundant and inexpensive wine, the superb and reasonably priced multicourse...",
     "path": "spain/barcelona",
@@ -2115,7 +2115,7 @@
         ]
     },
     "name": "Barcelona",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "More than a decade after I fell for Madrid and decided to call it home, the life that courses relentlessly through the streets here still excites me. Here is a place where the passions of Europe\u2019s most passionate country are the fabric of daily life, a city with music in its soul and an unshakeable spring in its step. But Madrid is also one of the most open cities on earth and it doesn\u2019t matter where you\u2019re from for...",
     "path": "spain/madrid",
@@ -2166,7 +2166,7 @@
         ]
     },
     "name": "Madrid",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/valencia-and-murcia/valencia",
@@ -2204,7 +2204,7 @@
         "subtitles": []
     },
     "name": "Valencia",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/granada",
@@ -2214,7 +2214,7 @@
         "subtitles": []
     },
     "name": "Granada",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/seville",
@@ -2252,7 +2252,7 @@
         "subtitles": []
     },
     "name": "Seville",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/aragon-basque-country-and-navarra/bilbao",
@@ -2290,7 +2290,7 @@
         "subtitles": []
     },
     "name": "Bilbao",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/aragon-basque-country-and-navarra/san-sebastian",
@@ -2328,7 +2328,7 @@
         "subtitles": []
     },
     "name": "San Sebasti\u00e1n",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/andalucia/malaga",
@@ -2366,7 +2366,7 @@
         "subtitles": []
     },
     "name": "M\u00e1laga",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/canary-islands/tenerife/santa-cruz-de-tenerife",
@@ -2376,7 +2376,7 @@
         "subtitles": []
     },
     "name": "Lost",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "spain/andalucia/cordoba",
@@ -2414,7 +2414,7 @@
         "subtitles": []
     },
     "name": "C\u00f3rdoba",
-    "country": "spain"
+    "country": "Spain"
 }{
     "intro": "",
     "path": "france/toulouse",
@@ -2452,7 +2452,7 @@
         "subtitles": []
     },
     "name": "Toulouse",
-    "country": "france"
+    "country": "France"
 }{
     "intro": "",
     "path": "japan/kansai/osaka",
@@ -2490,7 +2490,7 @@
         "subtitles": []
     },
     "name": "Osaka",
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "path": "japan/kansai/nara",
@@ -2528,7 +2528,7 @@
         "subtitles": []
     },
     "name": "Nara",
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "path": "japan/central-honshu/kanaz",
@@ -2538,7 +2538,7 @@
         "subtitles": []
     },
     "name": "Lost",
-    "country": "japan"
+    "country": "Japan"
 }{
     "intro": "",
     "path": "brazil/the-northeast/recife",
@@ -2576,7 +2576,7 @@
         "subtitles": []
     },
     "name": "Recife",
-    "country": "brazil"
+    "country": "Brazil"
 }{
     "intro": "",
     "path": "brazil/the-northeast/fortaleza",
@@ -2614,7 +2614,7 @@
         "subtitles": []
     },
     "name": "Fortaleza",
-    "country": "brazil"
+    "country": "Brazil"
 }{
     "intro": "",
     "path": "brazil/the-central-west/brasilia",
@@ -2652,7 +2652,7 @@
         "subtitles": []
     },
     "name": "Bras\u00edlia",
-    "country": "brazil"
+    "country": "Brazil"
 }{
     "intro": "",
     "path": "brazil/the-north/belem",
@@ -2690,7 +2690,7 @@
         "subtitles": []
     },
     "name": "Bel\u00e9m",
-    "country": "brazil"
+    "country": "Brazil"
 }{
     "intro": "",
     "path": "brazil/the-southeast/belo-horizonte",
@@ -2728,7 +2728,7 @@
         "subtitles": []
     },
     "name": "Belo Horizonte",
-    "country": "brazil"
+    "country": "Brazil"
 }{
     "intro": "",
     "path": "brazil/the-northeast/sao-luis",
@@ -2766,5 +2766,5 @@
         "subtitles": []
     },
     "name": "S\u00e3o Lu\u00eds",
-    "country": "brazil"
+    "country": "Brazil"
 }

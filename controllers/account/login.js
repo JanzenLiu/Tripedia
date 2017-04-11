@@ -23,6 +23,7 @@ module.exports = function(req, res){
 			return res.redirect(req.originalUrl);
 		}
 
+<<<<<<< HEAD
 		 req.session.user = user;
 		 req.flash('success', 'Successfully login!');
 		// if (typeof(req.query.callback) == "undefined") {
@@ -31,5 +32,15 @@ module.exports = function(req, res){
 		// 	callbackURI = decodeURIComponent(req.query.callback) || '/';
 		// }
 		res.redirect('/');
+=======
+		req.session.user = user;
+		req.flash('success', 'Successfully login!');
+		if (typeof(req.query.callback) == "undefined") {
+			callbackURI = '/';
+		} else {
+			callbackURI = decodeURIComponent(req.query.callback) || '/';
+		}
+		return res.redirect(callbackURI);
+>>>>>>> 8c962d27e7499ca5dfc2a1baf3ba7fcd808af1aa
 	});
 }

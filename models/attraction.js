@@ -7,6 +7,10 @@ var Connection = require('./db');
 var poiSchema = new mongoose.Schema({
     name: String,
     types: [String],
+<<<<<<< HEAD
+=======
+    city: { type: mongoose.Schema.Types.ObjectId, ref: 'City' },
+>>>>>>> 8c962d27e7499ca5dfc2a1baf3ba7fcd808af1aa
     cityName: String,
     cityPath: String,
     introduction: [String],
