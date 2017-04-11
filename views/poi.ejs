@@ -1,5 +1,27 @@
 <%- include header %>
 
+<script>
+$(document).ready(function () {
+	windowResize = function (){
+		var wWidth = $(window).width();
+        var scrollTop = ($(window).scrollTop() || $("body").scrollTop());
+		if (wWidth > 600 && scrollTop > 170) {
+            var rightborder = parseInt($(".container").css("margin-right"))+parseInt($(".container").css("padding-right"));
+            var width = $(".poi-content").width() * 0.33;
+            $(".page-aside").addClass("floating");
+            $(".page-aside").css({
+                "right" : rightborder,
+                "width" : width});
+		} else {
+            $(".page-aside").removeClass("floating");
+			$(".page-aside").css({"right" : 0, "width": "33%"});
+		}
+	}
+	$(window).on('resize', windowResize);
+	$(window).on('scroll', windowResize);
+	windowResize();
+});
+</script>
 <main class="page-poi">
     <div class="container">
         <ul class="breadcrumb">

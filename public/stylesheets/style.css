@@ -158,6 +158,11 @@ main.page-signup .container, main.page-login .container {
 .page-aside {
     font-size: 14px;
 }
+.page-aside.floating {
+    position: fixed;
+    top: 73px;
+    z-index: -1;
+}
 .page-aside section {
     padding-bottom: 2em;
 }
@@ -172,7 +177,7 @@ main.page-signup .container, main.page-login .container {
 }
 @media (min-width: 600px){
     article.poi-article {
-        float: right;
+        float: left;
         width: 60%;
         margin-right: 7%;
     }
