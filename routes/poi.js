@@ -17,10 +17,10 @@ router.get('/:poiId', function(req, res){
 
 		console.log(poi);
 
-		res.render('city',{
+		res.render('poi',{
 			title: poi.name,
 			user: req.session.user,
-			city: poi,
+			poi: poi,
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
