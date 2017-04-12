@@ -28,6 +28,7 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
+      console.log(notes);
       res.render('search', {
         title: "SEARCH:" + req.query.q,
         user: req.session.user,

@@ -10,9 +10,10 @@ var planSchema = new mongoose.Schema({
   author: {
     uid: mongoose.Schema.Types.ObjectId,
     name: String
-  }
+  },
 	//////////////////// to be supplement //////////////////////
 	// email
+  key: String
 });
 
 // methods ================================

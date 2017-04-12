@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Connection = require('./db');
+var Comment=require('./notecomment');
 
 // Schema for TravelNote ========================
 var noteSchema = new mongoose.Schema({
@@ -20,7 +21,8 @@ var noteSchema = new mongoose.Schema({
 		name: String
 	}],
 	comment_counts		: Number,
-	comments			: [{cid: mongoose.Schema.Types.ObjectId}]
+	comments			: [{type: mongoose.Schema.Types.ObjectId,
+										ref: 'Comment'}]
 
 	///////////////// to be supplement /////////////////
 	// cities with attractions
