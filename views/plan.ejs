@@ -21,13 +21,13 @@
         <form method="post" action='/profile/planmaking'>
           <div class="title-container">
             <div class="input-group">
-              <span class="input-group-addon">Title</span>
-              <input id="msg" type="text" class="form-control" name="msg" placeholder="Please enter the title of your plan">
+              <span class="input-group-addon">title</span>
+              <input id="msg" type="text" class="form-control" name="title" placeholder="<%= title %>">
             </div>
           </div>
           <div class="brief-container">
             <div class="form-group">
-              <textarea class="form-control" rows="25" id="comment" placeholder="Please write some brief introduction of your plan..."></textarea>
+              <textarea class="form-control" name="brief" rows="25" id="comment" placeholder="<%= brief %>"></textarea>
             </div>
           </div>
           <div class="save-btn">

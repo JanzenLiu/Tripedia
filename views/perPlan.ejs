@@ -10,20 +10,19 @@
           </ul>
       </nav>
       <div class="main">
-        <form method="post" action='/profile/planmaking'>
+        <form method="post" action='/profile/planmaking/<%= dayNo %>'>
           <div class="title-container">
             <div class="input-group">
               <span class="input-group-addon">Title</span>
-              <input id="msg" type="text" class="form-control" name="msg" placeholder="Please enter the title of your plan">
-            </div>
+              <textarea id="msg" type="text" class="form-control" name="title" ><%= title %></textarea><br />          
           </div>
           <div class="brief-container">
             <div class="form-group">
-              <textarea class="form-control" rows="25" id="comment" placeholder="Please write some brief introduction of your plan..."></textarea>
+              <textarea class="form-control" rows="25" id="comment" name="text" placeholder="Please write some brief introduction of your plan..."></textarea>
             </div>
           </div>
           <div class="save-btn">
-            <button type="submit" class="btn btn-default" ><a href="/profile/planmaking">Save</a></button>
+            <button type="submit" class="btn btn-default" ><a>Save</a></button>
           </div>
         </form>
       </div>
