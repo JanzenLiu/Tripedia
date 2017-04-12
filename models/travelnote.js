@@ -21,7 +21,9 @@ var noteSchema = new mongoose.Schema({
 	dislikes			: [mongoose.Schema.Types.ObjectId],
 	comment_counts		: Number,
 	comments			: [{type: mongoose.Schema.Types.ObjectId,
-										ref: 'Comment'}]
+										ref: 'Comment'}],
+	cities				: [String],
+	attractions   : [String]
 
 	///////////////// to be supplement /////////////////
 	// cities with attraction
