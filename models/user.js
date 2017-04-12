@@ -9,18 +9,19 @@ var userSchema = new mongoose.Schema({
 	email				: String, // add validation
 	age					: Number,
 	gender				: {type: String, enum: ['male','female','unknown']},
-	location			: {type: mongoose.Schema.Types.ObjectId, ref: 'City'},
-	about				: String,
+	location			: String,
+	introduction				: String,
+	contact			: String,
 	following_counts	: {type: Number, default: 0},
 	follower_counts		: {type: Number, default: 0},
 	travel_note_counts	: {type: Number, default: 0},
-
+	plan_conunts			: {type: Number, default: 0},
 	// travel notes collection: add more fields for conveniece?
 	// add reference info
 	followers  			:[{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
 	followings  		:[{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
-	travel_notes		:[{type: mongoose.Schema.Types.ObjectId, ref: 'TravelNote'}]
-
+	travel_notes		:[{type: mongoose.Schema.Types.ObjectId, ref: 'TravelNote'}],
+	plan            :[{type: mongoose.Schema.Types.ObjectId, ref: 'Plan'}]
 	//////////////////// to be supplement //////////////////////
 	// email
 });

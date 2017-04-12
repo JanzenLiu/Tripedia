@@ -10,12 +10,24 @@ module.exports = function(req, res){
 			success : false
 		});
 	}
-
 	var authorId = req.session.user._id,
 		authorName = req.session.user.username, // to be modified
 		title = req.body.title,
 		text = req.body.text;
-
+		citi1=req.body.citi1;
+		citi2=req.body.citi2;
+		citi3=req.body.citi3;
+		spot1=req.body.attraction1;
+		spot2=req.body.attraction2;
+		spot3=req.body.attraction3;
+		if (!citi1){citi1='Citi 1'};
+		if (!citi2){citi2='Citi 2'};
+		if (!citi3){citi3='Citi 3'};
+		if (!spot1){spot1='Attraction 1'};
+		if (!spot2){spot2='Attraction 2'};
+		if (!spot3){spot3='Attraction 3'};
+		console.log(citi3);
+		console.log(spot2);
 	var newPost = new Note({
 		title: title,
 		author: {
@@ -26,11 +38,13 @@ module.exports = function(req, res){
 
 		// calculate word_counts
 		word_counts: 0,
-
+		cities:[citi1, citi2, citi3],
+		attractions:[spot1, spot2, spot3],
 		created_time: Date.now(),
 		updated_time: Date.now(),
 		pv: 0,
 		like_counts: 0,
+		dislike_counts: 0,
 		comment_counts: 0,
 	});
 
@@ -64,8 +78,7 @@ module.exports = function(req, res){
 		req.flash('success', 'Successfully Post Travel Note!');
 
 		// where to redirect back?
-		callbackURI = decodeURI(req.body.callback) || '/';
 		// res.redirect(callbackURI);
-		return res.redirect('/');
+		return res.redirect('/note');
 	});
 }

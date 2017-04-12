@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%- include header %>
 
 <div id="container" data-cs-t="deatails">
@@ -63,8 +64,8 @@
                     <div class="wrapper">
                         <div class="screen clearfix">
                             <div class="r-main">
-                                <a class="photo" href="/photo/mdd/10189.html" target="_blank">
-                                        <img src=<%= city.imageUrl %>>
+                                <a class="photo" href=<%= city.imageUrl %> target="_blank">
+                                        <img style = "height: 768px; width:1024px;"src=<%= city.imageUrl %>>
                                             <div class="text">
                                                 <span><%= city.name %></span>
                                             </div>
@@ -129,9 +130,42 @@
                         </ul>
                     </div>
                 </div>
+=======
+<%- include header_transparent %>
+
+<main class="page-city">
+    <section class="header">
+        <div class="city-feature-image">
+            <% imageurl = city.imageUrl;
+                imageurl = typeof(imageurl) == "undefined" ? city.pois[0].imageUrl:imageurl;
+                imageurl = imageurl == "" ? "/images/bg_parachute.jpg":imageurl;
+                console.log(imageurl);
+                %>
+            <div class="feature-image-bg" style="background-image:url(<%=imageurl %>)"></div>
+            <div class="text-feature-image">
+                <p id="country"><%=city.country %></p>
+                <h1><%=city.name %></h1>
+>>>>>>> 9b1a0fdcd174f609ad0f8a921ac8ebaaa59d24fd
             </div>
         </div>
-    </div>
-</div>
+    </section>
+    <section class="city-attrations container clear">
+        <h2>Explore <%=city.name %></h2>
+        <ul class="feature-attrations">
+            <% for(i=0; i<city.pois.length&&i<4; i++) { %>
+            <a href="/poi/<%=city.pois[i]._id %>"><li class="feature-attration">
+                <% imageurl = city.pois[i].imageUrl;
+                imageurl = imageurl == "" ? "/images/bg_parachute.jpg":imageurl; %>
+                <div class="attration-bg" style="background-image:url(<%=imageurl%>)"></div>
+                <h4 class="attration-name"><%=city.pois[i].name %></h4>
+            </li></a>
+            <%}%>
+        </ul>
+    </section>
+    <section class="city-posts container">
+        <h2>See how people say</h2>
+        
+    </section>
+</main>
 
 <%- include footer %>

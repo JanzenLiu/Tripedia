@@ -1,241 +1,72 @@
 <%- include header %>
-
-
-
-
-<script type="text/javascript">
-    $("#_j_sharecnt").attr('data-content', 'Victoria Harbour');
-</script>
-<div class="row row-top">
-    <div class="wrapper">
-
-        <div class="crumb" data-cs-p="面包屑">
-            <div class="item"><a href="#" target="_blank">Destination</a><em>&gt;</em></div>
-            <div class="item">
-                    <span class="hd"><a href="../../city/<%= note.city.path %>"><i><%= note.city.name %></i></a></span>
-                <em>&gt;</em>
-            </div>
-            <div class="item cur"><%= note.title %></div>
+<link rel='stylesheet' href='/stylesheets/note.css'/>
+<main class="show-note">
+  <div class="note-container">
+    <div class="note-display">
+      <!-- show title -->
+      <h1 class="title"><%= note.title %></h1>
+      <!-- show author -->
+      <h4 class="author"><%= note.author.name %></h2>
+      <!-- note body -->
+      <p class="note-body"><%= note.body %></p>
+      <!-- rating part -->
+      <div class="com-btn">
+        <div class="like-btn">
+          <form method="post" action="/note/like">
+            <button type="submit" class="btn btn-default" name="like">
+              <span class="glyphicon glyphicon-thumbs-up"></span>
+              Like: <%= note.like_counts %>
+            </button>
+          </form>
         </div>
-    </div>
-</div>
-
-<script type="text/javascript">
-    (function(){
-        //面包屑
-        $('.drop').hover(function(){
-            var target = $(this);
-            clearTimeout(target.data('hideTimer'));
-            target.addClass('open');
-            target.children('bd').fadeIn(200);
-        },function(){
-            var target = $(this);
-            target.data("hideTimer", setTimeout(function() {
-                target.removeClass('open');
-                target.children('bd').fadeOut(200);
-            }, 100));
-        });
-        //导航
-        var $navbar = $('#poi-navbar'),
-                offset_top,
-                $lis = $navbar.find("li").not('.nav-right');
-        $('<div/>').insertBefore($navbar).append($navbar).height($navbar.outerHeight(true));
-        $(function(){
-            offset_top = $navbar.offset().top;
-            $(window).bind('scroll.poinav',setFixed).trigger("scroll.poinav");
-        });
-        $(document).delegate("[data-scroll]","click",function(){
-            scrollTo($(this));
-        });
-        function setFixed(){
-            var $rows = $('body >.container >[data-anchor]'),
-                    scrolltop = $(document).scrollTop(),
-                    h,
-                    _lis=$lis.filter(":visible"),
-                    currIndex;
-            if(scrolltop  > offset_top){
-                if(!$navbar.hasClass('fixed')){
-                    $navbar.addClass('fixed');
-                }
-                h = $navbar.outerHeight(true);
-                for (var $li, $row,top, i = 0, j = _lis.length; i < j; i++) {
-                    $row = $rows.filter("[data-anchor=" + ($li = _lis.eq(i)).attr("data-scroll")+"]");
-                    if ($row[0] && (top = $row.offset().top) && ( /*i == (j - 1) ||*/
-                                    ((top - h <= scrolltop) && (top + $row.outerHeight() - h > scrolltop)))) {
-                        currIndex = i;
-                        break;
-                    }
-                }
-                if(i==j){
-                    _lis.removeClass("on");
-                }else{
-                    _lis.eq(currIndex || 0).addClass("on").siblings().removeClass("on");
-                }
-            }else{
-                if($navbar.hasClass('fixed')){
-                    $navbar.removeClass('fixed');
-                }
-                _lis.eq(0).addClass("on").siblings().removeClass("on");
-            }
-        }
-
-        function scrollTo(target, pos) {
-            pos = target ? target.data('scroll') : pos;
-            var $target = $('[data-anchor=' + pos + ']'), top;
-            if ($target[0]) {
-                top = $target.offset().top;
-                if (top > offset_top) {
-                    top -= $navbar.outerHeight();
-                }
-                $('html,body').animate({
-                    scrollTop: Math.ceil(top)
-                }, 500);
-            }
-        }
-
-        $(function () {
-            if (location.hash) {
-                scrollTo(null, location.hash.replace(/^#/, ''));
-            }
-        });
-
-
-                //去过
-        var $beenBtn = $('._j_beenpoi');
-        $beenBtn.click(function (e) {
-            if (!$beenBtn.hasClass('on')) {
-                e.preventDefault();
-            }
-        });
-        function addBeen(star) {
-            if (!$beenBtn.hasClass('on') && !$beenBtn.data('loading')) {
-                $beenBtn.data('loading', true);
-                $.post("/path/ajax.php", {
-                    'act': 'addPoiRank',
-                    'source': 2,
-                    'poi_rank': {
-                        '484': star
-                    }
-                }, function (ret) {
-                    if (ret.error) {
-                        if (ret.error.msg == 'login:required') {
-                            M.Event.fire('login:required');
-                        } else {
-                            alert(ret.error.msg);
-                        }
-                    } else if (ret.data) {
-                        $beenBtn.removeClass('_j_hovergo').addClass('on').attr({
-                            'title': '查看我的足迹'
-                        }).find('.txt').text('已去过');
-                    }
-                    $beenBtn.data('loading', false);
-                }, "json");
-            }
-        }
-
-
-        $beenBtn.click(function (e) {
-            addBeen(3);
-        });
-
-
-                    //收藏
-        $('._j_favpoi').click(function (e) {
-            var $this = $(this);
-            if (!$this.hasClass('on')) {
-                e.preventDefault();
-                if (!$this.data('loading')) {
-                    $this.data('loading', true);
-                    $.post('/plan/ajax.php?s=addFav', {
-                        id: '484',
-                        type: 0,
-                        subtype: '3',
-                        content: ''
-                    }, function (ret) {
-                        if (ret.ret == -1) {
-                            M.Event.fire('login:required');
-                        } else if (ret.ret) {
-                            $this.addClass('on').attr({
-                                'title': '查看我的收藏'
-                            }).find('.txt').text('已收藏');
-                        }
-                        $this.data('loading', false);
-                    }, 'json');
-                }
-            }
-        });
-            })();
-</script>
-
-
-
-<link href="http://css.mafengwo.net/css/cv/guide+css+preview:css+local+list_v3^YFA^1491033896.css" rel="stylesheet" type="text/css"/>
-
-   <div class="jumbotron" style="height:80px;">
-        <h2 style="width: 960px; position: absolute; left: 50%; margin-left: -550px;"><%= note.brief %></h2>
-    </div>
-    <div class="row">
-        <div class="col-xs-3">
-          <p><%= note.body %> </p>
+        <div class="dislike-btn">
+          <form method="post" action="/note/dislike">
+            <button type="submit" class="btn btn-default" name="dislike">
+              <span class="glyphicon glyphicon-thumbs-down"></span>
+              Dislike: <%= note.dislike_counts %>
+            </button>
+          </form>
         </div>
-
+      </div>
     </div>
 
+  </div>
+  <div class="comment-container">
+    <div class="post-comment">
+      <!-- comment part -->
+      <form method="post" action="/note/comment">
+        <div class="show-title">
+          <div class="input-group">
+            <span class="input-group-addon">Note Title</span>
+            <input id="title" type="text" class="form-control" name="title" value="<%= note.title %>" disabled="disable">
+          </div>
+        </div>
+        <div class="make-comments">
+          <div class="form-group">
+            <label >Your Comment:</label>
+            <textarea class="form-control" id="comment" name="text" rows="5" cols="30" placeholder="Make some comments"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Save</button>
+        </div>
+      </form>
 
-<div id="respond">
-<h3 id="comments" class="respond_title" style="margin-left: 320px;">Comment</h3>
-<div id="cancel-comment-reply">
-    <small><a rel="nofollow" id="cancel-comment-reply-link" href="/wordpress/2016/01/development-of-ui-components-based-on-native-html/#respond" style="display:none;">Cancel reply</a></small>
+    <div class="pub-comment">
+      <% for (index=0; index<5; index++){ %>
+        <div class="input-group">
+          <span class="input-group-addon">Comment Author</span>
+          <input id="title" type="text" class="form-control" name="title" value="<%= note.comments[index].author.name %>" disabled="disable">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="comment" name="text" rows="5" cols="30" disabled="disable">
+            <%= note.comments[index].content %>
+          </textarea>
+        </div>
+      <% } %>
+    </div>
+
 </div>
 
 
-<form action="#" method="post" id="commentform" novalidate>
-<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4" style="margin-left: 320px;"></textarea></p>
-
-<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit" style="margin-left: 320px;"/>
-<input type='hidden' name='comment_post_ID' value='5180' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-
-</p>
-<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8499c3ef67" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="44"/></p>
-</form>
-
-    <div class="navigation">
-        <div class="alignleft"></div>
-        <div class="alignright"></div>
-    </div>
-
-    <ol class="commentlist" style="margin-left: 320px;">
-            <li class="comment even thread-even depth-1" id="comment-349319">
-                <div id="div-comment-349319" class="comment-body">
-                <div class="comment-author vcard">
-            <img src="#" class="avatar avatar-32" height="32" width="32">            <cite class="fn">A</cite><span class="says">comment</span>     </div>
-
-        <div class="comment-meta commentmetadata"><a href="#">
-            2017-02-27 16:51</a>       </div>
-
-        <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-
-        </li><!-- #comment-## -->
-        <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-347821">
-                <div id="div-comment-347821" class="comment-body">
-                <div class="comment-author vcard">
-            <img src="#" class="avatar avatar-32" height="32" width="32">            <cite class="fn">B </cite><span class="says">comment</span>     </div>
-
-        <div class="comment-meta commentmetadata"><a href="#">
-            2017-02-14 15:50</a>       </div>
-
-        <p>6666666666666666666666666</p>
-
-        <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-347828">
-                <div id="div-comment-347828" class="comment-body">
-                <div class="comment-author vcard">
-            <img src="#" class="avatar avatar-32" height="32" width="32">            <cite class="fn"><a href='http://www.zhangxinxu.com' rel='external nofollow' class='url'>C </a></cite><span class="says">comment</span>       </div>
-
-        <div class="comment-meta commentmetadata"><a href="#">
-            2017-02-14 17:02</a>       </div>
-
-        <p>xxxx</p>
-
-</div></ol>
+  </div>
+</main>
 <%- include footer %>

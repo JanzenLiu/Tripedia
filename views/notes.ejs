@@ -1,221 +1,38 @@
 <%- include header %>
+<link rel="stylesheet" href="/stylesheets/notes.css">
+<link rel="stylesheet" href="/stylesheets/note.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
 
-<div class="container" data-cs-t="目的地首页">
-    <div class="place-focus"  data-cs-p="头图">
-        <div class="show-banner show-info-notes">
-            <div class="cover">
-                <a class="bigimg"  href="http://www.mafengwo.cn/weixin/article-1303.html" target="_blank" data-cs-l="图片">
-                    <img data-ow="3588" data-oh="2691" src='../homepage/bg_montreal.jpg'/>
-                    <div class="shade"></div>
-                </a>
-            </div>
-            <%- include noteList %>
-
-            <% noteList(notes) %>
-            <div class="show-shadow"></div>
-
-            <a class="show-arrdown" href="#" data-cs-l="锚点下箭头"></a>
-        </div>
+<div class="container">
+    <h2>Search results</h2>
+    <% for (index=0;index<noteList.length;index++) {%>
+    <div class="list-group">
+    <p> <%= noteList[index].title %> </p>
+    <p> <%= noteList[index].body %></p>
     </div>
-    <script type="text/javascript">
-        //图片处理
-        function loadImg(src, load) {
-            $(new Image()).load(load)[0].src = src;
-        }
-        function coverPicLoad(img,$con,fitType,cropData){
-            var $img = $(img = img || this);
-            if (typeof $con == "string" || typeof $con == "number") {
-                fitType = $con;
-                $con = $img.parent();
-            } else if ($.type($con) != "object" || $.isPlainObject($con)) {
-                $con = $img.parent();
-            }
-            var imagew = (img = $img[0]).naturalWidth, imageh = img.naturalHeight,
-                offsetw = $con.width(),
-                offseth = $con.height(),
-                css = {};
-            if(!imagew){
-                if($img.attr("data-ow")){
-                    imagew =  $img.attr("data-ow");
-                    imageh =  $img.attr("data-oh");
-                }else{
-                    $img.attr("data-ow",imagew = img.width);
-                    $img.attr("data-oh",imageh = img.height);
-                }
-            }
-            if (imagew / imageh >= offsetw / offseth) {
-                if (imageh >= offseth || fitType=="1") {
-                    css = {
-                        margin: "0 0 0 " + (offsetw - imagew / (imageh / offseth)) / 2 + "px",
-                        height: fitType=="1"?"100%":offseth,
-                        width: "auto"
-                    };
-                } else if (imageh / offseth >= 0.95) {
-                    css = {
-                        margin: "0 0 0 " + (offsetw - imagew) / 2 + "px",
-                        width: imagew,
-                        height: offseth
-                    };
-                } else{
-                    css = {
-                        margin: (offseth - imageh) / 2 + "px 0 0 " + (offsetw - imagew) / 2 + "px",
-                        width: "auto",
-                        height: "auto"
-                    };
-                }
-            } else {
-                if (imagew >= offsetw || fitType=="1") {
-                    css = {
-                        margin: (offseth - imageh / (imagew / offsetw)) / 2 + "px 0 0 0",
-                        width: fitType=="1"?"100%":offsetw,
-                        height: "auto"
-                    };
-                } else if (imagew / offsetw >= 0.95) {
-                    css = {
-                        margin: (offseth - imageh) / 2 + "px 0 0 0",
-                        width: offsetw,
-                        height: imageh
-                    };
-                } else {
-                    css = {
-                        margin: (offseth - imageh) / 2 + "px 0 0 " + (offsetw - imagew) / 2 + "px",
-                        width: "auto",
-                        height: "auto"
-                    };
-                }
-            }
-            $img.css(css).appendTo($con);
-        }
-        //头图处理
-        (function(){
-            var $window = $(window),
-                $banner = $('.place-focus'),
-                $cover = $banner.find('.show-banner >.cover'),
-                $coverc = $cover.find('a.bigimg'),
-                img = $coverc.find('img'),
-                $info = $banner.find('.show-info'),
-                $searchPanel = $('.place-search-panel'),
-                _resizetimeout;
+    <% } %>
+</div>
+=======
+<section class="city_recommend">
+	<h1 class="world_text">Travel Notes Recommandation</h1>
+	<p class="w_text">See where people have visited and what they recommand</p>
+</section>
+<div class="pub-comment">
+  <% for (index=0; index<noteList.length; index++){ %>
+    <div class="input-group">
+      <span class="input-group-addon"> <%= noteList[index].title %> </span>
+      <input id="title" type="text" class="form-control" name="title" value="<%= noteList[index].author.name %>" disabled="disable">
+    </div>
+    <div class="form-group">
+      <textarea class="form-control box" id="comment" name="text" rows="5" cols="30" disabled="disable">
+        <%= noteList[index].body %>
+      </textarea>
+    </div>
+  <% } %>
+</div>
 
-            function calHeight() {
-                var wh = $window.height(), ww = Math.max($banner.width(), $window.width());
-                if (wh > ww * .8) {
-                    return img.data('oh') / img.data('ow') * ww;
-                } else {
-                    return Math.max(wh - Math.max(Math.min(wh - 550, 150), 100), 400);
-                }
-            }
-            $cover.height(calHeight());
-            if (img[0].complete) {
-                $cover.height('auto');
-            } else {
-                img.load(function () {
-                    $cover.height('auto');
-                });
-            }
-            var winH, winW;
-            $window.bind('resize.bannerimg', function (e, t) {
-                var height = $window.height();
-                var width = $window.width();
-                if (winH != height || winW != width) {
-                    winH = height;
-                    winW = width;
-                    $info[$window.width() <= 1440 ? 'addClass' : 'removeClass']('show-info-sm');
-                    $searchPanel[$window.width() <= 1440 ? 'addClass' : 'removeClass']('place-search-panel-sm');
-                    coverPicLoad(img, $coverc.height(calHeight()), 1);
-                }
-            }).trigger("resize.bannerimg");
-        })();
-
-        /*头图用户信息显示*/
-        var $uFrom =$('.pic-from'),
-            $uFromPop=$uFrom.find('.pic-from-pop'),
-            _oUFromPopw = $uFromPop.width();
-        $uFrom.hover(function(){
-            $uFromPop.stop(true).width(0).css({
-                visibility:'visible'
-            }).animate({
-                    width:_oUFromPopw
-                });
-        },function(){
-            $uFromPop.stop(true).animate({
-                width:0
-            },function(){
-                $(this).css('visibility','hidden');
-            });
-        });
-
-        //向下滚动
-        $('.show-arrdown').click(function(e){
-            e.preventDefault();
-            var top = $('.row:first').offset().top;
-            $('html,body').stop().animate({
-                'scrollTop':top
-            },300);
-        });
-        $('.show-links').find('.icon-arr').eq(0).hide();
-    </script>
-
-
-
-<script language="javascript" src="http://js.mafengwo.net/js/mdd/mdd_index.js?1482808021" type="text/javascript"></script>
-<script language="javascript" type="text/javascript">
-if (typeof M !== "undefined" && typeof M.loadResource === "function") {
-M.loadResource("http://js.mafengwo.net/js/cv/js+Dropdown:js+pageletcommon+pageHeadUserInfoWWWNormal:js+jquery.tmpl:js+M+module+InputListener:js+M+module+SuggestionXHR:js+M+module+DropList:js+M+module+Suggestion:js+M+module+MesSearchEvent:js+SiteSearch:js+AHeader:js+M+module+PageAdmin:js+M+module+Storage:js+M+module+Cookie:js+M+module+ResourceKeeper:js+jquery.jgrowl.min:js+AMessage:js+M+module+dialog+Layer:js+M+module+dialog+DialogBase:js+M+module+dialog+Dialog:js+M+module+FrequencyVerifyControl:js+M+module+FrequencySystemVerify:js+ALogin:js+M+module+ScrollObserver:js+M+module+QRCode:js+AToolbar:js+ACnzzGaLog:js+ARecruit:js+ALazyLoad^ZlxW^1489552560.js");
-}
-</script>
-
-
-
+>>>>>>> 8d9d3cba93256e4a679e7775049e34fa60cb8b83
 
 <%- include footer %>
-
-<!-- <%
-// var notes = [
-// 	{
-// 		title: "Screw 3100",
-// 		brief: "3100 is a suck",
-// 		url: "/note/1",
-// 		imageUrl: "",
-// 		city: "Beijing",
-// 		cityUrl: "/city/1",
-// 		authorName: "Janzen Liu",
-// 		authorUrl: "/user/1",
-// 		likeCounts: 1895
-// 	},
-// 	{
-// 		title: "Surveillance System Installed",
-// 		brief: "In Star Trek why is warp speed the ultimate litmus test on galactic acceptance of a civilisation",
-// 		url: "/note/2",
-// 		imageUrl: "",
-// 		city: "New York",
-// 		cityUrl: "/city/2",
-// 		authorName: "Jojo",
-// 		authorUrl: "/user/2",
-// 		likeCounts: 823
-// 	},
-// 	{
-// 		title: "How do electrons flow in AC",
-// 		brief: "Computers with integrated monitor (all-in-one form factor)",
-// 		url: "/note/3",
-// 		imageUrl: "",
-// 		city: "London",
-// 		cityUrl: "/city/3",
-// 		authorName: "Jasmine Wong",
-// 		authorUrl: "/user/3",
-// 		likeCounts: 74
-// 	},
-// 	{
-// 		title: "Lorem",
-// 		brief: "Icons are not designed only for toolbars and navigation in Apple's OS X, iOS, and watchOS. They work perfectly almost everywhere",
-// 		url: "/note/4",
-// 		imageUrl: "",
-// 		city: "Singapore",
-// 		cityUrl: "/city/4",
-// 		authorName: "Dick Tan",
-// 		authorUrl: "/user/4",
-// 		likeCounts: 943
-// 	},
-// ];
-%> -->

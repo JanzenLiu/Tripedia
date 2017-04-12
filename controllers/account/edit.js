@@ -1,11 +1,15 @@
 var crypto = require('crypto');
 var User = require('../../models/user.js');
-module.exports = function(email, username, password, location, introduction, callback){
+module.exports = function(email, username, password, location, introduction, contact, callback){
   // if (password_re != password){
   //   req.flash('error', 'Inconsistent password!');
   //   return callback.redirect(req.originalUrl);
   // }
-  var user = new User();
+  // console.log(email);
+  // console.log(username);
+  // console.log(password);
+  // console.log(location);
+  // console.log(introduction);
   User.update({
     "email":email
     }, {
@@ -13,13 +17,15 @@ module.exports = function(email, username, password, location, introduction, cal
       username:username,
       password:password,
       introduction:introduction,
-      location:location
+      location:location,
+      contact: contact
       }
     }, function(err){
       if (err){
+        // console.log('error', err);
         return callback(err);
       }
-      callback(null);
+        callback(null);
     });
   //   // req.flash('success', 'Successfully Signed up!');
     //

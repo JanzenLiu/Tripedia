@@ -1,15 +1,41 @@
-<%= include header %>
-<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Dropdown
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-<%= include footer %>
+<%- include header %>
+<link rel='stylesheet' href='/stylesheets/plan.css'/>
+<main class="plan-making">
+  <div class="container">
+    <div class="plan-container">
+      <nav class="col-sm-3" id="myScrollspy">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="/profile/planmaking/1">
+              <span class="glyphicon glyphicon-tag"></span>Day 1</a></li>
+            <li><a href="/profile/planmaking/2">
+              <span class="glyphicon glyphicon-tag"></span>Day 2</a></li>
+            <li><a href="/profile/planmaking/3">
+              <span class="glyphicon glyphicon-tag"></span>Day 3</a></li>
+            <li><a href="/profile/planmaking/4">
+              <span class="glyphicon glyphicon-tag"></span>Day 4</a></li>
+            <li><a href="/profile/planmaking/5">
+              <span class="glyphicon glyphicon-tag"></span>Day 5</a></li>
+          </ul>
+      </nav>
+      <div class="main">
+        <form method="post" action='/profile/planmaking'>
+          <div class="title-container">
+            <div class="input-group">
+              <span class="input-group-addon">title</span>
+              <input id="msg" type="text" class="form-control" name="title" placeholder="<%= title %>">
+            </div>
+          </div>
+          <div class="brief-container">
+            <div class="form-group">
+              <textarea class="form-control" name="brief" rows="25" id="comment" placeholder="<%= brief %>"></textarea>
+            </div>
+          </div>
+          <div class="save-btn">
+            <button type="submit" class="btn btn-default" >Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+<%- include footer %>
