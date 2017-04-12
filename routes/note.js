@@ -33,7 +33,6 @@ router.get('/', function(req, res){
 	res.render('notes', {
 		title: 'Travel Notes',
 		user: req.session.user,
-		notes: noteList,
 		success: req.flash('success').toString(),
 		error: req.flash('error').toString()
 	});
