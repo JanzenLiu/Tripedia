@@ -22,6 +22,7 @@ router.get('/', function(req, res){
 router.get('/following', function(req, res){});
 router.get('/follower', function(req, res){});
 router.get('/post', function(req, res){
+	console.log(req.body.citi1);
 	res.render('post',{
 		title: 'Post a Travel Note',
 		user: req.session.user,
