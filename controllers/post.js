@@ -20,6 +20,14 @@ module.exports = function(req, res){
 		spot1=req.body.attraction1;
 		spot2=req.body.attraction2;
 		spot3=req.body.attraction3;
+		if (!citi1){citi1='Citi 1'};
+		if (!citi2){citi2='Citi 2'};
+		if (!citi3){citi3='Citi 3'};
+		if (!spot1){spot1='Attraction 1'};
+		if (!spot2){spot2='Attraction 2'};
+		if (!spot3){spot3='Attraction 3'};
+		console.log(citi3);
+		console.log(spot2);
 	var newPost = new Note({
 		title: title,
 		author: {

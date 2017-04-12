@@ -177,8 +177,20 @@ router.get('/:title/edit', function(req, res){
 	// });
 });
 router.post('/:title/edit', function(req, res){
-	var currentUser = req.session.user;
-	noteEdit(req.params.title, req.body.post, function(err){
+	var currentUser = req.session.user,
+	citi1=req.body.citi1,
+	citi2=req.body.citi2,
+	citi3=req.body.citi3,
+	spot1=req.body.attraction1,
+	spot2=req.body.attraction2,
+	spot3=req.body.attraction3;
+	if(!citi1){citi1='Citi 1'}
+	if(!citi2){citi2='Citi 2'}
+	if(!citi3){citi3='Citi 3'}
+	if(!spot1){spot1='Attraction 1'}
+	if(!spot2){spot2='Attraction 2'}
+	if(!spot3){spot3='Attraction 3'}
+	noteEdit(req.params.title, req.body.post, citi1, citi2, citi3, spot1, spot2, spot3, function(err){
 		if (err){
 			req.flash('error', err);
 			return res.redirect('/');
