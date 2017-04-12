@@ -9,7 +9,7 @@ var userSchema = new mongoose.Schema({
 	email				: String, // add validation
 	age					: Number,
 	gender				: {type: String, enum: ['male','female','unknown']},
-	location			: {type: mongoose.Schema.Types.ObjectId, ref: 'City'},
+	location			: String,
 	about				: String,
 	following_counts	: {type: Number, default: 0},
 	follower_counts		: {type: Number, default: 0},

@@ -29,14 +29,18 @@ main.write-note .container{
   width: 80%;
 }
 
-ul.nav-pills {
-      top: 220px;
-      position: fixed;
-      text-align: center;
-  }
+.info{
+  position:relative;
+  width: 80%;
+  margin-left: 100px;
+  background-color:red;
+}
 
-  @media screen and (max-width: 810px) {
-    .main{
-        margin-left: 150px;
-    }
-  }
+ul.place{
+  display: inline;
+}
+
+.input-place{
+  width: 200px;
+  background-color:yellow;
+}
