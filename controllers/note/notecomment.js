@@ -12,11 +12,15 @@ module.exports = function(note, user, text, callback){
 	var authorId = user._id,
 	authorName=user.username,
 	noteId=note._id;
-	console.log(authorName);
+	// console.log('=====');
+	// console.log(authorId);
+	// console.log(authorName);
+	// console.log(noteId);
+	// console.log('====');
 	var newComment = new noteComment({
 		note: {nid: noteId},
 		author: {uid: authorId, name:authorName},
-		content: text,
+		content: text
 	});
 	console.log(newComment);
 	// to move this part to the travelnote model?
