@@ -49,9 +49,9 @@ router.post('/edit', function(req,res){
 	var username = req.body.name;
 	var introduction = req.body.introduction;
 	var location = req.body.location;
+	var contact=req.body.contact;
 	var email=req.session.user.email;
-	var user = new User;
-	edit(email, username, password, location, introduction, function(err){
+	edit(email, username, password, location, introduction, contact, function(err){
 		if (err) {
       req.flash('error', err);
       return res.redirect('/account/edit');

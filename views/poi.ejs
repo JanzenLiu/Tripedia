@@ -1,0 +1,110 @@
+<%- include header %>
+
+<script>
+$(document).ready(function () {
+	windowResize = function (){
+		var wWidth = $(window).width();
+		var wHeight = $(window).height();
+        var scrollTop = ($(window).scrollTop() || $("body").scrollTop());
+        var sidebar = $(".page-aside");
+		if (wWidth > 600 && scrollTop > 170) {
+            var rightborder = parseInt($(".container").css("margin-right"))+parseInt($(".container").css("padding-right"));
+            var width = $(".poi-content").width() * 0.33;
+            var top = $("footer").offset().top - scrollTop - sidebar.outerHeight();
+            top = top > 73 ? 73 : top;
+            sidebar.addClass("floating");
+            sidebar.css({
+                "top" : top,
+                "right" : rightborder,
+                "width" : width});
+		} else {
+            sidebar.removeClass("floating");
+			sidebar.css({"top":0,"right" : 0, "width": "33%"});
+		}
+	}
+	$(window).on('resize', windowResize);
+	$(window).on('scroll', windowResize);
+	windowResize();
+});
+</script>
+<main class="page-poi">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><%=poi.city.country %></li>
+            <li><a href="/city/<%=poi.city.path %>"><%=poi.city.name %></a></li>
+            <li class="active"><%=poi.name %></li>
+        </ul>
+        <header class="page-header">
+            <h1 class="poi-title"><%=poi.name %></h1>
+        </header>
+        <div class="poi-content">
+            <aside class="page-aside">
+                <% if(typeof(poi.openTime) != "undefined" && poi.openTime != "") { %>
+                <section>
+                    <header class="aside-header">Open Time</header>
+                    <div class="aside-content"><%=poi.openTime %></div>
+                </section>
+                <% }
+                if(typeof(poi.ticket) != "undefined" && poi.ticket != "") {%>
+                <section>
+                    <header class="aside-header">Ticket</header>
+                    <div class="aside-content"><%=poi.ticket %></div>
+                </section>
+                <% }
+                if(typeof(poi.contact) != "undefined" && poi.contact.length > 0) {%>
+                <section>
+                    <header class="aside-header">Contact</header>
+                    <div class="aside-content">
+                    <% for (index = 0; index < poi.contact.length; ++index) {
+                        if (poi.contact[index].substr(0, 4) == "http") {%>
+                        <a href="<%=poi.contact[index] %>" target="_blank"><%=poi.contact[index] %></a>
+                        <% }
+                        if (index != 0) {
+                            %><br><%
+                        }
+                    } %>
+                    </div>
+                </section>
+                <% }
+                if(typeof(poi.location) != "undefined" && poi.location != "") { %>
+                <section>
+                    <header class="aside-header">Location</header>
+                    <div class="aside-content"><%-poi.location %></div>
+                </section>
+                <section>
+                    <iframe class="poi-map"
+                    frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC6IgTtlS6yw0euobrG-v_2TYTF4yceAG8&q=<%=encodeURIComponent(poi.location) %>" allowfullscreen>
+                    </iframe>
+                </section>
+                <% }
+                if(user) { %>
+                <section>
+                    <form action="/newplan" method="post">
+                        <input type="hidden" name="attration_id" value="<%=poi._id %>">
+                        <button type="submit" class="poi-addplan-btn btn btn-primary">Add to My Plan</button>
+                    </form>
+                </section>
+                <% } else { %>
+                <section>
+                    <button type="button" class="poi-addplan-btn btn btn-primary" onclick="location.href=$('#signup-link').attr('href')">Add to My Plan</button>
+                </section>
+                <% } %>
+            </aside>
+            <article class="poi-article">
+                <div class="poi-feature-image">
+                    <image src="<%=poi.imageUrl %>">
+                </div>
+                <div class="poi-article-content">
+                    <% if (typeof(poi.introduction) != "undefined") {
+                        for (index = 0; index < poi.introduction.length; ++index) { %>
+                    <p><%= poi.introduction[index] %></p>
+                    <% }
+                    } %>
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+
+<%- include footer %>
