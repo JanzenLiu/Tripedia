@@ -166,7 +166,6 @@ router.get('/:title/edit', function(req, res){
 			Note.findOne({
 				"title":req.params.title
 			},function(err, note){
-				console.log(note);
 			res.render('editNote',{
 			title: 'View Note',
 			user: req.session.user,
@@ -194,7 +193,8 @@ router.post('/:title/edit', function(req, res){
 	noteEdit(req.params.title, req.body.post, citi1, citi2, citi3, spot1, spot2, spot3, function(err){
 		if (err){
 			req.flash('error', err);
-			return res.redirect('/');
+			url='/note/'+req.params.title+'/edit';
+			return res.redirect(url);
 		}
 	});
 });
