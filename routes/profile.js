@@ -4,18 +4,24 @@ var mongoose = require('mongoose');
 var postController = require('../controllers/post');
 var planController = require('../controllers/plan/plan');
 var CreatePlan = require('../controllers/plan/newplan');
-var plan=require('../models/plan');
+var Plan=require('../models/plan');
+var Note=require('../models/travelnote');
 var title='Please enter the title of your plan';
 var brief='Please write some brief introduction of your plan...';
 var flag=0;
 router.get('/', function(req, res){
+	Plan.find({
+		"author.name":req.session.user.username
+	},function(err, plan){
 	res.render('profile',{
 		title: 'My Profile',
 		user: req.session.user,
 		owner: req.session.user,
+		plan:plan,
 		success: req.flash('success').toString(),
 		error: req.flash('error').toString()
 	});
+});
 });
 
 
@@ -66,6 +72,23 @@ router.post('/planmaking',function(req,res){
 		}
 	})
 });
+router.get('/plan/:planId', function(req,res){
+	var planId=req.params.planId;
+	console.log(planId);
+	Plan.findOne({
+		"_id":planId
+	},function(err, plan){
+
+
+		res.render('postPlan',{
+			title: 'Post a Plan',
+			user: req.session.user,
+			plan: plan,
+			success: req.flash('success').toString(),
+			error: req.flash('error').toString()
+		});
+		});
+	});
 // router.get('/planmaking/:title', function(req, res){
 // 	plan.findOne({
 // 		"title":req.params.title

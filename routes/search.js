@@ -1,12 +1,11 @@
 var express = require('express');
 var router = express.Router();
 var searchCity = require('../controllers/search/searchCity');
-var searchSpot = require('../controllers/search/searchPoi');
+var searchPoi = require('../controllers/search/searchPoi');
 var searchNote = require('../controllers/search/searchNote');
 var searchUser = require('../controllers/search/searchUser');
 
 router.get('/', function (req, res) {
-  console.log(req.query);
   if (req.query.type=='city'){
   searchCity(req.query.q, function (err, cities) {
     if (err) {
@@ -52,20 +51,21 @@ router.get('/', function (req, res) {
     });
   });
 }
-  else{
-    searchUser(req.query.q, function (err, users) {
-      if (err) {
-        req.flash('error', err);
-        return res.redirect('/');
-      }
-      res.render('searchuser', {
-        title: "SEARCH:" + req.query.q,
-        user: req.session.user,
-        posts: users,
-        success: req.flash('success').toString(),
-        error: req.flash('error').toString()
-    });
+});
+router.get('/city', function(req, res){
+  cityName=req.params.q;
+  searchCity(req.query.q, function (err, cities) {
+    if (err) {
+      req.flash('error', err);
+      return res.redirect('/');
+    }
+    res.render('searchCities', {
+      title: "SEARCH:" + req.query.q,
+      user: req.session.user,
+      posts: cities,
+      success: req.flash('success').toString(),
+      error: req.flash('error').toString()
   });
-}
+  });
 });
 module.exports = router;

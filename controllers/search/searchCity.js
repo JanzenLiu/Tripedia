@@ -14,7 +14,8 @@ module.exports=function(keyword, callback){
       "body":1,
       "country":1,
       "_id":1,
-      "intro":1
+      "intro":1,
+      "path":1
     },function(err, docs){
       if (err){
         return callback(err);

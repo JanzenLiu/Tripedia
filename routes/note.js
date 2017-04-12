@@ -102,6 +102,8 @@ router.post('/comment', function(req, res){
 				console.log('error in notecomment');
 				return res.redirect('/');
 			}
+			url='/note/'+note._id;
+			return res.redirect(url);
 		});
 	});
 });
@@ -126,6 +128,8 @@ router.post('/like', function(req, res){
 					console.log('error in rating');
 					return res.redirect('/');
 				}
+				url='/note/'+note._id;
+				return res.redirect(url);
 			});
 		});
 });
@@ -150,6 +154,8 @@ router.post('/dislike', function(req, res){
 				console.log('error in ratint');
 				return res.redirect('/');
 			}
+			url='/note/'+note._id;
+			return res.redirect(url);
 		});
 	});
 });

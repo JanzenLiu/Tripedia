@@ -12,12 +12,11 @@
     <h2>Search results</h2>
     <% for (index=0;index<posts.length;index++) {%>
     <div class="list-group">
-      <a href="#" class="list-group-item active">
+      <a href="/<%= 'city/' + posts[index].path %>" class="list-group-item active">
         <h4 class="list-group-item-heading"><%=
-          posts[index].name
-           %></h4>
-           <a href="#" class="authorid">Country: <%= posts[index].country %></a>
-        <p class="list-group-item-text well box"><dd><%= posts[index].body %></dd></p>
+          posts[index].name%></h4>
+           Country: <%= posts[index].country %>
+        <p class="list-group-item-text  box"><dd><%= posts[index].intro %></dd></p>
       </a>
     </div>
     <% } %>

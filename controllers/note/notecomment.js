@@ -9,6 +9,7 @@ module.exports = function(note, user, text, callback){
 			success : false
 		});
 	}
+	console.log(note);
 	var authorId = user._id,
 	authorName=user.username,
 	noteId=note._id;
