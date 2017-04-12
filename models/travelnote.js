@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Connection = require('./db');
+var Comment=require('./notecomment');
 
 // Schema for TravelNote ========================
 var noteSchema = new mongoose.Schema({
@@ -14,16 +15,16 @@ var noteSchema = new mongoose.Schema({
 	updated_time 		: Date,
 	pv					: Number, // increment by time every one visited
 	like_counts			: Number,
+	dislike_counts  : Number,
 	// necessary?
-	likes 				: [{
-		uid: mongoose.Schema.Types.ObjectId,
-		name: String
-	}],
+	likes 				: [mongoose.Schema.Types.ObjectId],
+	dislikes			: [mongoose.Schema.Types.ObjectId],
 	comment_counts		: Number,
-	comments			: [{cid: mongoose.Schema.Types.ObjectId}]
+	comments			: [{type: mongoose.Schema.Types.ObjectId,
+										ref: 'Comment'}]
 
 	///////////////// to be supplement /////////////////
-	// cities with attractions
+	// cities with attraction
 	// labels
 });
 
