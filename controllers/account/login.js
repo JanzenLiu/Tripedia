@@ -31,5 +31,13 @@ module.exports = function(req, res){
 		// 	callbackURI = decodeURIComponent(req.query.callback) || '/';
 		// }
 		res.redirect('/');
+		// req.session.user = user;
+		// req.flash('success', 'Successfully login!');
+		// if (typeof(req.query.callback) == "undefined") {
+		// 	callbackURI = '/';
+		// } else {
+		// 	callbackURI = decodeURIComponent(req.query.callback) || '/';
+		// }
+		// return res.redirect(callbackURI);
 	});
 }

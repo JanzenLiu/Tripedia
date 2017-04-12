@@ -31,10 +31,7 @@ module.exports = function(req. res){
 			});
 		}
 		if(!user){
-			return res.status(500).json({
-				error: 'User not found',
-				success: false
-			});
+			return res.status(500);
 		}
 
 		// check whether one document was modified

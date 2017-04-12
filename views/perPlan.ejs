@@ -1,20 +1,12 @@
 <%- include header %>
+
 <link rel='stylesheet' href='/stylesheets/plan.css'/>
 <main class="plan-making">
   <div class="container">
     <div class="plan-container">
       <nav class="col-sm-3" id="myScrollspy">
           <ul class="nav nav-pills nav-stacked">
-            <li><a href="/profile/planmaking/1">
-              <span class="glyphicon glyphicon-tag"></span>Day 1</a></li>
-            <li><a href="/profile/planmaking/2">
-              <span class="glyphicon glyphicon-tag"></span>Day 2</a></li>
-            <li><a href="/profile/planmaking/3">
-              <span class="glyphicon glyphicon-tag"></span>Day 3</a></li>
-            <li><a href="/profile/planmaking/4">
-              <span class="glyphicon glyphicon-tag"></span>Day 4</a></li>
-            <li><a href="/profile/planmaking/5">
-              <span class="glyphicon glyphicon-tag"></span>Day 5</a></li>
+            <li><span class="glyphicon glyphicon-tag"></span>&nbspDay <%= dayNo %></li>
           </ul>
       </nav>
       <div class="main">
@@ -38,4 +30,5 @@
     </div>
   </div>
 </main>
+
 <%- include footer %>

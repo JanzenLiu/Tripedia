@@ -25,24 +25,24 @@ var Spot = require('../models/attraction');
 // 		});
 // 	})
 // })
-var cuhk = new Spot({
-    name: "CUHK",
-    city: {
-        name: "Hong Kong"
-    },
-    introduction: "A Nightmare",
-    position: {
-        longtitude: "22.3 N",
-        langtitude: "66.6 E"
-    },
-    transport: {
-        rough: "Bus",
-        detail: "Go go go"
-    },
-    travelTime: "2 hours",
-    ticket: "Infinity!!!!!!!!!",
-    openTime: "All day"
-});
+// var cuhk = new Spot({
+//     name: "CUHK",
+//     city: {
+//         name: "Hong Kong"
+//     },
+//     introduction: "A Nightmare",
+//     position: {
+//         longtitude: "22.3 N",
+//         langtitude: "66.6 E"
+//     },
+//     transport: {
+//         rough: "Bus",
+//         detail: "Go go go"
+//     },
+//     travelTime: "2 hours",
+//     ticket: "Infinity!!!!!!!!!",
+//     openTime: "All day"
+// });
 
 router.get('/',function(req, res){
 
