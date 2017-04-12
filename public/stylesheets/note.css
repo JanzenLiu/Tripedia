@@ -1,0 +1,74 @@
+main.show-note{
+  background-image: url(/images/edit_profile/bg2.jpg);
+  background-size: cover;
+  background-position:center;
+}
+
+main.show-note .note-container .comment-container{
+  z-index: 10;
+  position: relative;
+}
+
+.note-display{
+  position: relative;
+  margin: 50px auto;
+  width: 80%;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.title{
+  text-align:center;
+  font-family:monospace;
+}
+
+.author{
+  text-align:center;
+  font-family:monospace;
+  font-style: italic;
+}
+
+.note-body{
+  width:70%;
+  margin-left:15%;
+}
+
+.com-btn{
+  position:relative;
+  margin-left: 30%;
+  width: 20%;
+}
+
+.like-btn{
+  position: absolute;
+  left: 0;
+}
+
+.dislike-btn{
+  position: relative;
+  margin-left: 90px;
+}
+
+.post-comment{
+  position: relative;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.show-title{
+  position:relative;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.make-comments{
+  position:relative;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.pub-comment{
+  position: relative;
+  margin-left: 25%;
+  margin-top:20px;
+  width: 50%;
+}

@@ -8,6 +8,7 @@ var noteEdit = require('../controllers/note/edit');
 var noteComment = require('../controllers/note/notecomment');
 var noteLike=require('../controllers/note/like');
 var title;
+var id;
 // return notes with highest heat
 
 // var cur_note =	new Note({
@@ -40,6 +41,7 @@ router.get('/', function(req, res){
 });
 router.get('/:noteId', function(req, res){
 	// check whether the user exists
+	id = req.params.noteId;
 	Note.findById(req.params.noteId, function(err, note){
 		if(err || !note){
 			req.flash('error', 'Note not found!');
@@ -49,12 +51,14 @@ router.get('/:noteId', function(req, res){
 			});
 		}
 		title=note.title;
-		console.log(note);
+		console.log('-=-=-=-=-=-=-=-=-=');
+		console.log(note.title);
 		// comment=note.comment();
 		res.render('note',{
 			title: title,
 			user: req.session.user,
 			note: note,
+			authorname: note.author.name,
 			success: req.flash('success').toString(),
 			error: req.flash('error').toString()
 		});
@@ -78,6 +82,7 @@ router.get('/:noteId', function(req, res){
 // 			})
 // })
 router.post('/comment', function(req, res){
+	console.log(title);
 	Note.findOne({
 		"title":title
 	},{
@@ -98,6 +103,8 @@ router.post('/comment', function(req, res){
 				console.log('error in notecomment');
 				return res.redirect('/');
 			}
+			url='./'+id;
+			return res.redirect(url);
 		});
 	});
 });
@@ -107,6 +114,7 @@ router.post('/like', function(req, res){
 		},{
 			"title":1,
 			"_id":1,
+			"body":1,
 			"comments":1,
 			"comment_counts":1
 		},function(err, note){
