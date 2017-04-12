@@ -28,16 +28,8 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-<<<<<<< HEAD
+
       res.render('searchpost', {
-=======
-      console.log(notes);
-<<<<<<< HEAD
-      res.render('searchpost', {
-=======
-      res.render('search', {
->>>>>>> 7bd3fcf4efef77919759a7051706481755260de1
->>>>>>> 8e9239f352a64178b42b7a7a37a257dcbf33dc47
         title: "SEARCH:" + req.query.q,
         user: req.session.user,
         posts: notes,
@@ -52,11 +44,7 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-<<<<<<< HEAD
-      res.render('searchpoi', {
-=======
       res.render('searchPoi', {
->>>>>>> 8e9239f352a64178b42b7a7a37a257dcbf33dc47
         title: "SEARCH:" + req.query.q,
         user: req.session.user,
         posts: posts,
