@@ -166,6 +166,7 @@ router.get('/:title/edit', function(req, res){
 			Note.findOne({
 				"title":req.params.title
 			},function(err, note){
+				console.log(note);
 			res.render('editNote',{
 			title: 'View Note',
 			user: req.session.user,
