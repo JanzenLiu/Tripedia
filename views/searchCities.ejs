@@ -1,0 +1,30 @@
+<%- include header %>
+<link rel="stylesheet" href="/stylesheets/searchresult.css">
+
+<main class="page-search">
+  <% if (posts.length==0) { %>
+  <div class="noresult">
+
+  <h1 class="middle">We are sorry we cannot find it</h1>
+  </div>
+  <% } else { %>
+<div class="container">
+    <h2>Search results</h2>
+    <% for (index=0;index<posts.length;index++) {%>
+    <div class="list-group">
+      <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading"><%=
+          posts[index].name
+           %></h4>
+           <a href="#" class="authorid">Country: <%= posts[index].country %></a>
+        <p class="list-group-item-text well box"><dd><%= posts[index].body %></dd></p>
+      </a>
+    </div>
+    <% } %>
+</div>
+  <% } %>
+
+
+</main>
+
+<% include footer %>

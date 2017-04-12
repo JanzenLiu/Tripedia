@@ -13,7 +13,8 @@ module.exports=function(keyword, callback){
       "name":1,
       "body":1,
       "country":1,
-      "_id":1
+      "_id":1,
+      "intro":1
     },function(err, docs){
       if (err){
         return callback(err);

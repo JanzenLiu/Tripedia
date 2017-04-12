@@ -8,6 +8,7 @@
 <link rel='stylesheet' href='/stylesheets/theme.min.css'/>
 <link rel='stylesheet' href='/stylesheets/homepage.css'/>
 <link rel='stylesheet' href='/stylesheets/footer.css'/>
+<link rel='stylesheet' href='/stylesheets/travelnotes.css'/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="/scripts/bootstrap.min.js"></script>
 <script src="/scripts/main.js"></script>
@@ -16,11 +17,9 @@ $(document).ready(function () {
 	// Full screen carousel
 	var $item = $('#mainCarousel .item');
 	var $wHeight = $(window).height();
-
 	$item.height($wHeight);
 	$('.header').height($wHeight);
 	$item.addClass('full-screen');
-
 	var $currentSlide = Math.floor((Math.random() * $item.length));
 	$('#mainCarousel .item > img').each(function() {
 		var $src = $(this).attr('src');
@@ -202,18 +201,185 @@ $(document).ready(function () {
 </section>
 <!-- end of City recommend -->
 
+<!-- start of Travel notes recommend -->
 <section class="city_recommend">
 	<h1 class="explore_the_world_text">Travel Notes Recommandation</h1>
 	<p class="people_travel_text">See where people have visited and what they recommand</p>
-	<div id="travel_notes_div">
-		<ul style="list-style-type: square">
-			<li><a href="#" class="travel_notes_link">travel note 1</a></li>
-			<li><a href="#" class="travel_notes_link">travel note 2</a></li>
-			<li><a href="#" class="travel_notes_link">travel note 3</a></li>
-			<li><a href="#" class="travel_notes_link">travel note 4</a></li>
-			<li><a href="#" class="travel_notes_link">travel note 5</a></li>
-		</ul>
-	</div>
-</section>
+	<div class="good-container">
+			<ul class="clearfix nslog-area plan-good-list" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-good-list"}'>
+				<li class="list-travelnote">
+					<div class="triangle-topright special"></div>
+					<div class="triangle-topright good"></div>
+					<a class="plan-cover nslog" href="#" target="_blank" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-cover-list"}' pb-index="0" pb-id="plan4757368">
+					<img class="cover-bg J_img-lazyload" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" data-src="" alt="youjitupian"/>
+					</a>
+					<div class="author-info">
+					<a class="link-mask" href="#" target="_blank" pb-index="0" pb-id="plan4757368"></a>
+					<div class="user-info ">
+					<a target="_blank" href="/user/2c79a238abf41f292928de79" class="nslog person-avatar" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-author-click"}' pb-index="0" pb-id="plan4757370" title="username">
+					<img width="50" height="50" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" alt="yonghu touxiang"/>
+					</a>
+					<a href="#" pb-index="0" pb-id="plan4757370" target="_blank" class="person-uname">Author</a>
+					</div>
+					</div>
+					<div class="plan-info">
+					<a class="plan-title nslog" href="#;idx=0" pb-index="0" pb-id="plan4762886" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-title-click"}' target="_blank"><h3 style="font-weight:700;">Note title</h3></a>
+					<p class="plan-trip">Destination：<span class="plan-trips nslog" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-scene-click"}'>
+					<a target="_blank" pb-index="0" pb-id="plan4757369" href="#">some palce</a>
+					</span>
+					</p>
+					<p class="plan-trip-day">Days : n</p>
+					</div>
+					<div class="plan-view">
+					<span class="view-count" title="Read"><a class="reading_quantity">
+						Read: </a>60251</span>
+					</div>
+				</li>
+				<li class="list-travelnote">
+					<div class="triangle-topright special"></div>
+					<div class="triangle-topright good"></div>
+					<a class="plan-cover nslog" href="#" target="_blank" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-cover-list"}' pb-index="0" pb-id="plan4757368">
+					<img class="cover-bg J_img-lazyload" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" data-src="" alt="youjitupian"/>
+					</a>
+					<div class="author-info">
+					<a class="link-mask" href="#" target="_blank" pb-index="0" pb-id="plan4757368"></a>
+					<div class="user-info ">
+					<a target="_blank" href="/user/2c79a238abf41f292928de79" class="nslog person-avatar" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-author-click"}' pb-index="0" pb-id="plan4757370" title="username">
+					<img width="50" height="50" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" alt="yonghu touxiang"/>
+					</a>
+					<a href="#" pb-index="1" pb-id="plan4757370" target="_blank" class="person-uname">Author</a>
+					</div>
+					</div>
+					<div class="plan-info">
+					<a class="plan-title nslog" href="/plan/c26d6eefd8d727c210d9d386?request_id=625644213&amp;idx=0" pb-index="0" pb-id="plan4762886" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-title-click"}' target="_blank"><h3 style="font-weight:700;">Note title</h3></a>
+					<p class="plan-trip">Destination：<span class="plan-trips nslog" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-scene-click"}'>
+					<a target="_blank" pb-index="1" pb-id="plan4757369" href="#">some palce</a>
+					</span>
+					</p>
+					<p class="plan-trip-day">Days : n</p>
+					</div>
+					<div class="plan-view">
+					<span class="view-count" title="Read"><a class="reading_quantity">
+						Read: </a>60251</span>
+					</div>
+				</li>
 
+				<li class="list-travelnote">
+					<div class="triangle-topright special"></div>
+					<div class="triangle-topright good"></div>
+					<a class="plan-cover nslog" href="#" target="_blank" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-cover-list"}' pb-index="0" pb-id="plan4757368">
+					<img class="cover-bg J_img-lazyload" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" data-src="" alt="youjitupian"/>
+					</a>
+					<div class="author-info">
+					<a class="link-mask" href="#" target="_blank" pb-index="0" pb-id="plan4757368"></a>
+					<div class="user-info ">
+					<a target="_blank" href="/user/2c79a238abf41f292928de79" class="nslog person-avatar" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-author-click"}' pb-index="0" pb-id="plan4757370" title="username">
+					<img width="50" height="50" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" alt="yonghu touxiang"/>
+					</a>
+					<a href="#" pb-index="2" pb-id="plan4757370" target="_blank" class="person-uname">Author</a>
+					</div>
+					</div>
+					<div class="plan-info">
+					<a class="plan-title nslog" href="/plan/c26d6eefd8d727c210d9d386?request_id=625644213&amp;idx=0" pb-index="0" pb-id="plan4762886" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-title-click"}' target="_blank"><h3 style="font-weight:700;">Note title</h3></a>
+					<p class="plan-trip">Destination：<span class="plan-trips nslog" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-scene-click"}'>
+					<a target="_blank" pb-index="2" pb-id="plan4757369" href="#">some palce</a>
+					</span>
+					</p>
+					<p class="plan-trip-day">Days : n</p>
+					</div>
+					<div class="plan-view">
+					<span class="view-count" title="Read"><a class="reading_quantity">
+						Read: </a>60251</span>
+					</div>
+				</li>
+
+				<li class="list-travelnote">
+					<div class="triangle-topright special"></div>
+					<div class="triangle-topright good"></div>
+					<a class="plan-cover nslog" href="#" target="_blank" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-cover-list"}' pb-index="0" pb-id="plan4757368">
+					<img class="cover-bg J_img-lazyload" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" data-src="" alt="youjitupian"/>
+					</a>
+					<div class="author-info">
+					<a class="link-mask" href="#" target="_blank" pb-index="0" pb-id="plan4757368"></a>
+					<div class="user-info ">
+					<a target="_blank" href="/user/2c79a238abf41f292928de79" class="nslog person-avatar" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-author-click"}' pb-index="0" pb-id="plan4757370" title="username">
+					<img width="50" height="50" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" alt="yonghu touxiang"/>
+					</a>
+					<a href="#" pb-index="3" pb-id="plan4757370" target="_blank" class="person-uname">Author</a>
+					</div>
+					</div>
+					<div class="plan-info">
+					<a class="plan-title nslog" href="/plan/c26d6eefd8d727c210d9d386?request_id=625644213&amp;idx=0" pb-index="0" pb-id="plan4762886" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-title-click"}' target="_blank"><h3 style="font-weight:700;">Note title</h3></a>
+					<p class="plan-trip">Destination：<span class="plan-trips nslog" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-scene-click"}'>
+					<a target="_blank" pb-index="3" pb-id="plan4757369" href="#">some palce</a>
+					</span>
+					</p>
+					<p class="plan-trip-day">Days : n</p>
+					</div>
+					<div class="plan-view">
+					<span class="view-count" title="Read"><a class="reading_quantity">
+						Read: </a>60251</span>
+					</div>
+				</li>
+
+				<li class="list-travelnote">
+					<div class="triangle-topright special"></div>
+					<div class="triangle-topright good"></div>
+					<a class="plan-cover nslog" href="#" target="_blank" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-cover-list"}' pb-index="0" pb-id="plan4757368">
+					<img class="cover-bg J_img-lazyload" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" data-src="" alt="youjitupian"/>
+					</a>
+					<div class="author-info">
+					<a class="link-mask" href="#" target="_blank" pb-index="0" pb-id="plan4757368"></a>
+					<div class="user-info ">
+					<a target="_blank" href="/user/2c79a238abf41f292928de79" class="nslog person-avatar" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-author-click"}' pb-index="0" pb-id="plan4757370" title="username">
+					<img width="50" height="50" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" alt="yonghu touxiang"/>
+					</a>
+					<a href="#" pb-index="4" pb-id="plan4757370" target="_blank" class="person-uname">Author</a>
+					</div>
+					</div>
+					<div class="plan-info">
+					<a class="plan-title nslog" href="/plan/c26d6eefd8d727c210d9d386?request_id=625644213&amp;idx=0" pb-index="0" pb-id="plan4762886" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-title-click"}' target="_blank"><h3 style="font-weight:700;">Note title</h3></a>
+					<p class="plan-trip">Destination：<span class="plan-trips nslog" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-scene-click"}'>
+					<a target="_blank" pb-index="4" pb-id="plan4757369" href="#">some palce</a>
+					</span>
+					</p>
+					<p class="plan-trip-day">Days : n</p>
+					</div>
+					<div class="plan-view">
+					<span class="view-count" title="Read"><a class="reading_quantity">
+						Read: </a>60251</span>
+					</div>
+				</li>
+				<li class="list-travelnote">
+					<div class="triangle-topright special"></div>
+					<div class="triangle-topright good"></div>
+					<a class="plan-cover nslog" href="#" target="_blank" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-cover-list"}' pb-index="0" pb-id="plan4757368">
+					<img class="cover-bg J_img-lazyload" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" data-src="" alt="youjitupian"/>
+					</a>
+					<div class="author-info">
+					<a class="link-mask" href="#" target="_blank" pb-index="0" pb-id="plan4757368"></a>
+					<div class="user-info ">
+					<a target="_blank" href="/user/2c79a238abf41f292928de79" class="nslog person-avatar" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-author-click"}' pb-index="0" pb-id="plan4757370" title="username">
+					<img width="50" height="50" src="http://file2.desktx.com/pc/wallpaper/comic/20100317/dongman_desktx_1600-1200.jpg" alt="yonghu touxiang"/>
+					</a>
+					<a href="#" pb-index="5" pb-id="plan4757370" target="_blank" class="person-uname">Author</a>
+					</div>
+					</div>
+					<div class="plan-info">
+					<a class="plan-title nslog" href="/plan/c26d6eefd8d727c210d9d386?request_id=625644213&amp;idx=0" pb-index="0" pb-id="plan4762886" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-title-click"}' target="_blank"><h3 style="font-weight:700;">Note title</h3></a>
+					<p class="plan-trip">Destination：<span class="plan-trips nslog" data-nslog='{"type": 1701, "cmd":"click", "pos":"plan-scene-click"}'>
+					<a target="_blank" pb-index="5" pb-id="plan4757369" href="#">some palce</a>
+					</span>
+					</p>
+					<p class="plan-trip-day">Days : n</p>
+					</div>
+					<div class="plan-view">
+					<span class="view-count" title="Read"><a class="reading_quantity">
+						Read: </a>60251</span>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+</section>
 <% include footer %>

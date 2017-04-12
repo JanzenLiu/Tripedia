@@ -1,8 +1,8 @@
 <%- include header %>
 <link rel="stylesheet" href="/stylesheets/searchresult.css">
-
+<!-- show the results of seaching TravelNotes -->
 <main class="page-search">
-  <% if (null) { %>
+  <% if (posts.length==0) { %>
   <div class="noresult">
 
   <h1 class="middle">We are sorry we cannot find it</h1>
@@ -16,7 +16,8 @@
         <h4 class="list-group-item-heading"><%=
           posts[index].title
            %></h4>
-        <p class="list-group-item-text box"><%= posts[index].body %></p>
+           <a href="#" class="authorid">Author: <%= posts[index].author.name%></a>
+        <p class="list-group-item-text well box"><%= posts[index].body %></p>
       </a>
     </div>
     <% } %>
