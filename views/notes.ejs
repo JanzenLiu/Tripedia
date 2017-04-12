@@ -5,8 +5,10 @@
   <ol class="lists">
     <% for(index=0;index<10;index++){ %>
     <li class="noteshow"><span class="titler">
-      <%= noteList[index].title %></span><p class="des">
-        <%=  %></p></li>
+      <%= noteList[index].title %></span><p class="des box">
+        <%= noteList[index].body %></p>
+        <p>like : <%= noteList[index].like_counts %></p>
+    </li>
     <% } %>
 
   </ol>

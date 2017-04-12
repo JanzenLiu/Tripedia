@@ -7,6 +7,7 @@ var noteShow = require('../controllers/note/show');
 var noteEdit = require('../controllers/note/edit');
 var noteComment = require('../controllers/note/notecomment');
 var noteLike=require('../controllers/note/like');
+var noteShowList=require('../controllers/note/showlist');
 var title;
 // return notes with highest heat
 
@@ -30,13 +31,17 @@ var title;
 // var noteList = [cur_note];
 
 router.get('/', function(req, res){
-	res.render('notes', {
-		title: 'Travel Notes',
-		user: req.session.user,
-		success: req.flash('success').toString(),
-		error: req.flash('error').toString()
+	noteShowList(function(err, noteList){
+		res.render('notes', {
+			title: 'Travel Notes',
+			user: req.session.user,
+			noteList: noteList,
+			success: req.flash('success').toString(),
+			error: req.flash('error').toString()
+		});
 	});
 });
+
 router.get('/:noteId', function(req, res){
 	// check whether the user exists
 	Note.findById(req.params.noteId, function(err, note){

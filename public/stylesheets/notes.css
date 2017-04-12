@@ -3,18 +3,18 @@ div.notes{
   margin: 10px
 }
 
-ol {
+ol.lists {
   color: #ccc;
   list-style-type: none;
 }
 
-ol li {
+ol.lists li.noteshow {
   position: relative;
   font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
   margin-bottom: 20px;
 }
 
-li p {
+li.noteshow p.des {
   font: 12px/1.5 Helvetica, sans-serif;
   padding-left: 60px;
   color: #555;
@@ -22,4 +22,12 @@ li p {
 
 span {
   position: absolute;
+}
+
+.box{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
