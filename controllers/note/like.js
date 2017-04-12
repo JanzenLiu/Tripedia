@@ -3,12 +3,15 @@ var Note = require('../../models/travelnote');
 var noteComment = require('../../models/notecomment');
 
 module.exports = function(note, user, text, like, callback){
-	if(!user){
-		return res.status(403).json({
-			error: 'Illegal operation: not login!',
-			success : false
-		});
-	}
+	// if(!user){
+	// 	return res.status(403).json({
+	// 		error: 'Illegal operation: not login!',
+	// 		success : false
+	// 	});
+	// }
+	// if (!user){
+	// 	return callback('/note');
+	// }
 	var authorId = user._id,
 	authorName=user.username,
 	noteId=note._id;
