@@ -42,15 +42,15 @@ window.Env = {"profileSetting":{"banner_cover":"","banner_cover_url":"","banner_
         <i class="MGenderMale"></i>
     </div>
     <div class="MAvaInfo clearfix MAvaMyInfo">
-        <span class="MAvaPlace flt1" title="Hong Kong">Live in: Hong Kong</span>
+        <span class="MAvaPlace flt1" title="Hong Kong">Live in: <%= owner.location %></span>
         <span class="MAvaSet"><a title="setting" href="#" target="_blank"></a></span>
     </div>
     <div id="_j_profilearea" class="MAvaProfile">
-        <a role="button" class="addBtn _j_showintrobox">Edit introduction</a>
-            <div class="MAvaInput hide _j_inputarea">
+        <a role="button" class="addBtn _j_showintrobox" href="/account/edit">Edit information</a>
+            <!-- <div class="MAvaInput hide _j_inputarea">
                 <textarea id="_j_introarea" placeholder="e.g photographer/ diving lover" maxlength="100"></textarea>
                 <a role="button" id="_j_introsaver" class="MAvaBtn" title="save">save</a>
-            </div>
+            </div> -->
     </div>
     <div class="MAvaMore clearfix">
         <div class="MAvaNums">
@@ -130,7 +130,7 @@ window.Env = {"profileSetting":{"banner_cover":"","banner_cover_url":"","banner_
                         <p>How others plan their trip?</p>
                     </div>
                         <div class="personal_btn">
-                        <a role="button" class="_j_task_focus_talent" href="/notes" title="See others trips">See others trips</a>
+                        <a role="button" class="_j_task_focus_talent" href="/note" title="See others trips">See others trips</a>
                     </div>
                     </li>
                     <li>
