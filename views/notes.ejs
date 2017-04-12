@@ -1,5 +1,9 @@
 <%- include header %>
+<link rel="stylesheet" href="/stylesheets/notes.css">
+<link rel="stylesheet" href="/stylesheets/note.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
 
 <div class="container">
     <h2>Search results</h2>
@@ -10,5 +14,25 @@
     </div>
     <% } %>
 </div>
+=======
+<section class="city_recommend">
+	<h1 class="world_text">Travel Notes Recommandation</h1>
+	<p class="w_text">See where people have visited and what they recommand</p>
+</section>
+<div class="pub-comment">
+  <% for (index=0; index<noteList.length; index++){ %>
+    <div class="input-group">
+      <span class="input-group-addon"> <%= noteList[index].title %> </span>
+      <input id="title" type="text" class="form-control" name="title" value="<%= noteList[index].author.name %>" disabled="disable">
+    </div>
+    <div class="form-group">
+      <textarea class="form-control box" id="comment" name="text" rows="5" cols="30" disabled="disable">
+        <%= noteList[index].body %>
+      </textarea>
+    </div>
+  <% } %>
+</div>
+
+>>>>>>> 8d9d3cba93256e4a679e7775049e34fa60cb8b83
 
 <%- include footer %>
