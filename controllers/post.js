@@ -31,6 +31,7 @@ module.exports = function(req, res){
 		updated_time: Date.now(),
 		pv: 0,
 		like_counts: 0,
+		dislike_counts: 0,
 		comment_counts: 0,
 	});
 

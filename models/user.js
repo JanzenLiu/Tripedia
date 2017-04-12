@@ -10,7 +10,7 @@ var userSchema = new mongoose.Schema({
 	age					: Number,
 	gender				: {type: String, enum: ['male','female','unknown']},
 	location			: String,
-	about				: String,
+	introduction				: String,
 	contact			: String,
 	following_counts	: {type: Number, default: 0},
 	follower_counts		: {type: Number, default: 0},

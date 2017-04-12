@@ -5,8 +5,8 @@ var postController = require('../controllers/post');
 var planController = require('../controllers/plan/plan');
 var CreatePlan = require('../controllers/plan/newplan');
 var plan=require('../models/plan');
-var title='title';
-var brief='brief';
+var title='Please enter the title of your plan';
+var brief='Please write some brief introduction of your plan...';
 var flag=0;
 router.get('/', function(req, res){
 	res.render('profile',{
@@ -91,7 +91,7 @@ router.post('/planmaking',function(req,res){
 // 		});
 // 	});
 // 	res.render('plan',{
-// 		title:"Design a plan",
+// 		title:"Design a plan"
 // 		user: req.session.user,
 // 		plantitle:title,
 // 		brief:brief,

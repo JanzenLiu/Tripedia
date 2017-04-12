@@ -28,7 +28,12 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
+<<<<<<< HEAD
       res.render('searchpost', {
+=======
+      console.log(notes);
+      res.render('search', {
+>>>>>>> 7bd3fcf4efef77919759a7051706481755260de1
         title: "SEARCH:" + req.query.q,
         user: req.session.user,
         posts: notes,
