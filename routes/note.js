@@ -163,11 +163,9 @@ router.get('/:title/edit', function(req, res){
 	// 		});
 	// 	}
 	// 	var currentUser = req.session.user;
-		noteShow(req.params.title, function(err, note){
-			if (err){
-				req.flash('error', err);
-				return res.redirect('back');
-			}
+			Note.findOne({
+				"title":req.params.title
+			},function(err, note){
 			res.render('editNote',{
 			title: 'View Note',
 			user: req.session.user,
