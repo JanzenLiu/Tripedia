@@ -1,4 +1,12 @@
 <%- include header %>
+<!-- rating part -->
+<form method="post" action="/note/like">
+  <input type="submit" name="like" value="Like: <%= note.like_counts %>" />
+</form>
+<form method="post" action="/note/dislike">
+  <input type="submit" name="dislike" value="Dislike: <%=note.dislike_counts %>" />
+</form>
+<!-- comment part -->
 <form method="post" action="/note/comment">
   标题：<br />
   <input type="text" name="title" value="<%= note.title %>" disabled="disabled" /><br />
@@ -6,6 +14,7 @@
   <textarea name="text" rows="20" cols="100"><%= note.body %></textarea><br />
   <input type="submit" value="保存修改" />
 </form>
+
 <p><%= note.comments[0].author.name %></p>
 <p><%= note.comments[0].content %></p>
 
