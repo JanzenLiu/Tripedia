@@ -13,7 +13,7 @@ router.get('/', function (req, res) {
       req.flash('error', err);
       return res.redirect('/');
     }
-    res.render('searchCity', {
+    res.render('searchCities', {
       title: "SEARCH:" + req.query.q,
       user: req.session.user,
       posts: cities,
@@ -28,7 +28,7 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-      res.render('search', {
+      res.render('searchpost', {
         title: "SEARCH:" + req.query.q,
         user: req.session.user,
         posts: notes,
@@ -43,7 +43,7 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-      res.render('search', {
+      res.render('searchPoi', {
         title: "SEARCH:" + req.query.q,
         user: req.session.user,
         posts: posts,
@@ -58,7 +58,7 @@ router.get('/', function (req, res) {
         req.flash('error', err);
         return res.redirect('/');
       }
-      res.render('search', {
+      res.render('searchuser', {
         title: "SEARCH:" + req.query.q,
         user: req.session.user,
         posts: users,

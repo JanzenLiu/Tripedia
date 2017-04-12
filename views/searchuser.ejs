@@ -1,0 +1,31 @@
+<%- include header %>
+<link rel="stylesheet" href="/stylesheets/searchresult.css">
+<!-- show the results of seaching attractions -->
+<main class="page-search">
+  <% if (posts.length==0) { %>
+  <div class="noresult">
+
+  <h1 class="middle">We are sorry we cannot find it</h1>
+  </div>
+  <% } else { %>
+<div class="container">
+    <h2>Search results</h2>
+    <% for (index=0;index<posts.length;index++) {%>
+      <div class="media">
+    <div class="media-body">
+      <h4 class="media-heading"><%=
+        posts[index].username
+         %></h4>
+         <p class="list-group-item-text well">
+           <p><%= posts[index].about %></p>
+         <p>Location:  <%=posts[index].location %></p>
+         </p>
+    </div>
+    <% } %>
+</div>
+  <% } %>
+
+
+</main>
+
+<% include footer %>

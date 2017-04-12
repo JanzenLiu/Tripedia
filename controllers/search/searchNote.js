@@ -13,6 +13,7 @@ module.exports = function(keyword, callback){
         "name":1,
         "body":1,
         "title":1,
+        "author":1
       },function(err, docs){
         if(err){
           console.log(err);
