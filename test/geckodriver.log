@@ -4428,3 +4428,28 @@ Full stack:
 *************************
 JavaScript error: https://www.lonelyplanet.com/france/bordeaux/attractions/la-cite-du-vin/a/poi-sig/1537668/359293, line 34: TypeError: window.BFBanners is undefined
 JavaScript error: https://www.lonelyplanet.com/france/strasbourg/attractions/grande-mosquee-de-strasbourg/a/poi-sig/1489262/359225, line 34: TypeError: window.BFBanners is undefined
+1492026332891	geckodriver	INFO	Listening on 127.0.0.1:51815
+1492026334392	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.AEN0s7Bw4JFH
+1492026334395	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1492026334425	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40424
+1492026341586	Marionette	INFO	Listening on port 40424
+1492026343703	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4289] ###!!! ABORT: Aborting on channel error.: file /build/firefox-bLMGaO/firefox-52.0.2+build1/ipc/glue/MessageChannel.cpp, line 2143
+[Child 4289] ###!!! ABORT: Aborting on channel error.: file /build/firefox-bLMGaO/firefox-52.0.2+build1/ipc/glue/MessageChannel.cpp, line 2143
+1492026428823	geckodriver	INFO	Listening on 127.0.0.1:48759
+1492026430501	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.AhrwRissZog5
+1492026430507	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1492026430519	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44142
+1492026437870	Marionette	INFO	Listening on port 44142
+1492026439607	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: https://jadserve.postrelease.com/t?ntv_url=https%3A%2F%2Fwww.lonelyplanet.com%2Fbrazil%2Fthe-southeast%2Fbelo-horizonte%2Fintroduction, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 230: TypeError: Cc[aContract] is undefined
+JavaScript error: https://auth.lonelyplanet.com/users/status.json?callback=lpUserStatusCallback&_=1492027309874, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://auth.lonelyplanet.com/users/status.json?callback=jQuery311042345974105285755_1492027311244&_=1492027311245, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.staticlp.com/assets/app_core-fef2ed03c2c8335f5771c070c4f967ce.js, line 104: Error: TrackJS Caught: Error retrieving luna login information

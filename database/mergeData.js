@@ -27,18 +27,13 @@ var db = require('../models/db');
 
 // ================ join city with attractions ================
 City.find({}, function(err, cities){
-
 	if(err || !cities){
 		cosole.log(err);
 		return;
 	}
-
 	successCount = 0;
 	failureCount = 0;
-
-
 	cities.forEach(function(city){
-
 		pois = city["attractions"];
 
 		// pois.forEach(function(poi){
@@ -48,15 +43,12 @@ City.find({}, function(err, cities){
 		pois.forEach(function(poi){
 			
 			// console.log(poi);
-
 			poiName = poi.name;
-
 			Poi.findOne({"name": poiName},function(err, doc){
 
 				// console.log("Finding", poiName, "in", city.name);
 
 				if(err || !doc){
-
 					failureCount++;
 					// console.log(failureCount, "failure(s)");
 				}
@@ -64,7 +56,6 @@ City.find({}, function(err, cities){
 
 					poiId = doc._id;
 					poi.aid = poiId;
-
 					city.update({$push: {"pois": mongoose.Types.ObjectId(poiId)}}, function(err){
 						if(err){
 							console.log(err);
@@ -72,11 +63,8 @@ City.find({}, function(err, cities){
 						}
 						console.log(mongoose.Types.ObjectId(poiId));
 					});
-					
 					city.save()
-
 					successCount++;
-
 					// console.log(successCount, "success(es)");
 				}
 			});

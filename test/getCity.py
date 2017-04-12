@@ -100,7 +100,7 @@ def saveJson(fileName, object):
 def crawlCity(country, city, fileName):
 	cityObj = getCity(country, city)
 	fileName = fileName + ".json"
-	saveJson(fileName, cityObj)
+	#saveJson(fileName, cityObj)
 
 def crawlAll():
 	for country in countries:
@@ -119,18 +119,18 @@ def crawlAll():
 lp = "https://www.lonelyplanet.com"
 content = "introduction"
 
-# usCities = ["new-york-city", "los-angeles", "san-francisco", "chicago", "seattle", "washington-dc", "boston", "new-orleans", "las-vegas", "miami"]
-# nzCities = ["auckland", "wellington"]
-# cnCities = ["hong-kong", "shanghai", "beijing", "tibet/lhasa", "guangdong/guangzhou", "sichuan/chengdu", "zhejiang/hangzhou", "shandong/qingdao", "shandong/taian", "shaanxi-shanxi/xian"]
-# jpCities = ["tokyo", "kansai/kyoto", "kansai/osaka", "kyushu/fukuoka", "central-honshu/nagoya", "kyushu/nagasaki", "hokkaido/sapporo", "hiroshima", "kansai/nara", "central-honshu/kanaz"]
-# bzCities = ["rio-de-janeiro", "sao-paulo", "the-northeast/salvador", "the-north/manaus", "the-northeast/recife", "the-northeast/fortaleza", "the-central-west/brasilia", "the-north/belem", "the-southeast/belo-horizonte", "the-northeast/sao-luis"]
-# egCities = ["cairo", "red-sea-coast/hurghada", "nile-valley/luxor", "mediterranean-coast/alexandria", "nile-valley/aswan", "sinai/dahab", "western-desert/siwa-oasis", "suez-canal/port-said", "sinai/nuweiba"]
-# itlCities = ["rome", "venice", "florence", "milan", "sicily", "puglia/otranto", "puglia/taranto", "puglia/trani", "puglia/alberobello", "puglia/cisternino"]
-# spCities = ["barcelona", "madrid", "valencia-and-murcia/valencia", "granada", "seville", "aragon-basque-country-and-navarra/bilbao", "aragon-basque-country-and-navarra/san-sebastian", "andalucia/malaga", "canary-islands/tenerife/santa-cruz-de-tenerife", "andalucia/cordoba"]
-# frCities = ["paris", "nice", "provence/marseille", "burgundy-and-the-rhone/lyon", "provence/avignon", "southwestern-france/bordeaux", "cote-dazur/cannes", "alsace-and-lorraine/strasbourg", "provence/aix-en-provence", "toulouse"]
+usCities = ["new-york-city", "los-angeles", "san-francisco", "chicago", "seattle", "washington-dc", "boston", "new-orleans", "las-vegas", "miami"]
+nzCities = ["auckland", "wellington"]
+cnCities = ["hong-kong", "shanghai", "beijing", "tibet/lhasa", "guangdong/guangzhou", "sichuan/chengdu", "zhejiang/hangzhou", "shandong/qingdao", "shandong/taian", "shaanxi-shanxi/xian"]
+jpCities = ["tokyo", "kansai/kyoto", "kansai/osaka", "kyushu/fukuoka", "central-honshu/nagoya", "kyushu/nagasaki", "hokkaido/sapporo", "hiroshima", "kansai/nara", "central-honshu/kanaz"]
+bzCities = ["rio-de-janeiro", "sao-paulo", "the-northeast/salvador", "the-north/manaus", "the-northeast/recife", "the-northeast/fortaleza", "the-central-west/brasilia", "the-north/belem", "the-southeast/belo-horizonte", "the-northeast/sao-luis"]
+egCities = ["cairo", "red-sea-coast/hurghada", "nile-valley/luxor", "mediterranean-coast/alexandria", "nile-valley/aswan", "sinai/dahab", "western-desert/siwa-oasis", "suez-canal/port-said", "sinai/nuweiba"]
+itlCities = ["rome", "venice", "florence", "milan", "sicily", "puglia/otranto", "puglia/taranto", "puglia/trani", "puglia/alberobello", "puglia/cisternino"]
+spCities = ["barcelona", "madrid", "valencia-and-murcia/valencia", "granada", "seville", "aragon-basque-country-and-navarra/bilbao", "aragon-basque-country-and-navarra/san-sebastian", "andalucia/malaga", "canary-islands/tenerife/santa-cruz-de-tenerife", "andalucia/cordoba"]
+frCities = ["paris", "nice", "provence/marseille", "burgundy-and-the-rhone/lyon", "provence/avignon", "southwestern-france/bordeaux", "cote-dazur/cannes", "alsace-and-lorraine/strasbourg", "provence/aix-en-provence", "toulouse"]
 
 
-# countries = ["usa", "new-zealand", "china", "egypt", "italy", "spain", "france", "japan", "brazil"]
+countries = ["usa", "new-zealand", "china", "egypt", "italy", "spain", "france", "japan", "brazil"]
 countries = ["brazil"]
 # europoCities = [usCities, nzCities, cnCities, jpCities, bzCities, egCities, itlCities, spCities, frCities]
 
