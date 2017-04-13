@@ -1,6 +1,12 @@
 body{
     margin: 54px 0 0 0;
 }
+body.nomargin{
+    margin-top: 0;
+}
+.clear {
+    clear: both;
+}
 /* navbar */
 .navbar-fixed-top .glyphicon {
     margin-right: 4px;
@@ -35,6 +41,34 @@ main {
 }
 main.page-index {
     padding-top: 0;
+}
+/* destination */
+main.page-dest {
+    padding-top: 0;
+}
+.page-dest #destCarousel .dest-city-name {
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.dest-nav .dest-group {
+    display: none;
+}
+.dest-nav .dest-group.active {
+    display: block;
+}
+.dest-group .list-group {
+    float: left;
+    width: 30%;
+    margin: 1em 1%;
 }
 /* sign up and login page */
 main.page-signup, main.page-login {
@@ -182,5 +216,137 @@ main.page-signup .container, main.page-login .container {
     aside.page-aside {
         float: right;
         width: 33%;
+    }
+}
+/* City page */
+main.page-city {
+    padding-top: 0;
+}
+.page-city h2 {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: #eee solid 1px;
+}
+.page-city section {
+    padding: 2em 0;
+}
+.page-city section.header {
+    padding-top: 0;
+}
+.city-introduction .city-intro {
+    float: left;
+    width: 40%;
+    margin: 1em 5%;
+}
+.city-intro .city-intro-sub {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+.city-feature-image .feature-image-bg{
+    width: 100%;
+    padding-top: 60%;
+    background-size: cover;
+    background-position: center;
+}
+.city-feature-image .text-feature-image {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+.text-feature-image h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+}
+.text-feature-image #country {
+    font-size: 2em;
+    font-weight: lighter;
+    color: white;
+}
+.city-attrations .feature-attrations {
+    list-style: none;
+}
+.city-attrations .feature-attration {
+    float: left;
+    position: relative;
+}
+.city-attrations .attration-bg {
+    width: 100%;
+    padding-top: 150%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    border-radius: 5px;
+}
+.city-attrations  .feature-attration:hover .attration-bg {
+    filter: blur(5px);
+}
+.city-attrations .attration-name {
+    position: absolute;
+    top: 47%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    color: white;
+    opacity: 0;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+.city-attrations .feature-attration:hover .attration-name{
+    opacity: 1;
+    top: 43%;
+}
+@media (min-width: 720px){
+    .page-city .feature-attration {
+        width: 23%;
+        margin-right: 2%;
+    }
+    .page-city .feature-attration:nth-child(4) {
+        margin-right: 0;
+    }
+}
+@media (max-width: 720px){
+    .page-city h2 {
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: .7em;
+        margin-bottom: .7em;
+        border-bottom: #eee solid 1px;
+    }
+    .text-feature-image h1 {
+        font-size: 3em;
+        font-weight: bold;
+        color: white;
+    }
+    .text-feature-image #country {
+        font-size: 1.3em;
+        font-weight: lighter;
+        color: white;
+    }
+    .page-city .feature-attration {
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    .page-city .feature-attration:nth-child(2) {
+        margin-right: 0;
     }
 }

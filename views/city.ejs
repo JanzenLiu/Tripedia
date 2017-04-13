@@ -1,137 +1,48 @@
-<%- include header %>
 
-<div id="container" data-cs-t="deatails">
-    <div class="row row-placeTop">
-        <div class="wrapper">
-            <div class="crumb">
-                <div class="item"><a href="/mdd/" target="_blank">Destination</a><em>&gt;</em>
-                </div>
+<%- include header_transparent %>
 
-                <div class="item">
-                    <div class="drop">
-                        <span class="hd"><a href="/travel-scenic-spot/mafengwo/21536.html" target="_blank"><%= city.country %><i></i></a></span>
-                            <div class="bd">
-                                <i class="arrow"><b></b></i>
-                                    <div class="col">
-                                        <h3>Hotspots</h3>
-                                            <ul class="clearfix">
-                                                <li><a href="#" target="_blank">Beijing</a></li>
-                                                <li><a href="#" target="_blank">Shanghai</a></li>
-                                                <li><a href="#" target="_blank">Taiwan</a></li>
-                                                </ul>
-                                    </div>
-                                        <div class="more"><a href="#" target="_blank">&gt;&gt;More Destination</a></div>
-                            </div>
-                    </div>
-                    <em>&gt;</em>
-                </div>
-                <div class="item">
-                        <div class="drop">
-                                <span class="hd"><a href="#"><%= city.name %><i></i></a></span>
-                                <div class="bd">
-                                    <i class="arrow"><b></b></i>
-                                    <div class="col">
-                                        <ul class="clearfix">
-                                            <li><a href="#" target="_blank"><%= city.name %> Spots</a></li>
-                                            <li><a href="#" target="_blank"><%= city.name %> Traveling Notes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                        </div>
-                </div>
+<main class="page-city">
+    <section class="header">
+        <div class="city-feature-image">
+            <% imageurl = city.imageUrl;
+                imageurl = typeof(imageurl) == "undefined" ? city.pois[0].imageUrl:imageurl;
+                imageurl = imageurl == "" ? "/images/bg_parachute.jpg":imageurl;
+                console.log(imageurl);
+                %>
+            <div class="feature-image-bg" style="background-image:url(<%=imageurl %>)"></div>
+            <div class="text-feature-image">
+                <p id="country"><%=city.country %></p>
+                <h1><%=city.name %></h1>
 
-                <script language="JavaScript" type="text/javascript">
-                    $(function () {
-                        $('.drop').mouseenter(function(ev) {
-                            var target = $(ev.currentTarget);
-                            clearTimeout(target.data('hideTimer'));
-                            target.addClass('open');
-                            target.children('bd').fadeIn(200);
-                        });
-                        $('.drop').mouseleave(function(ev) {
-                            var target = $(ev.currentTarget);
-                            target.data("hideTimer", setTimeout(function() {
-                                target.removeClass('open');
-                                target.children('bd').fadeOut(200);
-                            }, 200));
-                        });
-                    });
-                </script>
-
-
-                <div class="row row-primary">
-                    <div class="wrapper">
-                        <div class="screen clearfix">
-                            <div class="r-main">
-                                <a class="photo" href="/photo/mdd/10189.html" target="_blank">
-                                        <img src=<%= city.imageUrl %>>
-                                            <div class="text">
-                                                <span><%= city.name %></span>
-                                            </div>
-                                </a>
-                            </div>
-                            <div class="m-impress">
-                                <div style=" padding-left: 150px; color: orange;">
-                                    <h3 class="hd">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<%= city.name %> Impression</h3>
-                                </div>
-                                <div class="bd clearfix">
-                                    <ul class="tag" style="height: 140px;overflow: hidden; padding-left: 50px; color: grey;">
-                                    <a target="_blank">Good</a></ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row row-summary row-bg">
-                            <div class="wrapper">
-                                <h2 class="title">General situation</h2>
-                                    <div>
-                                        <p style="display: none;">
-
-                                        </p>
-                                        <span id="mdd_poi_desc"><%= city.intro %>
-                                        <br></span>
-                                    </div>
-                            </div>
-                    </div>
-
-                    <div class="row row-hotScenic row-bg" data-cs-p="热门景点">
-                        <div class="wrapper">
-                            <h2 class="title">Hot Spot</h2>
-                            <div class="bd">
-                                <%- include poiListInCity %>
-
-                                <% poiListInCity(city.attractions) %>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <ul class="plan-type" style="list-style-type:none;
-                        margin:6px;
-                        padding:0;
-                        overflow:hidden;">
-                        <li style="float: left;">
-                            <a href="#" class="tabcon"><%= city.name %> Travel Notes</a>
-                        </li>
-                        <li style="float: left;">
-                            <a href="#" class="tabcon"><%= city.name %> Travel Plan</a>
-                        </li>
-                    </ul>
-
-                    <div id="travel_notes_div">
-                        <ul style="list-style-type: square">
-                            <li><a href="#" class="travel_notes_link">travel note 1</a></li>
-                            <li><a href="#" class="travel_notes_link">travel note 2</a></li>
-                            <li><a href="#" class="travel_notes_link">travel note 3</a></li>
-                            <li><a href="#" class="travel_notes_link">travel note 4</a></li>
-                            <li><a href="#" class="travel_notes_link">travel note 5</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+    <section class="city-attrations container clear">
+        <h2>Explore <%=city.name %></h2>
+        <ul class="feature-attrations">
+            <% for(i=0; i<city.pois.length&&i<4; i++) { %>
+            <a href="/poi/<%=city.pois[i]._id %>"><li class="feature-attration">
+                <% imageurl = city.pois[i].imageUrl;
+                imageurl = imageurl == "" ? "/images/bg_parachute.jpg":imageurl; %>
+                <div class="attration-bg" style="background-image:url(<%=imageurl%>)"></div>
+                <h4 class="attration-name"><%=city.pois[i].name %></h4>
+            </li></a>
+            <%}%>
+        </ul>
+    </section>
+    <% if(city.description.subtitles.length > 0) {%>
+    <section class="city-introduction container">
+        <h2>See how people say</h2>
+        <div class="city-intros clear">
+        <% for(i=0; i<city.description.subtitles.length; i++) { %>
+        <div class="city-intro">
+        <h3><%=city.description.subtitles[i] %></h3>
+        <p class="city-intro-sub"><%=city.description.bodies[i]%></p>
+        </div>
+        <%}%>
+        </div>
+    </section>
+    <% } %>
+</main>
 
 <%- include footer %>

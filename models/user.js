@@ -21,7 +21,7 @@ var userSchema = new mongoose.Schema({
 	followers  			:[{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
 	followings  		:[{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
 	travel_notes		:[{type: mongoose.Schema.Types.ObjectId, ref: 'TravelNote'}],
-	plan            :[{type: mongoose.Schema.Types.ObjectId, ref: 'Plan'}]
+	plans            :[{type: mongoose.Schema.Types.ObjectId, ref: 'Plan'}]
 	//////////////////// to be supplement //////////////////////
 	// email
 });

@@ -1,0 +1,31 @@
+<%- include header %>
+<link rel='stylesheet' href='/stylesheets/note.css'/>
+<main class="show-note">
+  <div class="note-container">
+    <div class="note-display">
+      <!-- show title -->
+      <h1 class="title"><%= plan.title %></h1>
+      <!-- show author -->
+      <h4 class="author"><%= plan.author.name %></h2>
+      <!-- plan body -->
+      <p class="note-body">
+        <div class="input-group">
+          <span class="input-group-addon"><%= plan.title %></span>
+          <input id="brief" type="text" class="form-control" name="brief" value="<%= plan.brief %>" disabled="disable">
+        </div>
+        <% for (index=0; index<5; index++){ %>
+          <div class="input-group">
+            <span class="input-group-addon">Day</span>
+            <input id="title" type="text" class="form-control" name="title" value="<%= index+1 %>" disabled="disable">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="comment" name="text" rows="5" cols="30" disabled="disable">
+              <%= plan.days[index] %>
+            </textarea>
+          </div>
+        <% } %>
+      </p>
+    </div>
+  </div>
+</main>
+<%- include footer %>

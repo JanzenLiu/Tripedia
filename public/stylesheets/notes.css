@@ -1,0 +1,72 @@
+body{
+  background-image: url(/images/edit_profile/bg2.jpg);
+  filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+   -moz-background-size:100% 100%;
+   background-size:100% 100%;
+}
+div.notess{
+  height: auto;
+  width: 1200px;
+  margin-left: 300px;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden
+}
+
+a.lists {
+  display: inline-block;
+  color: #ccc;
+  list-style-type: none;
+}
+
+a.lists li.noteshow {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+
+}
+
+li.noteshow{
+  padding:8px;border:1px solid #9bdf70;background:#f0fbeb
+}
+
+li.noteshow p.des {
+  font: 20px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+p.des {
+  width: 1000px;
+}
+
+span.titler {
+  position: absolute;
+  width:200px;
+}
+p.like{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.world_text{
+    color: #545454;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.w_text{
+    color: #545454;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.box{
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
