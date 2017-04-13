@@ -42,6 +42,34 @@ main {
 main.page-index {
     padding-top: 0;
 }
+/* destination */
+main.page-dest {
+    padding-top: 0;
+}
+.page-dest #destCarousel .dest-city-name {
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.dest-nav .dest-group {
+    display: none;
+}
+.dest-nav .dest-group.active {
+    display: block;
+}
+.dest-group .list-group {
+    float: left;
+    width: 30%;
+    margin: 1em 1%;
+}
 /* sign up and login page */
 main.page-signup, main.page-login {
     background-image: url(/images/bg_parachute.jpg);
@@ -206,6 +234,16 @@ main.page-city {
 }
 .page-city section.header {
     padding-top: 0;
+}
+.city-introduction .city-intro {
+    float: left;
+    width: 40%;
+    margin: 1em 5%;
+}
+.city-intro .city-intro-sub {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.8em;
 }
 .city-feature-image .feature-image-bg{
     width: 100%;

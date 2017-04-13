@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Connection = require('./db');
+var random = require('mongoose-simple-random');
 
 // Schema for City ========================
 var citySchema = mongoose.Schema({
@@ -24,6 +25,7 @@ var citySchema = mongoose.Schema({
 
   ////////////// to be supplement /////////////////
 });
+citySchema.plugin(random);
 
 // methods ================================
 //searching part

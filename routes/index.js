@@ -45,17 +45,11 @@ module.exports = function(app){
 	app.use('/account', require('./account'));
 	app.use('/profile', require('./profile'));
 	app.use('/search', require('./search'));
-	app.get('/dest', function(req, res){
-		res.render('dest', {
-			title: 'Destinations',
-			user: req.session.user,
-			success: req.flash('success').toString(),
-			error: req.flash('error').toString()
-		});
-	});
+	app.use('/dest', require('../controllers/dest'));
 
 	app.use('/city', require('./city'));
 	app.use('/spot', require('./spot'));
+	app.use('/poi', require('./poi'));
 	app.use('/singlenote', require('./singlenote'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));

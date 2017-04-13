@@ -30,10 +30,19 @@
             <%}%>
         </ul>
     </section>
-    <section class="city-posts container">
+    <% if(city.description.subtitles.length > 0) {%>
+    <section class="city-introduction container">
         <h2>See how people say</h2>
-
+        <div class="city-intros clear">
+        <% for(i=0; i<city.description.subtitles.length; i++) { %>
+        <div class="city-intro">
+        <h3><%=city.description.subtitles[i] %></h3>
+        <p class="city-intro-sub"><%=city.description.bodies[i]%></p>
+        </div>
+        <%}%>
+        </div>
     </section>
+    <% } %>
 </main>
 
 <%- include footer %>

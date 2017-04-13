@@ -1,332 +1,201 @@
-<%- include header %>
-<script type="text/javascript">
-window.Env = {"WWW_HOST":"www.mafengwo.cn","IMG_HOST":"images.mafengwo.net","P_HOST":"passport.mafengwo.cn","P_HTTP":"https:\/\/passport.mafengwo.cn","UID":93296021,"CSTK":"e13084ecc6cdb016df43fdd11f55917c_84a2bc38c95a93621d0f3b0a91797c82","GOOGLE_MAP_KEY":"AIzaSyD-Su0x_rPy1xehlMBcMyTqWkU49Bk53nQ"};
+
+<%- include header_transparent %>
+
+<script>
+$(document).ready(function () {
+	// Full screen carousel
+	var $item = $('#destCarousel .item');
+	var $wHeight = $(window).height();
+	$item.height($wHeight);
+	$('.header').height($wHeight);
+	$item.addClass('full-screen');
+	$('#destCarousel .item > img').each(function() {
+		var $src = $(this).attr('src');
+		var $color = $(this).attr('data-color');
+		$(this).parent().css({
+			'background-image' : 'url(' + $src + ')',
+			'background-color' : $color
+		});
+        $(this).remove();
+	});
+	// Random Initialized slide
+	$(window).on('resize', function (){
+		$wHeight = $(window).height();
+		$item.height($wHeight);
+		$('.header').height($wHeight);
+	});
+	// Transparent navbar
+	$(window).scroll(onscroll = function () {
+		var imageHeight = $("#destCarousel").height();
+		if ($(window).scrollTop() > imageHeight * 0.8) {
+			$('.navbar-fixed-top').removeClass("transparent");
+		} else if ($(window).scrollTop() < imageHeight * 0.6) {
+			$('.navbar-fixed-top').addClass("transparent");
+		}
+	});
+	onscroll();
+	$('.carousel').carousel({
+		interval: 5000,
+		pause: "false"
+	});
+    $('#destCarousel item').click(function(){
+        location.href = $(this).data("url");
+    });
+    $('.dest-nav .nav-item a').click(function(){
+        var target = "."+$(this).data("target");
+        console.log(target);
+        $(".nav-item.active").removeClass("active");
+        $(".dest-group").fadeOut(function(){
+            $(target).fadeIn(function(){
+                $(this).addClass("active");
+            });
+
+            $(this).removeClass("active");
+        });
+        $(this).parent(".nav-item").addClass("active");
+    });
+});
 </script>
 
-<link href="http://css.mafengwo.net/css/cv/css+base:css+jquery.suggest:css+plugins:css+plugins+jquery.jgrowl:css+other+popup:css+mfw-header.2015^YlVS^1490234841.css" rel="stylesheet" type="text/css"/>
-
-<link href="http://css.mafengwo.net/css/mdd/mfw-place.2015.css?1476181918" rel="stylesheet" type="text/css"/>
-
-
-<script language="javascript" src="http://js.mafengwo.net/js/cv/js+jquery-1.8.1.min:js+global+json2:js+M+Module:js+M+M:js+M+Log:js+m.statistics^ZFw^1489387530.js" type="text/javascript"></script>
-
-<div class="container" data-cs-t="目的地首页">
-    <div class="place-focus"  data-cs-p="头图">
-        <div class="show-banner show-info-notes">
-            <div class="cover">
-                <a class="bigimg"  href="#" target="_blank" data-cs-l="图片">
-                    <img data-ow="3588" data-oh="2691" src='/images/homepage/bg_montreal.jpg'/>
-                    <div class="shade"></div>
-                </a>
-            </div>
-            <div class="show-info show-info-sm">
-                                    <div class="owner">
-
-                    </div>
-                                <div class="show-name">
-                    <a href="#" target="_blank" data-t="目的地">
-                                                    <h2>Travel note 1</h2><span></span>
-                                            </a>
+<main class="page-dest">
+    <section class="header">
+        <div id="destCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+            <% for(i=0; i<cities.length; i++) { %>
+                <div class="item<% if (i==0){%> active<%}%>" data-url="/city/<%=cities[i].path %>">
+                    <img src="<%=cities[i].imageUrl %>" alt="<%=cities[i].name %>">
+                    <p class="dest-city-name"><%=cities[i].name%></p>
                 </div>
-                <p class="location">First several sentences of the travel note</p>
-                <div class="show-links">
-                                                                <a href="#" target="_blank">Read more</a>
-                                    </div>
+            <% } %>
             </div>
-            <div class="show-shadow"></div>
 
-            <a class="show-arrdown" href="#" data-cs-l="锚点下箭头"></a>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#destCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#destCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="place-search-panel place-search-panel-sm">
-            <h2>Don't fear the unknown</h2>
-            <form name="mdd-search-form" action="/search/city" method="get">
-                <div class="searchbar">
-                    <input autocomplete="off" class="search-input" type="text" name="q" placeholder="I want to travel..."/>
-                    <a class="search-button" href="/" data-cs-l="搜索" role="button"><i class="icon-search"></i></a>
+
+        <div id="searchbar_div">
+            <form class="seletive-search" role="search" action="/search" method="get">
+                <input id="search_type" name="type" type="hidden" value="city">
+                <div class="input-group" id="search">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-search btn-default dropdown-toggle" name="type" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <span class="label-icon">City</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li data-value="city">
+                                <a href="javascript:;">
+                                    <span class="glyphicon glyphicon-map-marker"></span>
+                                    <span class="label-icon">City</span>
+                                </a>
+                            </li>
+                            <li data-value="note">
+                                <a href="javascript:;">
+                                <span class="glyphicon glyphicon-file"></span>
+                                <span class="label-icon">Travel Note</span>
+                                </a>
+                            </li>
+                            <li data-value="poi">
+                                <a href="javascript:;">
+                                <span class="glyphicon glyphicon glyphicon-pushpin"></span>
+                                <span class="label-icon">Attraction</span>
+                                </a>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                    <input type="text" class="form-control" name="q" placeholder="Where do you want to go?">
+                    <div class="input-group-btn">
+                        <input type="submit" class="btn btn-search btn-default" value="Search">
+                    </div>
                 </div>
             </form>
-            <div class="search-suggest-panel search-suggest-place hide">
-                <ul class="suggest-list">
-
-                </ul>
+        </div>
+    </section>
+    <section class="dest-nav container">
+        <h2>Hot Destinations</h2>
+        <nav class="dest-group-pills">
+            <ul class="nav nav-pills">
+                <li class="nav-item active"><a href="javascript:void(0)" data-target="dest-group-easia">East Asia</a>
+                <li class="nav-item"><a href="javascript:void(0)" data-target="dest-group-sasia">Southeast Asia</a>
+                <li class="nav-item"><a href="javascript:void(0)" data-target="dest-group-swasia">South Asia &amp; West Asia</a>
+                <li class="nav-item"><a href="javascript:void(0)" data-target="dest-group-europeamerica">Europe &amp; America</a>
+                <li class="nav-item"><a href="javascript:void(0)" data-target="dest-group-oceniaaffrica">Oceania &amp; Affrica</a>
+            </ul>
+        </nav>
+        <div class="dest-group dest-group-easia active">
+            <div class="list-group">
+                <div class="list-group-item active">China</div>
+                <a class="list-group-item" href="/city/china/beijing" target="_blank">Beijing</a>
+                <a class="list-group-item" href="/city/china/shanghai" target="_blank">Shanghai</a>
+                <a class="list-group-item" href="china/shaanxi-shanxi/xian" target="_blank">Xi'an</a>
+                <a class="list-group-item" href="/city/china/hong-kong" target="_blank">Hong Kong</a>
+                <a class="list-group-item" href="/dest/58ec95882876fe2e1e1e6786" target="_blank">Victoria Peak</a>
             </div>
-            <div class="place-search-hot">
-
+            <div class="list-group">
+                <div class="list-group-item active">Japan</div>
+                <a class="list-group-item" href="/city/japan/tokyo" target="_blank">Tokyo</a>
+                <a class="list-group-item" href="/city/japan/kansai/kyoto" target="_blank">Kyoto</a>
+            </div>
+        </div>
+        <div class="dest-group dest-group-europeamerica">
+            <div class="list-group">
+                <div class="list-group-item active">Brazil</div>
+                <a class="list-group-item" href="/city/brazil/rio-de-janeiro" target="_blank">Rio de Janeiro</a>
+                <a class="list-group-item" href="/city/brazil/the-northeast/salvador" target="_blank">Salvador</a>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item active">USA</div>
+                <a class="list-group-item" href="/city/usa/new-york-city" target="_blank">New York City</a>
+                <a class="list-group-item" href="/city/usa/los-angeles" target="_blank">Los Angeles</a>
+                <a class="list-group-item" href="/city/usa/san-francisco" target="_blank">San Francisco</a>
+                <a class="list-group-item" href="/city/usa/chicago" target="_blank">Chicago</a>
+                <a class="list-group-item" href="/city/usa/seattle" target="_blank">Seattle</a>
+                <a class="list-group-item" href="/city/usa/washington-dc" target="_blank">Washington DC</a>
+                <a class="list-group-item" href="/city/usa/boston" target="_blank">Boston</a>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item active">Italy</div>
+                <a class="list-group-item" href="/city/italy/rome" target="_blank">Paris</a>
+                <a class="list-group-item" href="/city/italy/venice" target="_blank">Venice</a>
+                <a class="list-group-item" href="/city/italy/florence" target="_blank">Florance</a>
+                <a class="list-group-item" href="/city/italy/milan" target="_blank">Milan</a>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item active">France</div>
+                <a class="list-group-item" href="/city/france/paris" target="_blank">Rome</a>
+                <a class="list-group-item" href="/city/france/provence/marseille" target="_blank">Marseille</a>
+                <a class="list-group-item" href="/city/france/provence/avignon" target="_blank">Avignon</a>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item active">Spain</div>
+                <a class="list-group-item" href="/city/spain/barcelona" target="_blank">Barcelona</a>
+                <a class="list-group-item" href="/city/france/spain/madrid" target="_blank">Madrid</a>
+            </div>
+        </div>
+        <div class="dest-group dest-group-oceniaaffrica">
+            <div class="list-group">
+                <div class="list-group-item active">Egypt</div>
+                <a class="list-group-item" href="/city/egypt/cairo" target="_blank">Cairo</a>
+                <a class="list-group-item" href="/city/egypt/red-sea-coast/hurghada" target="_blank">Hurghada</a>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item active">New Zealand</div>
+                <a class="list-group-item" href="/city/new-zealand/auckland" target="_blank">Auckland Region</a>
+                <a class="list-group-item" href="/city/new-zealand/wellington" target="_blank">Wellington</a>
             </div>
         </div>
     </div>
-    <script type="text/javascript">
-        //图片处理
-        function loadImg(src, load) {
-            $(new Image()).load(load)[0].src = src;
-        }
-        function coverPicLoad(img,$con,fitType,cropData){
-            var $img = $(img = img || this);
-            if (typeof $con == "string" || typeof $con == "number") {
-                fitType = $con;
-                $con = $img.parent();
-            } else if ($.type($con) != "object" || $.isPlainObject($con)) {
-                $con = $img.parent();
-            }
-            var imagew = (img = $img[0]).naturalWidth, imageh = img.naturalHeight,
-                offsetw = $con.width(),
-                offseth = $con.height(),
-                css = {};
-            if(!imagew){
-                if($img.attr("data-ow")){
-                    imagew =  $img.attr("data-ow");
-                    imageh =  $img.attr("data-oh");
-                }else{
-                    $img.attr("data-ow",imagew = img.width);
-                    $img.attr("data-oh",imageh = img.height);
-                }
-            }
-            if (imagew / imageh >= offsetw / offseth) {
-                if (imageh >= offseth || fitType=="1") {
-                    css = {
-                        margin: "0 0 0 " + (offsetw - imagew / (imageh / offseth)) / 2 + "px",
-                        height: fitType=="1"?"100%":offseth,
-                        width: "auto"
-                    };
-                } else if (imageh / offseth >= 0.95) {
-                    css = {
-                        margin: "0 0 0 " + (offsetw - imagew) / 2 + "px",
-                        width: imagew,
-                        height: offseth
-                    };
-                } else{
-                    css = {
-                        margin: (offseth - imageh) / 2 + "px 0 0 " + (offsetw - imagew) / 2 + "px",
-                        width: "auto",
-                        height: "auto"
-                    };
-                }
-            } else {
-                if (imagew >= offsetw || fitType=="1") {
-                    css = {
-                        margin: (offseth - imageh / (imagew / offsetw)) / 2 + "px 0 0 0",
-                        width: fitType=="1"?"100%":offsetw,
-                        height: "auto"
-                    };
-                } else if (imagew / offsetw >= 0.95) {
-                    css = {
-                        margin: (offseth - imageh) / 2 + "px 0 0 0",
-                        width: offsetw,
-                        height: imageh
-                    };
-                } else {
-                    css = {
-                        margin: (offseth - imageh) / 2 + "px 0 0 " + (offsetw - imagew) / 2 + "px",
-                        width: "auto",
-                        height: "auto"
-                    };
-                }
-            }
-            $img.css(css).appendTo($con);
-        }
-        //头图处理
-        (function(){
-            var $window = $(window),
-                $banner = $('.place-focus'),
-                $cover = $banner.find('.show-banner >.cover'),
-                $coverc = $cover.find('a.bigimg'),
-                img = $coverc.find('img'),
-                $info = $banner.find('.show-info'),
-                $searchPanel = $('.place-search-panel'),
-                _resizetimeout;
-
-            function calHeight() {
-                var wh = $window.height(), ww = Math.max($banner.width(), $window.width());
-                if (wh > ww * .8) {
-                    return img.data('oh') / img.data('ow') * ww;
-                } else {
-                    return Math.max(wh - Math.max(Math.min(wh - 550, 150), 100), 400);
-                }
-            }
-            $cover.height(calHeight());
-            if (img[0].complete) {
-                $cover.height('auto');
-            } else {
-                img.load(function () {
-                    $cover.height('auto');
-                });
-            }
-            var winH, winW;
-            $window.bind('resize.bannerimg', function (e, t) {
-                var height = $window.height();
-                var width = $window.width();
-                if (winH != height || winW != width) {
-                    winH = height;
-                    winW = width;
-                    $info[$window.width() <= 1440 ? 'addClass' : 'removeClass']('show-info-sm');
-                    $searchPanel[$window.width() <= 1440 ? 'addClass' : 'removeClass']('place-search-panel-sm');
-                    coverPicLoad(img, $coverc.height(calHeight()), 1);
-                }
-            }).trigger("resize.bannerimg");
-        })();
-
-        /*头图用户信息显示*/
-        var $uFrom =$('.pic-from'),
-            $uFromPop=$uFrom.find('.pic-from-pop'),
-            _oUFromPopw = $uFromPop.width();
-        $uFrom.hover(function(){
-            $uFromPop.stop(true).width(0).css({
-                visibility:'visible'
-            }).animate({
-                    width:_oUFromPopw
-                });
-        },function(){
-            $uFromPop.stop(true).animate({
-                width:0
-            },function(){
-                $(this).css('visibility','hidden');
-            });
-        });
-
-        //向下滚动
-        $('.show-arrdown').click(function(e){
-            e.preventDefault();
-            var top = $('.row:first').offset().top;
-            $('html,body').stop().animate({
-                'scrollTop':top
-            },300);
-        });
-        $('.show-links').find('.icon-arr').eq(0).hide();
-    </script>
-
-
-    <div class="row row-hot">
-    <div class="wrapper">
-        <div class="r-title"><h2>Hot Destination</h2></div>
-        <div class="r-navbar">
-            <a class="on" href="javascript:void(0)">East Asia</a><span class="divide">|</span><a href="javascript:void(0)">Southeast Asia</a><span class="divide">|</span><a href="javascript:void(0)">South Asia &amp; West Asia</a><span class="divide">|</span><a href="javascript:void(0)">Europe &amp; America</a><span class="divide">|</span><a href="javascript:void(0)">Oceania &amp; Affrica</a>
-        </div>
-        <div>
-            <div class="hot-list clearfix">
-                <div class="col">
-                    <dl>
-                        <dt>China</dt>
-                        <dd>
-                            <a href="/city/china/beijing" target="_blank">Beijing</a>
-                            <a href="/city/china/shanghai" target="_blank">Shanghai</a>
-                            <a href="china/shaanxi-shanxi/xian" target="_blank">Xi'an</a>
-                            <a href="/city/china/hong-kong" target="_blank">Hong Kong</a>
-                            <a href="/dest/58ec95882876fe2e1e1e6786" target="_blank">Victoria Peak</a>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="col">
-                    <dl>
-                        <dt>Japan</dt>
-                        <dd>
-                            <a href="/city/japan/tokyo" target="_blank">Tokyo</a>
-                            <a href="/city/kansai/osaka" target="_blank">Osaka</a>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-
-
-            <div class="hot-list clearfix hide">
-                <div class="col">
-
-                </div>
-                <div class="col">
-
-
-                </div>
-            </div>
-            <div class="hot-list clearfix hide">
-                <div class="col">
-
-                </div>
-                <div class="col">
-
-                </div>
-            </div>
-            <div class="hot-list clearfix hide">
-                <div class="col">
-                  <dl>
-                      <dt>Brazil</dt>
-                      <dd>
-                          <a href="/city/brazil/rio-de-janeiro" target="_blank">Rio de Janeiro</a>
-                          <a href="/city/brazil/the-northeast/salvador" target="_blank">Salvador</a>
-                      </dd>
-                  </dl>
-                  <dl>
-                      <dt>USA</dt>
-                      <dd>
-                          <a href="/city/usa/new-york-city" target="_blank">New York City</a>
-                          <a href="/city/usa/los-angeles" target="_blank">Los Angeles</a>
-                          <a href="/city/usa/san-francisco" target="_blank">San Francisco</a>
-                          <a href="/city/usa/chicago" target="_blank">Chicago</a>
-                          <a href="/city/usa/seattle" target="_blank">Seattle</a>
-                          <a href="/city/usa/washington-dc" target="_blank">Washington DC</a>
-                          <a href="/city/usa/boston" target="_blank">Boston</a>
-                      </dd>
-                  </dl>
-                </div>
-                <div class="col">
-                  <dl>
-                      <dt>Italy</dt>
-                      <dd>
-                          <a href="/city/italy/rome" target="_blank">Paris</a>
-                          <a href="/city/italy/venice" target="_blank">Venice</a>
-                          <a href="/city/italy/florence" target="_blank">Florance</a>
-                          <a href="/city/italy/milan" target="_blank">Milan</a>
-                      </dd>
-                  </dl>
-                  <dl>
-                      <dt>France</dt>
-                      <dd>
-                          <a href="/city/france/paris" target="_blank">Rome</a>
-                          <a href="/city/france/provence/marseille" target="_blank">Marseille</a>
-                          <a href="/city/france/provence/avignon" target="_blank">Avignon</a>
-                      </dd>
-                  </dl>
-                  <dl>
-                      <dt>Spain</dt>
-                      <dd>
-                          <a href="/city/spain/barcelona" target="_blank">Barcelona</a>
-                          <a href="/city/france/spain/madrid" target="_blank">Madrid</a>
-                      </dd>
-                  </dl>
-                </div>
-            </div>
-            <div class="hot-list clearfix hide">
-                <div class="col">
-                  <dl>
-                      <dt>Egypt</dt>
-                      <dd>
-                          <a href="/city/egypt/cairo" target="_blank">Cairo</a>
-                          <a href="/city/egypt/red-sea-coast/hurghada" target="_blank">Hurghada</a>
-                      </dd>
-                  </dl>
-                </div>
-                <div class="col">
-                  <div class="col">
-                    <dl>
-                        <dt>New Zealand</dt>
-                        <dd>
-                            <a href="/city/new-zealand/auckland" target="_blank">Auckland Region</a>
-                            <a href="/city/new-zealand/wellington" target="_blank">Wellington</a>
-                        </dd>
-                    </dl>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="row-line"></div>
-    <div data-pagelet id="pagelet-block-975ac4bf94faa97e5f686f8389c68512" class="" data-api=":mdd:pagelet:seasonRecommendApi" data-params="[]" data-async="1" data-controller=""></div>
-    <div data-pagelet id="pagelet-block-4caf8374a731e3e8b0a758a3beb80a3b" class="" data-api=":mdd:pagelet:themeRecommendApi" data-params="[]" data-async="1" data-controller=""></div>
-</div>
-<script language="javascript" src="http://js.mafengwo.net/js/mdd/mdd_index.js?1482808021" type="text/javascript"></script>
-<script language="javascript" type="text/javascript">
-if (typeof M !== "undefined" && typeof M.loadResource === "function") {
-M.loadResource("http://js.mafengwo.net/js/cv/js+Dropdown:js+pageletcommon+pageHeadUserInfoWWWNormal:js+jquery.tmpl:js+M+module+InputListener:js+M+module+SuggestionXHR:js+M+module+DropList:js+M+module+Suggestion:js+M+module+MesSearchEvent:js+SiteSearch:js+AHeader:js+M+module+PageAdmin:js+M+module+Storage:js+M+module+Cookie:js+M+module+ResourceKeeper:js+jquery.jgrowl.min:js+AMessage:js+M+module+dialog+Layer:js+M+module+dialog+DialogBase:js+M+module+dialog+Dialog:js+M+module+FrequencyVerifyControl:js+M+module+FrequencySystemVerify:js+ALogin:js+M+module+ScrollObserver:js+M+module+QRCode:js+AToolbar:js+ACnzzGaLog:js+ARecruit:js+ALazyLoad^ZlxW^1489552560.js");
-}
-</script>
+    </section>
+</main>
 
 <%- include footer %>
