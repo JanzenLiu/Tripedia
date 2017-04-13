@@ -21,7 +21,7 @@
         <h2>Explore <%=city.name %></h2>
         <ul class="feature-attrations">
             <% for(i=0; i<city.pois.length&&i<4; i++) { %>
-            <a href="/spot/<%=city.pois[i]._id %>"><li class="feature-attration">
+            <a href="/poi/<%=city.pois[i]._id %>"><li class="feature-attration">
                 <% imageurl = city.pois[i].imageUrl;
                 imageurl = imageurl == "" ? "/images/bg_parachute.jpg":imageurl; %>
                 <div class="attration-bg" style="background-image:url(<%=imageurl%>)"></div>

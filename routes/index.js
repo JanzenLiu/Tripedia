@@ -56,6 +56,7 @@ module.exports = function(app){
 
 	app.use('/city', require('./city'));
 	app.use('/spot', require('./spot'));
+	app.use('/poi', require('./poi'));
 	app.use('/singlenote', require('./singlenote'));
 	app.use('/note', require('./note'));
 	app.use('/user', require('./user'));
