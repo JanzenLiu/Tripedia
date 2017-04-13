@@ -1,118 +1,66 @@
 <%- include header %>
-<script type="text/javascript">
-window.Env = {"profileSetting":{"banner_cover":"","banner_cover_url":"","banner_map_type":0,"bg_type":0,"cover_pic":0},"profileConfig":{"page_bg_type_config":[{"bodyClass":"bg0"},{"bodyClass":"bg2"},{"bodyClass":"bg3"},{"bodyClass":"bg4"},{"bodyClass":"bg1"}],"banner_map_type_config":[{"name":"\u7ecf\u5178","thumbnail":"\/images\/home_new2015\/m1.gif","className":"maps-theme-default","regionFill":[{"fill":"#cccccc","fill-opacity":"0.1"},{"fill":"#ffe5a6","fill-opacity":"0.9"},{"fill":"#ffd267","fill-opacity":"0.9"},{"fill":"#ffba14","fill-opacity":"0.9"},{"fill":"#ff9000","fill-opacity":"0.9"}]},{"name":"\u8dc3\u5165\u84dd\u8272\u661f\u7403","thumbnail":"\/images\/home_new2015\/m2.gif","className":"maps-theme-blue","regionFill":[{"fill":"#ffffff","fill-opacity":"0.8"},{"fill":"#4ea3d2","fill-opacity":"0.8"},{"fill":"#509ed3","fill-opacity":"0.8"},{"fill":"#3589cf","fill-opacity":"0.8"},{"fill":"#0066cc","fill-opacity":"0.8"}]},{"name":"\u65c5\u884c\u8ba9\u4e16\u754c\u6709\u5149","thumbnail":"\/images\/home_new2015\/m3.gif","className":"maps-theme-black","regionFill":[{"fill":"#2d2e32","fill-opacity":"1"},{"fill":"#ffcf59","fill-opacity":"1"},{"fill":"#ffbd21","fill-opacity":"1"},{"fill":"#ff9c00","fill-opacity":"1"},{"fill":"#fd703a","fill-opacity":"1"}]},{"name":"\u5927\u822a\u6d77\u65f6\u4ee3","thumbnail":"\/images\/home_new2015\/m4.gif","className":"maps-theme-green","regionFill":[{"fill":"#a3dde0","fill-opacity":"0.8"},{"fill":"#77d9dc","fill-opacity":"0.8"},{"fill":"#35c9cb","fill-opacity":"0.8"},{"fill":"#0eb0b2","fill-opacity":"0.8"},{"fill":"#039ba4","fill-opacity":"0.8"}]},{"name":"PINK PUNK","thumbnail":"\/images\/home_new2015\/m5.gif","className":"maps-theme-red","regionFill":[{"fill":"#ffffff","fill-opacity":"0.8"},{"fill":"#f7ae9c","fill-opacity":"0.8"},{"fill":"#f7ae9c","fill-opacity":"0.8"},{"fill":"#e46547","fill-opacity":"0.8"},{"fill":"#db4c2b","fill-opacity":"0.8"}]}]},"china_mdd_lng_lat":[],"world_mdd_lng_lat":[],"target_uid":93296021,"WWW_HOST":"www.mafengwo.cn","IMG_HOST":"images.mafengwo.net","P_HOST":"passport.mafengwo.cn","P_HTTP":"https:\/\/passport.mafengwo.cn","UID":93296021,"CSTK":"2face1ad3d1d6da1620dfe30c2666687_96c71ba9159856f29293bd1200525fb7","GOOGLE_MAP_KEY":"AIzaSyD-Su0x_rPy1xehlMBcMyTqWkU49Bk53nQ"};
-</script>
+<link rel='stylesheet' href='/stylesheets/profile.css'/>
 
-<link href="http://css.mafengwo.net/css/cv/css+base:css+jquery.suggest:css+plugins:css+plugins+jquery.jgrowl:css+other+popup:css+app+topbar_v2^alw^1488275961.css" rel="stylesheet" type="text/css"/>
 
-<link href="http://css.mafengwo.net/css/cv/css+home_new2015+home_new2015:css+path+wo-path_v2:css+clip:css+path+map:css+path+jvectormap-2.0.1^alI^1489390917.css" rel="stylesheet" type="text/css"/>
 
-<script language="javascript" src="http://js.mafengwo.net/js/cv/js+jquery-1.8.1.min:js+global+json2:js+M+Module:js+M+M:js+M+Log:js+m.statistics^ZFw^1489387530.js" type="text/javascript"></script>
 
 <div class="main" style="position:relative; top:30px; margin-bottom:80px;">
-    <div class="banner">
-    <div class="tags_bar">
-    <div class="center clearfix">
-        <ul class="flt2">
-            <li><a class="tags_link" href="#" title="My travel notes">My travel notes</a></li>
-            <li><a class="tags_link" href="#" title="History">View history</a></li>
-            <li><a class="tags_link" href="#" title="My comments">My comments</a></li>
-            <li><a class="tags_link" href="#" title="My friends">My friends</a></li>
-        </ul>
+    <div class="profilebanner">
+    <div class="profile-tags_bar">
+    <div class="profile-center">
     </div>
     </div>
 </div>
-    <script type="text/x-jquery-tmpl" id="_j_hotemddlist"></script>
+
     <div class="center clearfix">
-        <div class="side_bar flt1">
-<style>
-.MProfile pre {
-    white-space: pre-wrap;
-    word-break: break-word;
-    word-wrap: break-word;
-}
-</style>
+        <div class="profile-side_bar">
+
 
 <div class="MAvatar">
     <div class="MAvaImg">
-        <img src="/images/edit_profile/anonymous.png" height="120" width="120" alt="Anonymous"><a href="#" class="MAvaUp"><i class="Mphoto"></i></a>
+        <img src="/images/edit_profile/anonymous.png" height="120" width="120" alt="Anonymous">
     </div>
-    <div class="MAvaName"><%= owner.username %>
-        <i class="MGenderMale"></i>
+    <div class="Name"><%= owner.username %></div>
+    <div class="MAvaInfo MAvaMyInfo">
+        <span class="Place" title="location">Live in: <%= owner.location %></span>
     </div>
-    <div class="MAvaInfo clearfix MAvaMyInfo">
-        <span class="MAvaPlace flt1" title="Hong Kong">Live in: <%= owner.location %></span>
-        <span class="MAvaSet"><a title="setting" href="#" target="_blank"></a></span>
+    <div id="_j_profilearea" class="Profile">
+        <a role="button" class="addBtn" href="/account/edit">Edit information</a>
     </div>
-    <div id="_j_profilearea" class="MAvaProfile">
-        <a role="button" class="addBtn _j_showintrobox" href="/account/edit">Edit information</a>
-            <!-- <div class="MAvaInput hide _j_inputarea">
-                <textarea id="_j_introarea" placeholder="e.g photographer/ diving lover" maxlength="100"></textarea>
-                <a role="button" id="_j_introsaver" class="MAvaBtn" title="save">save</a>
-            </div> -->
-    </div>
-    <div class="MAvaMore clearfix">
-        <div class="MAvaNums">
-            <strong><a href="#" target="_blank"><%= owner.following_counts %></a></strong>
+    <div class="More">
+        <div class="Nums">
+            <strong><%= owner.following_counts %></strong>
             <p>My following</p>
         </div>
-        <div class="MAvaNums">
-            <strong><a href="#" target="_blank"><%= owner.follower_counts %></a></strong>
+        <div class="Nums">
+            <strong><%= owner.follower_counts %></strong>
             <p>My follower</p>
         </div>
-
     </div>
 </div>
-
-<div class="MUsers">
-    <div class="MUsersTitle">My following</div>
-    <div class="MUsersDetail" id="_j_followcnt">
-        <div class="MUsersAtom">
-            <ul class="clearfix _j_followlist">
-                <li><a href="#" target="_blank">
-                    <img src="/images/edit_profile/anonymous.png" height="48" width="48" alt="Anonymous2" title="Anonymous2">
-                    </a>
-                    <p><a href="#" target="_blank" title="Anonymous2">Anonymous2</a></p>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="form-group" style="margin-top:60px; margin-left:5%; width:90%">
+  <textarea class="form-control box" id="comment" name="text" rows="5" cols="30" disabled="disable">
+    <%= owner.introduction %>
+  </textarea>
+</div>
 </div>
 
-<div class="MUsers">
-    <div class="MUsersTitle">Recent visitors</div>
-    <div class="MUsersDetail">
-        <ul class="clearfix">
-            <li>
-                <a href="#" target="_blank"><img src="/images/edit_profile/anonymous.png" height="48" width="48" alt="Anonymous3" title="Anonymous3"></a>
-                <p><a href="#" target="_blank" title="Anonymous3">Anonymous3</a></p>
-            </li>
-        </ul>
-    </div>
-</div>
-
-
-        </div>
-        <div class="content flt2">
-            <div class="common_block main_links">
-                <ul class="clearfix">
+        <div class="content">
+            <div class="profile-block main_links" style="height:120px;">
+                <ul style="margin-top:20px">
                     <li><a href="/profile/post" target="_blank"><i class="write_note"></i><span>Write a note</span></a></li>
                     <li><a href="/wenda/" target="_blank"><i class="ask_expert"></i><span>Ask expert</span></a></li>
                     <li><a href="/profile/planmaking" target="_blank"><i class="add_footprint"></i><span>Add trip plan</span></a></li>
                     <li class="last"><a href="/together/" target="_blank"><i class="invite_friends"></i><span>Invite friends</span></a></li>
                 </ul>
             </div>
-            <style>
-            .attention ._j_followed { display:none}
-            ._j_focused ._j_followed { display:inline-block}
-            ._j_focused ._j_follow { display:none}
-            </style>
-        <div class="common_block personal_info" id="_j_taskwrap" style="background:url('/images/edit_profile/bg2.jpg')">
-            <div class="personal_tips">
-                <p style="text-align:center"><strong><%= owner.username %></strong>，This is your homepage！</p>
-                <p style="text-align:center">Tripedia helps you plan your trips and share your experience with others.<br> Now start with Tripedia!</p>
+
+        <div class="profile-info" id="_j_taskwrap">
+            <div class="profile-tips">
+                <p><strong><%= owner.username %></strong>，This is your homepage！</p>
+                <p>Tripedia helps you plan your trips and share your experience with others.<br> Now start with Tripedia!</p>
             </div>
-            <div class="personal_list clearfix">
+            <div class="personal_list">
                 <ul>
                     <li>
                     <div class="personal_ico"><i class="ico_info"></i></div>
@@ -120,7 +68,9 @@ window.Env = {"profileSetting":{"banner_cover":"","banner_cover_url":"","banner_
                         <p>Add information<br></p>
                     </div>
                     <div class="personal_btn">
-                        <a role="button" class="_j_task_profile" href="/account/edit" title="Add information">Add information</a>
+                      <a href="/account/edit" class="btn btn-info btn-lg">
+                          Add information
+                      </a>
                     </div>
                     </li>
                     <li>
@@ -129,7 +79,9 @@ window.Env = {"profileSetting":{"banner_cover":"","banner_cover_url":"","banner_
                         <p>How others plan their trip?</p>
                     </div>
                         <div class="personal_btn">
-                        <a role="button" class="_j_task_focus_talent" href="/note" title="See others trips">See others trips</a>
+                          <a href="/note" class="btn btn-info btn-lg">
+                              See others trips
+                          </a>
                     </div>
                     </li>
                     <li>
@@ -138,53 +90,47 @@ window.Env = {"profileSetting":{"banner_cover":"","banner_cover_url":"","banner_
                         <p>I have a great plan!<br>Let me write it down.</p>
                     </div>
                         <div class="personal_btn">
-                        <a role="button" class="_j_task_daka" href="/profile/planmaking" title="Make a plan">Make a plan</a>
+                          <a href="/profile/planmaking" class="btn btn-info btn-lg">
+                              Make a plan
+                          </a>
                     </div>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="common_block my_notes">
-        <div class="common_title clearfix">
+        <div class="profile-block">
+        <div class="profile-title">
             <h2>My travel notes</h2>
         </div>
-        <div class="notes_default_v2">
-            <div class="notes_dcon"></div>
-            <a href="/profile/post" title="Write note" class="btn_write"><i></i>Write note</a>
+        <div class="profile-holder">
+            <div class="profile-container">
+              <a href="/<%= 'note/' + owner.travel_notes[0] %>"><%=owner.travel_notes[0]%></a>
+            </div>
+            <a href="/" class="btn btn-info btn-lg">
+              <span class="glyphicon glyphicon-edit"></span> Edit
+            </a>
         </div>
         </div>
-            <div class="common_block my_notes">
-                <div class="common_title clearfix">
+            <div class="profile-block">
+                <div class="profile-title">
                     <h2>My plans</h2>
                 </div>
-                <div class="notes_default ask_default">
-                    <i class="ico_notes"></i>
-                    <div class="notes_default_detail">
-                        <a href="/<%= 'profile/plan/' + plan[plan.length-1]._id %>"><%=plan[plan.length-1].title%></a>
-                    </div>
+                <div class="profile-holder">
+                  <div  class="profile-container">
+                    <% if(plan.length>0){ %>
+                    <a href="/<%= 'profile/plan/' + plan[plan.length-1]._id %>">
+                      <p class="plan-text"><%=plan[plan.length-1].title%>
+                       <span class="glyphicon glyphicon-tasks"></span></p>
+                    </a>
+                    <%}%>
+                  </div>
                 </div>
             </div>
-
-            <div class="common_block my_notes">
-                <div class="common_title clearfix">
-                    <h2>My comments</h2>
-                </div>
-                <div class="notes_default dp_default">
-                    <i class="ico_notes"></i>
-                    <div class="notes_default_detail">
-                        <p>Comments, not only the memory,<br>but also the treasure</p>
-                    </div>
-                </div>
-             </div>
-
         </div>
     </div>
 </div>
 
-<script language="javascript" type="text/javascript">
-if (typeof M !== "undefined" && typeof M.loadResource === "function") {
-M.loadResource("http://js.mafengwo.net/js/cv/js+pageletcommon+pageHeadUserInfoWWWDark:js+AHeaderWo:js+home+AIndexTopCover:js+jquery-jvectormap-2.0.1.min:js+jvector-china:js+jvector-world:js+new_mdd_lnglat_map:js+jvmap:js+path+jvmap:js+path+ChinaWorldMap:js+home+ATopMap:js+jquery.tmpl:js+M+module+InputListener:js+M+module+SuggestionXHR:js+M+module+DropList:js+M+module+Suggestion:js+jquery.mousewheel.min:js+M+module+ScrollBar:js+M+module+dialog+Layer:js+M+module+dialog+DialogBase:js+M+module+dialog+Dialog:js+M+module+dialog+confirm:js+path+AAddCityPanel:js+plupload:js+module+uploader+Pluploader:js+M+module+TopTip:js+M+module+Clip:js+M+module+dialog+alert:js+home+AIndexTopCoverSetting:js+home+AIndexProfile:js+M+module+Slider:js+home+APrivilege:js+M+module+FrequencyVerifyControl:js+M+module+FrequencyAppVerify:js+home+AMsgBoard:js+jquery.jplayer:js+home+AMusicPlayer:js+home+ATask:js+M+module+PageAdmin:js+M+module+Storage:js+M+module+Cookie:js+M+module+ResourceKeeper:js+jquery.jgrowl.min:js+AMessage:js+M+module+FrequencySystemVerify:js+ALogin:js+M+module+ScrollObserver:js+M+module+QRCode:js+AToolbar:js+ACnzzGaLog:js+ARecruit:js+ALazyLoad^YlRTRg^1489552560.js");
-}
+
 </script>
 <%- include footer %>

@@ -9,7 +9,7 @@
 </section>
 <% for (index=0; index<noteList.length; index++){ %>
     <div class="pub-comment">
-    <a herf="/<%= 'note/' + noteList[index]._id %>">
+    <a href="/<%= 'note/' + noteList[index]._id %>">
     <div class="input-group">
       <span class="input-group-addon"> <%= noteList[index].title %> </span>
       <input id="title" type="text" class="form-control" name="title" value="<%= noteList[index].author.name %>" disabled="disable">

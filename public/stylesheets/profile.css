@@ -1,0 +1,369 @@
+.plan-text{
+  font-size:50px;
+  text-align:center;
+}
+.profile-container{
+  height:80px;
+}
+.profile-holder{
+  position:relative;
+  padding:5px 80px 25px 130px;
+}
+.profile-title{
+  padding:25px 30px;
+  line-height: 30px;
+  position: relative;
+}
+.profile-block{
+  padding-bottom:30px;
+  margin-bottom:18px;
+  background-color:#fff;
+  border:#e2e2e2 1px solid;
+  box-shadow:0 0 2px rgba(0,0,0,0.05);
+}
+.profile-info{
+  background:url('/images/edit_profile/bg2.jpg');
+  border:0;
+  box-shadow:2px 3px 0 #999;
+  padding: 28px 30px 30px;
+  margin-bottom:30px;
+}
+.profile-tips{
+  font-size: 14px;
+  color: black;
+  line-height: 30px;
+  text-align:center;
+}
+.personal_list{
+  margin-top:22px;
+  overflow:hidden;
+  *zoom:1
+}
+.personal_list ul{
+  width:630px
+}
+.personal_list li{
+  width:168px;
+  margin-right:10px;
+  padding:0 16px 30px;
+  background-color:#fff;
+  float:left;
+  text-align:center;
+}
+.personal_ico{
+  height:105px;
+  line-height:105px;
+  text-align:center
+}
+.personal_ico i{
+  width:59px;
+  height:71px;
+  line-height:0;
+  display:inline-block;
+  background-image:url('/images/default_sprite_v6.png');
+  background-position:-1px -256px;
+  vertical-align:middle
+}
+.personal_ico .ico_stroll{
+  width:72px;
+  height:76px;
+  background-position:-67px -256px
+}
+.personal_ico .ico_daka{
+    width:71px;
+    height:81px;
+    background-position:-147px -255px
+}
+.personal_word{
+    margin-top:2px;
+    font-size:14px;
+    line-height:24px;
+    height:72px
+}
+.personal_btn{
+    margin-top:15px
+}
+
+.notes_default{
+  padding:5px 0 50px 130px;
+  position:
+  relative
+}
+
+.content{
+  width:682px;
+  margin-top:18px;
+  margin-right:10%;
+  float:right;
+}
+.main-links{
+
+  position: relative;
+}
+.write_note{
+  background-position:-210px -425px
+}
+.main_links li .ask_expert{
+  width:53px;
+  background-position:-260px -427px
+}
+.main_links li .add_footprint{
+  width:56px;
+  height:49px;
+  background-position:-317px -422px
+}
+.main_links li .invite_friends{
+  height:47px;
+  background-position:-379px -424px
+}
+.main_links li a:hover .write_note{
+  background-position:-210px -476px
+}
+.main_links li a:hover .ask_expert{
+  background-position:-260px -478px
+}
+.main_links li a:hover .add_footprint{
+  background-position:-317px -473px
+}
+.main_links li a:hover .invite_friends{
+  background-position:-379px -474px
+}
+.main_links li a span{
+    color:#999;
+    font-size:16px;
+    margin-top:6px;
+    display:block
+}
+.main_links li a:hover{
+  text-decoration:none
+}
+.main_links li a:hover span{
+  color:#ff8a00;
+}
+.Nums{
+  position:relative;
+  width:33%;
+  float:left;
+  padding:10px 0;
+  text-align:center;
+  line-height:20px
+}
+.Nums:after{
+  content:'';
+  width:1px;
+  position:absolute;
+  right:0;
+  top:0;
+  bottom:0;
+  background-color:#e2e2e2;
+}
+.Nums strong{
+  font-size:20px;
+  color:#444;
+  font-family:Arial;
+}.Nums strong a{
+  color:#444;
+}
+.Nums p{
+  font-size:14px;
+}
+.Nums{
+  padding:5px 0 0;
+  line-height:26px;
+  width:33%
+}
+.Nums{width:50%}
+.Nums a{
+  text-decoration:none;
+  display:inline-block;
+}
+.More{
+  margin-top:20px;
+  margin-bottom:20px;
+  border-top:#e2e2e2 1px solid;
+  border-bottom:#e2e2e2 1px solid;
+}
+.addBtn{
+  line-height:30px;
+  border-radius:3px;
+  color:#666;
+  background-color: #efefef;
+  display:block;
+  text-align: center;
+}
+.Profile{
+  margin-top:20px;
+  padding:0 20px;
+}
+.Place {
+  float:left;
+}
+.MAvaInfo{
+  margin-top:16px;
+  line-height:16px
+}
+.MAvaInfo span{
+  padding:0 15px 0 12px;
+  display:inline-block;
+  position:relative
+}
+.MAvaInfo{display:none}
+.MAvaInfo a:hover{
+  background-position:-108px -166px
+}
+.MAvaInfo:after{
+  content:'';
+  background-color:#d6d6d6;
+  position:absolute;
+  top:0;
+  right:0;
+  width:1px;
+  height:16px
+}.MAvaInfo a{
+  color:#ea3c1a;
+  font-size:16px;
+  font-weight:bold;
+  font-family:Arial
+}.MAvaMyInfo span{
+  padding:0 10px 0 7px
+}.MAvaMyInfo {
+  padding:0 0 0 5px;
+  position:relative;
+  top:-1px;display:inline-block
+}
+.MAvaMyInfo a{
+  width:17px;
+  height:17px;
+  background-position:-108px -146px;
+  display:inline-block;
+  vertical-align:middle
+}
+.MAvaMyInfo:after{
+  content:'';
+  background-color:#d6d6d6;
+  position:absolute;
+  top:0;
+  right:0;
+  width:1px;
+  height:16px;
+}
+.Name{
+  font-size:22px;
+  line-height:24px;
+  margin-top:16px;
+}
+.Img{
+  width:120px;
+  height:70px;
+  position:relative;
+  margin:0 auto;
+}
+.MAvatar .Img{margin-right:10px}
+.MAvatar{margin-top:-7px}
+.MAvatar {
+  color:#fff;
+  font-size:16px;
+}
+.MAvatar{
+  font-size:16px;
+  color:#ea3c1a
+}
+.MAvatar{
+  text-align:center;
+  font-size:14px
+}
+.Img{
+  width:120px;
+  height:70px;
+  position:relative;
+  margin:0 auto
+}
+.Img img{
+  position:relative;
+  top:-50px;
+  z-index:20;
+  border-radius:120px
+}
+.Img.hasAva {display:none}
+.Img.hasAva {display:block}
+.profile-side_bar{
+  width:25%;
+  margin-left: 5%;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.05);
+  border-top-style:none;
+  z-index:10;
+  padding-bottom:55px;
+  float:left;
+}
+.profile-center{
+  width:980px;
+  margin:0 auto;
+  position:relative;
+}
+.profile-tags_bar{
+  height:58px;
+  background-color: rgba(255,255,255,0.95);
+  border-bottom: #d6d6d6 1px solid;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.profile-banner{
+  position:relative;
+}
+
+.main_links li {
+  float: left;
+  width:25%;
+  position: relative;<a href="/account/edit" class="btn btn-info btn-lg">
+      Add information
+  </a>
+  text-align: center;
+}
+.main_links li i {
+  background-image: url('/images/twice_ico_sprite_v9.png');
+  background-size:220px;
+  background-repeat:no-repeat;
+  width: 45px;
+  height: 46px;
+  display:inline-block;
+  position:relative;
+}
+.main_links li a span{
+  color:#999;
+  font-size:16px;
+  margin-top:6px;
+  display:block;
+}
+li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.main_links li .write_note{
+  background-position:0 -1px}
+.main_links li .ask_expert{
+  width:53px;
+  background-position:-260px -427px
+}
+.main_links li .add_footprint{
+  width:56px;
+  height:49px;
+  background-position:-317px -422px
+}
+.main_links li .invite_friends{
+  height:47px;
+  background-position:-379px -424px
+}
+.main_links li a:hover .write_note{background-position:-210px -476px}
+.main_links li a:hover .ask_expert{background-position:-260px -478px}
+.main_links li a:hover .add_footprint{background-position:-317px -473px}
+.main_links li a:hover .invite_friends{background-position:-379px -474px}
+.main_links li .write_note{background-position:0 -1px}
+.main_links li .ask_expert{background-position:-47px -3px}
+.main_links li .add_footprint{background-position:-105px 2px}
+.main_links li .invite_friends{background-position:-165px 0}
+.main_links li a:hover .write_note{background-position:0 -52px}
+.main_links li a:hover .ask_expert{background-position:-47px -54px}
+.main_links li a:hover .add_footprint{background-position:-105px -49px}
+.main_links li a:hover .invite_friends{background-position:-165px -51px}
