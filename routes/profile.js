@@ -6,18 +6,20 @@ var planController = require('../controllers/plan/plan');
 var CreatePlan = require('../controllers/plan/newplan');
 var Plan=require('../models/plan');
 var Note=require('../models/travelnote');
+var User=require('../models/user');
 var title='Please enter the title of your plan';
 var brief='Please write some brief introduction of your plan...';
 var flag=0;
 router.get('/', function(req, res){
-	Plan.find({
-		"author.name":req.session.user.username
-	},function(err, plan){
+	User.findById(req.session.user._id)
+		.populate("travel_notes plans")
+		.exec(function(err, user){
+	console.log(user);
 	res.render('profile',{
 		title: 'My Profile',
-		user: req.session.user,
-		owner: req.session.user,
-		plan:plan,
+		user: user,
+		owner: user,
+		plan:user.plans,
 		success: req.flash('success').toString(),
 		error: req.flash('error').toString()
 	});
