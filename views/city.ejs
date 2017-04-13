@@ -21,7 +21,7 @@
         <h2>Explore <%=city.name %></h2>
         <ul class="feature-attrations">
             <% for(i=0; i<city.pois.length&&i<4; i++) { %>
-            <a href="/poi/<%=city.pois[i]._id %>"><li class="feature-attration">
+            <a href="/spot/<%=city.pois[i]._id %>"><li class="feature-attration">
                 <% imageurl = city.pois[i].imageUrl;
                 imageurl = imageurl == "" ? "/images/bg_parachute.jpg":imageurl; %>
                 <div class="attration-bg" style="background-image:url(<%=imageurl%>)"></div>
@@ -30,10 +30,19 @@
             <%}%>
         </ul>
     </section>
-    <section class="city-posts container">
+    <% if(city.description.subtitles.length > 0) {%>
+    <section class="city-introduction container">
         <h2>See how people say</h2>
-
+        <div class="city-intros clear">
+        <% for(i=0; i<city.description.subtitles.length; i++) { %>
+        <div class="city-intro">
+        <h3><%=city.description.subtitles[i] %></h3>
+        <p class="city-intro-sub"><%=city.description.bodies[i]%></p>
+        </div>
+        <%}%>
+        </div>
     </section>
+    <% } %>
 </main>
 
 <%- include footer %>

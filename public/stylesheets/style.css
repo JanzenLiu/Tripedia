@@ -207,6 +207,16 @@ main.page-city {
 .page-city section.header {
     padding-top: 0;
 }
+.city-introduction .city-intro {
+    float: left;
+    width: 40%;
+    margin: 1em 5%;
+}
+.city-intro .city-intro-sub {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.8em;
+}
 .city-feature-image .feature-image-bg{
     width: 100%;
     padding-top: 60%;
