@@ -9,14 +9,15 @@
   </div>
   <% } else { %>
 <div class="container">
-    <h2>Search results</h2>
+    <h2 class="result-text">Search results</h2>
     <% for (index=0;index<posts.length;index++) {%>
-    <div class="list-group">
-      <a href="/<%= 'city/' + posts[index].path %>" class="list-group-item active">
-        <h4 class="list-group-item-heading"><%=
-          posts[index].name%></h4>
+    <div class="result-container">
+
+      <a href="/<%= 'city/' + posts[index].path %>">
+        <h4 class="result"><%=posts[index].name%></h4>
+        
            Country: <%= posts[index].country %>
-        <p class="list-group-item-text  box"><dd><%= posts[index].intro %></dd></p>
+        <p class="result-box"><dd><%= posts[index].intro %></dd></p>
       </a>
     </div>
     <% } %>
