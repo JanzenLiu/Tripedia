@@ -62,10 +62,10 @@ $(document).ready(function () {
         <div id="destCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-            <% for(i=0; i<city.length; i++) { %>
-                <div class="item<% if (i==0){%> active<%}%>" data-url="/city/<%=city[i].path %>">
-                    <img src="<%=city[i].imageUrl %>" alt="<%=city[i].name %>">
-                    <p class="dest-city-name"><%=city[i].name%></p>
+            <% for(i=0; i<cities.length; i++) { %>
+                <div class="item<% if (i==0){%> active<%}%>" data-url="/city/<%=cities[i].path %>">
+                    <img src="<%=cities[i].imageUrl %>" alt="<%=cities[i].name %>">
+                    <p class="dest-city-name"><%=cities[i].name%></p>
                 </div>
             <% } %>
             </div>
